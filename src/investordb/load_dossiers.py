@@ -33,8 +33,11 @@ SECTORS = {
 }
 STAGES = {"pre_seed", "seed", "series_a", "series_b", "growth", "buyout"}
 METHODS = {"stated", "derived", "self_reported", "registry", "not_disclosed"}
-CAPITAL_BASES = {"aum", "latest_fund_size", "cumulative_fund_sizes", "balance_sheet", "regulatory_filing"}
-FUND_EVENTS = {"first_close", "final_close", "launch", "target", "commitment", "other"}
+# latest_fund_size = final close of the newest fund; interim_close = committed so far in a fund that is
+# still raising (first / second close, "raised to date"). A target alone is never capital.
+CAPITAL_BASES = {"aum", "latest_fund_size", "interim_close", "cumulative_fund_sizes", "balance_sheet",
+                 "regulatory_filing"}
+FUND_EVENTS = {"first_close", "interim_close", "final_close", "launch", "target", "commitment", "other"}
 REGISTRIES = {"CZ-ICO", "SK-ICO", "LEI", "OTHER"}
 ROLES = {"manager", "fund", "gp", "holding", "other"}
 SOURCE_CLASSES = {"A", "B", "C", "D"}
@@ -158,8 +161,8 @@ def validate(doc: dict, path: Path) -> list[str]:
             p.append(f"funds[{i}]: currency must be an ISO code")
         check_refs(f.get("evidence"), f"funds[{i}]")
         d = parse_date(f.get("event_date"), p, f"funds[{i}].event_date")
-        if d and f.get("event") in ("first_close", "final_close", "launch", "commitment"):
-            activity_dates.append(d)
+        if d and f.get("event") in ("first_close", "interim_close", "final_close", "commitment"):
+            activity_dates.append(d)  # a launch / "opened to investors" is not activity (plan 10a)
     for i, inv in enumerate(doc.get("investments", [])):
         if not inv.get("company"):
             p.append(f"investments[{i}]: missing company")
@@ -178,8 +181,9 @@ def validate(doc: dict, path: Path) -> list[str]:
         for field in FACT_FIELDS:
             if doc.get(field) is None:
                 p.append(f"include: {field} must be present (value or method not_disclosed)")
-        if not any(d and d >= ACTIVITY_WINDOW_START for d in activity_dates):
-            p.append("include: needs a dated fund event or investment on/after 2024-10-25 (rule I3)")
+        if not any(d and d >= ACTIVITY_WINDOW_START and not (d.month == 1 and d.day == 1) for d in activity_dates):
+            p.append("include: needs a dated investment or fund close/commitment on/after 2024-10-25 (rule I3; "
+                     "launches and 1 January year-only placeholders do not count)")
         if not doc.get("legal_entities"):
             p.append("include: at least one legal entity is required (rule I1)")
     elif doc["decision"] == "exclude":

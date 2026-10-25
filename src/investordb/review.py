@@ -39,12 +39,12 @@ def draw(conn, name: str, where: str, n: int) -> list[str]:
 
 def cmd_sample(args) -> int:
     with connect() as conn:
-        m1 = draw(conn, args.name + ":m1", "published", args.m1)
-        m2 = draw(conn, args.name + ":m2",
-                  "decision <> 'include' and pilot in ('cz-vc', 'sk-reference', 'cz-s15-sample')", args.m2)
+        m1 = draw(conn, args.name + ":m1", args.m1_where, args.m1)
+        m2 = draw(conn, args.name + ":m2", args.m2_where, args.m2)
     out = REVIEW_DIR / args.name
     out.mkdir(parents=True, exist_ok=True)
-    (out / "_sample.json").write_text(json.dumps({"m1": m1, "m2": m2}, indent=2), encoding="utf-8")
+    (out / "_sample.json").write_text(
+        json.dumps({"description": args.description, "m1": m1, "m2": m2}, indent=2), encoding="utf-8")
     print(f"M1: {len(m1)} published records, M2: {len(m2)} excluded/unverified -> {out.relative_to(PROJECT_ROOT)}")
     return 0
 
@@ -103,6 +103,10 @@ def main() -> int:
     s.add_argument("--name", default="review-2026-10")
     s.add_argument("--m1", type=int, default=30)
     s.add_argument("--m2", type=int, default=15)
+    s.add_argument("--description", default="")
+    s.add_argument("--m1-where", default="published", help="SQL condition on core.investor for the M1 pool")
+    s.add_argument("--m2-where", default="decision <> 'include' and pilot in ('cz-vc', 'sk-reference', 'cz-s15-sample')",
+                   help="SQL condition on core.investor for the M2 pool")
     sub.add_parser("load")
     c = sub.add_parser("check")
     c.add_argument("files", nargs="+", type=Path)

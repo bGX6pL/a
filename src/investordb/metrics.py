@@ -174,54 +174,57 @@ def main() -> int:
                    ["Source", "Finds (active)", "Recall (active)", "Finds (all real VCs)", "Recall (all real VCs)"],
                    [[s, sources[s], pct(sources[s], len(ref)), k, pct(k, len(ref_all))] for s, k in sources_all.most_common()]))
 
-    # 7. Reviews (split by the sample files, so later rebuilds do not move records between M1 and M2)
-    m1_keys, m2_keys = set(), set()
-    for sample_file in (PROJECT_ROOT / "data" / "curated" / "reviews").rglob("_sample.json"):
-        s = json.loads(sample_file.read_text(encoding="utf-8"))
-        m1_keys |= set(s.get("m1", []))
-        m2_keys |= set(s.get("m2", []))
-    m1 = [r for r in reviews if r[0] in m1_keys]
-    m2 = [r for r in reviews if r[0] in m2_keys]
-    decided = [r for r in m1 if r[2] != "unsure"]
-    out.append("\n## 7. Independent review\n\n" + table(
-        ["Measure", "Value"],
-        [["M1 record precision (published records judged correct)", ci(sum(r[2] == "correct" for r in decided), len(decided))],
-         ["M1 unsure", sum(r[2] == "unsure" for r in m1)],
-         ["M2 wrongly excluded active investors (decision wrong, and the reviewer found it invests and is active)",
-          ci(sum(r[3].get("decision_correct") is False and r[3].get("invests_in_companies") is True
-                 and r[3].get("active_24m") is True for r in m2), len(m2))],
-         ["M2 other decision errors (e.g. unverified that could be decided)",
-          sum(r[3].get("decision_correct") is False and not (r[3].get("invests_in_companies") is True
-              and r[3].get("active_24m") is True) for r in m2)]]))
-    field_rows = []
-    for field in ("sector_focus", "stage_focus", "ticket_size", "capital", "activity_evidence"):
-        vals = Counter(r[3].get(field) for r in m1)
-        judged = vals["correct"] + vals["incorrect"]
-        field_rows.append([field, ci(vals["correct"], judged), vals["unverifiable"], vals["not_applicable"]])
-    for field in ("real_entity", "invests_in_companies", "active_24m", "type_correct", "decision_correct"):
-        vals = Counter(r[3].get(field) for r in m1)
-        field_rows.append([field, ci(vals[True], vals[True] + vals[False]), vals[None], ""])
-    out.append("\nM1 accuracy by check:\n\n" + table(["Check", "Accuracy", "Unverifiable / null", "n/a"], field_rows))
-    # Which reviewer findings do the (tightened) automated checks now catch on their own?
+    # 7. Reviews, one block per review round (sample folder). M1/M2 membership comes from the sample
+    # files, so later rebuilds never move a record between the two.
     failed = defaultdict(set)
     for key, code in checks_by_key:
         failed[key].add(code)
     status_of = {r[0]: r[6] for r in inv}
-    bad_records = [r for r in m1 if r[2] == "incorrect"]
-    caught_records = [r for r in bad_records if status_of.get(r[0]) != "active" or failed[r[0]] & {"V1", "V4"}]
-    bad_capital = [r for r in m1 if r[3].get("capital") == "incorrect"]
-    caught_capital = [r for r in bad_capital if "V5" in failed[r[0]]]
-    bad_activity = [r for r in m1 if r[3].get("activity_evidence") == "incorrect"]
-    caught_activity = [r for r in bad_activity if status_of.get(r[0]) != "active" or "V4" in failed[r[0]]]
-    out.append("\nReviewer findings that the automated checks (as tightened after the review) now catch without a human:\n\n" + table(
-        ["Finding", "Caught automatically", "Records"],
-        [["Record judged incorrect", f"{len(caught_records)}/{len(bad_records)}", ", ".join(r[0] for r in bad_records)],
-         ["Capital field incorrect", f"{len(caught_capital)}/{len(bad_capital)}", ", ".join(r[0] for r in bad_capital)],
-         ["Activity evidence incorrect", f"{len(caught_activity)}/{len(bad_activity)}", ", ".join(r[0] for r in bad_activity)]]))
-    issues = [f"- `{r[0]}` ({r[2]}): {r[4]}" for r in reviews if r[2] != "correct" or any(
-        v in ("incorrect", False) for v in r[3].values())]
-    if issues:
-        out.append("\nReviewer findings:\n\n" + "\n".join(issues))
+    out.append("\n## 7. Independent review")
+    for sample_file in sorted((PROJECT_ROOT / "data" / "curated" / "reviews").glob("*/_sample.json")):
+        name = sample_file.parent.name
+        s = json.loads(sample_file.read_text(encoding="utf-8"))
+        m1 = [r for r in reviews if r[1] == name and r[0] in set(s.get("m1", []))]
+        m2 = [r for r in reviews if r[1] == name and r[0] in set(s.get("m2", []))]
+        decided = [r for r in m1 if r[2] != "unsure"]
+        out.append(f"\n### Round `{name}`" + (f" — {s['description']}" if s.get("description") else "") + "\n\n" + table(
+            ["Measure", "Value"],
+            [["M1 record precision (published records judged correct)", ci(sum(r[2] == "correct" for r in decided), len(decided))],
+             ["M1 unsure", sum(r[2] == "unsure" for r in m1)],
+             ["M2 wrongly excluded active investors (decision wrong, and the reviewer found it invests and is active)",
+              ci(sum(r[3].get("decision_correct") is False and r[3].get("invests_in_companies") is True
+                     and r[3].get("active_24m") is True for r in m2), len(m2))],
+             ["M2 other decision errors (e.g. unverified that could be decided)",
+              sum(r[3].get("decision_correct") is False and not (r[3].get("invests_in_companies") is True
+                  and r[3].get("active_24m") is True) for r in m2)]]))
+        field_rows = []
+        for field in ("sector_focus", "stage_focus", "ticket_size", "capital", "activity_evidence"):
+            vals = Counter(r[3].get(field) for r in m1)
+            judged = vals["correct"] + vals["incorrect"]
+            field_rows.append([field, ci(vals["correct"], judged), vals["unverifiable"], vals["not_applicable"]])
+        for field in ("real_entity", "invests_in_companies", "active_24m", "type_correct", "decision_correct"):
+            vals = Counter(r[3].get(field) for r in m1)
+            field_rows.append([field, ci(vals[True], vals[True] + vals[False]), vals[None], ""])
+        out.append("\nM1 accuracy by check:\n\n" + table(["Check", "Accuracy", "Unverifiable / null", "n/a"], field_rows))
+        # Which of this round's findings do the automated checks (as they are now) catch without a human?
+        bad_records = [r for r in m1 if r[2] == "incorrect"]
+        caught_records = [r for r in bad_records if status_of.get(r[0]) != "active" or failed[r[0]] & {"V1", "V4"}]
+        bad_capital = [r for r in m1 if r[3].get("capital") == "incorrect"]
+        caught_capital = [r for r in bad_capital if "V5" in failed[r[0]]]
+        bad_activity = [r for r in m1 if r[3].get("activity_evidence") == "incorrect"]
+        caught_activity = [r for r in bad_activity if status_of.get(r[0]) != "active" or "V4" in failed[r[0]]]
+        if bad_records or bad_capital or bad_activity:
+            out.append("\nFindings of this round that the current automated checks catch without a human "
+                       "(once a record is fixed it no longer fails a check, so this is read against the first build "
+                       "after the round):\n\n" + table(
+                ["Finding", "Caught automatically", "Records"],
+                [["Record judged incorrect", f"{len(caught_records)}/{len(bad_records)}", ", ".join(r[0] for r in bad_records)],
+                 ["Capital field incorrect", f"{len(caught_capital)}/{len(bad_capital)}", ", ".join(r[0] for r in bad_capital)],
+                 ["Activity evidence incorrect", f"{len(caught_activity)}/{len(bad_activity)}", ", ".join(r[0] for r in bad_activity)]]))
+        issues = [f"- `{r[0]}` ({r[2]}): {r[4]}" for r in m1 + m2 if r[2] != "correct" or any(
+            v in ("incorrect", False) for v in r[3].values())]
+        if issues:
+            out.append("\nReviewer findings:\n\n" + "\n".join(issues))
 
     # 8. Published records with their proof of investing
     with connect() as conn:

@@ -35,7 +35,7 @@ from investordb.load_dossiers import ACTIVITY_WINDOW_START
 PUBLISH_THRESHOLD = 0.6
 PUBLISHABLE_PILOTS = {"cz-vc", "sk-reference"}
 # Fund events that prove activity. A launch / "opened to investors" does not (pilot review finding).
-ACTIVITY_EVENTS = {"first_close", "final_close", "commitment"}
+ACTIVITY_EVENTS = {"first_close", "interim_close", "final_close", "commitment"}
 NAME_NOISE = re.compile(
     r"osoba rizikov[eé]ho kapit[aá]lu|spr[aá]vca podlimitn[yý]ch rizikov[yý]ch fondov|investi[cč]n[ií] spole[cč]nost|"
     r"investi[cč]n[yý] fond s premenliv[yý]m z[aá]kladn[yý]m imanim|s\.?\s?r\.?\s?o\.?|a\.?\s?s\.?|spol\.|k\.?s\.?|"
@@ -153,9 +153,12 @@ def main() -> int:
             if domain(website):
                 site_owners[domain(website)].add(key)
 
+        # Only the latest review round counts for the gate (samples are named so that they sort by date):
+        # a record fixed after round 1 and judged correct in round 2 is published again.
         reviews = defaultdict(list)
         for key, verdict, reviewer, notes in conn.execute(
-                "select investor_key, verdict, reviewer, notes from core.review").fetchall():
+                """select investor_key, verdict, reviewer, notes from core.review r
+                   where sample = (select max(sample) from core.review r2 where r2.investor_key = r.investor_key)""").fetchall():
             reviews[key].append((verdict, reviewer, notes))
 
         results, cards = [], []
@@ -211,6 +214,11 @@ def main() -> int:
                                  f"capital is a {'/'.join(sorted({f[4] for f in matching}))}, not a final fund size")
                 elif listed:
                     v5, v5_detail = False, "capital differs from every listed fund size"
+            elif cap_v and cap_v.get("basis") == "interim_close":
+                amount = float(cap_v["amount"])
+                if any(f[2] is not None and f[3] == cap_v.get("currency") and f[4] in ("first_close", "interim_close")
+                       and abs(float(f[2]) - amount) <= 0.05 * amount for f in funds[inv_id]):
+                    v5, v5_detail = True, "capital is an interim close and labelled as such"
             checks.append(("V5", v5, v5_detail))
 
             problems = []
