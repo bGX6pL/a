@@ -208,8 +208,8 @@ Calibration of section 8 from the pilot (Czech and Slovak VC):
 | Planning assumption | Pilot measurement |
 |---|---|
 | Institutional VC: ≥80% publicly verifiable | Every active CZ/SK VC found had a website plus dated public deal evidence |
-| Capital / AUM public for 50–80% outside the US | Filled for 70% of published records; 64% of reviewed values right under rules v1, 80% under rules v2 (remaining errors: public figures missed) |
-| Ticket size public | Filled for 76%; 88–91% accurate |
+| Capital / AUM public for 50–80% outside the US | Filled for 82% of published records after the round-2 fixes; 64% of reviewed values right under rules v1, 80% under rules v2 (remaining errors were public figures missed, since fixed) |
+| Ticket size public | Filled for 79%; 88–91% accurate |
 | Precision ≥95% for VC | Round 1 (rules v1): 83% (25/30). Round 2 (rules v2, after corrections): 100% (28/28; CI 88–100%), 0/12 wrong exclusions. Capital 64% → 80%, activity evidence 83% → 100% |
 | Registry labels as filters | ČNB §15 and NBS registered managers: 5% are active startup VCs → discovery seeds only |
 

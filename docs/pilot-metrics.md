@@ -1,6 +1,6 @@
 # Pilot metrics
 
-Generated 2026-10-25 19:36 UTC by `uv run python -m investordb.metrics` from the Postgres database. Snapshot date 2026-10-25, activity window from 2024-10-25.
+Generated 2026-10-25 21:39 UTC by `uv run python -m investordb.metrics` from the Postgres database. Snapshot date 2026-10-25, activity window from 2024-10-25.
 
 ## 1. Screening outcome
 
@@ -45,19 +45,19 @@ Published records: **33** (CZ 29, SK 4); flags: corporate 6, public 3, accelerat
 | Sector focus | 100% |  |  |
 | Stage focus | 100% |  |  |
 | Geography focus | 97% |  |  |
-| Ticket size | 76% | stated 23, self_reported 1, derived 1 | 8 |
-| Capital / AUM | 70% | stated 22, derived 1 | 10 |
+| Ticket size | 79% | stated 24, self_reported 1, derived 1 | 7 |
+| Capital / AUM | 82% | stated 26, derived 1 | 6 |
 
-Capital basis: interim_close 8, aum 6, latest_fund_size 5, balance_sheet 3, cumulative_fund_sizes 1.
+Capital basis: interim_close 11, aum 6, latest_fund_size 6, balance_sheet 3, cumulative_fund_sizes 1.
 
 ## 3. Evidence and automated verification
 
 | Measure | Value |
 |---|---|
-| Evidence items (all pilots) | 1090 |
-| Source class mix (CZ+SK pilots) | A 12%, B 46%, C 35%, D 7% |
+| Evidence items (all pilots) | 1103 |
+| Source class mix (CZ+SK pilots) | A 12%, B 46%, C 36%, D 7% |
 | Pages retrieved by script | 100% |
-| Quotes found verbatim/fuzzy on retrieved pages (V3) | 100% (1089/1089; 95% CI 100–100%) |
+| Quotes found verbatim/fuzzy on retrieved pages (V3) | 100% (1102/1102; 95% CI 100–100%) |
 | Quotes on pages a script cannot retrieve (JS, paywall, bot block) | 1 |
 
 Automated checks on included records (passed / failed / not applicable):
@@ -114,8 +114,8 @@ Reference set: 4 published (active) Slovak VC investors, and 15 real Slovak VC i
 | nbs-register | 2 | 50% | 10 | 67% |
 | news | 4 | 100% | 9 | 60% |
 | sih-programmes | 3 | 75% | 8 | 53% |
-| co-investor snowball | 4 | 100% | 5 | 33% |
 | slovca | 2 | 50% | 5 | 33% |
+| co-investor snowball | 4 | 100% | 5 | 33% |
 | startup-report-slovensko | 1 | 25% | 2 | 13% |
 
 ## 7. Independent review
@@ -236,14 +236,14 @@ Reviewer findings:
 | BUDETO (accelerator) | CZ | ai_data, software_saas | pre_seed, seed | not disclosed | not disclosed | 2026-05-01 — [investment: CircuitNinja (pre_seed)](https://www.budeto.xyz/llms.txt) | 1.000 |
 | Credo Ventures | CZ | generalist | pre_seed, seed | USD 1m–5m (stated) | USD 88m latest_fund_size (stated) | 2026-06-02 — [investment: Picogrid](https://www.lupa.cz/aktuality/ceske-credo-ventures-investovalo-do-americkeho-startupu-ktery-vyviji-technologie-pro-pentagon/) | 1.000 |
 | Czech Founders VC | CZ | software_saas, ai_data | pre_seed | EUR 50k–350k (stated) | EUR 10m latest_fund_size (stated) | 2026-06-09 — [investment: Merchantee (seed)](https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/) | 1.000 |
-| DEPO Ventures | CZ | defence_dualuse, deeptech_hardware, fintech, industrial_manufacturing, energy_climate | pre_seed | EUR 250k–500k (stated) | not disclosed | 2026-08-26 — [fund commitment: DEPO Ventures One SCSp (NRI 'Fond Ukrajina' commitment)](https://www.businessinfo.cz/clanky/nri-dokoncila-vyber-venture-kapitaloveho-fondu-pro-program-fond-ukrajina/) | 1.000 |
-| i&i Bio | CZ | biotech_life_sciences, healthtech | pre_seed, seed | EUR 150k–2m (stated) | EUR 53m interim_close (stated) | 2025-12-17 — [investment: T-CURX (series_a)](https://www.inibio.eu/news/t-curx-announces-%2420m-series-a-first-closing-led-by-biomedvc-to-fund-pipeline-of-clinical-stage-car-t-programs-and-advance-proprietary-non-viral-in-vivo-car-t-platform) | 0.850 |
+| DEPO Ventures | CZ | defence_dualuse, deeptech_hardware, fintech, industrial_manufacturing, energy_climate | pre_seed | EUR 250k–500k (stated) | CZK 94m interim_close (stated) | 2026-08-26 — [fund commitment: DEPO Ventures One SCSp (NRI 'Fond Ukrajina' commitment)](https://www.businessinfo.cz/clanky/nri-dokoncila-vyber-venture-kapitaloveho-fondu-pro-program-fond-ukrajina/) | 1.000 |
+| i&i Bio | CZ | biotech_life_sciences, healthtech | pre_seed, seed, series_a | EUR 150k–2m (stated) | EUR 53m interim_close (stated) | 2025-12-17 — [investment: T-CURX (series_a)](https://www.inibio.eu/news/t-curx-announces-%2420m-series-a-first-closing-led-by-biomedvc-to-fund-pipeline-of-clinical-stage-car-t-programs-and-advance-proprietary-non-viral-in-vivo-car-t-platform) | 0.850 |
 | Inven Capital (corporate) | CZ | energy_climate | series_b, growth | EUR 2m–30m (stated) | EUR 500m aum (stated) | 2026-09-09 — [investment: Wint (series_d)](https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html) | 1.000 |
-| IP Lab Ventures | CZ | ai_data, deeptech_hardware, mobility_logistics, biotech_life_sciences, cybersecurity, industrial_manufacturing | pre_seed | EUR ?–1m (stated) | not disclosed | 2026-09-24 — [fund commitment: IP Lab Ventures Fund I](https://www.eif.org/press/all/first-czech-technology-transfer-fund-focused-on-ai-applications-to-invest-nearly-eur50-million-in-research-commercialisation) | 1.000 |
+| IP Lab Ventures | CZ | ai_data, deeptech_hardware, mobility_logistics, biotech_life_sciences, cybersecurity, industrial_manufacturing | pre_seed | EUR ?–1m (stated) | CZK 656m interim_close (stated) | 2026-09-24 — [fund commitment: IP Lab Ventures Fund I](https://www.eif.org/press/all/first-czech-technology-transfer-fund-focused-on-ai-applications-to-invest-nearly-eur50-million-in-research-commercialisation) | 1.000 |
 | J&T Ventures (corporate) | CZ | generalist | pre_seed, seed, series_a | EUR 300k–3m (stated) | EUR 120m aum (stated) | 2026-06-12 — [investment: Definic (formerly Nordics) (seed)](https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/) | 1.000 |
 | Jet Venture 1 | CZ | industrial_manufacturing, software_saas, ai_data | seed, series_a | EUR 1m–2m (stated) | EUR 30m interim_close (stated) | 2026-09-17 — [investment: AppNava](https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/) | 1.000 |
 | JIC Ventures (public) | CZ | deeptech_hardware, software_saas | pre_seed, seed | EUR ?–1m (stated) | CZK 320m interim_close (stated) | 2026-05-19 — [investment: FaceUp (series_a)](https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do) | 1.000 |
-| JSK Investments Venture Capital Fund I | CZ | healthtech, ai_data, deeptech_hardware, energy_climate | seed, series_a | EUR 300k–? (stated) | not disclosed | 2026-10-09 — [investment: MintNeuro](https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro) | 1.000 |
+| JSK Investments Venture Capital Fund I | CZ | healthtech, ai_data, deeptech_hardware, energy_climate | seed, series_a | EUR 300k–? (stated) | EUR 10m interim_close (stated) | 2026-10-09 — [investment: MintNeuro](https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro) | 1.000 |
 | KAYA | CZ | generalist | pre_seed, seed, series_a | USD 1m–3m (stated) | USD 500m aum (stated) | 2026-10-06 — [investment: Sensible Biotechnologies (series_a)](https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/) | 1.000 |
 | Lighthouse Ventures | CZ | software_saas, fintech, ai_data | pre_seed, seed | EUR 200k–1m (stated) | EUR 23m aum (stated) | 2026-06-09 — [investment: Merchantee (seed)](https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/) | 1.000 |
 | Look AI Ventures | CZ | ai_data | pre_seed, seed | EUR 250k (stated) | not disclosed | 2026-09-22 — [investment: Embodied AI](https://lookai.vc/look-ai-ventures-backs-embodied-ai-robots-manufacturing/) | 1.000 |
@@ -256,13 +256,13 @@ Reviewer findings:
 | Soulmates Ventures | CZ | energy_climate, mobility_logistics, edtech, healthtech, agrifood, impact_social | pre_seed, seed, series_a | EUR ?–3m (stated) | EUR 62m aum (stated) | 2026-09-07 — [investment: Rightcharge (follow_on)](https://www.soulmatesventures.com/rightcharge-follow-on-round/) | 1.000 |
 | Spinoffy | CZ | ai_data, cybersecurity, industrial_manufacturing, deeptech_hardware, energy_climate | pre_seed, seed | not disclosed | not disclosed | 2026-10-14 — [investment: DiagnostiQS](https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/) | 1.000 |
 | Springtide Ventures (corporate) | CZ | software_saas, cybersecurity, ai_data | seed, series_a, series_b, growth | USD 1m–10m (stated) | not disclosed | 2025-01-07 — [investment: ThreatMark](https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/) | 1.000 |
-| StartupYard (accelerator) | CZ | ai_data, cybersecurity, deeptech_hardware | pre_seed, seed | EUR 45k–70k (stated) | not disclosed | 2025-02-14 — [investment: Ydoca (pre_seed)](https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/) | 1.000 |
-| Tachles VC | CZ | cybersecurity, software_saas, ai_data | seed, series_a | not disclosed | CZK 500m interim_close (stated) | 2025-10-09 — [investment: Boost.space](https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/) | 1.000 |
+| StartupYard (accelerator) | CZ | ai_data, cybersecurity, deeptech_hardware | pre_seed, seed | EUR 45k–70k (stated) | EUR 1m latest_fund_size (stated) | 2025-02-14 — [investment: Ydoca (pre_seed)](https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/) | 1.000 |
+| Tachles VC | CZ | cybersecurity, software_saas, ai_data | pre_seed, seed | not disclosed | CZK 500m interim_close (stated) | 2025-10-09 — [investment: Boost.space](https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/) | 1.000 |
 | Tensor Ventures | CZ | ai_data, deeptech_hardware, biotech_life_sciences, energy_climate | pre_seed, seed, series_a | EUR 250k–1m (self_reported) | EUR 20m interim_close (stated) | 2026-04-15 — [investment: Pointee (seed)](https://cc.cz/nasadit-ai-je-hracka-ale-uridit-ji-peklo-hlasi-cesky-startup-ktery-na-to-ziskal-desitky-milionu/) | 0.850 |
 | Tilia Impact Ventures | CZ | impact_social, energy_climate, healthtech, edtech | pre_seed, seed | EUR 300k–1.2m (stated) | EUR 26m interim_close (stated) | 2026-05-19 — [investment: FaceUp (series_a)](https://cc.cz/byl-to-studentsky-projekt-ted-uz-ma-hodnotu-pres-pul-miliardy-nabidky-na-odkup-odmitame-hlasi-cesi/) | 1.000 |
 | Y Soft Ventures (corporate) | CZ | deeptech_hardware, industrial_manufacturing, cybersecurity | pre_seed, seed | not disclosed | not disclosed | 2025-07-02 — [investment: RoboTwin (pre_seed)](https://eitjumpstarter.eu/robotwin-secures-1-million-eur/) | 1.000 |
-| ZAKA VC | CZ | healthtech, biotech_life_sciences, industrial_manufacturing | pre_seed, seed | not disclosed | EUR 17m interim_close (stated) | 2025-12-09 — [investment: Vetstor (seed)](https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/) | 1.000 |
+| ZAKA VC | CZ | healthtech, biotech_life_sciences, industrial_manufacturing | pre_seed, seed | EUR 250k–300k (stated) | EUR 17m interim_close (stated) | 2025-12-09 — [investment: Vetstor (seed)](https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/) | 1.000 |
 | Seed Starter Slovenskej sporiteľne (corporate) | SK | generalist | pre_seed, seed | EUR 200k–1m (stated) | EUR 5m balance_sheet (stated) | 2026-04-09 — [investment: TrollWall AI](https://www.sih.sk/aktuality/ai-proti-nenavisti-na-internete-startup-trollwall-ai-ziskal-investiciu-vo-vyske-800-000-eur) | 1.000 |
 | Slovak Investment Holding (public) | SK | ai_data, software_saas, fintech, deeptech_hardware | seed | EUR 280k–1.4m (derived) | EUR 15m balance_sheet (stated) | 2026-09-22 — [investment: VisionFlow](https://www.sih.sk/aktuality/sih-investuje-1-4-miliona-eur-do-visionflow-slovensky-startup-vyvija-softverovu-datovu-infrastrukturu-pre-umelu-inteligenciu) | 1.000 |
-| Venture to Future Fund (public) | SK | generalist | seed, series_a, series_b | EUR 400k–7m (stated) | EUR 55.7m cumulative_fund_sizes (derived) | 2026-05-19 — [investment: FaceUp](https://forbes.cz/jic-ventures-investuje-do-faceup-cesky-startup-ziskal-pres-110-milionu-korun-na-globalni-expanzi/) | 1.000 |
+| Venture to Future Fund (public) | SK | generalist | seed, series_a, series_b | EUR 400k–2m (stated) | EUR 55.7m cumulative_fund_sizes (derived) | 2026-05-19 — [investment: FaceUp](https://forbes.cz/jic-ventures-investuje-do-faceup-cesky-startup-ziskal-pres-110-milionu-korun-na-globalni-expanzi/) | 1.000 |
 | Zero One Hundred | SK | software_saas, ai_data, healthtech, proptech_construction | pre_seed, seed | not disclosed | EUR 23m latest_fund_size (stated) | 2026-02-05 — [investment: Readmio](https://vestbee.com/insights/articles/readmio-secures-1-m) | 1.000 |

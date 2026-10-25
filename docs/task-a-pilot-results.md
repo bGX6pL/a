@@ -13,9 +13,9 @@ corrections plus a second screening pass under the revised rules and a second in
 - **191 candidates screened** from public sources: 99 Czech VC candidates, 52 Slovak candidates and a
   random sample of 40 of the 406 Czech §15 sub-threshold fund managers.
 - **33 investors published** (29 Czech, 4 Slovak). Each has type, sector and stage focus (100%), ticket
-  size (76%) and capital (70%) or an explicit *not disclosed*, and a dated, source-linked proof of
+  size (79%) and capital (82%) or an explicit *not disclosed*, and a dated, source-linked proof of
   investing since 2024-10-25. Every filled value links to a verbatim quote.
-- **Automated verification:** all 1,089 quotes on retrievable pages were found again on the live page
+- **Automated verification:** all 1,102 quotes on retrievable pages were found again on the live page
   (one URL could not be fetched); the Czech/Slovak legal entities of every included record match
   ARES / RÚZ / NBS.
 - **Measured precision (independent review):**
@@ -95,6 +95,14 @@ ticket 3 (ZAKA and Budeto ranges reported in the news; VFF's maximum includes fo
 (i&i Bio, Tachles). Consistency checks cannot catch an omission; it needs a "search for older or
 interim figures" step in extraction.
 
+**After round 2** the flagged values were fixed from the reviewers' sources (8 of 10, each with a
+verbatim quote): DEPO, IP Lab and JSK VC now show their committed capital as `interim_close`,
+StartupYard its 2017 EUR 1m fund (marked as old), ZAKA its EUR 250–300k ticket, VFF its first ticket of
+EUR 0.4–2m (up to 7m with follow-ons), and the stages of i&i Bio and Tachles are derived from their
+cited deals. Budeto's two values stay *not disclosed*: its sources only say "mid hundreds of thousands"
+and "high single-digit millions" of CZK, with no number that can be quoted. Capital is now filled for
+82% of published records (70% before).
+
 ## 4. Which sources find real investors
 
 | Source | Precision as a VC filter | Notes |
@@ -141,8 +149,9 @@ result) is in `core.evidence` and `core.evidence_check`.
   own accuracy has not been calibrated against a human. The review files are plain JSON
   (`data/curated/reviews/`); a person can confirm or overturn any verdict and re-run `review load`,
   `build` and `metrics`.
-- **Round-2 field errors are not yet fixed** (10 values, listed in pilot-metrics §7); none affects a
-  publication decision.
+- **The fixes after round 2 have not been re-reviewed.** They were checked against the reviewers'
+  notes and every new quote passes V3, but no third review round was run; Budeto's ticket and capital
+  remain *not disclosed* although rough amounts are public in words.
 - **Borderline calls flagged by reviewers:** SIH typed as public VC although most of its activity is
   guarantees and fund-of-funds; IP Lab Ventures' only portfolio stakes are nominal co-founder shares;
   Moondust so far invests its owners' money; Czech Founders VC now does follow-ons only.
@@ -155,7 +164,8 @@ result) is in `core.evidence` and `core.evidence_check`.
 
 ## 7. Next steps
 
-1. Fix the ten round-2 field values and add a "look for older or interim figures" step to extraction.
+1. Add a "look for older or interim figures" step to extraction, so capital and ticket omissions are
+   caught before review.
 2. Human spot-check of 10–15 reviewer verdicts to calibrate the AI reviewers.
 3. Request WS JERRS access (certificate) for the remaining ČNB lists.
 4. First expansion step: Poland, Austria and Hungary (CEE first, where incumbents are weakest), at the

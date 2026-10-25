@@ -23,7 +23,7 @@
     "I4",
     "I5"
   ],
-  "decision_note": "State-backed Slovak VC fund (EIB, MF SR and RRP money via SIH) investing EUR 0.4-7m pari passu with private co-investors; co-invested in FaceUp in May 2026 and Talentiqa in Sept 2025.",
+  "decision_note": "State-backed Slovak VC fund (EIB, MF SR and RRP money via SIH) investing first tickets of EUR 0.4-2m (up to 7m incl. follow-ons) pari passu with private co-investors; co-invested in FaceUp in May 2026 and Talentiqa in Sept 2025.",
   "discovered_via": [
     "research-seed",
     "slovca",
@@ -84,13 +84,13 @@
   "ticket_size": {
     "value": {
       "min": 400000,
-      "max": 7000000,
+      "max": 2000000,
       "currency": "EUR"
     },
     "method": "stated",
     "evidence": [
       "e2",
-      "e11"
+      "e19"
     ]
   },
   "capital": {
@@ -352,6 +352,15 @@
       "source_class": "C",
       "quote": "The funding round was led by Purple Ventures II, with contributions from existing investors Venture to Future Fund and Vision Ventures, as Presto Ventures informed Vestbee.",
       "language": "en"
+    },
+    {
+      "id": "e19",
+      "url": "https://vff.sk/",
+      "publisher": "Venture to Future Fund",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Vieme byť pomerne flexibilní a prispôsobiť výšku investície potrebám vášho projektu až do výšky 7mil. EUR, vrátane follow-on investícií.",
+      "language": "sk"
     }
   ],
   "co_investors_seen": [
@@ -370,6 +379,6 @@
     "Vision Ventures",
     "Presto Ventures"
   ],
-  "analyst_notes": "Capital derived: EUR 40.4m initial capital (SIH page, e10) + EUR 15.3m RRP top-up announced 28 May 2024 (e9) = EUR 55.7m; the VFF homepage rounds this to '55 mil. EUR' for 2020-2026 (e6). Investment period extended to end-2026 by the top-up; fund life 10 years. Ticket: site says minimum EUR 400k, optimal 1.5-2.0m, up to 7m incl. follow-ons (e2, e11); SLOVCA profile (self-reported, older) still says 0.5-4.8m. Always co-invests pari passu (50:50) with an independent private co-investor. The VFF record is the fund vehicle itself (a.s., IČO 52380483, RÚZ ownership type 'Štátne', SK NACE 64300); it was set up by the EIB and MF SR through Slovak Investment Holding (SIH, slovak-investment-holding), which promotes it as its financial instrument; NBS export (2026-10-24) lists it as 'registrovaný alternatívny investičný fond' from 2025-01-20 (its manager, Slovak Capital Management, a. s., IČO 51865513, SIH group, is on the NBS export as a registered AIF manager from 2025-01-20; SIH states SCM manages VFF, e16, e17). FaceUp round size: Forbes headline says over CZK 110m in the round, amount left null. Further 2025-2026 deals reported only by aggregators (PitchBook/CB Insights: IAG May 2025, Sloneek 16 Jun 2026 with Orbit Capital) were not cited. Talentiqa is described as Prague-based (AIN) although other sources say Ostrava; both CZ. SLOVCA full member. Vestberry follow-on of 14 Mar 2025 (EUR 2.2m round led by Seed Starter of Česká a Slovenská sporiteľňa, with Zero One Hundred) cited from AIN (e15). Reviewer: Slovak Capital Management, a. s. added as manager legal entity; the NBS-register analyst's dossier slovak-capital-management (E10 duplicate) points to this record. Sloneek: VFF was an existing investor in the EUR 3.6m late-seed round led by Purple Ventures II (Vestbee, 10 Sep 2024, e18); the June 2026 Sloneek round reported by aggregators remains uncited. [revision 2026-10-25 after review: capital basis changed from latest_fund_size to cumulative_fund_sizes - EUR 55.7m is the derived sum of two capital injections into the one fund vehicle (EUR 40.4m initial endowment, e10, plus the EUR 15.3m RRP capital increase announced 2024-05-28, e9), not a final close of a raised fund; amount, as-of date (2024-05-28) and method 'derived' unchanged, consistent with the homepage's '55 mil. EUR' for 2020-2026 (e6). Manager legal entity Slovak Capital Management, a. s. (IČO 51865513) kept.]",
+  "analyst_notes": "Capital derived: EUR 40.4m initial capital (SIH page, e10) + EUR 15.3m RRP top-up announced 28 May 2024 (e9) = EUR 55.7m; the VFF homepage rounds this to '55 mil. EUR' for 2020-2026 (e6). Investment period extended to end-2026 by the top-up; fund life 10 years. Ticket: site says minimum EUR 400k, optimal 1.5-2.0m, up to 7m incl. follow-ons (e2, e11); SLOVCA profile (self-reported, older) still says 0.5-4.8m. Always co-invests pari passu (50:50) with an independent private co-investor. The VFF record is the fund vehicle itself (a.s., IČO 52380483, RÚZ ownership type 'Štátne', SK NACE 64300); it was set up by the EIB and MF SR through Slovak Investment Holding (SIH, slovak-investment-holding), which promotes it as its financial instrument; NBS export (2026-10-24) lists it as 'registrovaný alternatívny investičný fond' from 2025-01-20 (its manager, Slovak Capital Management, a. s., IČO 51865513, SIH group, is on the NBS export as a registered AIF manager from 2025-01-20; SIH states SCM manages VFF, e16, e17). FaceUp round size: Forbes headline says over CZK 110m in the round, amount left null. Further 2025-2026 deals reported only by aggregators (PitchBook/CB Insights: IAG May 2025, Sloneek 16 Jun 2026 with Orbit Capital) were not cited. Talentiqa is described as Prague-based (AIN) although other sources say Ostrava; both CZ. SLOVCA full member. Vestberry follow-on of 14 Mar 2025 (EUR 2.2m round led by Seed Starter of Česká a Slovenská sporiteľňa, with Zero One Hundred) cited from AIN (e15). Reviewer: Slovak Capital Management, a. s. added as manager legal entity; the NBS-register analyst's dossier slovak-capital-management (E10 duplicate) points to this record. Sloneek: VFF was an existing investor in the EUR 3.6m late-seed round led by Purple Ventures II (Vestbee, 10 Sep 2024, e18); the June 2026 Sloneek round reported by aggregators remains uncited. [revision 2026-10-25 after review: capital basis changed from latest_fund_size to cumulative_fund_sizes - EUR 55.7m is the derived sum of two capital injections into the one fund vehicle (EUR 40.4m initial endowment, e10, plus the EUR 15.3m RRP capital increase announced 2024-05-28, e9), not a final close of a raised fund; amount, as-of date (2024-05-28) and method 'derived' unchanged, consistent with the homepage's '55 mil. EUR' for 2020-2026 (e6). Manager legal entity Slovak Capital Management, a. s. (IČO 51865513) kept.] [revision 2026-10-25 after review round 2: ticket_size changed from EUR 400k-7m to EUR 400k-2.0m (first ticket), stated - the homepage gives the minimum investment as EUR 400k and the optimal range as EUR 1.5-2.0m (e2); the EUR 7m maximum includes follow-on investments ('až do výšky 7mil. EUR, vrátane follow-on investícií', e19), so it is a total per-company maximum, not a first ticket. The 2.0m upper bound is the top of the stated optimal range, not a hard cap; no separate first-ticket maximum is published. e11 (2024-05-28: 'from EUR 400k up to EUR 7m', raised from 4.9m) is no longer cited for the ticket but is kept as the dated source of the follow-on maximum. The decision_note's 'EUR 0.4-7m' describes the total per-company range including follow-ons.]",
   "researched_on": "2026-10-25"
 }

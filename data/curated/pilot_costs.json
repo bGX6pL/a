@@ -25,6 +25,7 @@
     {"task": "corrections: re-audit of 18 published records under rules v2 (resumed; first part not included)", "phase": "corrections", "tokens": 367623, "minutes": 13.3, "records": 18},
     {"task": "review round 2: M2 exclusions (12 records)", "phase": "review", "tokens": 153546, "minutes": 9.0, "records": 12},
     {"task": "review round 2: M1 batch E (14 published records)", "phase": "review", "tokens": 238818, "minutes": 12.8, "records": 14},
-    {"task": "review round 2: M1 batch D (14 published records)", "phase": "review", "tokens": 211729, "minutes": 13.6, "records": 14}
+    {"task": "review round 2: M1 batch D (14 published records)", "phase": "review", "tokens": 211729, "minutes": 13.6, "records": 14},
+    {"task": "corrections: ten field values flagged in review round 2", "phase": "corrections", "tokens": 234875, "minutes": 16.8, "records": 9}
   ]
 }
