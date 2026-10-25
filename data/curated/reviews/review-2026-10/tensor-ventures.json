@@ -1,0 +1,20 @@
+{
+  "investor_key": "tensor-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "incorrect",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "capital: EUR 20m is Fund I (opened 2017, 'invested EUR 18.5 million into 20 startups' per Quantum Insider 2024-10-14), labelled latest_fund_size, but a newer fund exists - the Tensor Ventures Co-investment Fund / second fund launched Oct 2024 with a EUR 20m EIF (NPO/RRF) commitment, target EUR 50m, which is the vehicle currently investing. The record keeps only the 50m target and ignores the EIF EUR 20m commitment, so the capital basis/as-of is wrong. stage_focus: seed + series_a from the website, but the current fund is stated as pre-seed ('zhruba 50 startupu ve fazi pre-seed', Lupa 2024-05-14; CC 2024-05-15) and two of the four recorded deals are pre-seed (QurieGen, Valka.ai) - pre_seed missing. Ticket EUR 250k-1m is CVCA 2020 self-reported (labelled as such); no newer stated figure found. Activity: led Pointee seed (CC 2026-04-15) and Repsense (2025-12-17) - confirmed. Office: GP/fund in Luxembourg, Czech contact in Praha-Karlin; team Czech - in scope."
+}

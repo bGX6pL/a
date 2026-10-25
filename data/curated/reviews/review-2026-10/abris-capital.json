@@ -1,0 +1,20 @@
+{
+  "investor_key": "abris-capital",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "S1 holds: control/buyout PE, EUR 30-75m tickets, 'Control investments' (strategy page verified). Also S2: Warsaw-based, focus Poland/Romania, no Czech office found. Capital: the record says not_disclosed, but the CVCA profile cited in the analyst notes publicly lists Fund III EUR 502m and Fund II EUR 450m (class D, 2020). It could have been filled as self_reported, so it is marked incorrect (minor; exclusion unaffected)."
+}

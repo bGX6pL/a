@@ -1,0 +1,20 @@
+{
+  "investor_key": "look-ai-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "not_applicable",
+    "activity_evidence": "correct"
+  },
+  "notes": "Website: 'pre-Series A venture capital fund based in Prague... investing in early-stage AI startups'; Czech SICAV managed by FTP Dimension IS. Deals: Lucida AI (Lupa 2026-06-30), Sodex Innovations (own release 2026-07-23), Embodied AI (own release 2026-09-22, Lupa 2026-09-30) - in window. Ticket EUR 250k per startup is from April 2023 launch coverage and not restated on the site; Silicon Canals (2023-04-18) adds 'ability to spend up to €1M' in winners (follow-on), so 250k as initial ticket is supported. Capital: only the 2023 EUR 20m target exists publicly (correctly kept as target, not size); SICAV financial statements on justice.cz not checked."
+}

@@ -1,0 +1,20 @@
+{
+  "investor_key": "luminova-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": false,
+    "type_correct": true,
+    "decision_correct": false,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "incorrect"
+  },
+  "notes": "active/decision: the only dated event is the fund 'newly opened to investors' (Lupa 2026-01-21; own release: the fund 'is being established' and is 'already working with a pre-selected portfolio') - a fundraising launch, not a first close or an investment, so I3 is not met. No dated deal by Luminova found (searches return nothing). invests_in_companies: unproven - the 7 Israeli portfolio companies are undated and appear to come via the 'strategic partnership' with Awz Global; DeepKeep's seed (May 2024) was led by Awz Ventures and its later investor was OurCrowd (Jan 2026), with no mention of Luminova. Should be unverified (E8), not published. activity_evidence: e8 (DeepKeep page) has no date and does not show a Luminova investment. Ticket/capital not disclosed and nothing public found. Stage 'derived' from the portfolio companies' current stages, which are not Luminova's entry rounds, but consistent with 'Cílí na ranější fáze'."
+}

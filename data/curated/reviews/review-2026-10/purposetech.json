@@ -1,0 +1,20 @@
+{
+  "investor_key": "purposetech",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "incorrect"
+  },
+  "notes": "activity_evidence: none of the cited events is a dated in-window investment or fund close. Fund I closed Sep/Oct 2024 (Vestbee 2024-09-25, AIN 2024-10-11) - before 2024-10-25; PT Capital (2026-02-10) is only an announcement of a fund still raising (max EUR 10m, first EUR 4m to be invested from autumn 2026), not a first close; eNOugh and Tingit have no date (Tingit Aug 2024, pre-window). active_24m is still true by inference: 5 investments at the Fund I close (Vestbee 2024-09-25) vs 11 by 2026-02-10 (CzechCrunch) and 13 on the website now, so >=6 new investments fell in the window. Ticket EUR 0.5-1m is PT Capital's planned ticket (fund II not yet investing), while Fund I wrote ~EUR 25-250k tickets (Vestbee profile; CZK 60m over 11-13 companies) - supported by the cited source but describes the next fund, not observed activity. Capital: 'necelych 60 milionu korun' for Fund I supported."
+}

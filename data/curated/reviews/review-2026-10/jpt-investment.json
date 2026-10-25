@@ -1,0 +1,20 @@
+{
+  "investor_key": "jpt-investment",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": false,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": false,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Should be decided EXCLUDE (E3), not unverified. Public evidence is enough. In the fund's RÚZ 2025 statements (attachment 12109229, already cited), the EUR 6.75m of shares sit in note table 4 'Cenné papiere na obchodovanie' (trading securities), with realised gains/losses on shares, broker and exchange fees ('Burzové odplaty', 'Odplaty obchodníkom s cennými papiermi'), and USD/CAD positions. Long-term financial assets / participations are nil. This is a listed-securities portfolio of a single-shareholder vehicle (possible E6 too), not private-company investing. Not a wrongly excluded VC."
+}

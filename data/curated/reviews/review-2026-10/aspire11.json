@@ -1,0 +1,20 @@
+{
+  "investor_key": "aspire11",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": false,
+    "decision_correct": false,
+    "sector_focus": "incorrect",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "type/decision: not a VC in the pilot's sense. Its own website (www.aspire11cap.com - exists, the dossier says no website) describes Eternals as 'Direct investments in late-stage and pre-IPO technology companies'; the other sleeve (Tribes, 20-25%) is a fund-of-funds (E5). Observed portfolio is mature global companies (Databricks at USD 190bn valuation, Revolut via an intermediary vehicle per the Partners leaflet, Vinted, VAST Data, Baseten); the EUR 20m Vinted stake (Lupa 2026-06-23) followed Vinted's April 2026 EUR 880m secondary share sale - Vinted raised no primary capital - so it is very likely a secondary purchase. Pension-capital (Rentea ALTUF) late-stage/pre-IPO minority stakes = 'large growth minority' in mature companies -> pe per plan s.3, i.e. S1 for the VC pilot; also no Czech portfolio company found. sector_focus: the leaflet list (agri, engineering, automotive, logistics, IT, hi-tech) is contradicted by the actual 2026 portfolio (fintech, AI/data infra, e-commerce). Ticket EUR 10-30m (leaflet) and capital EUR 515m (own site: '€515M Inaugural fund') are supported. Minor: e7 is a Lupa article by Iva Brejlová, not an Aspire11-authored release (class C, not B)."
+}

@@ -1,0 +1,20 @@
+{
+  "investor_key": "s15-29797136",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E8 stays. The site is only a §15 qualified-investor gate. ARES VR: sole owner RONDA CREDIT a.s. (IČO 22652345, founded 2025, same Olivova 2096/4 address); managing director Martin Vávra. The Ronda name is associated with Ronda Invest, a collateral-backed P2B lending platform, which points to lending/real estate (E4/E3) rather than VC, but the vehicle's own strategy is not public."
+}

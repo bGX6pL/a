@@ -1,0 +1,20 @@
+{
+  "investor_key": "czech-founders-vc",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "Homepage confirms pre-seed, EUR 50-350k, CEE, Prague and Bratislava offices; Merchantee (Reflex-led CZK 30m seed extension, CzechCrunch 2026-06-09) verified. capital: a value is public but the record says not disclosed - CzechCrunch 2022-09-07: the AIF raised EUR 10m (~CZK 250m) from 45 founders (target doubled from 5m to 10m and fully raised a month earlier). Sector derived from 3 software/AI companies; the 31-company portfolio is mostly software/AI, so accepted."
+}

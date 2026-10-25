@@ -187,8 +187,34 @@ in the country and investment activity in it, active in the last 24 months.
 field completeness (share with stated ticket / capital), registry-label precision, Slovak recall,
 time and cost per record.
 
+## 10a. Revisions after the pilot
+
+The independent review (results: [task-a-pilot-results.md](task-a-pilot-results.md)) showed where the
+rules above were too loose. These changes apply from now on; the automated ones are in `investordb.build`.
+
+| Finding in review | Rule change | Enforced by |
+|---|---|---|
+| Funds "opened to investors" and year-only portfolio labels counted as activity | **I3**: only dated investments, first/final closes and LP commitments count; a fund launch does not; a date must be at least month-precise in its source (1 January placeholders are ignored) | V4 (script) |
+| First closes, targets and amounts raised so far were published as fund size (capital accuracy 64%) | **Capital basis** must state the close status; "latest fund size" means a final close; otherwise the record shows `first_close` / `target` / `launch` | V5 (script) |
+| A public fund size (older fund, earlier year) was marked "not disclosed" | `not_disclosed` only after checking earlier funds; otherwise record the latest public figure with its date | analyst rule + review |
+| A crypto / hedge-fund manager with a VC sleeve and a late-stage secondaries investor were typed `vc` | **Type by dominant activity**: crypto / hedge-dominant managers → E3 even with a VC sleeve; late-stage / pre-IPO / secondaries → `pe` | analyst rule + review |
+| A fund with a Prague office but no Czech investments was in the Czech pilot | **Scope**: office in the country *and* at least one portfolio company or deal there; otherwise S2 | analyst rule + review |
+| A separately branded VC fund inside a PE group was excluded with the group | **Brand rule**: a separately branded VC fund with its own team is its own investor record | analyst rule |
+| Venture-debt fund closes treated inconsistently | **E4** covers debt-focused funds including venture debt, even with a legacy equity book (policy decision) | analyst rule |
+| Reviewer-judged errors | A record judged incorrect is withheld until fixed | M1 gate (script) |
+
+Calibration of section 8 from the pilot (Czech and Slovak VC):
+
+| Planning assumption | Pilot measurement |
+|---|---|
+| Institutional VC: ≥80% publicly verifiable | Every active CZ/SK VC found had a website plus dated public deal evidence |
+| Capital / AUM public for 50–80% outside the US | Filled for 67% of published records, but only 64% of reviewed values were right before the tightened V5 |
+| Ticket size public | Filled for 80%; 91% accurate |
+| Precision ≥95% for VC | 83% raw (25/30), so year-1 needs review of every record (see cost estimate); ≈97% expected after the review gate |
+| Registry labels as filters | ČNB §15 and NBS registered managers: 5% are active startup VCs → discovery seeds only |
+
 ## 11. Cost of worldwide expansion
 
-Estimated after the pilot from measured unit costs (per candidate screened, per record built, per
-record reviewed), multiplied by the counts in section 8, plus infrastructure and the annual refresh.
-See the pilot results.
+Estimated from the pilot's measured volumes and unit costs, multiplied by the counts in section 8:
+[global-expansion-cost.md](global-expansion-cost.md) — about **€290k** in year 1 (range €180k–575k)
+and **€90k** a year afterwards in the central case.

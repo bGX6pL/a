@@ -1,0 +1,20 @@
+{
+  "investor_key": "s15-23329611",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E8 stays. ARES VR (registered 2025-05-28, Praha 1): officers Daniel Škarka, Radim Kozub, Jan Rydvan. Owners are three 2025 shells at the same address (Škarka investments s.r.o., PHNX VISION s.r.o., Alnilam s.r.o.). Searches on the name and people and probes of strategichedgecapital.cz/.com found nothing. No evidence either way; the name hints at E3 but that is not established."
+}

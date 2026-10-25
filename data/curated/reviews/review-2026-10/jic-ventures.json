@@ -1,0 +1,20 @@
+{
+  "investor_key": "jic-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "capital: EUR 16m (= CZK 400m) is the fundraising TARGET, not a fund size. CzechCrunch 2026-04-07: 'Fond cílí na velikost 400 milionů korun' and 'aktuálně má již alokovaných 320 milionů korun'; e15 2026-04-07: 'JIC Ventures cílí na celkový objem 400 milionů korun'; JIC's own release adds the fund 'has not yet reached its final close'. No close at 400m found since. Recording 16m as latest_fund_size is a target presented as fund size (committed was ~CZK 320m at launch). Other fields OK: ticket up to EUR 1m stated (JIC, e15, CC); pre-seed/seed stated; FaceUp Series A participation confirmed by JIC release 2026-05-19 (USD 5m is the whole round, labelled as such). public flag: defensible (initiated by public agency JIC, Region is LP) but note public money is only ~10-15% of the fund."
+}

@@ -7,6 +7,7 @@ recomputed from the database, so the file can be regenerated at any time.
 """
 
 import datetime as dt
+import json
 import math
 import sys
 from collections import Counter, defaultdict
@@ -59,7 +60,9 @@ def main() -> int:
                             where c.url = e.url and c.quote_sha256 = encode(sha256(convert_to(e.quote, 'UTF8')), 'hex')
                             order by checked_at desc limit 1) c on true""")
         checks = q("""select c.check_code, c.passed, count(*) from core.check_result c join core.investor i using (investor_id)
-                      where i.decision = 'include' group by 1, 2 order by 1, 2""")
+                      where i.decision = 'include' and c.check_code like 'V%%' group by 1, 2 order by 1, 2""")
+        checks_by_key = q("""select i.investor_key, c.check_code from core.check_result c join core.investor i using (investor_id)
+                             where c.passed is false""")
         reviews = q("select investor_key, sample, verdict, checks, notes from core.review")
         s15_size = conn.execute(S15_LIST_SIZE_SQL).fetchone()[0]
         roster = dict(zip(("cvca", "cvca_assoc"), conn.execute(
@@ -162,7 +165,7 @@ def main() -> int:
     # 6. Slovak recall
     ref = [r for r in inv if r[1] == "sk-reference" and r[7]]
     ref_all = [r for r in inv if r[1] == "sk-reference" and r[3] == "vc"
-               and (r[7] or (r[2] == "exclude" and "E7" in r[4]))]
+               and (r[2] == "include" or (r[2] == "exclude" and "E7" in r[4]))]
     sources = Counter(tag for r in ref for tag in set(map(source_of, r[5])))
     sources_all = Counter(tag for r in ref_all for tag in set(map(source_of, r[5])))
     out.append("\n## 6. Recall of discovery sources against the Slovak reference set\n\n"
@@ -171,16 +174,25 @@ def main() -> int:
                    ["Source", "Finds (active)", "Recall (active)", "Finds (all real VCs)", "Recall (all real VCs)"],
                    [[s, sources[s], pct(sources[s], len(ref)), k, pct(k, len(ref_all))] for s, k in sources_all.most_common()]))
 
-    # 7. Reviews
-    m1 = [r for r in reviews if r[0] in {p[0] for p in pub}]
-    m2 = [r for r in reviews if r[0] not in {p[0] for p in pub}]
+    # 7. Reviews (split by the sample files, so later rebuilds do not move records between M1 and M2)
+    m1_keys, m2_keys = set(), set()
+    for sample_file in (PROJECT_ROOT / "data" / "curated" / "reviews").rglob("_sample.json"):
+        s = json.loads(sample_file.read_text(encoding="utf-8"))
+        m1_keys |= set(s.get("m1", []))
+        m2_keys |= set(s.get("m2", []))
+    m1 = [r for r in reviews if r[0] in m1_keys]
+    m2 = [r for r in reviews if r[0] in m2_keys]
     decided = [r for r in m1 if r[2] != "unsure"]
     out.append("\n## 7. Independent review\n\n" + table(
         ["Measure", "Value"],
         [["M1 record precision (published records judged correct)", ci(sum(r[2] == "correct" for r in decided), len(decided))],
          ["M1 unsure", sum(r[2] == "unsure" for r in m1)],
-         ["M2 wrongly excluded (excluded/unverified judged to be an active VC)",
-          ci(sum(r[3].get("decision_correct") is False for r in m2), len([r for r in m2 if r[3].get('decision_correct') is not None]))]]))
+         ["M2 wrongly excluded active investors (decision wrong, and the reviewer found it invests and is active)",
+          ci(sum(r[3].get("decision_correct") is False and r[3].get("invests_in_companies") is True
+                 and r[3].get("active_24m") is True for r in m2), len(m2))],
+         ["M2 other decision errors (e.g. unverified that could be decided)",
+          sum(r[3].get("decision_correct") is False and not (r[3].get("invests_in_companies") is True
+              and r[3].get("active_24m") is True) for r in m2)]]))
     field_rows = []
     for field in ("sector_focus", "stage_focus", "ticket_size", "capital", "activity_evidence"):
         vals = Counter(r[3].get(field) for r in m1)
@@ -190,10 +202,51 @@ def main() -> int:
         vals = Counter(r[3].get(field) for r in m1)
         field_rows.append([field, ci(vals[True], vals[True] + vals[False]), vals[None], ""])
     out.append("\nM1 accuracy by check:\n\n" + table(["Check", "Accuracy", "Unverifiable / null", "n/a"], field_rows))
+    # Which reviewer findings do the (tightened) automated checks now catch on their own?
+    failed = defaultdict(set)
+    for key, code in checks_by_key:
+        failed[key].add(code)
+    status_of = {r[0]: r[6] for r in inv}
+    bad_records = [r for r in m1 if r[2] == "incorrect"]
+    caught_records = [r for r in bad_records if status_of.get(r[0]) != "active" or failed[r[0]] & {"V1", "V4"}]
+    bad_capital = [r for r in m1 if r[3].get("capital") == "incorrect"]
+    caught_capital = [r for r in bad_capital if "V5" in failed[r[0]]]
+    bad_activity = [r for r in m1 if r[3].get("activity_evidence") == "incorrect"]
+    caught_activity = [r for r in bad_activity if status_of.get(r[0]) != "active" or "V4" in failed[r[0]]]
+    out.append("\nReviewer findings that the automated checks (as tightened after the review) now catch without a human:\n\n" + table(
+        ["Finding", "Caught automatically", "Records"],
+        [["Record judged incorrect", f"{len(caught_records)}/{len(bad_records)}", ", ".join(r[0] for r in bad_records)],
+         ["Capital field incorrect", f"{len(caught_capital)}/{len(bad_capital)}", ", ".join(r[0] for r in bad_capital)],
+         ["Activity evidence incorrect", f"{len(caught_activity)}/{len(bad_activity)}", ", ".join(r[0] for r in bad_activity)]]))
     issues = [f"- `{r[0]}` ({r[2]}): {r[4]}" for r in reviews if r[2] != "correct" or any(
         v in ("incorrect", False) for v in r[3].values())]
     if issues:
         out.append("\nReviewer findings:\n\n" + "\n".join(issues))
+
+    # 8. Published records with their proof of investing
+    with connect() as conn:
+        published = conn.execute(
+            """select name, hq_country, array_to_string(flags, ', '), array_to_string(sector_focus, ', '),
+                      array_to_string(stage_focus, ', '), ticket_min, ticket_max, ticket_currency, ticket_method,
+                      capital_amount, capital_currency, capital_basis, capital_method, last_activity_date,
+                      last_activity, last_activity_url, confidence
+               from core.investor_card where published order by hq_country, name""").fetchall()
+
+    def money(lo, hi, cur):
+        fmt = lambda v: f"{float(v) / 1e6:g}m" if v >= 1e6 else f"{float(v) / 1e3:g}k"
+        if lo is None and hi is None:
+            return "not disclosed"
+        return f"{cur} {fmt(lo) if lo is not None else '?'}–{fmt(hi) if hi is not None else '?'}" if lo != hi else f"{cur} {fmt(lo)}"
+
+    rows = []
+    for (name, country, flags, sectors, stages, tmin, tmax, tcur, tmeth, camt, ccur, cbasis, cmeth, last, what, url,
+         conf) in published:
+        ticket = money(tmin, tmax, tcur) + (f" ({tmeth})" if tmeth and tmeth != "not_disclosed" else "")
+        capital = (money(camt, camt, ccur) + f" {cbasis} ({cmeth})") if camt is not None else "not disclosed"
+        rows.append([f"{name}" + (f" ({flags})" if flags else ""), country, sectors, stages, ticket, capital,
+                     f"{last} — [{what}]({url})" if url else str(last), conf])
+    out.append("\n## 8. Published records and their proof of investing\n\n" + table(
+        ["Investor", "HQ", "Sectors", "Stages", "Ticket", "Capital", "Latest dated activity (source)", "Confidence"], rows))
 
     OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(PROJECT_ROOT)}")

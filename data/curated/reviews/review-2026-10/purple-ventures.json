@@ -1,0 +1,20 @@
+{
+  "investor_key": "purple-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "Brno office, pre-seed/seed, EUR 250-400k initial ticket confirmed on homepage; Kilde (E15 2025-10-27), Fether Labs (Euro.cz 2026-05-27) and Rightcharge rounds verified. capital: CZK 700m is the amount raised to date (Finance.cz 2026-03-12) in a still-open raise toward the EUR 40m target (fundraising to end in 2026); an interim close is presented as latest_fund_size."
+}

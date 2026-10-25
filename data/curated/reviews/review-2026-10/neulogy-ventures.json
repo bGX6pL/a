@@ -1,0 +1,20 @@
+{
+  "investor_key": "neulogy-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": false,
+    "type_correct": true,
+    "decision_correct": false,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "incorrect"
+  },
+  "notes": "active_24m/activity_evidence: the only in-window event is StratifAI dated '2025-01-01', a placeholder made up from the portfolio label 'Invested: 2025'. The dated public record says Neulogy co-led StratifAI's EUR 1.5m pre-seed announced 2024-09-02 (Signalbase; LinkedIn post), i.e. before the window; StratifAI's next round (EUR 12.5m, 2025-09-30, Picus/Alven) lists existing investors Debiopharm, Arve Capital and C. Haarburger but not Neulogy (GenomeWeb/360Dx, TU Dresden). All other portfolio pages show 2023 or earlier, BeIT/BiteBerry 2024; searches found no 2025-2026 deal or fund close. The EIF list showing an investment period to 14/03/2027 avoids E7 but is not a dated I3 event. decision: under 'precision beats breadth' and I3 this should be unverified, not published - the analyst noted the conflict yet included it. Fields: ticket EUR 200k-3m and EUR 65m AUM are on the own about-us page (AUM undated); sector/stage acceptable."
+}

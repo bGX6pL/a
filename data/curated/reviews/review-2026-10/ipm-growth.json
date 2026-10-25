@@ -1,0 +1,20 @@
+{
+  "investor_key": "ipm-growth",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": false,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E7 holds. CB Insights lists IPM Growth deals up to Hilo EV (seed, 2022-06-14); earlier InoBat 2020, Wildcat Discovery 2019, Tachyum 2018; HQ London. IPM Group did join InoBat's Series C (release dated 2024-12-20, inside the window), but InoBat is majority-owned by IPM Holding / Marián Boček (IPM co-founder and an IPM Growth MD), so this is a captive group stake (E6), not independent VC activity. Tachyum's Oct-2025 Series C names no investor. Correction to the notes: the InfraPartners link is not spurious; 2018 Tachyum coverage (HPCwire, CB Insights) calls IPM Growth the VC arm of InfraPartners Management LLP, with Adrian Vyčítal joining Tachyum's board. Possible S2 (London HQ)."
+}

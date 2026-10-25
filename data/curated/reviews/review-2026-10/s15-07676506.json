@@ -1,0 +1,20 @@
+{
+  "investor_key": "s15-07676506",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E8 stays. ARES VR: owners and officers are Ladislav Skobla and Petr Šindelka (Liberec), registered 2018-11-28, §15 asset-management purpose. Web searches on the name and the people found nothing; liminerpro.cz / liminer.cz do not resolve, and liminer.com is unrelated. No public evidence either way."
+}

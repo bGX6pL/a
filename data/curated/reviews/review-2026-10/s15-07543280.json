@@ -1,0 +1,20 @@
+{
+  "investor_key": "s15-07543280",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E8 stays. ARES VR: sole owner fintechpay s.r.o. (IČO 10752226, Praha 1); managing director Lukáš Danč since 2025-09-03; §15 purpose only. Searches on the name, owner and person and probes of fintechbaselab.cz/.com found nothing (fintechpay.cz returns 502). No evidence either way."
+}

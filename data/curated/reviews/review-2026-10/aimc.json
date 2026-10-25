@@ -1,0 +1,20 @@
+{
+  "investor_key": "aimc",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": false,
+    "active_24m": false,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion holds (E3/E7; E10 is a reasonable group-overlap code). The manager's only fund, Across Heritage Fund, mainly holds tradable securities and has been in liquidation since 2026-04-30 (RÚZ). Its small non-tradable stakes are in IPM GF vehicles, not startups. No VC activity found."
+}

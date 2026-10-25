@@ -1,0 +1,20 @@
+{
+  "investor_key": "wood-and-company",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": false,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion holds, but E1 alone is incomplete. WOOD runs a 'Venture Investments' unit (wood.cz/sluzby/venture-investments: dozens of companies, tens of millions EUR; Pilulka, Snuggs, Rohlik, Fruitisimo, Eseye, LutherOne) and has held direct startup stakes. Its latest direct deals found are 2023 (Caplight: Aireen VC round Jun 2023, Snuggs Feb 2023, Window Holding buyout Aug 2023). Snuggs' Feb 2025 round names only TripleB. Venture activity now appears to be client products and fund-of-funds allocations (WOOD Venture One certificates, as reported). Better codes: E7 for the direct book + E5/E2, with no dated direct investment on/after 2024-10-25."
+}

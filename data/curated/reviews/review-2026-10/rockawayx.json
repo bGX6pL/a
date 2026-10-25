@@ -1,0 +1,20 @@
+{
+  "investor_key": "rockawayx",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": false,
+    "decision_correct": false,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "type_correct: RockawayX is a ~USD 2bn multi-strategy digital-asset firm whose dominant activity is liquid crypto: Liquid Opportunities long/short fund (Cayman), Market Neutral fund (Liechtenstein), vault curation, validator/infrastructure; in 2026 it acquired hedge fund Relayer Capital and is raising a USD 150m hedge fund (cryptobriefing). The VC arm (VC II USD 125m, which itself buys liquid tokens and other funds) is a minority. Under plan s.3 the primary type follows the dominant activity (E3 crypto trading), with vc at most secondary, so inclusion in the VC pilot is wrong. Fields: VC II USD 125m close Q1 2025 verified (not the 2bn AUM); OnRe USD 5m Series A co-lead and Silhouette pre-seed lead verified."
+}

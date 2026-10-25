@@ -1,0 +1,20 @@
+{
+  "investor_key": "zaka-vc",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "Prague-registered fund vehicle and Prague office (site lists Silicon Valley/London/Prague/Bratislava); Vetstor pre-seed (Apr 2025) and EUR 1m round (CzechCrunch 2025-12-09: 'Ty' = Zaka VC and Purple Ventures) verified; Readmio Feb 2026 also seen (Vestbee). capital: EUR 10.5m is the June 2024 first closing of a EUR 15m-target fund (tech.eu 2024-07-19 'first closing') presented as latest_fund_size; the investor's own site now states fund size '17M' (Fund 1: 17M, 8M invested, 46 companies). Ticket: nothing public per startup (EUR 130k is the LP minimum)."
+}

@@ -8,9 +8,12 @@ Checks written to core.check_result (passed true/false, or null when not applica
   V1  registry match: a Czech/Slovak legal entity exists in ARES / RÚZ / NBS / JERRS under a matching name
       and is not dissolved
   V3  quote match: share of evidence quotes found on the re-fetched page (fetch.evidence)
-  V4  activity: latest fund event or investment on/after the window start, its evidence verified,
-      and no evidence published long before the event it reports
-  V5  consistency: a "latest fund size" capital value matches a listed fund
+  V4  activity: latest investment or fund close / commitment on/after the window start (launches and
+      year-only 1 January placeholders do not count), its evidence verified, and no evidence published
+      long before the event it reports
+  V5  consistency: a "latest fund size" capital value matches a listed fund's final close; when it is a
+      first close, target or launch the card shows that basis instead
+  M1  manual review: a record a reviewer judged incorrect is not published
   V6  plausibility: ticket <= capital, sane magnitudes
   V7  de-duplication: no other publishable record shares an IČO or website domain
 Confidence = 0.30 identity + 0.30 verified activity + 0.25 quote-match rate + 0.15 plausibility/consistency.
@@ -31,7 +34,8 @@ from investordb.load_dossiers import ACTIVITY_WINDOW_START
 
 PUBLISH_THRESHOLD = 0.6
 PUBLISHABLE_PILOTS = {"cz-vc", "sk-reference"}
-ACTIVITY_EVENTS = {"first_close", "final_close", "launch", "commitment"}
+# Fund events that prove activity. A launch / "opened to investors" does not (pilot review finding).
+ACTIVITY_EVENTS = {"first_close", "final_close", "commitment"}
 NAME_NOISE = re.compile(
     r"osoba rizikov[eé]ho kapit[aá]lu|spr[aá]vca podlimitn[yý]ch rizikov[yý]ch fondov|investi[cč]n[ií] spole[cč]nost|"
     r"investi[cč]n[yý] fond s premenliv[yý]m z[aá]kladn[yý]m imanim|s\.?\s?r\.?\s?o\.?|a\.?\s?s\.?|spol\.|k\.?s\.?|"
@@ -149,6 +153,11 @@ def main() -> int:
             if domain(website):
                 site_owners[domain(website)].add(key)
 
+        reviews = defaultdict(list)
+        for key, verdict, reviewer, notes in conn.execute(
+                "select investor_key, verdict, reviewer, notes from core.review").fetchall():
+            reviews[key].append((verdict, reviewer, notes))
+
         results, cards = [], []
         for (inv_id, key, pilot, decision, itype, website, name, corp, public, accel, country, rule_codes) in d["investors"]:
             checks = []
@@ -164,6 +173,11 @@ def main() -> int:
 
             events = [(f[5], f"fund {f[4]}: {f[1]}", f[6]) for f in funds[inv_id] if f[5] and f[4] in ACTIVITY_EVENTS]
             events += [(i[2], f"investment: {i[1]}" + (f" ({i[3]})" if i[3] else ""), i[4]) for i in invs[inv_id] if i[2]]
+            # A 1 January date that is not also the evidence's publication date is a year-only placeholder:
+            # it cannot prove activity inside the window (pilot review finding).
+            placeholders = [e for e in events if e[0].month == 1 and e[0].day == 1
+                            and not ((ev := ev_by_id.get(e[2])) and ev[4] == e[0])]
+            events = [e for e in events if e not in placeholders]
             events.sort(key=lambda e: e[0], reverse=True)
             last = events[0] if events else None
             status = "unknown" if not last else ("active" if last[0] >= ACTIVITY_WINDOW_START else "inactive")
@@ -171,18 +185,33 @@ def main() -> int:
             activity_verified = bool(last_ev and last_ev[5] and last_ev[3] in "ABC")
             predating = [e for e in events if (ev := ev_by_id.get(e[2])) and ev[4] and ev[4] < e[0] - dt.timedelta(days=31)]
             checks.append(("V4", (status == "active" and activity_verified and not predating) if last else None,
-                           f"last activity {last[0]} ({last[1]}); evidence {'verified' if activity_verified else 'not verified by script'}"
-                           + (f"; {len(predating)} event(s) dated after their evidence" if predating else "") if last else "no dated activity"))
+                           (f"last activity {last[0]} ({last[1]}); evidence {'verified' if activity_verified else 'not verified by script'}"
+                            + (f"; {len(predating)} event(s) dated after their evidence" if predating else "") if last
+                            else "no dated activity")
+                           + (f"; {len(placeholders)} year-only date(s) ignored" if placeholders else "")))
 
             capital = facts[inv_id].get("capital")
             ticket = facts[inv_id].get("ticket_size")
             cap_v = capital[0] if capital and isinstance(capital[0], dict) else None
             tic_v = ticket[0] if ticket and isinstance(ticket[0], dict) else None
-            v5 = None
+            # A "latest fund size" must be a final close: first closes, targets and launches were the most
+            # common capital error in the pilot review.
+            v5, v5_detail = None, "no listed fund to compare"
             if cap_v and cap_v.get("basis") == "latest_fund_size":
-                sizes = [float(f[2]) for f in funds[inv_id] if f[2] is not None and f[3] == cap_v.get("currency")]
-                v5 = any(abs(s - float(cap_v["amount"])) <= 0.05 * float(cap_v["amount"]) for s in sizes) if sizes else None
-            checks.append(("V5", v5, "capital matches a listed fund" if v5 else ("no listed fund to compare" if v5 is None else "capital differs from every listed fund size")))
+                amount = float(cap_v["amount"])
+                matching = [f for f in funds[inv_id] if f[2] is not None and f[3] == cap_v.get("currency")
+                            and abs(float(f[2]) - amount) <= 0.05 * amount]
+                listed = [f for f in funds[inv_id] if f[2] is not None and f[3] == cap_v.get("currency")]
+                if matching:
+                    final = any(f[4] == "final_close" for f in matching)
+                    v5 = final
+                    if not final:  # publish the figure for what it is
+                        cap_v = {**cap_v, "basis": sorted({f[4] for f in matching})[0]}
+                    v5_detail = ("capital matches a final close" if final else
+                                 f"capital is a {'/'.join(sorted({f[4] for f in matching}))}, not a final fund size")
+                elif listed:
+                    v5, v5_detail = False, "capital differs from every listed fund size"
+            checks.append(("V5", v5, v5_detail))
 
             problems = []
             if cap_v and not (1e5 <= float(cap_v.get("amount") or 0) <= 1e11):
@@ -200,12 +229,19 @@ def main() -> int:
             checks.append(("V7", not dups if pilot in PUBLISHABLE_PILOTS else None,
                            f"shares an IČO or domain with {', '.join(dups)}" if dups else "unique"))
 
+            # Manual review gate: a record a reviewer judged incorrect is withheld until it is fixed.
+            verdicts = reviews.get(key, [])
+            if verdicts:
+                bad = [v for v in verdicts if v[0] == "incorrect"]
+                checks.append(("M1", not bad, "; ".join(f"{v[1]}: {v[2]}" for v in bad)[:1000] if bad else "reviewed: correct"))
+
             identity = 0.30 if v1 else (0.15 if v1 is None and any(e[3] in "AB" and e[5] for e in evid) else 0.0)
             activity = 0.30 if activity_verified and status == "active" else (0.15 if status == "active" else 0.0)
             sanity = 0.15 * (0.0 if (checks[4][1] is False or checks[3][1] is False) else 1.0)
             confidence = round(identity + activity + 0.25 * rate + sanity, 3)
             published = (decision == "include" and status == "active" and pilot in PUBLISHABLE_PILOTS
-                         and confidence >= PUBLISH_THRESHOLD and checks[5][1] is not False)
+                         and confidence >= PUBLISH_THRESHOLD and checks[5][1] is not False
+                         and not any(c == "M1" and p is False for c, p, _ in checks))
             results += [(inv_id, code, passed, detail) for code, passed, detail in checks]
 
             def fv(field):

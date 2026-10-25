@@ -1,0 +1,20 @@
+{
+  "investor_key": "jsk-investments",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": false,
+    "decision_correct": false,
+    "sector_focus": "incorrect",
+    "stage_focus": "incorrect",
+    "ticket_size": "incorrect",
+    "capital": "not_applicable",
+    "activity_evidence": "correct"
+  },
+  "notes": "Wrongly excluded. JSK runs a dedicated VC fund: JSK Investments Venture Capital Fund I, a ČNB-supervised SICAV sub-fund with its own site (jskinvestments.ventures) and its own team (Investment Director Petra Cihlářová, analyst) at Klimentská 46, Praha 1. It invests early stage to Series B in health and frontier tech, from EUR 300k initial tickets, with a EUR 20m target (EUR 10m internal) and 'capital managed independently' from the PE strategy. Portfolio: inTouch, Elin.ai, iSono Health, Vetstor (2025-12), Lightly, Andromeda Surgical (Series A, 2026), MintNeuro (2026-10-09). The S1 ground 'private investor with own capital' is factually wrong: the SICAV takes qualified-investor money (min EUR 125k; cc.cz 'Investujte jako Simona Kijonková'). The VC arm meets the vc definition and should be included, as CVC arms are (vc + flag). Counter-view: by target capital the PE fund (EUR 100m) dominates, which would give pe + S1. Even then, type private_investor is wrong. Fields: sector, stage and ticket are public on the VC fund site, but the record says not disclosed."
+}

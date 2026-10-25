@@ -1,0 +1,20 @@
+{
+  "investor_key": "zero-one-hundred",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "Offices in Czechia, Slovakia, Cyprus, UAE (own site); Slovak manager Zero Gravity Capital s.r.o. and Slovak portfolio (Biteberry, Medannot, Vestberry). Fund II 'vehicle worth EUR 25m' (MamStartup 2025-09-24); no source found saying it is only a target, accepted. Readmio EUR 1m with Zero One Hundred (Vestbee 2026-02-05) verified. Note: the five Fund II deals carry the launch-article date, not deal dates; Vestberry is a related-party deal (0100 holding)."
+}

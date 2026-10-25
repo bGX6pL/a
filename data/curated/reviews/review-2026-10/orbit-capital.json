@@ -1,0 +1,20 @@
+{
+  "investor_key": "orbit-capital",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": false,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "Wrongly excluded under the written rules. Orbit is a Prague/Warsaw manager typed vc, with an equity portfolio (Booksy, Mews, Preply, Rohlik) that satisfies I2. E4 covers debt-ONLY lenders, and Orbit runs a growth-equity fund too. E7 needs no activity in 24 months, but Orbit closed Growth Debt II twice in the window (first close 2025-05-27, second close EUR 107m 2026-07-02); I3 counts fund closes. It is also deploying in Czechia: Sloneek round co-led with VFF (2026-06-16), IAG, and a debt tranche in Jutro Medical's Series A extension (Dec 2025). This is a policy-dependent call: if the pilot decides venture-debt-only activity is out of scope, it becomes correct. No new growth-equity deal since 2024-10-25 was found (the equity team page lists no deal staff). Capital: EUR 107m is an interim (second) close of the DEBT fund, paired with the EQUITY ticket; marked incorrect."
+}

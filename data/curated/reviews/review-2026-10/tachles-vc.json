@@ -1,0 +1,20 @@
+{
+  "investor_key": "tachles-vc",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "Team page lists Tel Aviv, Prague and Atlanta offices; both managing partners Czech; Boost.space EUR 3m round (CzechCrunch 2025-10-09) names Tachles VC - Czech activity in window. capital: CZK 500m is the closed 'first phase' (CzechCrunch 2024-06-13) of a fund that remained open to further investors - a first close presented as latest_fund_size."
+}

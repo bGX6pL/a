@@ -13,6 +13,9 @@
     {"task": "pilot: CZ CVCA full members (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 297444, "minutes": 35.9, "records": 26},
     {"task": "pilot: SK NBS registered managers screen", "phase": "screening", "tokens": 383900, "minutes": 40.9, "records": 31},
     {"task": "pilot: CZ research seed list + CVCA associate investors", "phase": "dossiers", "tokens": 470218, "minutes": 43.6, "records": 24},
-    {"task": "pilot: SK reference set (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 366719, "minutes": 52.2, "records": 21}
+    {"task": "pilot: SK reference set (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 366719, "minutes": 52.2, "records": 21},
+    {"task": "review: M1 batch B (15 published records)", "phase": "review", "tokens": 227264, "minutes": 16.3, "records": 15},
+    {"task": "review: M2 exclusions (20 records)", "phase": "review", "tokens": 217349, "minutes": 17.1, "records": 20},
+    {"task": "review: M1 batch A (15 published records)", "phase": "review", "tokens": 262151, "minutes": 17.9, "records": 15}
   ]
 }

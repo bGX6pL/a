@@ -57,7 +57,13 @@ uv run python -m investordb.check_links  # re-fetch every evidence URL, log to m
 
 ### Investor pipeline (Task A)
 
-Plan and rules: [docs/task-a-plan.md](docs/task-a-plan.md); dossier format: [docs/dossier-format.md](docs/dossier-format.md).
+| Document | |
+|---|---|
+| [docs/task-a-plan.md](docs/task-a-plan.md) | plan: who is in and out (I1–I5, E1–E11), evidence standard, verification, coverage and reliability estimate, revisions after the pilot |
+| [docs/task-a-pilot-results.md](docs/task-a-pilot-results.md) | pilot on Czech VC with Slovakia as reference: results, measured accuracy, limits |
+| [docs/pilot-metrics.md](docs/pilot-metrics.md) | generated metrics and every published record with its dated proof of investing |
+| [docs/global-expansion-cost.md](docs/global-expansion-cost.md) | cost of expanding worldwide |
+| [docs/dossier-format.md](docs/dossier-format.md), [docs/review-protocol.md](docs/review-protocol.md) | analyst dossier format, review protocol |
 
 ```powershell
 uv run python -m investordb.fetch.jerrs --date 2026-10-25 --from-file s15_managers=<saved.html>  # ČNB lists (CAPTCHA: see --help)
