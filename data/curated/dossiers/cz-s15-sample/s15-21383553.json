@@ -1,0 +1,58 @@
+{
+  "investor_key": "s15-21383553",
+  "pilot": "cz-s15-sample",
+  "name": "HDK Capital",
+  "aliases": [
+    "HDK Capital, osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://hdkcapital.cz/",
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "Website gives only a generic 'quality assets' strategy with no asset class, portfolio or deals, so I2 cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "HDK Capital, osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "21383553",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21383553",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "HDK Capital, osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://hdkcapital.cz/",
+      "publisher": "HDK Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "HDK Capital je alternativní fond zaměřený na dlouhodobé investice do kvalitních aktiv.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "hdkcapital.cz is a template-like page ('Doplníme podle finálního nastavení fondu') naming no asset class, holdings or transactions. ARES: datumVzniku 2024-03-20, czNace 00, 6820 (real-estate rental), which may hint at property but is not proof.",
+  "researched_on": "2026-10-25"
+}

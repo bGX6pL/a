@@ -1,0 +1,95 @@
+{
+  "investor_key": "g4-investments",
+  "pilot": "sk-reference",
+  "name": "G4 Investments",
+  "aliases": [
+    "G4 INVESTMENTS s. r. o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.g4.sk/",
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "Small Bratislava s.r.o. (SLOVCA associate member) with consulting/lending/real-estate trade licences and about EUR 324k of long-term financial assets, but no public source names any portfolio company or investment, so investing in private companies (I2) cannot be shown.",
+  "discovered_via": [
+    "research-seed",
+    "slovca"
+  ],
+  "legal_entities": [
+    {
+      "name": "G4 INVESTMENTS s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "46753346",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1226941",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "G4 INVESTMENTS s. r. o. - IČO: 46753346",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1226941",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "SK NACE: 82990 Ost.pomocné obchod.čin.",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.slovca.sk/sk/pridruzeni-clenovia/g4-investments.html",
+      "publisher": "SLOVCA (member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "G4 INVESTMENTS s.r.o. Address: Chalupkova 7981/4 811 09 Bratislava Slovak Republic",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Identity: ORSR extract (https://www.orsr.sk/vypis.asp?ID=240710&SID=2&P=0, not quoted because it is served in windows-1250 without a charset header) shows G4 INVESTMENTS s. r. o., IČO 46 753 346, registered 24.07.2012, seat Chalupkova 7981/4 Bratislava (same as the SLOVCA profile), sole shareholder and managing director Ing. Karol Gogolák, MBA; trade licences cover consulting, intermediation, financial leasing, lending from own funds, factoring, real-estate brokerage and sports facilities - no AIF registration (not on the NBS register export of 2026-10-24). RÚZ micro accounts 2025 (structured data, statement 6878819): total assets EUR 367,879, of which long-term financial assets EUR 324,032; revenue EUR 96k - consistent with a small private holding/consultancy, possibly a personal investment vehicle (would be private_investor rather than vc). The website www.g4.sk did not respond (connection timeout on 2026-10-25), and the SLOVCA profile gives no investment strategy. Web-search budget for the session was exhausted before further news searches could be run, so press coverage of G4 deals was not checked; re-screen if a portfolio or deal is found.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,150 @@
+{
+  "investor_key": "g-force",
+  "pilot": "sk-reference",
+  "name": "G-Force",
+  "aliases": [
+    "G-Force, s. r. o.",
+    "G-Force Fund, j. s. a.",
+    "G-Force VC"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": true
+  },
+  "hq_country": "SK",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Real climate-tech pre-seed VC/program (with Founders Factory) managing the EuVECA fund G-Force Fund j.s.a., but its statements show no new investment in 2025 and no dated deal since Oct 2024 was found.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "G-Force, s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53527798",
+      "role": "manager"
+    },
+    {
+      "name": "G-Force Fund, j. s. a.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53588398",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "energy_climate"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "Europe",
+      "global"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": null,
+      "max": 150000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://techcrunch.com/2021/09/06/founders-factory-and-g-force-launch-seed-program-for-climate-focused-startups/",
+      "publisher": "TechCrunch",
+      "published_on": "2021-09-06",
+      "source_class": "C",
+      "quote": "Launched in partnership with G-Force (the “G” is for “green”) based out of Bratislava, Slovakia, the program will look to invest in and accelerate climate tech startups.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://techcrunch.com/2021/09/06/founders-factory-and-g-force-launch-seed-program-for-climate-focused-startups/",
+      "publisher": "TechCrunch",
+      "published_on": "2021-09-06",
+      "source_class": "C",
+      "quote": "In partnership with G-Force, Founders Factory Sustainability Seed Program will be a leading pre/seed program committed to building and supporting the ventures that will have a positive impact on the world.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://techcrunch.com/2021/09/06/founders-factory-and-g-force-launch-seed-program-for-climate-focused-startups/",
+      "publisher": "TechCrunch",
+      "published_on": "2021-09-06",
+      "source_class": "C",
+      "quote": "Startups selected for the program will get a seed investment of up to €150,000, six months of startup support using Founders Factory’s team, as well as introductions to potential customers, partners, corporates and investors.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12786796",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "G-Force Fund, j. s. a. je európsky fond rizikového kapitálu (EuVECA) s právnou formou",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://techcrunch.com/2021/09/06/founders-factory-and-g-force-launch-seed-program-for-climate-focused-startups/",
+      "publisher": "TechCrunch",
+      "published_on": "2021-09-06",
+      "source_class": "C",
+      "quote": "The idea is that any ecotech venture in any location in the world can apply and join the program.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.orsr.sk/vypis.asp?ID=659572&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Zhromažďovanie peňažných prostriedkov od investorov s cieľom investovať ich v súlade s určenou investičnou politikou v prospech osôb, ktorých peňažné prostriedky boli zhromaždené podľa zákona č. 203/2011 Z.z. o kolektívnom investovaní",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Founders Factory"
+  ],
+  "analyst_notes": "Inactivity basis: G-Force Fund j.s.a. 2025 cash-flow statement (RÚZ attachment 12786796) shows no payments for acquisitions of financial investments in 2025 (EUR 50k in 2024, EUR 100k in 2023, dates within the year unknown); portfolio at end-2025 EUR 1.46m (shares, stakes, convertible loans), no events after year-end. The manager G-Force s.r.o. (owner Global Connect Corporation SK, linked to Marian Gazdík) holds the fund and a token stake in Climate Karma Solutions Inc.; its 2025 income is mostly grants. Website gforce.vc is listed for sale. Crowdfund Insider (Oct 2023) reported a EUR 20m 'G-Force Fund II' open from May 2023; no Slovak vehicle for it was found in ORSR and no 2025-26 deals were found - if Fund II deals after 2024-10-25 surface, re-screen as include. Global Connect Corporation SK is also a shareholder of IPM Growth (sk-reference/ipm-growth). Web search budget exhausted during the screen.",
+  "researched_on": "2026-10-25"
+}

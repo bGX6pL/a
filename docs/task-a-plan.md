@@ -65,6 +65,10 @@ capital) get the type of the dominant activity plus `secondary_types`.
 | **E10** | Duplicates | Fund vehicles and alternative legal entities merged into the investor record |
 | **E11** | Private persons without professional footprint | Natural persons with no public professional-capacity investing record (GDPR: no profiling of private individuals) |
 
+Pilot scope codes (the candidate *is* a real investor and keeps its type, but is outside a pilot):
+**S1** — not the pilot's investor type (e.g. PE or debt in a VC pilot); **S2** — no office or activity
+in the pilot country.
+
 ## 6. Fields and evidence standard
 
 | Field | Content | Rule |
@@ -165,6 +169,8 @@ in the country and investment activity in it, active in the last 24 months.
 
 1. **Registers** (scripts): ČNB JERRS lists (§15 sub-threshold managers, investment companies),
    ARES for every Czech IČO, NBS daily register export, RÚZ for every Slovak IČO, CVCA member profiles.
+   JERRS answers repeated automated requests with a CAPTCHA; the fetcher stops there and imports list
+   pages saved from a browser instead (production route: WS JERRS with a ČNB certificate).
 2. **Candidates**: union of CVCA members, the research seed list, public LP releases (EIF, NRI, NPO,
    SIH), deal news and co-investors seen in dossiers.
 3. **Dossiers**: for every candidate, a JSON dossier with legal entities, type, focus, ticket, capital,

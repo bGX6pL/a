@@ -1,0 +1,58 @@
+{
+  "investor_key": "bridgewood-holding",
+  "pilot": "sk-reference",
+  "name": "BRIDGEWOOD HOLDING investičný fond",
+  "aliases": [
+    "BRIDGEWOOD HOLDING investičný fond s premenlivým základným imaním a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Self-managed fund 100% owned by Assets Solution, a. s. whose 2025 balance sheet holds only its EUR 125k initial capital in cash; no strategy or investment is public.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "BRIDGEWOOD HOLDING investičný fond s premenlivým základným imaním a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54014999",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=598507&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Assets Solution, a. s. IČO: 47 588 683",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12904276",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Popis činnosti a stratégia: vykonávanie kolektívneho investovania podľa zákona č. 203/2011",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Dormant since 2021: cash EUR 125,000 = registered capital, equity EUR 124k. Single corporate owner - if it ever invests, likely a captive group holding (E6). Not in the Bank of Spain fund list.",
+  "researched_on": "2026-10-25"
+}

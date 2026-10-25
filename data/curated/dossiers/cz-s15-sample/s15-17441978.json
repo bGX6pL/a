@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-17441978",
+  "pilot": "cz-s15-sample",
+  "name": "Robuxio",
+  "aliases": [
+    "ROBUXIO CAPITAL MANAGEMENT, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://robuxio.com/capital",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Runs algorithmic crypto (and equities) trading portfolios for qualified investors.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "ROBUXIO CAPITAL MANAGEMENT, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "17441978",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17441978",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "ROBUXIO CAPITAL MANAGEMENT, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://robuxio.com/capital",
+      "publisher": "Robuxio",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "A private alternative asset management vehicle providing qualified investors access to Robuxio's low volatility High Sharpe crypto portfolios denominated in either USDT or BTC, without operating exchange access, custody, or execution themselves.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "robuxio.com/capital presents 'Robuxio Capital Management' as the Prague-domiciled §15 ZISIF vehicle of the Robuxio group (ROBUXIO s.r.o.); 20+ systematic crypto-futures strategies, 2% / 20% fees. ARES czNace 66300.",
+  "researched_on": "2026-10-25"
+}

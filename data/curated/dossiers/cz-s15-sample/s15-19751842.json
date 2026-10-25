@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-19751842",
+  "pilot": "cz-s15-sample",
+  "name": "MoneyHome",
+  "aliases": [
+    "MoneyHome, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.moneyhome.cz/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Trades S&P 500 stocks for investors.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "MoneyHome, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19751842",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19751842",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "MoneyHome, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.moneyhome.cz/",
+      "publisher": "MoneyHome",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Obchodujeme akcie největších amerických společností sdružených do indexu S&P 500 s cílem vytvářet zisk v řádu desítek procent ročně.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Single-page site; footer names MoneyHome, osoba rizikového kapitálu, s.r.o. ARES czNace generic list incl. 66300.",
+  "researched_on": "2026-10-25"
+}

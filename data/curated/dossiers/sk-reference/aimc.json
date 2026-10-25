@@ -1,0 +1,85 @@
+{
+  "investor_key": "aimc",
+  "pilot": "sk-reference",
+  "name": "AIMC",
+  "aliases": [
+    "AIMC, s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3",
+    "E7",
+    "E10"
+  ],
+  "decision_note": "Across Finance-owned manager of Across Heritage Fund, a mixed fund holding mainly tradable securities that entered liquidation on 30 Apr 2026; no VC activity.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "AIMC, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53456149",
+      "role": "manager"
+    },
+    {
+      "name": "Across Heritage Fund, investičný fond s premenlivým základným imaním, a.s. v likvidácii",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53566009",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12948351",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Spoločnosť vstúpila dňa 30.4.2026 do likvidácie.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12948351",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Obchodovateľné akcie a CP",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.orsr.sk/vypis.asp?ID=558808&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Across Finance, a.s.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.orsr.sk/vypis.asp?ID=558892&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Across Private Investments, o.c.p., a.s.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "AIMC is 100% owned by Across Finance, a.s. (ORSR e3); the Bank of Spain list of Slovak funds names AIMC as manager of Across Heritage Fund (mixed, open-ended). Extraordinary IFRS statement at 29.04.2026 (RÚZ): tradable shares/securities EUR 6.84m vs non-tradable EUR 0.59m (stakes in IPM GF XIX a.s. and IPM GF XIV j.s.a.); liquidation from 30.4.2026 (e1). Group overlap: the fund is already listed in sk-reference/across-private-investments (another analyst, excluded E2/E3), hence E10.",
+  "researched_on": "2026-10-25"
+}

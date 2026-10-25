@@ -1,0 +1,155 @@
+{
+  "investor_key": "s15-09789561",
+  "pilot": "cz-s15-sample",
+  "name": "Soulmates Ventures",
+  "aliases": [
+    "Soulmates Ventures, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.soulmatesventures.com/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague impact seed/Series A VC (EUR 62m AUM, tickets up to EUR 3m); led Rightcharge's GBP 500k follow-on in September 2026.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "09789561",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.soulmatesventures.com/",
+      "publisher": "Soulmates Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We fund each company with an initial investment of up to €3,000,000 to improve systems and products that positively impact both people’s lives and the planet, focusing on key areas such as air, water, energy, mobility, education, healthcare, food and agriculture, and the circular economy.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.soulmatesventures.com/",
+      "publisher": "Soulmates Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Seed/SA",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.soulmatesventures.com/",
+      "publisher": "Soulmates Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "€62M",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.soulmatesventures.com/rightcharge-follow-on-round/",
+      "publisher": "Soulmates Ventures",
+      "published_on": "2026-09-07",
+      "source_class": "B",
+      "quote": "After 20x ARR growth, we’re doubling down. Why we led Rightcharge’s £500K follow-on round.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "BlackWood Ventures",
+    "Purple Ventures"
+  ],
+  "analyst_notes": "Legal entity of the Soulmates Ventures brand (privacy policy on soulmatesventures.com names Soulmates Ventures, osoba rizikového kapitálu, s.r.o.); the brand is researched in full by another analyst, so this s15 dossier is deliberately short. AUM as_of = retrieval date (page undated). Sectors mapped from the stated focus areas (air, water, energy, mobility, education, healthcare, food and agriculture, circular economy).",
+  "researched_on": "2026-10-25",
+  "sector_focus": {
+    "value": [
+      "energy_climate",
+      "mobility_logistics",
+      "edtech",
+      "healthtech",
+      "agrifood",
+      "impact_social"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": {
+      "min": null,
+      "max": 3000000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 62000000,
+      "currency": "EUR",
+      "basis": "aum",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Rightcharge",
+      "company_country": "GB",
+      "date": "2026-09-07",
+      "round": "follow-on",
+      "round_amount": 500000,
+      "currency": "GBP",
+      "evidence": "e5"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "investor_key": "czech-founders-vc",
+  "pilot": "cz-vc",
+  "name": "Czech Founders VC",
+  "aliases": ["Czech Founders Ventures s.r.o., osoba rizikového kapitálu"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://czechfounders.vc",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague pre-seed VC backed by founders of Mews, Livesport, Brand Embassy etc. (linked to the Czech Founders NGO); invested EUR 350k in Maxfusion (Jan 2026) and joined Merchantee's seed extension (Jun 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu", "country": "CZ", "registry": "CZ-ICO", "registry_id": "17051835", "role": "manager"},
+    {"name": "Czech Founders z.ú.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "09761187", "role": "other"}
+  ],
+  "sector_focus": {"value": ["software_saas", "ai_data"], "method": "derived", "evidence": ["e4", "e5", "e6"]},
+  "stage_focus": {"value": ["pre_seed"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": {"min": 50000, "max": 350000, "currency": "EUR"}, "method": "stated", "evidence": ["e1"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Merchantee", "company_country": "CZ", "date": "2026-06-09", "round": "seed", "round_amount": 30000000, "currency": "CZK", "evidence": "e5"},
+    {"company": "Maxfusion", "company_country": "CZ", "date": "2026-01-14", "round": "pre_seed", "round_amount": 350000, "currency": "EUR", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://czechfounders.vc/", "publisher": "Czech Founders VC", "published_on": null, "source_class": "B", "quote": "Pre-seed tickets. Typically €50-350k.", "language": "en"},
+    {"id": "e2", "url": "https://czechfounders.vc/", "publisher": "Czech Founders VC", "published_on": null, "source_class": "B", "quote": "Based in Central or Eastern Europe (CEE) & aiming for a global scale.", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/live/startupovi-czech-founders-spousti-dalsi-akceleraci-nabizi-investici-milion-korun/", "publisher": "CzechCrunch", "published_on": "2025-02-05", "source_class": "C", "quote": "Startupový fond Czech Founders VC otevírá další kolo přihlášek.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/umoznuji-hromadne-tvorit-videoreklamy-i-s-ai-herci-izraelci-buduji-startup-z-prahy-ziskali-investici/", "publisher": "CzechCrunch", "published_on": "2026-01-14", "source_class": "C", "quote": "Startup Maxifusion vyvíjí platformu pro automatizovanou tvorbu videoreklam a teď hlásí i získání investice 350 tisíc eur (8,4 milionu korun) od Czech Founders VC, andělského investora i samotných zakladatelů.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/", "publisher": "CzechCrunch", "published_on": "2026-06-09", "source_class": "C", "quote": "Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.", "language": "cs"},
+    {"id": "e6", "url": "https://rockawayventures.com/for-investors/", "publisher": "Rockaway Ventures (co-investor)", "published_on": null, "source_class": "C", "quote": "Backed by Rockaway Ventures and Czech Founders VC, Cruxo has secured funding to expand internationally.", "language": "en"}
+  ],
+  "co_investors_seen": ["Reflex Capital", "Lighthouse Ventures", "Ory Weihs", "Rockaway Ventures", "Purple Ventures", "Patero"],
+  "analyst_notes": "Ticket and stage from the investor's homepage focus block ('Pre-seed tickets. Typically €50-350k.'); CzechCrunch 2025-02-05 adds the Sherpa acceleration programme with an initial investment of about CZK 1m and follow-on up to about CZK 6m (the accelerator is part of the VC, so the accelerator flag is not set). Sector focus derived from cited portfolio companies (Maxfusion - AI video-ad platform, Merchantee - AI tools for marketplace sellers, Cruxo - retail-media SaaS); the site states no sector focus. Capital (fund size) not disclosed in the sources reviewed. Merchantee round amount is the CZK 30m seed extension (whole round). Maxfusion: CzechCrunch spells it 'Maxifusion' in the body and 'Maxfusion' in the headline. Distinct from United Founders, a new fund of Jakub Havrlant and Vít Horký (CzechCrunch 2025-11-04; CZK 430m committed, target in billions) - the Czech Founders VC homepage announces it ('We've launched United Founders!'); United Founders is not in this pilot list and was not researched further. Statutory body of the fund company: Vít Horký, Václav Pavlečka, Ivan Kristeľ.",
+  "researched_on": "2026-10-25"
+}

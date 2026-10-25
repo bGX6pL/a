@@ -1,0 +1,45 @@
+{
+  "investor_key": "luminova-ventures",
+  "pilot": "cz-vc",
+  "name": "Luminova Ventures",
+  "aliases": ["Luminova Ventures Fund I SCSp", "Luminova Ventures GP S.à r.l.", "Luminova a.s."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.luminovaventures.com/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-based dual-use/deep-tech defence and security VC (Luxembourg SCSp fund) that opened to investors in January 2026; portfolio of seven Israeli cyber/AI/defence startups.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Luminova a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23036982", "role": "manager"},
+    {"name": "Luminova Ventures GP S.à r.l.", "country": "LU", "registry": "OTHER", "registry_id": null, "role": "gp"},
+    {"name": "Luminova Ventures Fund I SCSp", "country": "LU", "registry": "OTHER", "registry_id": null, "role": "fund"}
+  ],
+  "sector_focus": {"value": ["defence_dualuse", "cybersecurity", "ai_data", "deeptech_hardware"], "method": "stated", "evidence": ["e2", "e3"]},
+  "stage_focus": {"value": ["pre_seed", "seed", "series_a"], "method": "derived", "evidence": ["e4", "e8"]},
+  "geography_focus": {"value": ["Europe", "IL", "US"], "method": "stated", "evidence": ["e4"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "Luminova Ventures Fund I SCSp", "size_amount": null, "currency": null, "event": "launch", "event_date": "2026-01-21", "evidence": "e6"}
+  ],
+  "investments": [
+    {"company": "DeepKeep", "company_country": "IL", "date": null, "round": "seed", "round_amount": null, "currency": null, "evidence": "e8"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.luminovaventures.com/", "publisher": "Luminova Ventures", "published_on": null, "source_class": "B", "quote": "Luminova Ventures strategically invests in emerging technologies that secure our digital future and national sovereignty.", "language": "en"},
+    {"id": "e2", "url": "https://www.luminovaventures.com/about", "publisher": "Luminova Ventures", "published_on": null, "source_class": "B", "quote": "Our mission is to identify and support breakthrough innovations in deep tech, AI, cybersecurity, quantum and defense technologies, providing startups with capital, support and access to our network.", "language": "en"},
+    {"id": "e3", "url": "https://www.lupa.cz/aktuality/v-cesku-odstartoval-novy-fond-mirici-na-obranne-a-deep-tech-inovace/", "publisher": "Lupa.cz", "published_on": "2026-01-21", "source_class": "C", "quote": "Luminova Ventures chce investovat do řešení od datové analytiky a kyberbezpečnosti po AI či postkvantovou kryptografii.", "language": "cs"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/v-cesku-odstartoval-novy-fond-mirici-na-obranne-a-deep-tech-inovace/", "publisher": "Lupa.cz", "published_on": "2026-01-21", "source_class": "C", "quote": "Cílí na ranější fáze a plánuje mezinárodní dosah napříč Evropou, Izraelem a USA.", "language": "cs"},
+    {"id": "e5", "url": "https://www.lupa.cz/aktuality/v-cesku-odstartoval-novy-fond-mirici-na-obranne-a-deep-tech-inovace/", "publisher": "Lupa.cz", "published_on": "2026-01-21", "source_class": "C", "quote": "Fond má český původ, je však strukturálně založen v Lucembursku.", "language": "cs"},
+    {"id": "e6", "url": "https://www.lupa.cz/aktuality/v-cesku-odstartoval-novy-fond-mirici-na-obranne-a-deep-tech-inovace/", "publisher": "Lupa.cz", "published_on": "2026-01-21", "source_class": "C", "quote": "Fond je nově otevřený investorům.", "language": "cs"},
+    {"id": "e7", "url": "https://www.luminovaventures.com/insights/czech-fund-luminova-ventures-opens-investor-access-to-dual-use-technologies-for-defense-and-business", "publisher": "Luminova Ventures", "published_on": null, "source_class": "B", "quote": "A new investment fund, Luminova Ventures, is being established in the Czech Republic with a focus on supporting dual-use and deep-tech technologies in defense, security, and societal resilience.", "language": "en"},
+    {"id": "e8", "url": "https://www.luminovaventures.com/portfolio/deepkeep", "publisher": "Luminova Ventures", "published_on": null, "source_class": "B", "quote": "AI-native security platform protecting GenAI, LLM, and computer vision systems from adversarial attacks, prompt injection, data leakage, and misuse.", "language": "en"},
+    {"id": "e9", "url": "https://www.luminovaventures.com/", "publisher": "Luminova Ventures", "published_on": null, "source_class": "B", "quote": "Štěpánská 14, Prague, 110 00, Czech Republic", "language": "en"}
+  ],
+  "co_investors_seen": ["Awz Global"],
+  "analyst_notes": "Discovered via Lupa.cz (2026-01-21, fund launch). I3 rests on the fund opening to investors (launch, 2026-01-21); no dated deal announcement was found. I2: the website portfolio lists seven Israeli companies (Satya, New Photonics, Octopus, CitrusX, DeepKeep, Cyberridge, SkyForce) without investment dates; DeepKeep (seed) itemised from its portfolio detail page. Some portfolio companies are at Series B/C, possibly via the strategic partnership with Awz Global, so stage is derived (Lupa: earlier stages; portfolio mostly seed/Series A). Structure: Luxembourg Luminova Ventures Fund I SCSp with Luminova Ventures GP S.à r.l. as registered AIFM (website legal disclosures); Prague office at Štěpánská 14; Czech company Luminova a.s. (same address, statutory body includes partners Lukáš Šebesta, Jan Balatka and Olga Chabr Grillová per ARES VR) assumed to be the local advisory/management company. Ticket and fund size not disclosed.",
+  "researched_on": "2026-10-25"
+}

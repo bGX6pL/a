@@ -3,6 +3,7 @@
 import datetime as dt
 import hashlib
 import html
+import http.client
 import io
 import json
 import mimetypes
@@ -21,6 +22,8 @@ from investordb.db import PROJECT_ROOT, connect, settings
 # Verify TLS against the operating system's trust store: it completes chains that some Czech and
 # Slovak sites serve without intermediates, which Python's bundled verification rejects.
 truststore.inject_into_ssl()
+# Some sites send more than the standard library's default of 100 response headers.
+http.client._MAXHEADERS = 1000
 
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 DEFAULT_UA = "Mozilla/5.0 (compatible; investor-db/0.1; public-data research)"

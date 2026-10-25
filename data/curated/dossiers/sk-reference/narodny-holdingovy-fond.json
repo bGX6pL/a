@@ -1,0 +1,201 @@
+{
+  "investor_key": "narodny-holdingovy-fond",
+  "pilot": "sk-reference",
+  "name": "Národný holdingový fond",
+  "aliases": [
+    "Národný holdingový fond s. r. o.",
+    "NHF",
+    "Fond fondov, s.r.o.",
+    "Seed Capital Company, s.r.o."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": true,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.nhfond.sk/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Slovak Business Agency's risk-capital subsidiary (seed/start-up/expansion equity, umbrella over FIT and Eterus Capital); no dated investment or fund event on or after 2024-10-25 could be verified and its website news ends in 2020.",
+  "discovered_via": [
+    "research-seed",
+    "slovca"
+  ],
+  "legal_entities": [
+    {
+      "name": "Národný holdingový fond s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "31384943",
+      "role": "manager"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "industrial_manufacturing",
+      "generalist"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5",
+      "e12"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4",
+      "e9"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 200000,
+      "max": 266000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/179427",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Národný holdingový fond s. r. o. - IČO: 31384943",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.nhfond.sk/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Špecializovaná dcérska spoločnosť Slovak Business Agency, ktorá implementuje podporu formou rizikového kapitálu.",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.nhfond.sk/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Podporuje rastovo orientované podnikateľské projekty formou poskytovania rizikového kapitálu (vkladu do základného imania spoločností).",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.nhfond.sk/fondy-rizikoveho-kapitalu/narodny-holdingovy-fond/podmienky-poskytnutia-investicie/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Vhodné štádiá životného cyklu spoločnosti pre financovanie projektu: počiatočné, štartovacie a rozvojové štádium / inovatívne projekty.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.nhfond.sk/fondy-rizikoveho-kapitalu/narodny-holdingovy-fond/podmienky-poskytnutia-investicie/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Prípustné odvetvia projektov: priemyselná výroba, výrobné služby, aktívny cestovný ruch, inovatívne podniky, obchodné služby.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.nhfond.sk/fondy-rizikoveho-kapitalu/narodny-holdingovy-fond/podmienky-poskytnutia-investicie/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Geografická prípustnosť projektov: zemepisná oblasť realizácie navrhovaných projektov je celé územie Slovenskej republiky, v niektorých prípadoch s regionálnymi obmedzeniami alebo preferenciami.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.nhfond.sk/o-nas/historia-a-poslanie-spolocnosti/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "V súčasnosti spoločnosť Národný holdingový fond s.r.o. spravuje dva fondy rizikového kapitálu so samostatnou právnou subjektivitou (Eterus Capital a.s. a Fond inovácií a technológií, a.s.).",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/narodny-holdingovy-fond-s-r-o.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Preferovaná výška jednej investície: 200 – 266 tis. EUR",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/narodny-holdingovy-fond-s-r-o.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Typ invesícií: Seed, start-up, expansion",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/narodny-holdingovy-fond-s-r-o.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Súčasné portfólio v SR: 20 portfóliových spoločností na kapitálovej báze, ďalších 20 spoločností ktorým bol poskytnutý úver.",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.nhfond.sk/o-nas/historia-a-poslanie-spolocnosti/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Za obdobie svojej existencie spoločnosť poskytla finančné prostriedky viac než 140 firmám v celkovej hodnote 10 mil. EUR a investíciami pomohla vytvoriť viac než 1 000 pracovných miest.",
+      "language": "sk"
+    },
+    {
+      "id": "e12",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/narodny-holdingovy-fond-s-r-o.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Preferované odvetvie: Inovácie a technológie",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Inactive (E7): no dated NHF investment or fund event on/after 2024-10-25 could be verified; the newest article on nhfond.sk is from 2020-06-09. Caplight (aggregator) lists NHF as co-investor in an AgeVolt VC round dated 2025-02-20, but Caplight shows no source, investors or amount for that round and I could not find a primary announcement (web-search budget ran out) - worth a re-check; if confirmed, NHF would move to include. I2 support is self-reported only (SLOVCA: 91 transactions since founding, 20 equity portfolio companies, 20 loan recipients); no named current portfolio company found on nhfond.sk (portfolio page empty). History: founded 1994 as Seed Capital Company (Fond štartovacieho kapitálu), renamed Fond fondov (2006) and Národný holdingový fond (2014); sole shareholder Slovak Business Agency (IČO 30845301, ORSR entry from 2025-08-27). NHF also runs a microloan fund (debt). NHF describes itself as managing FIT and Eterus Capital (separate dossiers fond-inovacii-a-technologii and eterus-capital); at load time these may be treated as NHF child vehicles. Not on the NBS register: JEREMIE Co-Investment Fund, s.r.o. v likvidácii (IČO 47254734) is NOT an NHF vehicle - ORSR lists its partners as National Development Fund I., s. r. o. (SIH) and Limerock Investment Holding, s.r.o., and Limerock's SFDR page names it as Limerock's AIF (see limerock dossier). Sector: SLOVCA self-report says 'Inovácie a technológie'; nhfond.sk lists industrial production, production services, active tourism, innovative firms, business services -> industrial_manufacturing + generalist. Stage 'počiatočné, štartovacie a rozvojové' mapped to seed/series_a/growth. Ticket only self-reported (SLOVCA); nhfond.sk says the maximum depends on fund criteria and syndication. Capital not disclosed (cumulative EUR 10m to 140+ firms historically, not a fund size).",
+  "researched_on": "2026-10-25"
+}

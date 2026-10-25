@@ -1,0 +1,87 @@
+{
+  "investor_key": "lrj-capital",
+  "pilot": "sk-reference",
+  "name": "LRJ Capital",
+  "aliases": [],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.lrjcapital.com/",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8",
+    "E7"
+  ],
+  "decision_note": "Described in 2020 as a Slovak seed VC (Exponea, Charged Monkey, SaferPass, Athletigen), but no legal entity, own website (domain now for sale) or dated activity since 2024-10-25 could be found.",
+  "discovered_via": [
+    "research-seed",
+    "news"
+  ],
+  "legal_entities": [],
+  "sector_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": [
+      "SK",
+      "CEE"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 100000,
+      "max": 2000000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "This Slovakian venture capital fund’s mission is to influence the whole CEE entrepreneurial community by supporting companies with world-market leadership potential and high integrity.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "LRJ Capital’s usual investment is approximately €0.5M, but the investment range varies from €100k to even over €2M.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Only source found: Vestbee list of Slovak VC funds (published 2020-10-08, modified 2024-02-21), which names portfolio companies Exponea, Charged Monkey, SaferPass and Athletigen and links www.lrjcapital.com; that domain now redirects to a HugeDomains for-sale page (checked 2026-10-25). ORSR name search for 'LRJ Capital' returns no entity; 'LRJ, s.r.o.' (IČO 51157705, Žilina) is a construction company and unrelated. The vehicle may be a private holding of the investors behind it or registered abroad - not established. Vestbee field values (stage seed, sector 'Various industries') sit in tag-split fields and are not quoted; recorded as not_disclosed. Web search was unavailable during this pass, so a 2024-2026 press mention cannot be ruled out; stays unverified (E8) and would be E7 if identified.",
+  "researched_on": "2026-10-25"
+}

@@ -83,9 +83,10 @@ def load(conn):
 
 def registry_check(entities, d) -> tuple[bool | None, str, list[str]]:
     checked, verified, notes, ids = 0, 0, [], []
-    for _, name, registry, rid, _ in entities:
+    for _, name, registry, rid, role in entities:
         ids.append(f"{registry}:{rid}")
-        if registry not in ("CZ-ICO", "SK-ICO") or not rid:
+        # role "other" (e.g. a white-label fund administrator) does not identify the investor itself
+        if registry not in ("CZ-ICO", "SK-ICO") or not rid or role == "other":
             continue
         candidates = []
         if registry == "CZ-ICO":
@@ -133,16 +134,19 @@ def main() -> int:
         for row in d["investments"]:
             invs[row[0]].append(row)
 
-        # V7 inputs: shared IČOs / domains among publishable records
+        # V7 inputs: IČOs / domains shared by included records of publishable pilots. Licensed Czech
+        # investment companies are skipped: they manage funds for many unrelated brands (white-label).
+        platform_managers = {f"CZ-ICO:{ico}" for ico, _ in conn.execute(
+            "select distinct ico, name from raw.jerrs_entity where list_name = 'investment_companies'").fetchall()}
         owners = defaultdict(set)
-        for inv_id, key, pilot, *_ in d["investors"]:
-            if pilot in PUBLISHABLE_PILOTS:
-                for _, _, registry, rid, _ in ents[inv_id]:
-                    if rid:
-                        owners[f"{registry}:{rid}"].add(key)
         site_owners = defaultdict(set)
-        for inv_id, key, pilot, _, _, website, *_ in d["investors"]:
-            if pilot in PUBLISHABLE_PILOTS and domain(website):
+        for inv_id, key, pilot, decision, _, website, *_ in d["investors"]:
+            if pilot not in PUBLISHABLE_PILOTS or decision != "include":
+                continue
+            for _, _, registry, rid, _ in ents[inv_id]:
+                if rid and f"{registry}:{rid}" not in platform_managers:
+                    owners[f"{registry}:{rid}"].add(key)
+            if domain(website):
                 site_owners[domain(website)].add(key)
 
         results, cards = [], []

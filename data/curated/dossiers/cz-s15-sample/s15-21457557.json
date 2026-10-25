@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-21457557",
+  "pilot": "cz-s15-sample",
+  "name": "Peak Rise",
+  "aliases": [
+    "Peak Rise, osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://peakrise.eu/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Invests clients' money in crypto-fiat algorithmic arbitrage trading strategies.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Peak Rise, osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "21457557",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21457557",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Peak Rise, osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://peakrise.eu/",
+      "publisher": "Peak Rise",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investments into crypto-fiat quantitative algorithmic arbitrage trading strategies for professionals",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Site footer names Peak Rise, osoba rizikového kapitálu s.r.o. as the §15 ZISIF manager; introducer (commission) programme. ARES czNace generic list incl. 66300. Same address as Velarium Capital (Rybná 716/24, Praha 1).",
+  "researched_on": "2026-10-25"
+}

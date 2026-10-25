@@ -1,0 +1,76 @@
+{
+  "investor_key": "occam-investments",
+  "pilot": "sk-reference",
+  "name": "Occam Investments",
+  "aliases": [
+    "Occam Investments s. r. o.",
+    "Occam Fund III. j.s.a."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://occaminvestments.sk",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "EuVECA-registered manager of Occam Fund III (founded Sep 2024) with a 'coming soon' website and an empty fund balance sheet; no investment is public.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "Occam Investments s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "55387845",
+      "role": "manager"
+    },
+    {
+      "name": "Occam Fund III. j.s.a.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "56480831",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://occaminvestments.sk/",
+      "publisher": "Occam Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Už čoskoro Vám predstavíme zaujímavé investičné príležitosti",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/11924694",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "registrovaný správca alternatívnych investičných fondov od 20.06.2024",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.orsr.sk/vypis.asp?ID=701327&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Occam Investments s. r. o.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Occam Fund III j.s.a. 2024 statement: all investment lines zero. The Occam brand in Bratislava is mainly a premium real-estate agency/developer group (Occam New Home, Occam Real Estate; occam.sk). EuVECA status (per the task brief) suggests an intended VC strategy, so re-screen once the fund publishes deals. The 2025 statement of the manager was not yet in RÚZ. Web search budget exhausted.",
+  "researched_on": "2026-10-25"
+}

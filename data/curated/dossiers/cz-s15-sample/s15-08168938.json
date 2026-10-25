@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-08168938",
+  "pilot": "cz-s15-sample",
+  "name": "AEGEA Holdings",
+  "aliases": [
+    "Aegea Holdings Venture Capital - osoba rizikového kapitálu a.s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://aegeaholdings.com/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Issues fixed-yield, asset-collateralised structured investment products; group active in precious metals and Web3, not startup equity.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Aegea Holdings Venture Capital - osoba rizikového kapitálu a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08168938",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08168938",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Aegea Holdings Venture Capital - osoba rizikového kapitálu a.s.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://aegeaholdings.com/",
+      "publisher": "AEGEA HOLDINGS",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investment solutions with fixed yield secured by real assets",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "aegeaholdings.com footer names Aegea Holdings Venture Capital – osoba rizikového kapitálu a.s.; 60-month AEGEA Investment Program notes with Euroclear/Clearstream registration. 'Our Portfolio' lists own group companies (aegeagold, aegeasecurities, NVXO exchange, samarinvest), i.e. also captive (E6-like). Could equally be read as E4 (fixed-yield debt-like product).",
+  "researched_on": "2026-10-25"
+}

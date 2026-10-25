@@ -1,0 +1,38 @@
+{
+  "investor_key": "springtide-ventures",
+  "pilot": "cz-vc",
+  "name": "Springtide Ventures",
+  "aliases": ["Springtide Ventures s.r.o.", "KKCG Springtide"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.springtide.cz/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-based venture arm of KKCG investing group capital in Israeli/European cyber, cloud and AI SaaS; provided an USD 8m convertible loan in ThreatMark's USD 23m round (January 2025).",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Springtide Ventures s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "01726587", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["software_saas", "cybersecurity", "ai_data"], "method": "stated", "evidence": ["e3"]},
+  "stage_focus": {"value": ["seed", "series_a", "series_b", "growth"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["IL", "Europe"], "method": "stated", "evidence": ["e1", "e4"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 10000000, "currency": "USD"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "ThreatMark", "company_country": "CZ", "date": "2025-01-07", "round": null, "round_amount": 23000000, "currency": "USD", "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.springtide.cz/about/", "publisher": "Springtide Ventures", "published_on": null, "source_class": "B", "quote": "Established in 2014, Springtide Ventures is a 100% subsidiary of KKCG Group.", "language": "en"},
+    {"id": "e2", "url": "https://www.springtide.cz/about/", "publisher": "Springtide Ventures", "published_on": null, "source_class": "B", "quote": "Our investments typically range between one and ten million US dollars.", "language": "en"},
+    {"id": "e3", "url": "https://www.springtide.cz/about/", "publisher": "Springtide Ventures", "published_on": null, "source_class": "B", "quote": "Over time Springtide has adopted an investment strategy focused on SaaS companies providing products in Cyber Security, Cloud Infrastructure, Horizontal AI/ML and Blockchain.", "language": "en"},
+    {"id": "e4", "url": "https://www.springtide.cz/about/", "publisher": "Springtide Ventures", "published_on": null, "source_class": "B", "quote": "We have a presence in Europe (Prague), Israel (Tel-Aviv) and the USA (Boston).", "language": "en"},
+    {"id": "e5", "url": "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2025-01-07", "source_class": "C", "quote": "Z toho patnáct milionů dolarů pochází od evropského fondu Octopus Ventures a amerického Riverside Acceleration Capital, dalších osm milionů dolarů startup získal ve formě konvertibilního úvěru od českého fondu Springtide Ventures miliardáře Karla Komárka.", "language": "cs"},
+    {"id": "e6", "url": "https://kkcg.com/en/our-businesses/diversified-ventures", "publisher": "KKCG", "published_on": null, "source_class": "B", "quote": "Springtide Ventures is a forward-thinking investment firm dedicated to identifying and nurturing promising startups poised to revolutionize select industries, including cybersecurity and cloud infrastructure.", "language": "en"}
+  ],
+  "co_investors_seen": ["Octopus Ventures", "Riverside Acceleration Capital"],
+  "analyst_notes": "Discovered via CzechCrunch (2025-01-07, ThreatMark). Corporate VC: 100% subsidiary of KKCG investing solely KKCG's own capital (website), hence corporate flag and capital not_disclosed (no fund size; balance-sheet of the parent not published for this arm). ThreatMark round: USD 23m total, of which USD 15m equity from Octopus Ventures and Riverside Acceleration Capital and USD 8m convertible loan from Springtide; Springtide's instrument is a convertible (quasi-equity, I2). The ticket range USD 1-10m is the website statement; a 2016 CzechCrunch article cited EUR 1-5m (superseded). Website news page has no items after June 2023; activity in the window rests on the ThreatMark deal. Springtide also commits to third-party funds (Rockaway Blockchain Fund, Jazz Venture Partners) - LP activity, not counted. Two former Springtide partners now run Tachles VC (separate dossier).",
+  "researched_on": "2026-10-25"
+}

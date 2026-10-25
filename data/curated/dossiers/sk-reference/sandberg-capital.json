@@ -1,0 +1,202 @@
+{
+  "investor_key": "sandberg-capital",
+  "pilot": "sk-reference",
+  "name": "Sandberg Capital",
+  "aliases": [
+    "Sandberg Capital, správ. spol., a.s.",
+    "Sandberg Investment Fund II SCSp",
+    "Sandberg Private Equity Fund 1"
+  ],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://sandberg.capital/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Bratislava lower-mid-market private-equity manager (EUR 130m Fund II, majority stakes such as 73 % of Seyfor); a real, active investor but type pe, outside the VC pilot scope.",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "nbs-register",
+    "eif-portfolio"
+  ],
+  "legal_entities": [
+    {
+      "name": "Sandberg Capital, správ. spol., a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47255277",
+      "role": "manager"
+    },
+    {
+      "name": "Sandberg Investment Fund II SCSp",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "software_saas",
+      "edtech",
+      "agrifood"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "growth",
+      "buyout"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e3",
+      "e4",
+      "e5"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK",
+      "CZ",
+      "CEE",
+      "Balkans"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e7"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 4000000,
+      "max": 15000000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 130000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2021-12-16"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Sandberg Investment Fund II SCSp",
+      "size_amount": 130000000,
+      "currency": "EUR",
+      "event": "final_close",
+      "event_date": "2021-12-16",
+      "evidence": "e2"
+    },
+    {
+      "name": "Sandberg Private Equity Fund 1",
+      "size_amount": null,
+      "currency": null,
+      "event": "other",
+      "event_date": "2026-07-31",
+      "evidence": "e3"
+    }
+  ],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1552938",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Sandberg Capital, správ. spol., a.s. - IČO: 47255277",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://cc.cz/slovensky-sandberg-capital-uzavrel-svuj-trimiliardovy-fond-stovky-milionu-z-nej-investoval-do-ceskych-firem/",
+      "publisher": "CzechCrunch",
+      "published_on": "2021-12-16",
+      "source_class": "C",
+      "quote": "Slovenská private equity společnost Sandberg Capital, která v poslední době realizovala několik zásadních transakcí ve stovkách milionů korun i na českém trhu, hlásí uzavření svého druhého fondu v navýšeném objemu 130 milionů eur.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.e15.cz/byznys/burzy-a-trhy/j-t-arch-ii-posila-278-milionu-eur-do-sandberg-capital-ziska-podil-ve-fondu-se-seyforem-1434678",
+      "publisher": "e15",
+      "published_on": "2026-07-31",
+      "source_class": "C",
+      "quote": "Za přibližně 278 milionů eur vstoupí do podfondu Sandberg Private Equity Fund 1, jehož prostřednictvím získá podíl v portfoliu firem ze sektoru informačních technologií, vzdělávání a zemědělství.",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.e15.cz/byznys/burzy-a-trhy/j-t-arch-ii-posila-278-milionu-eur-do-sandberg-capital-ziska-podil-ve-fondu-se-seyforem-1434678",
+      "publisher": "e15",
+      "published_on": "2026-07-31",
+      "source_class": "C",
+      "quote": "Nejvýznamnějším aktivem fondu je softwarová skupina Seyfor, v níž Sandberg drží 73procentní podíl.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.eif.org/files/attachments/slovakia-equity-fundmanagers.pdf",
+      "publisher": "European Investment Fund",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "Sandberg Investment Fund II SCSp Sandberg Capital, sprav. spol., a.s. Slovakia CEFoF;COSME-EFG;EIF Multi-Country Private Equity Generalist Lower-Mid Market Fund 12/01/2027",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/sandberg-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Preferované odvetvia: IT, vzdelávanie, potraviny a poľnohospodárstvo.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/sandberg-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Geografické zameranie: Slovensko, Česko, okolité krajiny CEE, Balkán.",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/sandberg-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Preferovaná výška investície: €4M - €15M",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "J&T ARCH II"
+  ],
+  "analyst_notes": "Out of scope (S1, type pe): described by CzechCrunch as a 'private equity společnost' and by EIF as a multi-country private equity lower-mid-market fund; holds majority stakes (73 % of Seyfor). Still active: the EIF list 'as at 30 September 2026' shows Sandberg Investment Fund II SCSp with end of investment period 12/01/2027, and on 2026-07-31 e15 reported that J&T ARCH II buys about 68 % of the investment shares of the sub-fund Sandberg Private Equity Fund 1 for ~EUR 278m (a secondary sale by the fund's investors, recorded as fund event 'other', not as a Sandberg investment). Fund II final close EUR 130m (target EUR 109m) reported 2021-12-16. Portfolio named by e15: Seyfor, Dotykačka Group, Aqist ITS, Revolgy Group, Cambridge International School, EDUCLEUS Group (Bakaláři, Twigsee), Sanagro Group. Sector/geography/ticket only from the self-reported SLOVCA profile because sandberg.capital and sandbergcapital.com timed out on 2026-10-25. Stage derived (majority/lower-mid-market buyouts and growth). Licensed správcovská spoločnosť at NBS since 2014-07-29 (NBS export 2026-10-24); Fund II is a Luxembourg SCSp (registry id not checked).",
+  "researched_on": "2026-10-25"
+}

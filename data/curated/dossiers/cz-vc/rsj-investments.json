@@ -1,0 +1,121 @@
+{
+  "investor_key": "rsj-investments",
+  "pilot": "cz-vc",
+  "name": "RSJ Investments",
+  "aliases": [
+    "RSJ Investments investiční společnost a.s.",
+    "RSJ Investments SICAV a.s."
+  ],
+  "investor_type": "private_investor",
+  "secondary_types": [
+    "pe"
+  ],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.rsj.com",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Friends-and-family investment group of RSJ (qualified-investor funds managed by its own investment company) investing in real estate and in growth sectors, partly via tech-startup funds - a private investment group outside the VC pilot.",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [
+    {
+      "name": "RSJ Investments investiční společnost a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "05357225",
+      "role": "manager"
+    },
+    {
+      "name": "RSJ Investments SICAV a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "24704415",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://cvca.cz/clenstvi/pridruzeni-clenove/",
+      "publisher": "CVCA (association member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "RSJ Investments tvoří fond kvalifikovaných investorů s proměnným základním kapitálem a investiční společnost, která jej obhospodařuje.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.rsj.com/cs/investments",
+      "publisher": "RSJ Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Kapitál směřujeme do společností v perspektivních oborech, jako jsou zdravotnictví či IT.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.rsj.com/cs/investments",
+      "publisher": "RSJ Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investujeme s fondy zaměřenými na technologické startupy a věnujeme se tzv. zeleným investicím, tedy půdě a zemědělství.",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.rsj.com/cs/investments",
+      "publisher": "RSJ Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "RSJ Investments investiční společnost a.s. obhospodařuje tři investiční fondy s právní osobností, a to RSJ Investments SICAV a.s., RSJ PE SICAV a.s. a RSJ Estate SICAV a.s., které jsou fondy kvalifikovaných investorů s několika podfondy, a dále uzavřené a otevřené podílové fondy.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.rsj.com/cs/investments",
+      "publisher": "RSJ Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Spolu se Second Foundation spouštíme fond zaměřený na investice do bateriových úložišť.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Two pillars per its site: (1) residential/office development, income-producing real estate and logistics parks (E3-type), (2) investments in future industries (healthcare, IT, biotech, agriculture), including investing with tech-startup-focused funds. Capital comes from internal and external qualified investors in a Friends & Family model; vehicles RSJ Investments SICAV, RSJ PE SICAV, RSJ Estate SICAV. Typed private_investor (secondary pe) and excluded as S1; it does not present itself as a VC. The timeline item about the 2025 battery-storage fund with Second Foundation (e5) carries only a year, not a page date. No dated direct startup investment was checked within the time budget.",
+  "researched_on": "2026-10-25"
+}

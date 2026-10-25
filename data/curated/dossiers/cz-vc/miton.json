@@ -1,0 +1,177 @@
+{
+  "investor_key": "miton",
+  "pilot": "cz-vc",
+  "name": "Miton",
+  "aliases": [
+    "MITON CZ, s.r.o.",
+    "MITON INVESTMENT, a.s.",
+    "Miton C",
+    "Miton Psychonauts"
+  ],
+  "investor_type": "private_investor",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.miton.cz",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Prague private investment group that invests its partners' own money ('Investujeme vlastní peníze') in and co-builds pre-seed/seed startups (e.g. ACE, Oct 2026) - a real, active investor but not a pooled VC fund, so outside the VC pilot.",
+  "discovered_via": [
+    "research-seed"
+  ],
+  "legal_entities": [
+    {
+      "name": "MITON CZ, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "25417967",
+      "role": "holding"
+    },
+    {
+      "name": "MITON INVESTMENT, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "27343430",
+      "role": "holding"
+    },
+    {
+      "name": "MITON C a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19324448",
+      "role": "other"
+    },
+    {
+      "name": "MITON Psychonauts s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08874115",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "ai_data",
+      "ecommerce_marketplaces",
+      "healthtech"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3",
+      "e5",
+      "e6",
+      "e8"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "ACE",
+      "company_country": "CZ",
+      "date": "2026-10-01",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e2"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.miton.cz/o-nas/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investujeme vlastní peníze.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.miton.cz/blog/miton-investuje-do-ace-stravu-pro-padel-uz-pouziva-vice-nez-polovina-ceskych-hracu/",
+      "publisher": "Miton",
+      "published_on": "2026-10-01",
+      "source_class": "B",
+      "quote": "S Jirkou Diblíkem se proto dohodli, že se Miton stane rovnocenným partnerem a na začátek investuje řádově miliony korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.miton.cz/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "AI, augmented workforce",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.miton.cz/o-nas/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "S řadou portfoliových firem jsme byli už ve fázi formování produktu či hledání product-market-fit.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.miton.cz/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Psychedelika, duševní zdraví",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.miton.cz/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Krypto, web3",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.miton.cz/",
+      "publisher": "Miton",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "E-commerce",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Type: Miton describes investing its own money ('Investujeme vlastní peníze.' - no classic fund cycle), often as co-founder/equal partner (ACE: Miton becomes an equal partner and invests 'řádově miliony korun', 2026-10-01 press release on its blog), so it is typed private_investor (venture-builder style) and excluded from the VC pilot with S1. It also runs thematic vehicles (MITON C - web3 'fund', Miton Psychonauts - mental health) whose external-LP status is unknown; if those take outside capital, a reviewer might re-type Miton as vc. Stage: the site's 'Kdy a kolik investujeme' block lists Pre-seed and Seed. Sector list on the homepage: AI/augmented workforce, crypto/web3, e-commerce, gastrotech, psychedelics/mental health (mapped to ai_data, ecommerce_marketplaces, healthtech; crypto and gastrotech have no exact code). Homepage says portfolio value EUR 450m across 61 companies built (not used as capital - it is portfolio value). Legal: the group uses many MITON-named SPVs at Křižíkova 148/34, Praha 8; MITON CZ, s.r.o. (founded 2000 per the site timeline) and MITON INVESTMENT, a.s. listed as holdings.",
+  "researched_on": "2026-10-25"
+}

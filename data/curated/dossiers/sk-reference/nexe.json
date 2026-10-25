@@ -1,0 +1,49 @@
+{
+  "investor_key": "nexe",
+  "pilot": "sk-reference",
+  "name": "NEXE",
+  "aliases": [
+    "NEXE, samosprávny podlimitný investičný fond, správca podlimitných rizikových fondov, a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Self-managed sub-threshold fund (since 2015) with an unchanged EUR 100k non-current asset and no public strategy, portfolio or website.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "NEXE, samosprávny podlimitný investičný fond, správca podlimitných rizikových fondov, a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "48161829",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=327286&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Správa alternatívneho investičného fondu podľa § 31a zákona č. 203/2011 Z. z. o kolektívnom investovaní v znení neskorších predpisov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025 micro statement: total assets EUR 100.1k, of which non-current EUR 100k in both 2024 and 2025 (no movement); the notes template says it held no securities. Extraordinary general meetings in Sept 2026 (ORSR). Not in the Bank of Spain fund list.",
+  "researched_on": "2026-10-25"
+}

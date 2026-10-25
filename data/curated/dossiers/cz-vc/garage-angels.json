@@ -1,0 +1,37 @@
+{
+  "investor_key": "garage-angels",
+  "pilot": "cz-vc",
+  "name": "Garage Angels",
+  "aliases": ["Garage Angels z.s.", "Garage Angels Management s.r.o."],
+  "investor_type": "angel_network",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Brno-based club of angel investors (founded 2019 by ex-AVG people) that co-invests in early-stage startups (HTG Medical July 2026, Flae Robotics October 2026); an angel network, not a VC fund.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Garage Angels z.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21814414", "role": "other"},
+    {"name": "Garage Angels Management s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21657505", "role": "manager"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "derived", "evidence": ["e2", "e3"]},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e2", "e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Flae Robotics", "company_country": "CZ", "date": "2026-10-08", "round": null, "round_amount": null, "currency": null, "evidence": "e3"},
+    {"company": "HTG Medical", "company_country": "CZ", "date": "2026-07-14", "round": "pre_seed", "round_amount": 450000, "currency": "EUR", "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.lupa.cz/clanky/karel-obluk-investori-v-cesku-si-od-startupu-berou-prilis-velke-podily-to-firmy-dusi/", "publisher": "Lupa.cz", "published_on": "2019-04-09", "source_class": "C", "quote": "Stojaté vody chce nyní více rozdmýchat nově zformované uskupení nesoucí název Garage Angels.", "language": "cs"},
+    {"id": "e2", "url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/", "publisher": "Lupa.cz", "published_on": "2026-07-14", "source_class": "C", "quote": "Do financování se zapojily fondy Garage Angels, Electron Capital Partners a JIC Ventures i stávající investoři Jinej fond a Dendis Capital.", "language": "cs"},
+    {"id": "e3", "url": "https://www.lupa.cz/aktuality/cesky-startup-dostal-nove-penize-na-to-aby-rozsiril-umelou-inteligenci-v-hotelich-jednou-by-z-ni-chtel-humanoida/", "publisher": "Lupa.cz", "published_on": "2026-10-08", "source_class": "C", "quote": "Investovaly do něj fondy Purple Ventures a Garage Angels.", "language": "cs"}
+  ],
+  "co_investors_seen": ["JIC Ventures", "Electron Capital Partners", "Jinej fond", "Dendis Capital", "Purple Ventures"],
+  "analyst_notes": "Quick exclusion dossier (angel network, S1). Lupa (2019) describes Garage Angels as a newly formed group of angel investors; ARES shows an association (z.s., 2024) and a management company (s.r.o., 2024) in Brno, which may indicate a pooled vehicle, but no fund was identified, so it is treated as an angel network. Media sometimes call it a 'fund' (e2, e3). Activity is current: HTG Medical second pre-seed tranche (EUR 450k, round shared with JIC Ventures and others, 2026-07-14) and Flae Robotics (with Purple Ventures, 2026-10-08). If a Garage Angels fund vehicle is confirmed, re-screen as vc. No website could be fetched (garageangels.cz redirect loop).",
+  "researched_on": "2026-10-25"
+}

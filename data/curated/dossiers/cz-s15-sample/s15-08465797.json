@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-08465797",
+  "pilot": "cz-s15-sample",
+  "name": "Národní rozvojová investiční (NRI)",
+  "aliases": [
+    "Národní rozvojová investiční, a.s., osoba rizikového kapitálu"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.nrinvesticni.cz/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E5"
+  ],
+  "decision_note": "State-owned NRB subsidiary acting as fund-of-funds / LP (selects VC fund managers, commits to NATO and Three Seas funds) plus brownfield and housing funds; no direct startup investing.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Národní rozvojová investiční, a.s., osoba rizikového kapitálu",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08465797",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08465797",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Národní rozvojová investiční, a.s., osoba rizikového kapitálu",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.nrinvesticni.cz/nri-dokoncila-vyber-venture-kapitaloveho-fondu-pro-program-fond-ukrajina/",
+      "publisher": "Národní rozvojová investiční",
+      "published_on": "2026-08-26",
+      "source_class": "B",
+      "quote": "Národní rozvojová investiční (NRI) úspěšně dokončila výběr správce fondu rizikového kapitálu v rámci programu Fond Ukrajina.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Programmes on nrinvesticni.cz: Fond Ukrajina (selected DEPO Ventures One SCSp as VC intermediary, 2026-08-26), Inovační fond NATO and Inovační fond Trojmoří (LP commitments), IPO Fond / IPO Fond 2025+ (minority stakes in SMEs listing on the START market), Brownfield fond MPO / OP ST and Fond dostupného bydlení (real estate). Useful as an evidence source for the VC funds it backs. Brand alias 'NR investiční'.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,66 @@
+{
+  "investor_key": "hilberman-capital",
+  "pilot": "sk-reference",
+  "name": "Hilberman Capital",
+  "aliases": [
+    "Hilberman Capital, s.r.o.",
+    "Hilberman Capital Fund I s. r. o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Manager within a Bratislava real-estate development group (Hilberman Development I/II, SPV I); its fund vehicle Hilberman Capital Fund I is registered for property rental and lending.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "Hilberman Capital, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53602650",
+      "role": "manager"
+    },
+    {
+      "name": "Hilberman Capital Fund I s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "56342900",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=695972&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Prenájom nehnuteľností spojený s poskytovaním iných než základných služieb spojených s prenájmom",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=564331&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Sprostredkovanie predaja, prenájmu a kúpy nehnuteľností (realitná činnosť)",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Hilberman Capital Fund I s.r.o. (IČO 56342900, founded 2024) is classified in RÚZ under SK NACE 68200 (rental of own real estate). ORSR also lists Hilberman Development I, Hilberman Development II and Hilberman SPV I (same brand). The manager's own licences include construction and real-estate agency. Moderate confidence: no website found; web search budget exhausted.",
+  "researched_on": "2026-10-25"
+}

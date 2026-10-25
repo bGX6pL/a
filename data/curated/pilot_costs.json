@@ -1,0 +1,18 @@
+{
+  "note": "Measured usage of the analyst agents (Claude Opus 5.5 via Claude Code subagents). tokens = total tokens reported for the agent run (input incl. cached context + output); records = dossiers written. Used by docs/task-a-pilot-results.md for the unit-cost and global-expansion estimate.",
+  "runs": [
+    {"task": "research: competitors", "phase": "research", "tokens": 184336, "minutes": 10.0, "records": 0},
+    {"task": "research: market sizing and reliability", "phase": "research", "tokens": 166468, "minutes": 10.8, "records": 0},
+    {"task": "research: global public sources", "phase": "research", "tokens": 179137, "minutes": 12.7, "records": 0},
+    {"task": "research: CEE sources", "phase": "research", "tokens": 225893, "minutes": 15.1, "records": 0},
+    {"task": "research: report writer", "phase": "research", "tokens": 337612, "minutes": 19.8, "records": 0},
+    {"task": "catalog: competitors seed", "phase": "research", "tokens": 165488, "minutes": 11.2, "records": 29},
+    {"task": "catalog: data sources seed", "phase": "research", "tokens": 268661, "minutes": 18.2, "records": 57},
+    {"task": "pilot: CZ §15 register sample screen", "phase": "screening", "tokens": 264319, "minutes": 22.4, "records": 40},
+    {"task": "pilot: CZ news-based discovery", "phase": "dossiers", "tokens": 450532, "minutes": 35.2, "records": 12},
+    {"task": "pilot: CZ CVCA full members (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 297444, "minutes": 35.9, "records": 26},
+    {"task": "pilot: SK NBS registered managers screen", "phase": "screening", "tokens": 383900, "minutes": 40.9, "records": 31},
+    {"task": "pilot: CZ research seed list + CVCA associate investors", "phase": "dossiers", "tokens": 470218, "minutes": 43.6, "records": 24},
+    {"task": "pilot: SK reference set (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 366719, "minutes": 52.2, "records": 21}
+  ]
+}

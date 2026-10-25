@@ -1,0 +1,331 @@
+{
+  "investor_key": "slovak-investment-holding",
+  "pilot": "sk-reference",
+  "name": "Slovak Investment Holding",
+  "aliases": [
+    "SIH",
+    "Slovak Investment Holding, a. s.",
+    "SZRB Asset Management, a. s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": true,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.sih.sk/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "State-owned Slovak financial-instruments manager whose direct-investment team writes convertible-loan / equity tickets into Slovak startups from Recovery-Plan money (VisionFlow and AT Crystals in Sept 2026, Veslo, Definic, TrollWall AI, CloseRocket in 2026).",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "sih-programmes",
+    "news",
+    "co-investor:seed-starter-slsp",
+    "co-investor:cb-investment-management"
+  ],
+  "legal_entities": [
+    {
+      "name": "Slovak Investment Holding, a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47759097",
+      "role": "manager"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "ai_data",
+      "software_saas",
+      "fintech",
+      "deeptech_hardware"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e2",
+      "e3",
+      "e4",
+      "e5",
+      "e6",
+      "e7",
+      "e9"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e2",
+      "e3",
+      "e4",
+      "e6",
+      "e7"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 280000,
+      "max": 1400000,
+      "currency": "EUR"
+    },
+    "method": "derived",
+    "evidence": [
+      "e2",
+      "e3",
+      "e4",
+      "e7"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 15000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2024-06-27"
+    },
+    "method": "stated",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "funds": [
+    {
+      "name": "SIH seed-stage equity / quasi-equity instrument (Recovery and Resilience Plan, Component 9, Investment 6)",
+      "size_amount": 15000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2024-06-27",
+      "evidence": "e8"
+    }
+  ],
+  "investments": [
+    {
+      "company": "VisionFlow",
+      "company_country": "SK",
+      "date": "2026-09-22",
+      "round": null,
+      "round_amount": 2000000,
+      "currency": "EUR",
+      "evidence": "e2"
+    },
+    {
+      "company": "AT Crystals",
+      "company_country": "SK",
+      "date": "2026-09-15",
+      "round": null,
+      "round_amount": 400000,
+      "currency": "EUR",
+      "evidence": "e3"
+    },
+    {
+      "company": "Veslo",
+      "company_country": "SK",
+      "date": "2026-07-20",
+      "round": null,
+      "round_amount": 2000000,
+      "currency": "EUR",
+      "evidence": "e4"
+    },
+    {
+      "company": "Definic",
+      "company_country": "SK",
+      "date": "2026-06-18",
+      "round": "seed",
+      "round_amount": 2500000,
+      "currency": "EUR",
+      "evidence": "e5"
+    },
+    {
+      "company": "Deal machine (CloseRocket)",
+      "company_country": "SK",
+      "date": "2026-04-22",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "TrollWall AI",
+      "company_country": "SK",
+      "date": "2026-04-09",
+      "round": null,
+      "round_amount": 800000,
+      "currency": "EUR",
+      "evidence": "e6"
+    },
+    {
+      "company": "Resitech",
+      "company_country": "SK",
+      "date": "2025-06-16",
+      "round": null,
+      "round_amount": 500000,
+      "currency": "EUR",
+      "evidence": "e11"
+    },
+    {
+      "company": "Eatster",
+      "company_country": "SK",
+      "date": "2025-02-05",
+      "round": null,
+      "round_amount": 700000,
+      "currency": "EUR",
+      "evidence": "e12"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1546912",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Slovak Investment Holding, a. s. - IČO: 47759097",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.sih.sk/aktuality/sih-investuje-1-4-miliona-eur-do-visionflow-slovensky-startup-vyvija-softverovu-datovu-infrastrukturu-pre-umelu-inteligenciu",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-09-22",
+      "source_class": "B",
+      "quote": "Slovak Investment Holding (SIH) investuje 1,4 milióna eur do slovenskej technologickej spoločnosti VisionFlow, ktorá vyvíja platformu na prípravu a správu dát pre umelú inteligenciu a počítačové videnie.",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.sih.sk/aktuality/sih-investuje-do-slovenskej-deep-tech-spolocnosti-at-crystals",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-09-15",
+      "source_class": "B",
+      "quote": "Slovak Investment Holding (SIH) investuje 280-tisíc eur do slovenskej technologickej spoločnosti AT Crystals, ktorá vyvíja a vyrába veľkorozmerové YAG kryštály pre vysokovýkonné laserové systémy.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.sih.sk/aktuality/sih-investuje-do-fintechu-veslo-podpori-platformu-ktora-digitalizuje-distribuciu-a-vyuzivanie-platobnych-sluzieb",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-07-20",
+      "source_class": "B",
+      "quote": "Celková výška investičného kola dosahuje 2 milióny eur, pričom SIH investuje 1,4 milióna eur a 0,6 milióna eur poskytuje súkromný investor.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.sih.sk/aktuality/sih-podporil-definic-slovensku-technologicku-spolocnost-s-globalnymi-ambiciami",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-06-18",
+      "source_class": "B",
+      "quote": "Slovak Investment Holding (SIH) sa spolu s fondom J&T Ventures a programom ČS Seed Starter (Česká sporiteľňa) zapojil do investičného kola technologickej spoločnosti Definic v celkovej výške 2,5 milióna eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.sih.sk/aktuality/ai-proti-nenavisti-na-internete-startup-trollwall-ai-ziskal-investiciu-vo-vyske-800-000-eur",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-04-09",
+      "source_class": "B",
+      "quote": "Na investícii sa podieľajú Seed Starter Slovenskej sporiteľne, Slovak Investment Holding (SIH) a angel investor Miroslav Fedor.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.sih.sk/aktuality/sih-investuje-do-ai-startupu-deal-machine-slovensky-closerocket-mieri-na-globalny-trh",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-04-22",
+      "source_class": "B",
+      "quote": "Investícia vo výške 300 000 eur, realizovaná formou konvertibilného úveru (CLA) a na princípe pari passu so súkromnými investormi, má ambíciu urýchliť globálnu expanziu riešenia, ktoré mení pravidlá hry v oblasti B2B predaja.",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.sih.sk/aktuality/slovak-investment-holding-podpori-podniky-v-pociatocnej-etape-zivotneho-cyklu-v-celkovom-objeme-15-milionov-eur",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2024-06-27",
+      "source_class": "B",
+      "quote": "Zdroje v celkovom objeme 15 miliónov eur, ktoré pochádzajú z Plánu obnovy a odolnosti (POO) plánuje SIH alokovať do podnikov v tzv. seed fáze.",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.sih.sk/aktuality/slovak-investment-holding-podpori-podniky-v-pociatocnej-etape-zivotneho-cyklu-v-celkovom-objeme-15-milionov-eur",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2024-06-27",
+      "source_class": "B",
+      "quote": "Podpora sa bude primárne zameriavať na podniky realizujúce výskumno-vývojové a inovačné aktivity s cieľom poskytovať inovatívne produkty alebo služby.",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.sih.sk/stranky/o-nas/o-spolocnosti",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Medzi finančné nástroje implementované prostredníctvom NDF II. patria záručné, úverové a kapitálové alebo kvázi-kapitálové nástroje.",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.sih.sk/aktuality/slovensky-startup-resitech-ziskal-pol-miliona-eur-na-dalsi-rast",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2025-06-16",
+      "source_class": "B",
+      "quote": "Slovenský startup Resitech, ktorý výrazne zjednodušuje život vlastníkom bytov aj správcom, získava investíciu 500 000 eur od Seed Startera Slovenskej sporiteľne a Slovak Investment Holdingu (SIH).",
+      "language": "sk"
+    },
+    {
+      "id": "e12",
+      "url": "https://www.sih.sk/aktuality/slovensky-startup-eatster-ziskal-podporu-od-slovak-investment-holding-a-seed-startera",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2025-02-05",
+      "source_class": "B",
+      "quote": "Bratislava, 5. februára 2025 - Slovak Investment Holding (SIH) a Seed Starter Slovenskej sporiteľne oznámili prvú spoločnú investíciu do slovenského startupu Eatster v celkovej hodnote 700 000 eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.slovca.sk/sk/pridruzeni-clenovia/slovak-investment-holding.html",
+      "publisher": "SLOVCA",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Adresa: Grösslingová 44 811 09 Bratislava",
+      "language": "sk"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.sih.sk/stranky/o-nas/o-spolocnosti",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "SCM spravuje fond Venture to Future Fund, a.s. (VFF), ktorý je zameraný na investície do slovenských inovatívnych spoločností.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Seed Starter Slovenskej sporiteľne",
+    "J&T Ventures",
+    "Seed Starter ČS (Česká spořitelna)",
+    "Miroslav Fedor"
+  ],
+  "analyst_notes": "SIH (IČO 47759097, ORSR Sa 5949/B, state-owned via SZRB) is a multi-instrument public financial-instruments manager: guarantees, loans and equity/quasi-equity through NDF I/II/III (e10); it is also an LP (fund-of-funds) in VFF, Vision Ventures, Neulogy, Zero Gravity, CB ESPRI and SIIC funds and runs the 2026-2030 start-up fund-manager tender (EUR 3 x 30m from NDF II, announced 10 Mar 2026, deadline 30 Jun 2026; no award published in the SIH news list as of 2026-10-25). It is recorded as type vc / public because its direct-investment team (director of direct investments Juraj Jusko) invests directly in Slovak startups, mostly as convertible loans (CLA) pari passu with private investors, from Recovery-Plan Component 9 money; its dominant activity overall is debt/guarantee instruments, so a reviewer may prefer to keep only the direct-investment unit in scope. Capital: only the EUR 15m seed-stage RRP allocation (27 Jun 2024) is cited; SIH group AuM (reported elsewhere as ~EUR 1.6bn) is not used because it is mostly non-VC. Ticket derived from cited SIH tickets: AT Crystals EUR 280k (e3), CloseRocket EUR 300k (e7), VisionFlow EUR 1.4m (e2), Veslo EUR 1.4m (e4); Eatster EUR 350k and Resitech (EUR 500k total with Seed Starter) consistent. Sector derived from the cited deals (VisionFlow, TrollWall AI, CloseRocket = AI; Definic, Resitech = software; Veslo = fintech; AT Crystals = deeptech). Round amounts in investments are total rounds; AT Crystals round EUR 400k incl. private co-investor. Definic: SIH release 18 Jun 2026 (e5); Vestbee reported the same EUR 2.5m seed round led by J&T Ventures on 12 Jun 2026 (https://vestbee.com/insights/articles/definic-raises-2-5-m-to-scale-ai-powered-vendor-intelligence-platform, not cited because its sentence spans links). Slovak Capital Management, a. s. (IČO 51865513, SIH group, NBS registered AIF manager since 2025-01-20) manages Venture to Future Fund (e14) - it belongs to the venture-to-future-fund record, not here. Older SIH direct equity deals (Boataround 2018 with Crowdberry, GymBeam 2020, InoBat Jan 2024, Sensoneo, Nexineo, Filmzie exit May 2025) not listed. SLOVCA associate member (e13). Not in the NBS export as a fund manager under its own name. Geography derived: every cited direct deal is a Slovak company, and the 27 Jun 2024 release limits the seed instrument to SMEs seated or with financed activities in Slovakia (sentence too long to quote within 300 characters).",
+  "researched_on": "2026-10-25"
+}

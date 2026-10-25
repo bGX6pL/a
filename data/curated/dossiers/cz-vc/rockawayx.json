@@ -1,0 +1,44 @@
+{
+  "investor_key": "rockawayx",
+  "pilot": "cz-vc",
+  "name": "RockawayX",
+  "aliases": ["Rockaway Blockchain Fund", "RockawayX a.s.", "RockawayX Holding a.s.", "Blockad s.r.o.", "RockawayX VC II"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://rockawayx.com/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-headquartered crypto/Web3 venture investor (formerly Rockaway Blockchain Fund) that closed its USD 125m VC II in Q1 2025 and led or co-led rounds in Silhouette (2025) and OnRe (2026).",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "RockawayX a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "17457009", "role": "manager"},
+    {"name": "RockawayX Holding a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19311753", "role": "holding"},
+    {"name": "Blockad s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "08006458", "role": "other"}
+  ],
+  "sector_focus": {"value": ["fintech", "software_saas"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["pre_seed", "seed", "series_a"], "method": "derived", "evidence": ["e1", "e5", "e6"]},
+  "geography_focus": {"value": ["global"], "method": "stated", "evidence": ["e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 125000000, "currency": "USD", "basis": "latest_fund_size", "as_of": "2025-04-24"}, "method": "stated", "evidence": ["e3", "e4"]},
+  "funds": [
+    {"name": "RockawayX VC II", "size_amount": 125000000, "currency": "USD", "event": "final_close", "event_date": "2025-04-24", "evidence": "e3"}
+  ],
+  "investments": [
+    {"company": "OnRe", "company_country": "BM", "date": "2026-05-05", "round": "series_a", "round_amount": 5000000, "currency": "USD", "evidence": "e6"},
+    {"company": "Silhouette", "company_country": null, "date": "2025-06-12", "round": "pre_seed", "round_amount": 3000000, "currency": "USD", "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://rockawayx.com/", "publisher": "RockawayX", "published_on": null, "source_class": "B", "quote": "We invest in early-stage projects, then build alongside them.", "language": "en"},
+    {"id": "e2", "url": "https://rockawayx.com/funds", "publisher": "RockawayX", "published_on": null, "source_class": "B", "quote": "The fund achieves its mandate by pursuing opportunities in the full spectrum of blockchain assets, with a focus on the Solana ecosystem and decentralized finance (DeFi) and infrastructure protocols where RockawayX is a primary liquidity provider or provided custom hardware support.", "language": "en"},
+    {"id": "e3", "url": "https://rockawayx.com/insights/rockawayx-announces-the-close-of-its-new-125m-crypto-venture-fund", "publisher": "RockawayX", "published_on": "2025-04-24", "source_class": "B", "quote": "24 April 2025 – RockawayX, a global $2bn aum digital asset investment firm, today announced the launch of its second early-stage venture capital fund, closed in Q125 at $125 million, following an oversubscribed fundraising period.", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/kryptofond-rockawayx-spravuje-pres-40-miliard-korun-na-nove-investice-ziskal-dalsi-miliardy/", "publisher": "CzechCrunch", "published_on": "2025-04-28", "source_class": "C", "quote": "RockawayX – původně fungovalo pod značkou Rockaway Blockchain Fund – oznámilo, že do svého druhého fondu nasbíralo dalších 125 milionů dolarů, tedy 2,75 miliardy korun.", "language": "cs"},
+    {"id": "e5", "url": "https://rockawayx.com/insights/rockawayx-backs-silhouette-shielded-dex-on-hyperliquid", "publisher": "RockawayX", "published_on": "2025-06-12", "source_class": "B", "quote": "That’s why we’re thrilled to be leading Silhouette’s $3 million pre‑seed round, alongside Hivemind, Amber Group, NGC, No Limit Holding, and Protagonist.", "language": "en"},
+    {"id": "e6", "url": "https://rockawayx.com/insights/rockawayx-and-forward-industries-co-lead-strategic-investment-in-onre", "publisher": "RockawayX", "published_on": "2026-05-05", "source_class": "B", "quote": "The two firms co-led OnRe's $5 million Series A round.", "language": "en"},
+    {"id": "e7", "url": "https://rockawayx.com/funds", "publisher": "RockawayX", "published_on": null, "source_class": "B", "quote": "The Fund allocates capital to venture equity, pre-launch token projects, liquid tokens, and early stage funds that present niche and complementary expertise.", "language": "en"}
+  ],
+  "co_investors_seen": ["Forward Industries", "Hivemind", "Amber Group", "NGC", "No Limit Holding", "Protagonist"],
+  "analyst_notes": "Discovered via CzechCrunch (2025-04-28, VC II close). Classification caveat: RockawayX is a multi-strategy digital-asset firm (~USD 2bn AUM) that also runs liquid/market-neutral crypto funds, vault curation and validator infrastructure (E3-type activities); it is recorded as vc because its VC I/VC II funds back early-stage companies and protocols, but VC II also buys pre-launch and liquid tokens (e7). Sector mapped from 'Solana ecosystem, DeFi and infrastructure protocols' to fintech/software_saas (no crypto sector in the closed list). Capital = VC II size (USD 125m, closed Q1 2025, announced 2025-04-24); firm-wide AUM USD 2bn not used. Group context: RockawayX was Rockaway Capital's crypto division (CzechCrunch reports a 2025 sale agreement with Nasdaq-listed Solmate that later collapsed); Rockaway Ventures is a separate brand covered by another analyst. Legal: RockawayX a.s. and RockawayX Holding a.s. (statutory body Viktor Fischer, Praha 6); website operator Blockad s.r.o.; VC fund vehicles' jurisdiction not stated (the market-neutral fund is a Liechtenstein SICAV, the liquid fund is Cayman). OnRe described as Bermuda-licensed; Silhouette country not stated. Ticket not disclosed (led a USD 3m pre-seed, co-led a USD 5m Series A).",
+  "researched_on": "2026-10-25"
+}

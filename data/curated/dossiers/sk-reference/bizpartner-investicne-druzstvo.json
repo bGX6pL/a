@@ -1,0 +1,59 @@
+{
+  "investor_key": "bizpartner-investicne-druzstvo",
+  "pilot": "sk-reference",
+  "name": "BizPartner, investičné družstvo",
+  "aliases": [
+    "BizPartner, investičné družstvo"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://bizpartnergroup.com",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Investment cooperative founded in March 2026 at the BizPartner Group address in Poprad; registered for lending and property rental, a real-estate financing vehicle.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "BizPartner, investičné družstvo",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "57423237",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=753095&SID=8&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Prenájom nehnuteľností spojený s poskytovaním iných než základných služieb spojených s prenájmom",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://bizpartnergroup.com/",
+      "publisher": "BizPartner Group",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "For over 19 years, we have been combining finance and real estate at home and abroad.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Seat Dlhé hony 5031/6, Poprad - same as BizPartner Investments, j. s. a. Bank of Spain list classes it as a real-estate fund. No RÚZ statement yet (registered 20.03.2026).",
+  "researched_on": "2026-10-25"
+}

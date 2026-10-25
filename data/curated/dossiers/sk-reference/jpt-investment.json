@@ -1,0 +1,58 @@
+{
+  "investor_key": "jpt-investment",
+  "pilot": "sk-reference",
+  "name": "JPT Investment investičný fond",
+  "aliases": [
+    "JPT Investment a.s. investičný fond s premenlivým základným imaním"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Košice self-managed fund of a single individual shareholder holding EUR 6.8m of undisclosed shares; no strategy or portfolio is public.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "JPT Investment a.s. investičný fond s premenlivým základným imaním",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47715561",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12109229",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Fond si zatiaľ nedefinoval stratégiu a zásady zaisťovania.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=304321&SID=4&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "vykonávanie kolektívneho investovania podľa Zákona č. 203/2011 Z.z. o kolektívnom investovaní v znení neskorších predpisov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025: shares EUR 6.75m (EUR 0.05m in 2024) and bonds EUR 0.1m (EUR 1.9m in 2024). Sole shareholder Ing. Tibor Štefančík - likely a private wealth vehicle (possible E6). Bank of Spain list: 'Equities'.",
+  "researched_on": "2026-10-25"
+}

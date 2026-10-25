@@ -1,0 +1,58 @@
+{
+  "investor_key": "cveu",
+  "pilot": "sk-reference",
+  "name": "CVEU",
+  "aliases": [
+    "CVEU a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Čadca company licensed for virtual-currency exchange and wallet services (crypto) with dissolution proceedings opened in Sept 2026 and no financial statements filed.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "CVEU a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53642538",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=566592&SID=5&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Poskytovanie služieb zmenárne virtuálnej meny",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=566592&SID=5&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Dňa 13.09.2026 bolo začaté konanie o zrušení spoločnosti.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "No statements in RÚZ at all (unit 1977208 has none). Court proceedings on dissolution at Okresný súd Žilina, 26CbR/58/2026.",
+  "researched_on": "2026-10-25"
+}

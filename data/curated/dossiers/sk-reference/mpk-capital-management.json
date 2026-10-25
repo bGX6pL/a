@@ -1,0 +1,70 @@
+{
+  "investor_key": "mpk-capital-management",
+  "pilot": "sk-reference",
+  "name": "MPK Capital",
+  "aliases": [
+    "MPK Capital Management a.s.",
+    "Alpha Fund j.s.a.",
+    "Alpha Fund Dynamic j.s.a."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.mpkcapital.eu",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Manager of Alpha Fund family running option strategies on listed ETFs and S&P 500 / STOXX 600 shares - listed-securities hedge strategy.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "MPK Capital Management a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54067189",
+      "role": "manager"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.mpkcapital.eu/sk/alpha-fond",
+      "publisher": "MPK Capital Management",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Jeho portfólio obsahuje 50 pozícií (14 ETF a 36 spoločností) , ktoré používame ako podkladové aktíva pre implementovanie našich opčných stratégií.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://subjekty.nbs.sk/entity/261101/",
+      "publisher": "Národná banka Slovenska",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "registrovaný správca alternatívnych investičných fondov",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.orsr.sk/vypis.asp?ID=601908&SID=4&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Spravovanie alternatívneho investičného fondu podľa ustanovenia § 31a zákona č. 203/2011 Z.z. o kolektívnom investovaní v znení neskorších predpisov.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "NBS register lists five funds: Alpha Fund, Acquisition Corp XXII, Special Investments Corp I, Alpha Fund Dynamic, Alpha Fund Conservative (all j.s.a.); Bank of Spain list classes them 'Hedge'. Note: mpkcapital.eu returns >100 HTTP headers, which Python's http.client rejects - the quote-check script may need a raised header limit.",
+  "researched_on": "2026-10-25"
+}
