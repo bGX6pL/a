@@ -1,0 +1,41 @@
+{
+  "investor_key": "seed-starter-cs",
+  "pilot": "cz-vc",
+  "name": "Seed Starter České spořitelny",
+  "aliases": ["ČS Seed Starter, a.s.", "Seed Starter ČS", "Seed Starter"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.seedstarter.cz",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Corporate VC arm of Česká spořitelna (Erste Group) investing pre-seed/seed in fintech-relevant startups; co-invested in Repsense (Dec 2025), Pointee (Apr 2026) and Definic (Jun 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "ČS Seed Starter, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "61058769", "role": "fund"},
+    {"name": "Česká spořitelna, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "45244782", "role": "holding"}
+  ],
+  "sector_focus": {"value": ["fintech"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "derived", "evidence": ["e4", "e5", "e6"]},
+  "ticket_size": {"value": {"min": 200000, "max": 1000000, "currency": "EUR"}, "method": "stated", "evidence": ["e3"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Definic (formerly Nordics)", "company_country": "SK", "date": "2026-06-12", "round": "seed", "round_amount": 2500000, "currency": "EUR", "evidence": "e4"},
+    {"company": "Pointee", "company_country": "CZ", "date": "2026-04-15", "round": "seed", "round_amount": 1400000, "currency": "USD", "evidence": "e5"},
+    {"company": "Repsense", "company_country": "LT", "date": "2025-12-17", "round": null, "round_amount": 1100000, "currency": "EUR", "evidence": "e6"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.seedstarter.cz/", "publisher": "Seed Starter České spořitelny", "published_on": null, "source_class": "B", "quote": "Since 2020 we have been investing in technologies that help banking thrive or bring innovation to our clients.", "language": "en"},
+    {"id": "e2", "url": "https://www.seedstarter.cz/", "publisher": "Seed Starter České spořitelny", "published_on": null, "source_class": "B", "quote": "Pre-seed & Seed", "language": "en"},
+    {"id": "e3", "url": "https://www.seedstarter.cz/", "publisher": "Seed Starter České spořitelny", "published_on": null, "source_class": "B", "quote": "200k – 1M EUR", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/", "publisher": "CzechCrunch", "published_on": "2026-06-12", "source_class": "C", "quote": "Investiční kolo vedl český fond J&T Ventures, ke kterému se připojil Seed Starter patřící pod Českou spořitelnu a Slovak Investment Holding.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/nasadit-ai-je-hracka-ale-uridit-ji-peklo-hlasi-cesky-startup-ktery-na-to-ziskal-desitky-milionu/", "publisher": "CzechCrunch", "published_on": "2026-04-15", "source_class": "C", "quote": "Investici vedl český fond Tensor Ventures, ke kterému se přidal Seed Starter České i Slovenské spořitelny.", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/", "publisher": "CzechCrunch", "published_on": "2025-12-17", "source_class": "C", "quote": "Investiční kolo vedl český deeptech fond Tensor Ventures, přidaly se Seed Starter České spořitelny a stávající litevští investoři BSV Ventures a Coinvest Capital.", "language": "cs"}
+  ],
+  "co_investors_seen": ["J&T Ventures", "Slovak Investment Holding", "Tensor Ventures", "Seed Starter Slovenskej sporiteľne", "BSV Ventures", "Coinvest Capital"],
+  "analyst_notes": "Corporate VC programme of Česká spořitelna, a.s. (Erste Group) investing through ČS Seed Starter, a.s. (same registered address as the bank; the 1996 company was repurposed for the programme launched in 2020). Stage and ticket are labels from the investor's strategy block ('Pre-seed & Seed' investment rounds, '200k – 1M EUR' investment). Sector: stated focus is technologies that help banking or bring innovation to the bank's clients (mapped to fintech; deals also include AI governance, vendor intelligence and information-risk analytics with a banking use case). Geography derived from cited deals (CZ, SK, LT); the site mentions the Czech Republic. Capital not disclosed: CzechCrunch (2023-11-27) reported CZK 180m invested in eight Czech startups in the first three years, which is cumulative deployment (and older than the window), not a fund size. Round amounts are whole-round sizes from the same articles (Definic EUR 2.5m seed, Pointee USD 1.4m seed, Repsense EUR 1.1m); Seed Starter's shares are undisclosed. Pointee round was joint with the separate Slovak programme Seed Starter Slovenskej sporiteľne (out of scope for this record).",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,37 @@
+{
+  "investor_key": "thein",
+  "pilot": "cz-vc",
+  "name": "Thein",
+  "aliases": ["Thein Investments a.s.", "Thein Private Equity SICAV a.s.", "J&T Thein SICAV", "skupina Thein"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.thein.eu",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague investment group of Tomáš Budník doing LBO/majority acquisitions of Czech ICT, cybersecurity and industrial companies through Thein Private Equity SICAV and J&T Thein SICAV; private equity, not VC.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "Thein Investments a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "08839042", "role": "manager"},
+    {"name": "Thein Private Equity SICAV a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "11733861", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["software_saas", "cybersecurity", "industrial_manufacturing"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["buyout", "growth"], "method": "self_reported", "evidence": ["e3"]},
+  "geography_focus": {"value": ["CZ", "SK"], "method": "self_reported", "evidence": ["e3"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 5000000, "currency": "EUR"}, "method": "self_reported", "evidence": ["e4"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Your System", "company_country": "CZ", "date": "2024-06-20", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e1"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-porosteme-v-it-na-dvojnasobek-skupina-thein-kupuje-mensiho-konkurenta-254212", "publisher": "Seznam Zprávy", "published_on": "2024-06-20", "source_class": "C", "quote": "Akvizici uskuteční prostřednictvím investičního fondu J&T Thein SICAV, konkrétně podfondu Digital.", "language": "cs"},
+    {"id": "e2", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-porosteme-v-it-na-dvojnasobek-skupina-thein-kupuje-mensiho-konkurenta-254212", "publisher": "Seznam Zprávy", "published_on": "2024-06-20", "source_class": "C", "quote": "Thein je investiční skupina založená manažerem a investorem Tomášem Budníkem, která se zaměřuje na rozvoj technologických společností v oboru lCT, kyberbezpečnosti a průmyslu 4.0.", "language": "cs"},
+    {"id": "e3", "url": "https://cvca.cz/thein/", "publisher": "CVCA (self-reported member profile)", "published_on": "2020-01-06", "source_class": "D", "quote": "LBO, Růstový kapitál", "language": "cs"},
+    {"id": "e4", "url": "https://cvca.cz/thein/", "publisher": "CVCA (self-reported member profile)", "published_on": "2020-01-06", "source_class": "D", "quote": "1 – 5 milionů EUR výše vlastních prostředků", "language": "cs"}
+  ],
+  "co_investors_seen": ["J&T (fund partner in J&T Thein SICAV)"],
+  "analyst_notes": "Own website thein.eu did not resolve (DNS failure) on 2026-10-25, so no class B source; identity from ARES and press. Latest dated deal found: Your System via J&T Thein SICAV, sub-fund Digital (Seznam Zprávy 2024-06-20) - before the 24-month window; searches found no Thein acquisition on/after 2024-10-25 (may be inactive or simply unreported; irrelevant for the S1 decision). J&T Thein SICAV not found in ARES under that name. Type pe; the group also invests founder capital (holding-like) - CVCA profile says AUM EUR 40m (2020, self-reported, not used as capital). Ticket (EUR 1-5m own equity), stage and geography are from the 2020 CVCA profile (class D).",
+  "researched_on": "2026-10-25"
+}

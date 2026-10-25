@@ -1,0 +1,35 @@
+{
+  "investor_key": "enterprise-investors",
+  "pilot": "cz-vc",
+  "name": "Enterprise Investors",
+  "aliases": ["EI"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "PL",
+  "website": "https://www.ei.com.pl/en/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Warsaw-based CEE private equity firm investing EUR 20-75m for large minority to full ownership stakes; active (Art Wind, Mar 2026; 18GYM/Stay Fit Gym, Oct 2026) but not VC, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [],
+  "sector_focus": {"value": ["software_saas", "fintech", "consumer", "healthtech", "industrial_manufacturing"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["growth", "buyout"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 20000000, "max": 75000000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "18GYM / Stay Fit Gym (combination)", "company_country": "RO", "date": "2026-10-06", "round": "growth", "round_amount": null, "currency": null, "evidence": "e3"},
+    {"company": "Art Wind", "company_country": "PL", "date": "2026-03-16", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.ei.com.pl/en/about/", "publisher": "Enterprise Investors", "published_on": null, "source_class": "B", "quote": "Enterprise Investors is the most experienced private equity investor in Central and Eastern Europe.", "language": "en"},
+    {"id": "e2", "url": "https://www.ei.com.pl/en/about/", "publisher": "Enterprise Investors", "published_on": null, "source_class": "B", "quote": "We invest between EUR 20 million and EUR 75 million for stakes ranging from large minority positions to full ownership and we take a long-term perspective, our involvement typically lasting five to eight years.", "language": "en"},
+    {"id": "e3", "url": "https://www.ei.com.pl/en/18gym-and-stay-fit-gym-join-forces-with-backing-from-enterprise-investors", "publisher": "Enterprise Investors", "published_on": "2026-10-06", "source_class": "B", "quote": "Upon closing, Enterprise Investors Fund IX will hold a significant minority stake in the combined business alongside 18GYM’s founders, with Stay Fit Gym’s founders joining as minority shareholders, while Morphosis Capital, an existing investor in Stay Fit Gym, will fully exit;", "language": "en"},
+    {"id": "e4", "url": "https://www.ei.com.pl/en/ei-re-enters-the-renewables-sector-with-majority-investment-in-art-wind", "publisher": "Enterprise Investors", "published_on": "2026-03-16", "source_class": "B", "quote": "Enterprise Investors Fund IX acquired a 65% stake in Art Wind, a Poland-based provider of wind turbine installation and maintenance services across Europe.", "language": "en"}
+  ],
+  "co_investors_seen": ["Morphosis Capital"],
+  "analyst_notes": "Quick S1 dossier. Sectors on the About page (technology, financial services, consumer goods, business services, healthcare, retail, manufacturing) mapped to the closed list. Capital left not_disclosed: the site says the firm 'has raised 10 funds and invested EUR 2.5 billion in 163 companies' (cumulative invested amount, not a fund-size basis); the CVCA profile (class D, 2020) says over EUR 2.5bn under management. The 18GYM/Stay Fit Gym combination was signed 2026-10-06 and is subject to regulatory approval. No Czech office found; the CVCA profile URL www.ei.com.pl/cz was not checked.",
+  "researched_on": "2026-10-25"
+}

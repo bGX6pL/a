@@ -1,0 +1,46 @@
+{
+  "investor_key": "cb-investment-management",
+  "pilot": "sk-reference",
+  "name": "CB Investment Management",
+  "aliases": ["CB Investment Management s. r. o.", "CB IM", "CB Growth ONE s. r. o.", "Crowdberry (fund arm)"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "SK",
+  "website": "https://www.cbim.sk",
+  "decision": "exclude",
+  "rule_codes": ["E7"],
+  "decision_note": "Real Bratislava seed VC (Crowdberry's fund manager, CB Growth ONE fund of EUR 23.2m backed by SIH), but its newest disclosed portfolio entries date from 2023 and no new investment or fund event on/after 2024-10-25 was found.",
+  "discovered_via": ["research-seed", "nbs-register", "sih-programmes", "startup-report-slovensko", "news"],
+  "legal_entities": [
+    {"name": "CB Investment Management s. r. o.", "country": "SK", "registry": "SK-ICO", "registry_id": "52524531", "role": "manager"},
+    {"name": "CB Growth ONE s. r. o.", "country": "SK", "registry": "SK-ICO", "registry_id": "52656136", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["generalist"], "method": "derived", "evidence": ["e5", "e6"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e3", "e4"]},
+  "geography_focus": {"value": ["SK"], "method": "stated", "evidence": ["e3", "e4"]},
+  "ticket_size": {"value": {"min": 200000, "max": 1600000, "currency": "EUR"}, "method": "self_reported", "evidence": ["e7"]},
+  "capital": {"value": {"amount": 23200000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2026-10-25"}, "method": "stated", "evidence": ["e8"]},
+  "funds": [
+    {"name": "CB Growth ONE s. r. o.", "size_amount": 23200000, "currency": "EUR", "event": "other", "event_date": null, "evidence": "e8"}
+  ],
+  "investments": [
+    {"company": "WageNow", "company_country": "SK", "date": "2023-01-01", "round": null, "round_amount": null, "currency": null, "evidence": "e6"},
+    {"company": "WeWell", "company_country": "SK", "date": "2023-01-01", "round": null, "round_amount": null, "currency": null, "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1861246", "publisher": "Register účtovných závierok (MF SR)", "published_on": null, "source_class": "A", "quote": "CB Investment Management s. r. o. - IČO: 52524531", "language": "sk"},
+    {"id": "e2", "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1876157", "publisher": "Register účtovných závierok (MF SR)", "published_on": null, "source_class": "A", "quote": "CB Growth ONE s. r. o. - IČO: 52656136", "language": "sk"},
+    {"id": "e3", "url": "https://www.cbim.sk/", "publisher": "CB Investment Management", "published_on": null, "source_class": "B", "quote": "CB Investment Management Growth One fund was founded in 2019 in order to help seed and pre-seed businesses based in Slovakia.", "language": "en"},
+    {"id": "e4", "url": "https://www.cbim.sk/founders", "publisher": "CB Investment Management", "published_on": null, "source_class": "B", "quote": "Outstanding founders of seed and pre-seed businesses with a vision, innovative product, dynamic team, and daring business plan.", "language": "en"},
+    {"id": "e5", "url": "https://www.cbim.sk/ourportfolio", "publisher": "CB Investment Management", "published_on": null, "source_class": "B", "quote": "An app that helps consumers to understand what exactly they are buying by scanning the barcode of any cosmetic products and giving instant analysis of the ingredients.", "language": "en"},
+    {"id": "e6", "url": "https://www.cbim.sk/ourportfolio", "publisher": "CB Investment Management", "published_on": null, "source_class": "B", "quote": "Embedded finance services to control the timing of payroll cash flow for employees and employers to improve liquidity. www.wagenow.sk 2023", "language": "en"},
+    {"id": "e7", "url": "https://www.profesia.sk/en/work/cb-investment-management/C238924", "publisher": "Profesia.sk (company profile, self-reported)", "published_on": null, "source_class": "D", "quote": "The fund has a 10 year lifetime and invests tickets from 200k to 1.6mil Eur in companies younger than 3 years and supports them with their international expansion and later on with exit.", "language": "en"},
+    {"id": "e8", "url": "https://www.cbim.sk/", "publisher": "CB Investment Management", "published_on": null, "source_class": "B", "quote": "€23.2M Fund size", "language": "en"},
+    {"id": "e9", "url": "https://cc.cz/lokalni-investovani-je-na-vzestupu-hlasi-crowdberry-pres-platformu-a-fondy-loni-proteklo-730-milionu/", "publisher": "CzechCrunch", "published_on": "2023-03-30", "source_class": "C", "quote": "Startupově zaměřený CB Investment Management loni investoval do devíti firem necelých 140 milionů korun.", "language": "cs"},
+    {"id": "e10", "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12646278", "publisher": "CB Growth ONE s. r. o. financial statements 2025 (RÚZ)", "published_on": "2026-06-12", "source_class": "A", "quote": "Cieľom investičného fondu sú nenávratné investície vo forme priameho kapitálového vstupu (equity) alebo kvázi-kapitálového vstupu (quasi-equity) do slovenských mladých a inovatívnych spoločností vo veku maximálne 3 rokov mimo Bratislavského samosprávneho kraja a maximálne 5 rokov v Bratislavskom samosprávnom kraji.", "language": "sk"}
+  ],
+  "co_investors_seen": ["Crowdberry platform investors", "Slovak Investment Holding"],
+  "analyst_notes": "Record = the fund manager CB Investment Management s. r. o. (100% owned by Crowdberry a.s.); the Crowdberry crowd-investing platform itself is an intermediary (E2) and Crowdberry's real-estate (CB Property Investors) and impact (CB ESPRI, own dossier) arms are separate. NBS register export of 2026-10-24: CB Investment Management s. r. o. registered AIF manager since 2019-08-20; CB Growth ONE s. r. o. registered AIF since 2019-08-20. Investment dates: the cbim.sk portfolio shows entry years only; the newest entries are 2023 (WageNow, WeWell, Gratitude, ErlaServers, Small Business Community), dates set to 2023-01-01 = year only. Sector 'generalist' derived from the ~32-company portfolio (fintech, biotech, agritech, SaaS, consumer, proptech). Activity check: the 2025 financial statements of CB Growth ONE (e10, filed 2026-06-12) list the same equity holdings as 2024 (incl. Vestberry 2.55%, unchanged) plus convertible loans; the only movements visible are a Wereldo loan conversion to equity and an increase of the Food Expres convertible loan (12,833 -> 112,833 EUR net), not dated; total assets fell from 13.5m to 10.3m EUR. The Recursive H1 2025 round-up lists CB Investment Management among Vestberry investors, but AIN.ua (2025-03-14) names only Seed Starter (lead), Venture to Future Fund and Zero One Hundred for the EUR 2.2m March 2025 seed and the CB Growth ONE stake did not change, so this was not counted as a new CB IM investment. Crowdberry's 2025 deals reported by aggregators (Terratico Nov 2024 with VFF, 3IPK Apr 2025, Boataround Dec 2025) were raised from Crowdberry platform investors / Crowdberry loans; none of the sources attributes them to the CB Growth ONE fund. The fund is financed by SIH (NDF II, 2019 start-up programme with Vision Ventures and Zero Gravity); the parallel Vision Ventures fund closed its investment period in Dec 2023 per SIH, CB IM's own period end is not published. Capital: EUR 23.2m fund size stated on cbim.sk (as_of = retrieval date, page undated); the 2025 balance sheet shows 23,183,550 EUR of contributed equity, consistent. Ticket EUR 200k-1.6m from the company's self-description on Profesia (D, undated). If a dated 2025-2026 follow-on or new fund is published, re-classify as include.",
+  "researched_on": "2026-10-25"
+}

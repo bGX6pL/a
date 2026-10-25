@@ -1,0 +1,48 @@
+{
+  "investor_key": "look-ai-ventures",
+  "pilot": "cz-vc",
+  "name": "Look AI Ventures",
+  "aliases": ["LAIV", "Look AI Ventures SICAV, a.s.", "Look AI Investments, a.s.", "AI Startup Incubator (AISI)"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://lookai.vc/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-based pre-Series A AI fund (qualified-investor SICAV) that joined the Lucida AI, Sodex Innovations and Embodied AI rounds between June and September 2026.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Look AI Investments, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "06385745", "role": "manager"},
+    {"name": "Look AI Ventures SICAV, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "17604087", "role": "fund"},
+    {"name": "Podfond Look AI Ventures I", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75163705", "role": "fund"},
+    {"name": "FTP Dimension investiční společnost, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "29659302", "role": "other"}
+  ],
+  "sector_focus": {"value": ["ai_data"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["Europe", "global"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": {"min": 250000, "max": 250000, "currency": "EUR"}, "method": "stated", "evidence": ["e4"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "Look AI Ventures I (sub-fund of Look AI Ventures SICAV, a.s.)", "size_amount": 20000000, "currency": "EUR", "event": "target", "event_date": "2023-04-13", "evidence": "e5"}
+  ],
+  "investments": [
+    {"company": "Embodied AI", "company_country": "CH", "date": "2026-09-22", "round": null, "round_amount": null, "currency": null, "evidence": "e7"},
+    {"company": "Sodex Innovations", "company_country": "AT", "date": "2026-07-23", "round": null, "round_amount": 4000000, "currency": "EUR", "evidence": "e8"},
+    {"company": "Lucida AI", "company_country": null, "date": "2026-06-30", "round": "seed", "round_amount": 7000000, "currency": "USD", "evidence": "e9"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://lookai.vc/", "publisher": "Look AI Ventures", "published_on": null, "source_class": "B", "quote": "Look AI Ventures is a pre-Series A venture capital fund based in Prague, Czech Republic, investing in early-stage AI startups.", "language": "en"},
+    {"id": "e2", "url": "https://lookai.vc/", "publisher": "Look AI Ventures", "published_on": null, "source_class": "B", "quote": "While we primarily focus on European AI startups, we also invest globally in companies with strong technical capabilities and scalable business models, regardless of sector.", "language": "en"},
+    {"id": "e3", "url": "https://lookai.vc/investors/", "publisher": "Look AI Ventures", "published_on": null, "source_class": "B", "quote": "The Fund is managed by FTP Dimension investiční společnost, a.s., Company ID No.: 296 59 302 (https://www.ftpis.cz/).", "language": "en"},
+    {"id": "e4", "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups", "publisher": "Tech.eu", "published_on": "2023-04-13", "source_class": "C", "quote": "The targeted investment amount in one start-up is €250,000 and mentorship will be provided.", "language": "en"},
+    {"id": "e5", "url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups", "publisher": "Tech.eu", "published_on": "2023-04-13", "source_class": "C", "quote": "It aims to raise €20 million which will be invested in early stage AI-driven companies.", "language": "en"},
+    {"id": "e6", "url": "https://www.lupa.cz/aktuality/ceske-penize-podpori-roboty-kteri-se-primo-u-vyrobni-linky-uci-treba-montovat-elektroniku/", "publisher": "Lupa.cz", "published_on": "2026-09-30", "source_class": "C", "quote": "Investoři z pražského fondu Look AI Ventures přispívají do stále oblíbenějšího oboru fyzické AI.", "language": "cs"},
+    {"id": "e7", "url": "https://lookai.vc/look-ai-ventures-backs-embodied-ai-robots-manufacturing/", "publisher": "Look AI Ventures", "published_on": "2026-09-22", "source_class": "B", "quote": "Look AI Ventures has backed Embodied AI, a Lausanne-based robotics startup building robots that learn new tasks directly on factory production lines.", "language": "en"},
+    {"id": "e8", "url": "https://lookai.vc/look-ai-ventures-sodex-innovations-4m-ai-construction-site-surveying/", "publisher": "Look AI Ventures", "published_on": "2026-07-23", "source_class": "B", "quote": "The round was led by Capmont Technology, with participation from Bloomhaus, Look AI Ventures, Superangels, SOSV, and 12 Rounds Capital.", "language": "en"},
+    {"id": "e9", "url": "https://www.lupa.cz/aktuality/cesi-investovali-do-konkurenta-duolinga-ktery-pro-vyuku-jazyku-nabizi-treba-ai-persony/", "publisher": "Lupa.cz", "published_on": "2026-06-30", "source_class": "C", "quote": "Český fond Look AI Ventures se podílel na investici do startupu Lucida AI, který vyvíjí hlasovou AI platformu pro výuku mluvené komunikace v cizích jazycích a konkuruje tak globálním hráčům typu Duolingo.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Faber VC", "Techshop Capital", "Kickfund", "Plug and Play", "Excellis", "Vento", "Capmont Technology", "Bloomhaus", "Superangels", "SOSV", "12 Rounds Capital", "Velocity Capital", "Next Tier Ventures", "Bogazici Ventures", "Yapı Kredi Frwrd Ventures", "Ünlü & Co"],
+  "analyst_notes": "Discovered via Lupa.cz (2026-09-30, Embodied AI). Ticket: the only stated figure is the 2023 launch target of about EUR 250k per startup (tech.eu); recorded as min=max=250000 as a typical first ticket, current ticket not restated on the website. Capital: fund size not disclosed; the EUR 20m figure (2023) is a fundraising target only, recorded under funds with event 'target'. The fund is a Czech qualified-investor SICAV (sub-fund Look AI Ventures I); FTP Dimension investiční společnost is the licensed external manager (white-label AIFM, role 'other'); Look AI Investments, a.s. (formerly AI Startup Incubator) runs operations and is listed as the operating manager. Round types for Embodied AI and Sodex not stated (Sodex round EUR 4m, led by Capmont Technology; Embodied AI led by Faber VC). Lucida AI country not stated in the sources; the USD 7m is the total extended seed round.",
+  "researched_on": "2026-10-25"
+}

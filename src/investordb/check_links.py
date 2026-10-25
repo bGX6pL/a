@@ -34,7 +34,8 @@ def collect_urls(conn, stale_days: int | None) -> list[str]:
             expr.format(sql.Identifier(column)), sql.Identifier(schema, table)))
     if not parts:
         return []
-    query = sql.SQL("select distinct url from ({}) u where url like 'http%%'").format(sql.SQL(" union all ").join(parts))
+    query = sql.SQL("select distinct url from ({}) u where url like 'http%%' and url not like '%%.invalid%%'").format(
+        sql.SQL(" union all ").join(parts))
     if stale_days is not None:
         query += sql.SQL(
             " and not exists (select 1 from meta.link_check c where c.url = u.url"

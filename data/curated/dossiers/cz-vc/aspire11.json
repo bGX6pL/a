@@ -1,0 +1,52 @@
+{
+  "investor_key": "aspire11",
+  "pilot": "cz-vc",
+  "name": "Aspire11",
+  "aliases": ["Aspire 11 Capital SICAV, a.s.", "Aspire 11 Capital Partners, s.r.o.", "Aspire 11 Advisers, s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-based private-markets platform (founded 2025 by Pavel Mucha with the Partners group) investing EUR 500m+ of Czech pension capital directly into growth-stage tech companies (Eternals, e.g. EUR 20m into Vinted in June 2026) and into VC funds (Tribes).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "Aspire 11 Capital SICAV, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23620030", "role": "fund"},
+    {"name": "Aspire 11 Eternals AMI 25 podfond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75165911", "role": "fund"},
+    {"name": "Aspire 11 Eternals AMI 26 podfond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75166038", "role": "fund"},
+    {"name": "Aspire 11 Tribes ALP 25 podfond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75165902", "role": "fund"},
+    {"name": "Aspire 11 Capital Partners, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23602597", "role": "other"},
+    {"name": "Aspire 11 Advisers, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23603038", "role": "other"},
+    {"name": "Partners investiční společnost, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "24716006", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["agrifood", "industrial_manufacturing", "mobility_logistics", "software_saas", "deeptech_hardware"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["growth"], "method": "stated", "evidence": ["e3"]},
+  "geography_focus": {"value": ["Europe", "global"], "method": "stated", "evidence": ["e4"]},
+  "ticket_size": {"value": {"min": 10000000, "max": 30000000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": {"amount": 515000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2026-07-15"}, "method": "stated", "evidence": ["e5"]},
+  "funds": [
+    {"name": "Aspire 11 Capital SICAV, a.s. (inaugural fund, Rentea commitment)", "size_amount": 500000000, "currency": "EUR", "event": "commitment", "event_date": "2025-09-01", "evidence": "e6"},
+    {"name": "Aspire 11 Capital SICAV, a.s.", "size_amount": 515000000, "currency": "EUR", "event": "other", "event_date": "2026-07-15", "evidence": "e5"}
+  ],
+  "investments": [
+    {"company": "Vinted", "company_country": "LT", "date": "2026-06-23", "round": "growth", "round_amount": null, "currency": null, "evidence": "e7"},
+    {"company": "Revolut", "company_country": "GB", "date": null, "round": "growth", "round_amount": null, "currency": null, "evidence": "e8"},
+    {"company": "ElevenLabs", "company_country": "US", "date": null, "round": "growth", "round_amount": null, "currency": null, "evidence": "e8"},
+    {"company": "Databricks", "company_country": "US", "date": null, "round": "growth", "round_amount": null, "currency": null, "evidence": "e8"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.partners.cz/userfiles/letak-aspire11-2025-f2060708.pdf", "publisher": "Partners (founding partner group of Aspire11)", "published_on": null, "source_class": "B", "quote": "Aspire11 se zaměřuje na produktové firmy v kategoriích s vysokou produktivitou (zemědělství, strojírenství, automotive, logistika, IT, hi-tech).", "language": "cs"},
+    {"id": "e2", "url": "https://www.partners.cz/userfiles/letak-aspire11-2025-f2060708.pdf", "publisher": "Partners (founding partner group of Aspire11)", "published_on": null, "source_class": "B", "quote": "Cílená investice je €10–30 milionů.", "language": "cs"},
+    {"id": "e3", "url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/", "publisher": "Lupa.cz", "published_on": "2025-10-24", "source_class": "C", "quote": "peníze nasměruje v podobě přímých vstupů do pokročilých růstových kol do globálně významných scale-upů", "language": "cs"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/cesky-venture-fond-aspire11-ukazal-strategii-jak-rozdeli-12-5-miliardy-korun/", "publisher": "Lupa.cz", "published_on": "2025-10-24", "source_class": "C", "quote": "Investiční platforma Aspire11 představila strategii alokace 500 milionů eur (12,5 miliardy korun) z českého penzijního kapitálu do evropských a globálních technologických firem.", "language": "cs"},
+    {"id": "e5", "url": "https://therecursive.com/aspire11-deploys-first-eur100m-backing-revolut-elevenlabs-and-databricks/", "publisher": "The Recursive", "published_on": "2026-07-15", "source_class": "C", "quote": "Aspire11 has deployed the first €100 million from its €515 million fund", "language": "en"},
+    {"id": "e6", "url": "https://therecursive.com/aspire11-deploys-first-eur100m-backing-revolut-elevenlabs-and-databricks/", "publisher": "The Recursive", "published_on": "2026-07-15", "source_class": "C", "quote": "The platform was launched in September 2025, with €500 million fully committed by Czech pension company Rentea", "language": "en"},
+    {"id": "e7", "url": "https://www.lupa.cz/aktuality/fond-aspire11-muchy-a-borkovce-poslal-skoro-pul-miliardy-do-platformy-vinted/", "publisher": "Lupa.cz (press release, author: Aspire11)", "published_on": "2026-06-23", "source_class": "B", "quote": "jde o přímou investici ve výši 20 milionů eur, tedy v přepočtu skoro půl miliardy korun", "language": "cs"},
+    {"id": "e8", "url": "https://therecursive.com/aspire11-deploys-first-eur100m-backing-revolut-elevenlabs-and-databricks/", "publisher": "The Recursive", "published_on": "2026-07-15", "source_class": "C", "quote": "The first portfolio includes companies such as Revolut, ElevenLabs, Databricks, Vinted, VAST Data and Baseten.", "language": "en"}
+  ],
+  "co_investors_seen": ["Rentea penzijní společnost (LP)", "Partners Invest (LP)"],
+  "analyst_notes": "Classification: dual strategy - Eternals (about 80% of capital per the Partners leaflet; EUR 300m per Lupa 2025-10-24) makes direct minority investments in growth-stage private tech companies; Tribes (EUR 100m) commits to 15-20 VC funds (fund-of-funds part, which alone would be E5). Because the dominant activity is direct growth-stage minority equity in VC-backed companies, the record is typed vc with stage growth; a reviewer could argue pe (large growth minority) - flagged. Ticket EUR 10-30m is the Eternals target investment per the Partners leaflet (undated 2025 marketing leaflet of the Partners group, which co-founded Aspire11; treated as B). Sector focus is the leaflet's stated list; the actual Eternals portfolio is mostly AI/data, fintech and e-commerce (Revolut, ElevenLabs, Databricks, Vinted, VAST Data, Baseten). Capital: Recursive 2026-07-15 says EUR 515m fund (EUR 500m committed by Rentea at launch in September 2025; month-only date recorded as 2025-09-01). Vinted: EUR 20m is Aspire11's own direct investment (round size not given), so round_amount is left empty; the Lupa item is authored by Aspire11 (press release), hence class B. Dates of Revolut/ElevenLabs/Databricks investments are not disclosed (in portfolio by 2026-07-15). Legal: Aspire 11 Capital SICAV is managed by Partners investiční společnost, a.s. (statutory body per ARES); Aspire 11 Capital Partners and Aspire 11 Advisers are Pavel Mucha's companies (roles not confirmed, recorded as other). The feeder 'Aspire 11 fond fondů 25' (IČO 75166020, Partners IS) is a distribution vehicle and not listed as a fund of the investor. No own website found (aspire11.com is an unrelated US apartment site).",
+  "researched_on": "2026-10-25"
+}

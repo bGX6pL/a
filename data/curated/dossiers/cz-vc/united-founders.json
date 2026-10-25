@@ -1,0 +1,49 @@
+{
+  "investor_key": "united-founders",
+  "pilot": "cz-vc",
+  "name": "United Founders",
+  "aliases": ["United Founders Advisors s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.unitedfounders.vc/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-founded pan-European pre-seed/seed deeptech fund of Vít Horký and Jakub Havrlant, launched November 2025 (EUR 30m raised by June 2026) and investing in AMI Labs and Oligoplus in 2026.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "United Founders Advisors s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21594813", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["deeptech_hardware", "ai_data", "cybersecurity", "healthtech", "industrial_manufacturing", "defence_dualuse"], "method": "stated", "evidence": ["e3", "e10"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["Europe"], "method": "stated", "evidence": ["e1", "e4"]},
+  "ticket_size": {"value": {"min": 300000, "max": 1000000, "currency": "EUR"}, "method": "stated", "evidence": ["e6", "e3"]},
+  "capital": {"value": {"amount": 30000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2026-06-03"}, "method": "stated", "evidence": ["e7"]},
+  "funds": [
+    {"name": "United Founders fund", "size_amount": null, "currency": "EUR", "event": "launch", "event_date": "2025-11-04", "evidence": "e2"},
+    {"name": "United Founders fund", "size_amount": 80000000, "currency": "EUR", "event": "target", "event_date": "2025-11-05", "evidence": "e4"},
+    {"name": "United Founders fund", "size_amount": 30000000, "currency": "EUR", "event": "other", "event_date": "2026-06-03", "evidence": "e7"}
+  ],
+  "investments": [
+    {"company": "Oligoplus", "company_country": "FR", "date": "2026-04-30", "round": null, "round_amount": null, "currency": null, "evidence": "e9"},
+    {"company": "AMI Labs", "company_country": "FR", "date": "2026-03-11", "round": "seed", "round_amount": 1030000000, "currency": "USD", "evidence": "e8"},
+    {"company": "Wonderful.ai", "company_country": null, "date": "2025-11-05", "round": null, "round_amount": null, "currency": null, "evidence": "e5"},
+    {"company": "EveryHealth", "company_country": "DE", "date": "2025-11-05", "round": null, "round_amount": null, "currency": null, "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.unitedfounders.vc/", "publisher": "United Founders", "published_on": null, "source_class": "B", "quote": "Europe’s founder-led early stage VC", "language": "en"},
+    {"id": "e2", "url": "https://tech.eu/2025/11/04/europes-founders-unite-new-eur1m-ticket-fund-aims-to-build-the-continents-first-trillion-dollar-tech-giants/", "publisher": "Tech.eu", "published_on": "2025-11-04", "source_class": "C", "quote": "Today over 100 founders and operators from across Europe have joined forces to launch United Founders, a new Pre-Seed and Seed-stage fund dedicated to supporting deeptech and emerging tech startups.", "language": "en"},
+    {"id": "e3", "url": "https://tech.eu/2025/11/04/europes-founders-unite-new-eur1m-ticket-fund-aims-to-build-the-continents-first-trillion-dollar-tech-giants/", "publisher": "Tech.eu", "published_on": "2025-11-04", "source_class": "C", "quote": "The fund plans to write cheques of up to €1 million for startups working on hardware, dual-use innovation, and medtech solutions.", "language": "en"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/", "publisher": "Lupa.cz", "published_on": "2025-11-05", "source_class": "C", "quote": "V Praze vznikl nový „panevropský“ venture fond, který plánuje proinvestovat zhruba dvě miliardy korun (80 milionů eur) do průlomových technologií.", "language": "cs"},
+    {"id": "e5", "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/", "publisher": "Lupa.cz", "published_on": "2025-11-05", "source_class": "C", "quote": "Peníze směřuje do platformy umělé inteligence Wonderful.ai, která vytváří agenty „srovnatelné s nejlepšími živými zaměstnanci“ a startupu EveryHealth, virtuálního zdravotního projektu, který se prezentuje jako „inkluzivní platforma“ pro pojištěnce.", "language": "cs"},
+    {"id": "e6", "url": "https://www.lupa.cz/clanky/vit-horky-united-founders-dokazali-jsme-ze-technologicke-klenoty-umime-ulovit-hrat-na-cesko-slovenskem-pisecku-ale-opravdu-nestaci/", "publisher": "Lupa.cz", "published_on": "2026-06-03", "source_class": "C", "quote": "Investujeme zhruba od 300 tisíc do jednoho milionu eur.", "language": "cs"},
+    {"id": "e7", "url": "https://www.lupa.cz/clanky/vit-horky-united-founders-dokazali-jsme-ze-technologicke-klenoty-umime-ulovit-hrat-na-cesko-slovenskem-pisecku-ale-opravdu-nestaci/", "publisher": "Lupa.cz", "published_on": "2026-06-03", "source_class": "C", "quote": "Dnes má fond velikost 30 milionů eur.", "language": "cs"},
+    {"id": "e8", "url": "https://www.lupa.cz/aktuality/cesi-spoluinvestuji-do-jednoho-z-nejvetsich-seed-kol-v-dosavadni-historii-evropskeho-ai/", "publisher": "Lupa.cz", "published_on": "2026-03-11", "source_class": "C", "quote": "United Founders, panevropský fond spoluzaložený Jakubem Havrlantem a Vítem Horkým, se připojil k investorům do francouzského startupu AMI Labs.", "language": "cs"},
+    {"id": "e9", "url": "https://www.lupa.cz/aktuality/united-founders-poslali-financni-injekci-do-startupu-ktery-vyzivu-rostlin-resi-drony/", "publisher": "Lupa.cz", "published_on": "2026-04-30", "source_class": "C", "quote": "Investoři z United Founders, za jejichž vznikem stojí Jakub Havrlant a Vít Horký, vstoupila do francouzského zemědělsko-technologického startupu Oligoplus, který staví na precizní výživě rostlin doručované drony.", "language": "cs"},
+    {"id": "e10", "url": "https://www.lupa.cz/aktuality/havrlant-spoluzaklada-united-founders-novy-fond-chce-do-evropskych-technologii-investovat-2-miliardy/", "publisher": "Lupa.cz", "published_on": "2025-11-05", "source_class": "C", "quote": "United Founders se zaměřuje na deeptech a oblasti s dlouhodobým dopadem: kvantové technologie, kyberbezpečnost, zdravotnické technologie, AI a agentní systémy, Průmysl 4.0, udržitelnost a vesmírné inovace.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Cathay Innovation", "Bezos Expeditions", "Nvidia", "Samsung", "Toyota Ventures", "Climate Club", "Good Only Ventures", "Kima Ventures", "Hexa Sprint"],
+  "analyst_notes": "Discovered via Lupa.cz (2025-11-05 launch; 2026-03-11 AMI Labs; 2026-04-30 Oligoplus). The website states little beyond the positioning, so focus/ticket/size come from dated media quoting the founders. Ticket: EUR 300k-1m per Vít Horký (Lupa interview 2026-06-03), consistent with 'cheques of up to EUR 1m' (tech.eu). Capital: EUR 30m fund size as of 2026-06-03 (about half from the founding team and partners), against an announced EUR 80m target; other coverage (TheRecursive/Sifted, not cited) mentions a EUR 30m first close and EUR 17m from the founders. Fund vehicle not identified: ARES lists only United Founders Advisors s.r.o. (Praha 1, est. 2024-05-10), so the fund itself may be a foreign vehicle; listed company assumed to be the advisor/management company. Sister vehicle Czech Founders VC (also Vít Horký) is covered separately. Wonderful.ai and EveryHealth dated by the launch article (2025-11-05); actual deal dates may be earlier. AMI Labs round size is the total seed round (USD 1.03bn), not United Founders' ticket.",
+  "researched_on": "2026-10-25"
+}

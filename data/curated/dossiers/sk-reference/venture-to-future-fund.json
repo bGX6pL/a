@@ -1,0 +1,53 @@
+{
+  "investor_key": "venture-to-future-fund",
+  "pilot": "sk-reference",
+  "name": "Venture to Future Fund",
+  "aliases": ["VFF", "Venture to Future Fund, a.s."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": true, "accelerator": false},
+  "hq_country": "SK",
+  "website": "https://vff.sk/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "State-backed Slovak VC fund (EIB, MF SR and RRP money via SIH) investing EUR 0.4-7m pari passu with private co-investors; co-invested in FaceUp in May 2026 and Talentiqa in Sept 2025.",
+  "discovered_via": ["research-seed", "slovca", "nbs-register", "sih-programmes", "news"],
+  "legal_entities": [
+    {"name": "Venture to Future Fund, a.s.", "country": "SK", "registry": "SK-ICO", "registry_id": "52380483", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["generalist"], "method": "stated", "evidence": ["e3", "e10"]},
+  "stage_focus": {"value": ["seed", "series_a", "series_b"], "method": "stated", "evidence": ["e4"]},
+  "geography_focus": {"value": ["SK", "Europe"], "method": "stated", "evidence": ["e5"]},
+  "ticket_size": {"value": {"min": 400000, "max": 7000000, "currency": "EUR"}, "method": "stated", "evidence": ["e2", "e11"]},
+  "capital": {"value": {"amount": 55700000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2024-05-28"}, "method": "derived", "evidence": ["e10", "e9", "e6"]},
+  "funds": [
+    {"name": "Venture to Future Fund (initial capital)", "size_amount": 40400000, "currency": "EUR", "event": "launch", "event_date": null, "evidence": "e10"},
+    {"name": "Venture to Future Fund (RRP capital increase)", "size_amount": 15300000, "currency": "EUR", "event": "commitment", "event_date": "2024-05-28", "evidence": "e9"}
+  ],
+  "investments": [
+    {"company": "FaceUp", "company_country": "CZ", "date": "2026-05-19", "round": null, "round_amount": null, "currency": null, "evidence": "e12"},
+    {"company": "Talentiqa", "company_country": "CZ", "date": "2025-09-30", "round": null, "round_amount": 1000000, "currency": "EUR", "evidence": "e13"},
+    {"company": "NETGRIF", "company_country": "SK", "date": "2024-11-12", "round": null, "round_amount": 1000000, "currency": "EUR", "evidence": "e7"},
+    {"company": "Patron GO", "company_country": "CZ", "date": "2024-08-12", "round": null, "round_amount": 1000000, "currency": "EUR", "evidence": "e8"},
+    {"company": "Vestberry", "company_country": "SK", "date": "2024-05-23", "round": "series_a", "round_amount": 1000000, "currency": "EUR", "evidence": "e14"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1857071", "publisher": "Register účtovných závierok (MF SR)", "published_on": null, "source_class": "A", "quote": "Venture to Future Fund, a.s. - IČO: 52380483", "language": "sk"},
+    {"id": "e2", "url": "https://vff.sk/", "publisher": "Venture to Future Fund", "published_on": null, "source_class": "B", "quote": "Minimálna výška našej investície je 400tis. EUR, aj keď optimálne investujeme medzi 1,5 – 2,0 mil. EUR.", "language": "sk"},
+    {"id": "e3", "url": "https://vff.sk/", "publisher": "Venture to Future Fund", "published_on": null, "source_class": "B", "quote": "Podporujeme vizionárskych zakladateľov a tímy, ktoré prinášajú inovácie v rôznych sektoroch.", "language": "sk"},
+    {"id": "e4", "url": "https://vff.sk/", "publisher": "Venture to Future Fund", "published_on": null, "source_class": "B", "quote": "Cielime na malé a stredné podniky v rastovej fáze od neskoršieho Seed kola po Series A,B s aspoň čiastočne funkčným produktom, ktorý je životaschopný, bol otestovaný na trhu a má už prvých platiacich zákazníkov alebo dojednané zmluvné vzťahy.", "language": "sk"},
+    {"id": "e5", "url": "https://vff.sk/", "publisher": "Venture to Future Fund", "published_on": null, "source_class": "B", "quote": "Zameriavame sa predovšetkým spoločnosti založené a pôsobiace na Slovensku a zahraničné spoločnosti (EÚ) s kapitálovým prepojením na Slovensko, ktoré podporujú inovácie a rast v regióne.", "language": "sk"},
+    {"id": "e6", "url": "https://vff.sk/", "publisher": "Venture to Future Fund", "published_on": null, "source_class": "B", "quote": "V rokoch 2020 - 2026 máme vyčlenených 55 mil. EUR, aby sme našli a zafinancovali práve váš projekt.", "language": "sk"},
+    {"id": "e7", "url": "https://vff.sk/novinky/slovenska-platforma-netgrif-na-automatizaciu-biznis-aplikacii-ziskala-investiciu-vo-vyske-1-milion-eur-mieri-do-sveta-32", "publisher": "Venture to Future Fund", "published_on": "2024-11-12", "source_class": "B", "quote": "Kapitálovo do nej vstupujú dvaja renomovaní hráči na slovenskom investičnom trhu, fond rizikového kapitálu Venture to Future Fund a IT spoločnosť Soitron.", "language": "sk"},
+    {"id": "e8", "url": "https://vff.sk/novinky/cesky-startup-patron-go-ziskava-investiciu-v-hodnote-1-milion-eur-30", "publisher": "Venture to Future Fund", "published_on": "2024-08-12", "source_class": "B", "quote": "Slovenský Venture to Future Fund týmto krokom rozširuje portfólio investorov, medzi ktorých patrí aj SpeedUp Venture Capital Group, Zero Gravity Capital, Lighthouse Ventures a P&J Capital.", "language": "sk"},
+    {"id": "e9", "url": "https://vff.sk/novinky/venture-to-future-fund-navysuje-kapital-o-15-3-miliona-eur-na-podporu-slovenskych-startupov-29", "publisher": "Venture to Future Fund", "published_on": "2024-05-28", "source_class": "B", "quote": "Venture to Future Fund (VFF), investičný fond zameraný na podporu inovatívnych slovenských firiem s globálnym potenciálom, oznámil navýšenie kapitálu o 15,3 milióna eur.", "language": "sk"},
+    {"id": "e10", "url": "https://www.sih.sk/en/stranky/cinnosti/venture-to-future-fund", "publisher": "Slovak Investment Holding", "published_on": null, "source_class": "C", "quote": "Individual investors have endowed the VFF with funds totalling €40.4 million.", "language": "en"},
+    {"id": "e11", "url": "https://vff.sk/novinky/venture-to-future-fund-navysuje-kapital-o-15-3-miliona-eur-na-podporu-slovenskych-startupov-29", "publisher": "Venture to Future Fund", "published_on": "2024-05-28", "source_class": "B", "quote": "Výška investície sa pohybuje od 400 tisíc eur až do 7 miliónov eur, čo je navýšenie z pôvodných 4,9 miliónov.", "language": "sk"},
+    {"id": "e12", "url": "https://forbes.cz/jic-ventures-investuje-do-faceup-cesky-startup-ziskal-pres-110-milionu-korun-na-globalni-expanzi/", "publisher": "Forbes Česko", "published_on": "2026-05-19", "source_class": "C", "quote": "Do investičního kola se kromě JIC Ventures zapojily také fondy Venture to Future Fund a Gi21 Capital.", "language": "cs"},
+    {"id": "e13", "url": "https://en.ain.ua/2025/09/30/talentiqa-raises-eur1m/", "publisher": "AIN.UA", "published_on": "2025-09-30", "source_class": "C", "quote": "The round was equally backed by Purple Ventures and Venture to Future Fund.", "language": "en"},
+    {"id": "e14", "url": "https://vff.sk/novinky/slovensky-startup-vestberry-mieri-vdaka-podpore-investorov-na-americky-trh-28", "publisher": "Venture to Future Fund", "published_on": "2024-05-23", "source_class": "B", "quote": "Venture to Future Fund s radosťou oznamuje, že v spolupráci so Seed Starterom Slovenskej sporiteľne uzavrel Series A investičné kolo vo výške 1 milión EUR s cieľom podpory globálneho rastu dynamického slovenského startupu Vestberry.", "language": "sk"}
+  ],
+  "co_investors_seen": ["JIC Ventures", "Gi21 Capital", "Tilia Impact Ventures", "Reflex Capital", "Purple Ventures", "Soitron", "SpeedUp Venture Capital Group", "Zero Gravity Capital", "Lighthouse Ventures", "P&J Capital", "Seed Starter Slovenskej sporiteľne"],
+  "analyst_notes": "Capital derived: EUR 40.4m initial capital (SIH page, e10) + EUR 15.3m RRP top-up announced 28 May 2024 (e9) = EUR 55.7m; the VFF homepage rounds this to '55 mil. EUR' for 2020-2026 (e6). Investment period extended to end-2026 by the top-up; fund life 10 years. Ticket: site says minimum EUR 400k, optimal 1.5-2.0m, up to 7m incl. follow-ons (e2, e11); SLOVCA profile (self-reported, older) still says 0.5-4.8m. Always co-invests pari passu (50:50) with an independent private co-investor. The VFF record is the fund vehicle itself (a.s., IČO 52380483, RÚZ ownership type 'Štátne', SK NACE 64300); it was set up by the EIB and MF SR through Slovak Investment Holding (SIH, slovak-investment-holding), which promotes it as its financial instrument; NBS export (2026-10-24) lists it as 'registrovaný alternatívny investičný fond' from 2025-01-20 (manager entity not identified in the export). FaceUp round size: Forbes headline says over CZK 110m in the round, amount left null. Further 2025-2026 deals reported only by aggregators (PitchBook/CB Insights: Vestberry Mar 2025, IAG May 2025, Sloneek 16 Jun 2026 with Orbit Capital) were not cited. Talentiqa is described as Prague-based (AIN) although other sources say Ostrava; both CZ. SLOVCA full member.",
+  "researched_on": "2026-10-25"
+}

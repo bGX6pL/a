@@ -1,0 +1,203 @@
+{
+  "investor_key": "versute-investments",
+  "pilot": "cz-vc",
+  "name": "Versute Investments",
+  "aliases": [
+    "VERSUTE INVESTMENTS a.s.",
+    "VERSUTE Funds SICAV a.s.",
+    "BHS Fund II. – Private Equity",
+    "BHS Private Equity Fund"
+  ],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://versute.cz/cs_cz/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Prague manager/adviser of the VERSUTE Private Equity Fund (formerly BHS Private Equity Fund) doing growth capital, leveraged and management buyouts of Czech and Slovak SMEs; private equity, not VC.",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [
+    {
+      "name": "VERSUTE INVESTMENTS a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "03965953",
+      "role": "manager"
+    },
+    {
+      "name": "VERSUTE Funds SICAV a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "03846784",
+      "role": "fund"
+    },
+    {
+      "name": "VERSUTE Funds SICAV a.s. – podfond VERSUTE Private Equity Fund Otevřený",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "71508503",
+      "role": "fund"
+    },
+    {
+      "name": "Versute investiční společnost, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08787131",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist",
+      "industrial_manufacturing"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "growth",
+      "buyout"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e7",
+      "e8"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CZ",
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 1500000000,
+      "currency": "CZK",
+      "basis": "aum",
+      "as_of": "2025-09-24"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Van de Velde Packaging Unipap a.s.",
+      "company_country": "CZ",
+      "date": "2025-09-24",
+      "round": "buyout",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e3"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://versute.cz/cs_cz/",
+      "publisher": "Versute Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Jsme investiční a poradenskou společností působící jako manažer Private Equity fondů investujících zejména do malých a středních podniků.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://versute.cz/cs_cz/sluzby/private-equity/",
+      "publisher": "Versute Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Zaměření primárně na společnosti v České republice a na Slovensku, které mají potenciál být nebo již jsou přítomny na zahraničních trzích.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://forbes.cz/zabaleno-pardubicky-unipap-kupuji-za-stovky-milionu-dva-ceske-private-equity-fondy/",
+      "publisher": "Forbes Česko",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "Od belgické skupiny Van de Velde Packaging je kupuje BHS Private Equity Fund řízený společností Luďka Palaty Versute Investments a MAM Private Equity Fund.",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.deloitte.com/cz-sk/en/mnaport/articles/clanky-transakce/2025-q3/dva-fondy-zabalily-unipap.html",
+      "publisher": "Deloitte M&A Port",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "BHS Private Equity Fund, advised by Versute Investments, manages assets worth CZK 1.5 billion.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://cvca.cz/versute-investments/",
+      "publisher": "CVCA (self-reported member profile)",
+      "published_on": "2020-01-05",
+      "source_class": "D",
+      "quote": "1 – 5 milionů EUR (výše vlastního investovaného kapitálu",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://versute.cz/cs_cz/sluzby/private-equity/",
+      "publisher": "Versute Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fokus na podniky ve všech odvětvích, avšak s primárním zaměřením na odvětví tradiční ekonomiky.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://versute.cz/cs_cz/sluzby/private-equity/",
+      "publisher": "Versute Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Versute Investments hledá stabilní, zdravé podniky se silným cash flow, jejichž odkupy lze financovat kombinací vlastního kapitálu a bankovního financování.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://versute.cz/cs_cz/sluzby/private-equity/",
+      "publisher": "Versute Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Tato forma investice eliminuje odčerpávání finančních prostředků na splácení a obsluhu dluhů a maximum prostředků tak může být investováno do růstových příležitostí.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "MAM Private Equity Fund"
+  ],
+  "analyst_notes": "Versute Investments is the adviser/GP-type manager of the fund formerly called BHS Fund II. – Private Equity, renamed VERSUTE Funds SICAV a.s. effective 17.3.2026 (investor letter PDF on versute.cz); sub-funds VERSUTE Private Equity Fund Otevřený and VERSUTE Dluhopisový (bonds). Not debt-only (growth capital, LBO, MBO/MBI; some deals combine minority equity with mezzanine loans), so no E4. The PE page also lists 2026 entries (a healthcare group and PRP, minority equity + mezzanine, year of entry 2026 only) and ALFA 3 (2025, leveraged buyout; Forbes 2025-09-24 says announced in early August 2025) - not listed as investments because only year/month is given. AUM CZK 1.5bn per Deloitte (2025-09-24). Ticket EUR 1-5m own equity from the 2020 CVCA self-reported profile (class D). Sector: all sectors with primary focus on traditional economy.",
+  "researched_on": "2026-10-25"
+}

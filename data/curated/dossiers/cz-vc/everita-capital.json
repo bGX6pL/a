@@ -1,0 +1,42 @@
+{
+  "investor_key": "everita-capital",
+  "pilot": "cz-vc",
+  "name": "EVERITA Capital",
+  "aliases": ["EVERITA Capital s.r.o.", "EVERITA Fund I"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://everitacap.com",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague-based SME growth private equity fund taking majority stakes (Pekarna Hrstić 51%, Mar 2026; CLINTRIAL majority, Aug 2026); real and active but not VC, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "EVERITA Capital s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19067097", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["healthtech", "edtech", "consumer", "industrial_manufacturing"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["growth", "buyout"], "method": "stated", "evidence": ["e2", "e3"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": {"min": 2000000, "max": 5000000, "currency": "EUR"}, "method": "self_reported", "evidence": ["e6"]},
+  "capital": {"value": {"amount": 40000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2025-10-12"}, "method": "stated", "evidence": ["e4"]},
+  "funds": [
+    {"name": "EVERITA Fund I", "size_amount": 40000000, "currency": "EUR", "event": "target", "event_date": "2025-10-12", "evidence": "e4"},
+    {"name": "EVERITA Fund I", "size_amount": null, "currency": "EUR", "event": "commitment", "event_date": "2024-12-27", "evidence": "e5"}
+  ],
+  "investments": [
+    {"company": "CLINTRIAL s.r.o.", "company_country": "CZ", "date": "2026-08-31", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e3"},
+    {"company": "Pekarna Hrstić", "company_country": "HR", "date": "2026-03-31", "round": "growth", "round_amount": null, "currency": null, "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://everitacap.com/", "publisher": "EVERITA Capital", "published_on": null, "source_class": "B", "quote": "EVERITA Capital partners with resourceful founders of SMEs in sectors experiencing structural growth.", "language": "en"},
+    {"id": "e2", "url": "https://everitacap.com/news/everita-capital-invests-in-the-expansion-of-pekarna-hrstic-from-split", "publisher": "EVERITA Capital", "published_on": "2026-03-31", "source_class": "B", "quote": "EVERITA Capital, a private equity investment fund focused on investing in small and medium-sized companies in Central Europe, has chosen Croatia for its first investment.", "language": "en"},
+    {"id": "e3", "url": "https://everitacap.com/news/everita-capital-vstupuje-do-spolecnosti-clintrial-a-podpori-rozvoj-klinickych-hodnoceni-v-cr", "publisher": "EVERITA Capital", "published_on": "2026-08-31", "source_class": "B", "quote": "a majority stake in CLINTRIAL s.r.o., an established Prague-based provider of clinical trial services.", "language": "en"},
+    {"id": "e4", "url": "https://everitacap.com/news/novy-fond-everita-emilie-mamajove-a-marka-jojice-podporily-rsj-i-fond-ze-staje-j-t-zameri-se-na-podniky-v-cesku-i-na-balkane", "publisher": "EVERITA Capital (reprint of Hospodářské noviny)", "published_on": "2025-10-12", "source_class": "B", "quote": "uzavřela v těchto dnech svůj první fond Everita Fund I a cílí na palebnou sílu 40 milionů eur, tedy zhruba na miliardu korun.", "language": "cs"},
+    {"id": "e5", "url": "https://everitacap.com/news/european-investment-fund-approves-eur-20-million-investment-in-everita-fund", "publisher": "EVERITA Capital", "published_on": "2024-12-27", "source_class": "B", "quote": "EVERITA Capital is pleased to announce that the European Investment Fund (“EIF”) Board of Directors has approved a EUR 20 million investment in EVERITA Fund.", "language": "en"},
+    {"id": "e6", "url": "https://cvca.cz/everita-capital/", "publisher": "CVCA", "published_on": "2020-01-22", "source_class": "D", "quote": "2-5 miliónu EUR", "language": "cs"}
+  ],
+  "co_investors_seen": ["RSJ", "J&T"],
+  "analyst_notes": "Quick S1 dossier. EVERITA is the successor of ESPIRA Investments (same partner Emília Mamajová, same registered address Na Florenci 2116/15; the EIF release says EVERITA Fund 'will continue the established investment strategy of ESPIRA Investments'). Fund I: the 2025-10-12 article (reprinted on EVERITA's site; header indicates Hospodářské noviny) says the fund was closed and targets EUR 40m firepower; recorded as a 'target' of EUR 40m and used as capital (latest_fund_size), not a confirmed final close. EIF approved a EUR 20m commitment (2024-12-27); RSJ and a J&T fund are named as LPs in the article headline. Sectors from the homepage list (healthcare, education, specialty manufacturing, consumer goods, business services) mapped to the closed list. Ticket EUR 2-5m only from the self-reported CVCA profile (class D; the profile already mentions Clintrial and Pekarna Hrstić, so it was edited after its 2020 publication date). Fund vehicle not found in ARES.",
+  "researched_on": "2026-10-25"
+}

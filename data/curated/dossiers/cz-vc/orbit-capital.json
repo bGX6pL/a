@@ -1,0 +1,269 @@
+{
+  "investor_key": "orbit-capital",
+  "pilot": "cz-vc",
+  "name": "Orbit Capital",
+  "aliases": [
+    "ORBIT Capital GP s.r.o.",
+    "Orbit Growth Equity",
+    "Orbit Growth Debt",
+    "Conseq-Orbit SICAV, a.s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://orbitcapital.com",
+  "decision": "exclude",
+  "rule_codes": [
+    "E4",
+    "E7"
+  ],
+  "decision_note": "Prague/Warsaw manager whose only dated activity in the window is senior venture-debt (Growth Debt II first close May 2025, second close €107m July 2026); no new equity investment by Orbit Growth Equity found since 2024-10-25.",
+  "discovered_via": [
+    "cvca",
+    "news",
+    "eif-portfolio"
+  ],
+  "legal_entities": [
+    {
+      "name": "ORBIT Capital GP s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08319961",
+      "role": "gp"
+    },
+    {
+      "name": "Conseq-Orbit SICAV, a.s. (LEI name: Orbit Capital SICAV, a.s.)",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08223467",
+      "role": "fund"
+    },
+    {
+      "name": "Conseq-Orbit SICAV, podfond Conseq Venture Debt",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "75161486",
+      "role": "fund"
+    },
+    {
+      "name": "Orbit Growth SCSp",
+      "country": "LU",
+      "registry": "LEI",
+      "registry_id": "549300I7UPN943XCAB62",
+      "role": "fund"
+    },
+    {
+      "name": "Orbit Growth GP S.à r.l.",
+      "country": "LU",
+      "registry": "LEI",
+      "registry_id": "549300HK0TC4IEQQD083",
+      "role": "gp"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "software_saas"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "growth"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4",
+      "e6"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE",
+      "DACH"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e7"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 8000000,
+      "max": 15000000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 107000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2026-07-02"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Orbit Growth Debt II",
+      "size_amount": 107000000,
+      "currency": "EUR",
+      "event": "other",
+      "event_date": "2026-07-02",
+      "evidence": "e3"
+    },
+    {
+      "name": "Orbit Growth Debt II",
+      "size_amount": null,
+      "currency": "EUR",
+      "event": "first_close",
+      "event_date": "2025-05-27",
+      "evidence": "e2"
+    },
+    {
+      "name": "Orbit Growth Debt I",
+      "size_amount": 40000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2019-01-01",
+      "evidence": "e9"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Sloneek",
+      "company_country": "CZ",
+      "date": null,
+      "round": "venture_debt",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    },
+    {
+      "company": "IAG",
+      "company_country": "CZ",
+      "date": null,
+      "round": "venture_debt",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    },
+    {
+      "company": "Talkin' Things",
+      "company_country": "PL",
+      "date": null,
+      "round": "venture_debt",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://cvca.cz/orbit-capital/",
+      "publisher": "CVCA (self-reported member profile)",
+      "published_on": "2020-01-12",
+      "source_class": "D",
+      "quote": "Growth equity and venture debt",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.eif.org/press/all/eif-pledges-eur20-million-to-fuel-expansion-of-cee-based-innovative-smes-via-orbit-growth-debt-ii-fund",
+      "publisher": "European Investment Fund",
+      "published_on": "2025-06-17",
+      "source_class": "C",
+      "quote": "Its focus will be on growth-stage software and other technology companies – a segment that across Europe faces a financing gap estimated at €1.4 trillion.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+      "publisher": "Tech.eu",
+      "published_on": "2026-07-02",
+      "source_class": "C",
+      "quote": "CEE investors Orbit Capital have announced the second closing of Growth Debt Fund II at €107 million, surpassing its initial target.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.startuplithuania.com/ecosystem/orbit-capital/",
+      "publisher": "Startup Lithuania (ecosystem directory, self-reported profile)",
+      "published_on": "2026-01-28",
+      "source_class": "D",
+      "quote": "We issue initial tickets ranging from €8-15 million and currently support four companies: Booksy, MEWS, Preply, and Rohlik.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.eif.org/press/all/eif-pledges-eur20-million-to-fuel-expansion-of-cee-based-innovative-smes-via-orbit-growth-debt-ii-fund",
+      "publisher": "European Investment Fund",
+      "published_on": "2025-06-17",
+      "source_class": "C",
+      "quote": "It will provide senior-debt financing to businesses to fuel their growth.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+      "publisher": "Tech.eu",
+      "published_on": "2026-07-02",
+      "source_class": "C",
+      "quote": "Fund II targets post-Series A technology companies with at least €3 million in revenue and a minimum 30 per cent YoY growth.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.vestbee.com/insights/articles/orbit-capital-raises-107-m-for-growth-debt",
+      "publisher": "Vestbee",
+      "published_on": "2026-07-02",
+      "source_class": "C",
+      "quote": "Founded in 2019, Orbit Capital manages both growth equity and venture debt funds, making it one of the few regional players offering non-dilutive financing to scaleups across CEE and DACH.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://tech.eu/2026/07/02/orbit-capital-closes-eur107m-venture-debt-fund-for-cee-scaleups/",
+      "publisher": "Tech.eu",
+      "published_on": "2026-07-02",
+      "source_class": "C",
+      "quote": "Fund II has already begun deploying capital, with 5 investments so far, including Czech startups Sloneek and IAG, as well as Polish startup Talkin' Things, further strengthening Orbit Capital’s portfolio of high-growth technology companies across the region.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.eif.org/press/all/eif-pledges-eur20-million-to-fuel-expansion-of-cee-based-innovative-smes-via-orbit-growth-debt-ii-fund",
+      "publisher": "European Investment Fund",
+      "published_on": "2025-06-17",
+      "source_class": "C",
+      "quote": "Orbit Growth Debt II builds on a predecessor fund called Orbit Growth Debt I which a €40 million fund which started operations in 2019 and has invested in 15 Central European companies so far",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "European Investment Fund",
+    "PFR Ventures",
+    "Česká spořitelna",
+    "Rentea (Partners Group)",
+    "Conseq",
+    "Index Ventures",
+    "Sofina"
+  ],
+  "analyst_notes": "Type vc chosen over pe: Orbit Growth Equity takes minority growth stakes (initial tickets EUR 8-15m, self-reported) in VC-backed tech scale-ups (Booksy, Mews, Preply, Rohlik), and Vestbee calls Orbit a venture capital fund family; it is not a buyout/majority investor. Excluded because all dated activity in the 24-month window is venture debt: Orbit Growth Debt II (EIF: 'senior-debt financing', first close 27 May 2025, EUR 70m per Vestbee 2025-06-17; second close EUR 107m announced 2026-07-02; 5 debt deals incl. Sloneek, IAG, Talkin' Things, dates not disclosed). Senior debt is not equity/quasi-equity (I2), hence E4 for the active strategy; the equity strategy shows no investment since 2024-10-25 (latest found: Rohlik Series D 2022), hence E7. If the pilot later counts venture debt as VC activity, this record would qualify. Ticket shown is the growth-equity ticket (self-reported, Startup Lithuania directory 2026-01-28); Growth Debt II tickets are EUR 3-15m (Tech.eu 2026-07-02), Growth Debt I EUR 3-7m per deal (same directory). Capital = Growth Debt II size (EUR 107m); growth-equity fund size not disclosed (CVCA 2020 profile: 'scaling to EUR 200 million'). Growth Debt I: EUR 40m, started 2019 (EIF), month unknown, date set to 2019-01-01. Legal entities: Conseq-Orbit SICAV a.s. (IČO 08223467) is registered in GLEIF as 'Orbit Capital SICAV, a.s.'; its sub-fund 'Conseq Venture Debt' (75161486) is presumably Orbit Growth Debt I; Orbit Growth SCSp (LU, created 2022-01-10) is presumably Growth Equity or Growth Debt II - mapping not confirmed. Own website orbitcapital.com is a JS-rendered page with almost no text, so no class B quote was usable.",
+  "researched_on": "2026-10-25"
+}
