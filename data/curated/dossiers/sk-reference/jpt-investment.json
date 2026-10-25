@@ -13,11 +13,11 @@
     "accelerator": false
   },
   "hq_country": "SK",
-  "decision": "unverified",
+  "decision": "exclude",
   "rule_codes": [
-    "E8"
+    "E3"
   ],
-  "decision_note": "Košice self-managed fund of a single individual shareholder holding EUR 6.8m of undisclosed shares; no strategy or portfolio is public.",
+  "decision_note": "Košice self-managed fund of a single shareholder whose 2025 statements show a listed-securities trading book (EUR 6.75m of shares held as trading securities, exchange and broker fees, no participations) - a non-company strategy (E3), not private-company investing.",
   "discovered_via": [
     "nbs-register"
   ],
@@ -50,9 +50,45 @@
       "source_class": "A",
       "quote": "vykonávanie kolektívneho investovania podľa Zákona č. 203/2011 Z.z. o kolektívnom investovaní v znení neskorších predpisov",
       "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12109229",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "4. Cenné papiere na obchodovanie Bežné účtovné obdobie Bezprostredne predchádzajúce účtovné obdobie 1. Akcie",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12109229",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "18. Akcie 6 750 713,00 50 700,00",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12109229",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "2. Burzové odplaty a poplatky 6 636 1 466 3. Odplaty obchodníkom s cennými papiermi 15 471 2 058",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12109229",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "20. Dlhodobý finančný majetok - - a) podiely v prepojených podnikoch - -",
+      "language": "sk"
     }
   ],
   "co_investors_seen": [],
-  "analyst_notes": "RÚZ 2025: shares EUR 6.75m (EUR 0.05m in 2024) and bonds EUR 0.1m (EUR 1.9m in 2024). Sole shareholder Ing. Tibor Štefančík - likely a private wealth vehicle (possible E6). Bank of Spain list: 'Equities'.",
+  "analyst_notes": "RÚZ 2025: shares EUR 6.75m (EUR 0.05m in 2024) and bonds EUR 0.1m (EUR 1.9m in 2024). Sole shareholder Ing. Tibor Štefančík - likely a private wealth vehicle (possible E6). Bank of Spain list: 'Equities'. [revision 2026-10-25 after review: decision unverified (E8) -> exclude E3. The RÚZ 2025 financial statements (e1 attachment) are enough to decide: the EUR 6,750,713 of shares (e4) sit in the note table 'Cenné papiere na obchodovanie' (trading securities, e3), the fund pays exchange fees and securities-broker fees (e5), long-term financial assets / participations are nil (e6), and shares are held in EUR and USD (with CAD positions per the reviewer). This is a listed-securities portfolio, so E3; the single-shareholder structure would also fit E6. Evidence e1/e2 kept.]",
   "researched_on": "2026-10-25"
 }

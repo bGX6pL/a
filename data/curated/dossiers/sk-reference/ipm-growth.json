@@ -94,11 +94,11 @@
     {
       "company": "Tachyum",
       "company_country": "SK",
-      "date": null,
+      "date": "2018-02-01",
       "round": null,
       "round_amount": null,
       "currency": null,
-      "evidence": "e6"
+      "evidence": "e7"
     }
   ],
   "evidence": [
@@ -155,9 +155,45 @@
       "source_class": "D",
       "quote": "Currently, among the fund's investments are Matsuko - a company disturbing the remote communication world and Tachyum - processors provider.",
       "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.storagenewsletter.com/?p=186583",
+      "publisher": "StorageNewsletter (Tachyum press release)",
+      "published_on": "2018-02-14",
+      "source_class": "C",
+      "quote": "Silicon Valley start-up Tachyum Inc. received an outside investment from IPM Growth, the venture capital division of InfraPartners Management LLP, a multi-asset class fund management and advisory firm.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.batterypoweronline.com/view-press-releases/entry/5335/",
+      "publisher": "Battery Power Online (InoBat press release)",
+      "published_on": "2024-12-20",
+      "source_class": "C",
+      "quote": "Bratislava, Slovakia – 20/12/2024 – InoBat announces the finalisation of its investment round Series C, successfully raising €100m in equity.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.batterypoweronline.com/view-press-releases/entry/5335/",
+      "publisher": "Battery Power Online (InoBat press release)",
+      "published_on": "2024-12-20",
+      "source_class": "C",
+      "quote": "complemented with significant contributions from SIH (Slovakia’s sovereign wealth fund), Lilium, Bromo Capital, IPM Group and Cielo Capital (InoBat’s founders).",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.batterypoweronline.com/view-press-releases/entry/5335/",
+      "publisher": "Battery Power Online (InoBat press release)",
+      "published_on": "2024-12-20",
+      "source_class": "C",
+      "quote": "CEO and Co-founder Marián Boček",
+      "language": "en"
     }
   ],
   "co_investors_seen": [],
-  "analyst_notes": "Identity: ORSR extract https://www.orsr.sk/vypis.asp?ID=450600&SID=3&P=0 (windows-1250, not quoted): IPM Growth s.r.o., IČO 52 151 573, registered 04.01.2019, seat Dolná 5, Banská Bystrica; shareholders IPM Group Holdings Limited (London, UK company no. 11719671; EUR 11,250 of EUR 15,000), Global Connect Corporation SK s. r. o. (IČO 46830243) and MaViL, s.r.o. (IČO 52188191); managing directors Marián Boček and Ing. Adrian Vyčítal; licences: property rental, trade, intermediation, business consulting (SK NACE 70220). Not on the NBS register export of 2026-10-24 (the related IPM Avanea Eco Management a.s. / IPM Avanea Eco s.r.o. are registered AIF manager/fund there and are screened by another analyst). RÚZ micro accounts 2025 (statement 7120286, structured data): total assets EUR 2,122,215, long-term financial assets EUR 2,079,996, zero revenue, equity EUR 1.13m and ~EUR 0.99m liabilities - consistent with a holding of one or a few participations, possibly a group SPV (could be E6 captive), not a demonstrated VC. The Papermark list (D, marketing content) calls it a growth-equity investor with EUR 3-20m rounds but links 'IPM Group' to ipmllp.com, which is InfraPartners Management LLP, a London infrastructure investment adviser - the description is therefore unreliable. No website for IPM Growth was found by direct domain probes, and the session's web-search budget ran out before news searches on IPM Growth could be run. Re-screen if a named portfolio company or fund appears. Reviewer update: the Vestbee list of Slovak VC funds (published 2020-10-08, modified 2024-02-21; class D) describes IPM Growth as managed by IPM Group, focused on InfraTech (mobility, AI-enabled infrastructure, energy) at early-growth/growth stage, with investments in Matsuko and Tachyum (e4-e6) - this supplies I2 at directory level, so the record moves from unverified (E8) to exclude E7 (no dated activity in the window; investment dates unknown, left null). Stage, geography and the EUR 3-20m ticket come only from directories (Papermark e2, Vestbee) and are labelled self_reported; Papermark's link to InfraPartners Management LLP remains doubtful. Tachyum is a Slovak-founded processor company (HQ Las Vegas/Bratislava) - company_country SK is an approximation.",
+  "analyst_notes": "Identity: ORSR extract https://www.orsr.sk/vypis.asp?ID=450600&SID=3&P=0 (windows-1250, not quoted): IPM Growth s.r.o., IČO 52 151 573, registered 04.01.2019, seat Dolná 5, Banská Bystrica; shareholders IPM Group Holdings Limited (London, UK company no. 11719671; EUR 11,250 of EUR 15,000), Global Connect Corporation SK s. r. o. (IČO 46830243) and MaViL, s.r.o. (IČO 52188191); managing directors Marián Boček and Ing. Adrian Vyčítal; licences: property rental, trade, intermediation, business consulting (SK NACE 70220). Not on the NBS register export of 2026-10-24 (the related IPM Avanea Eco Management a.s. / IPM Avanea Eco s.r.o. are registered AIF manager/fund there and are screened by another analyst). RÚZ micro accounts 2025 (statement 7120286, structured data): total assets EUR 2,122,215, long-term financial assets EUR 2,079,996, zero revenue, equity EUR 1.13m and ~EUR 0.99m liabilities - consistent with a holding of one or a few participations, possibly a group SPV (could be E6 captive), not a demonstrated VC. The Papermark list (D, marketing content) calls it a growth-equity investor with EUR 3-20m rounds but links 'IPM Group' to ipmllp.com, which is InfraPartners Management LLP, a London infrastructure investment adviser - the description is therefore unreliable. No website for IPM Growth was found by direct domain probes, and the session's web-search budget ran out before news searches on IPM Growth could be run. Re-screen if a named portfolio company or fund appears. Reviewer update: the Vestbee list of Slovak VC funds (published 2020-10-08, modified 2024-02-21; class D) describes IPM Growth as managed by IPM Group, focused on InfraTech (mobility, AI-enabled infrastructure, energy) at early-growth/growth stage, with investments in Matsuko and Tachyum (e4-e6) - this supplies I2 at directory level, so the record moves from unverified (E8) to exclude E7 (no dated activity in the window; investment dates unknown, left null). Stage, geography and the EUR 3-20m ticket come only from directories (Papermark e2, Vestbee) and are labelled self_reported; Papermark's link to InfraPartners Management LLP remains doubtful. Tachyum is a Slovak-founded processor company (HQ Las Vegas/Bratislava) - company_country SK is an approximation. [revision 2026-10-25 after review: decision stays exclude E7. (1) InfraPartners correction: the link is NOT spurious - the 2018 Tachyum release calls IPM Growth 'the venture capital division of InfraPartners Management LLP' (e7), so the Papermark link to ipmllp.com (InfraPartners Management LLP, London) is consistent; London may be the real HQ (possible S2 for the Slovak set). The Tachyum investment is dated by that release (Feb 2018; month-only, recorded as 2018-02-01). (2) E6 note: IPM Group contributed to InoBat's EUR 100m Series C closed on 2024-12-20 (e8, e9), inside the window, but InoBat's CEO and co-founder is Marián Boček (e10), who is also a managing director of IPM Growth s.r.o. (ORSR, above), and the reviewer reports InoBat as majority-owned by IPM Holding / Boček (not verified here) - a captive group stake (E6-type), not independent VC activity, so it is not recorded as an IPM Growth investment and does not lift E7. Latest independent deal per CB Insights (reviewer): Hilo EV seed 2022-06-14.]",
   "researched_on": "2026-10-25"
 }

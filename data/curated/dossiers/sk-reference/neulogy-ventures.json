@@ -17,15 +17,11 @@
   },
   "hq_country": "SK",
   "website": "https://neulogy.vc/",
-  "decision": "include",
+  "decision": "unverified",
   "rule_codes": [
-    "I1",
-    "I2",
-    "I3",
-    "I4",
-    "I5"
+    "E8"
   ],
-  "decision_note": "Bratislava early-stage deeptech VC (Luxembourg SICAR backed by EIF, SIH and Tatra banka); its own portfolio page dates the StratifAI investment to 2025 and the EIF lists the fund's investment period as running to 14 March 2027.",
+  "decision_note": "Bratislava early-stage deeptech VC (Luxembourg SICAR, EIF investment period to 14 March 2027, so not E7), but its latest dated deal is the StratifAI pre-seed of 2024-09-02, before the window; no deal or fund close dated on/after 2024-10-25 was found - unverified.",
   "discovered_via": [
     "research-seed",
     "slovca",
@@ -129,11 +125,11 @@
     {
       "company": "StratifAI",
       "company_country": "DE",
-      "date": "2025-01-01",
+      "date": "2024-09-02",
       "round": "pre_seed",
       "round_amount": null,
       "currency": null,
-      "evidence": "e6"
+      "evidence": "e13"
     }
   ],
   "evidence": [
@@ -244,6 +240,33 @@
       "source_class": "C",
       "quote": "The fund's investment period ran from 2014 to 2016.",
       "language": "en"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.caplight.com/investor/neulogy",
+      "publisher": "Caplight (investor profile, aggregator)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "StratifAI GmbH Sep 2024 Pre Seed Lead",
+      "language": "en"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.caplight.com/company/stratifai",
+      "publisher": "Caplight (company profile, aggregator)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Early Funding Sep 30, 2025 Pre Seed Sep 2, 2024",
+      "language": "en"
+    },
+    {
+      "id": "e15",
+      "url": "https://www.electrive.com/2025/03/17/mirova-injects-e50-million-in-charging-specialist-greenway",
+      "publisher": "electrive",
+      "published_on": "2025-03-17",
+      "source_class": "C",
+      "quote": "In the case of GreenWay, Mirova is joining existing shareholders Janom Investment, Generation Capital, Helios Energy Investment Funds and Neulogy Ventures.",
+      "language": "en"
     }
   ],
   "co_investors_seen": [
@@ -251,6 +274,6 @@
     "Debiopharm Innovation Fund",
     "Arve Capital"
   ],
-  "analyst_notes": "Activity (I3): Neulogy's own portfolio page gives only the year for StratifAI ('Invested: 2025'); date set to 2025-01-01 as a year-only placeholder (any 2025 date is inside the window). Conflict: aggregator pages (Signalbase, published 2024-09-02) report StratifAI's EUR 1.5m pre-seed co-led by Neulogy Ventures and MultiplexDX in Sept 2024, i.e. before the window; Neulogy's 2025 date may be the closing or a follow-on (StratifAI raised EUR 12.5m in Sept 2025 with 'existing investors', Neulogy not named in the coverage I opened). Supporting signal: the EIF list 'EIF equity fund partners as at 30 September 2026' (e9, published_on null; 'as at' date 2026-09-30) shows Slovak Venture Fund S.C.A., SICAR (mandates CEFoF and EGF) with end of investment period 14/03/2027, i.e. an open investment period; SIH's page (e12) refers only to the 2014-2016 JEREMIE compartments, now divesting. CB Insights (JS/paywalled, not cited) lists GA Drilling Series D 2025-07-31 for Neulogy; GA Drilling's own March 2026 release and ThinkGeoEnergy (2026-03-03) do not name Neulogy, so not used. BeIT and BiteBerry are dated only '2024' on Neulogy's site (BiteBerry round reported 2024-09-10 by CB Insights, before the window). Ticket: own site EUR 200k-3m (newest B) vs SLOVCA self-reported 200,000-2.5M. Capital: EUR 65m AUM from the undated about-us page (as_of unknown, null); aggregators show 36m/70m. Sector: own site 'technology, climate and health' + deeptech; EIF lists main sector ICT. Geography: invests in companies established or operating in Slovakia, but portfolio spans 10 countries (StratifAI is Berlin/Dresden). Legal: Slovak company Neulogy Ventures, a. s. (IČO 47367610, ORSR Sa 5826/B, board Christian Mandl, Jaroslav Luptak, Martin Smetana) is named by EIF as fund manager; the Luxembourg GP/registered AIFM is Neulogy Ventures S.à r.l. (CSSF-regulated; LU registry id not checked). Not on the NBS register. Discovered via: SLOVCA full member; SIH intermediary page; EIF fund-partner list; Jaroslav Ľupták (Partner, Neulogy Ventures) quoted in Startup Report Slovensko 2025; Papermark Bratislava VC list (news). Web-search budget ran out during research; Slovak press for 2025-2026 Neulogy deals was not exhaustively searched.",
+  "analyst_notes": "Activity (I3): Neulogy's own portfolio page gives only the year for StratifAI ('Invested: 2025'); date set to 2025-01-01 as a year-only placeholder (any 2025 date is inside the window). Conflict: aggregator pages (Signalbase, published 2024-09-02) report StratifAI's EUR 1.5m pre-seed co-led by Neulogy Ventures and MultiplexDX in Sept 2024, i.e. before the window; Neulogy's 2025 date may be the closing or a follow-on (StratifAI raised EUR 12.5m in Sept 2025 with 'existing investors', Neulogy not named in the coverage I opened). Supporting signal: the EIF list 'EIF equity fund partners as at 30 September 2026' (e9, published_on null; 'as at' date 2026-09-30) shows Slovak Venture Fund S.C.A., SICAR (mandates CEFoF and EGF) with end of investment period 14/03/2027, i.e. an open investment period; SIH's page (e12) refers only to the 2014-2016 JEREMIE compartments, now divesting. CB Insights (JS/paywalled, not cited) lists GA Drilling Series D 2025-07-31 for Neulogy; GA Drilling's own March 2026 release and ThinkGeoEnergy (2026-03-03) do not name Neulogy, so not used. BeIT and BiteBerry are dated only '2024' on Neulogy's site (BiteBerry round reported 2024-09-10 by CB Insights, before the window). Ticket: own site EUR 200k-3m (newest B) vs SLOVCA self-reported 200,000-2.5M. Capital: EUR 65m AUM from the undated about-us page (as_of unknown, null); aggregators show 36m/70m. Sector: own site 'technology, climate and health' + deeptech; EIF lists main sector ICT. Geography: invests in companies established or operating in Slovakia, but portfolio spans 10 countries (StratifAI is Berlin/Dresden). Legal: Slovak company Neulogy Ventures, a. s. (IČO 47367610, ORSR Sa 5826/B, board Christian Mandl, Jaroslav Luptak, Martin Smetana) is named by EIF as fund manager; the Luxembourg GP/registered AIFM is Neulogy Ventures S.à r.l. (CSSF-regulated; LU registry id not checked). Not on the NBS register. Discovered via: SLOVCA full member; SIH intermediary page; EIF fund-partner list; Jaroslav Ľupták (Partner, Neulogy Ventures) quoted in Startup Report Slovensko 2025; Papermark Bratislava VC list (news). Web-search budget ran out during research; Slovak press for 2025-2026 Neulogy deals was not exhaustively searched. [revision 2026-10-25 after review: decision include -> unverified (E8). The StratifAI date 2025-01-01 was a placeholder built from the portfolio label 'Invested: 2025' (e6); the dated record is the pre-seed led by Neulogy on 2024-09-02 (Caplight: 'Sep 2024 Pre Seed Lead' on the Neulogy profile, e13, and 'Pre Seed Sep 2, 2024' on the StratifAI profile, e14), i.e. before the window; StratifAI's next round (2025-09-30) lists Alven, Picus, Heliad and Arve, not Neulogy. Looked once more: the Neulogy site (portfolio years 2023 or earlier, BeIT/BiteBerry 2024, news page) and web search found no 2025-2026 deal or fund close. Caplight also lists 'GreenWay Mar 2025 Growth Equity Co-investor', but the primary coverage of that round (electrive 2025-03-17, e15) names Neulogy only as an existing shareholder joined by Mirova, so it is not counted as a new investment. The EIF list (e9) shows the fund's investment period running to 14/03/2027, so the fund is not a zombie (not E7), but an open investment period is not itself a dated I3 event. Re-screen when a dated 2024-10-25+ deal appears.]",
   "researched_on": "2026-10-25"
 }

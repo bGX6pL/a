@@ -1,0 +1,40 @@
+{
+  "investor_key": "lumus-investment-collective",
+  "pilot": "cz-vc",
+  "name": "Lumus Investment Collective",
+  "aliases": ["LUMUS Investment Collective", "Lumus Investment Collective s.r.o."],
+  "investor_type": "angel_network",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.lumusinvestment.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague-based community of female angel investors that invests deal by deal through SPVs in predominantly CEE startups (e.g. Kardi AI round, April 2025) - an angel network, not a VC fund.",
+  "discovered_via": ["co-investor:depo-ventures", "second-pass"],
+  "legal_entities": [
+    {"name": "Lumus Investment Collective s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "10664335", "role": "manager"},
+    {"name": "Lumus II s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "10900055", "role": "other"},
+    {"name": "Lumus III s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "10937196", "role": "other"},
+    {"name": "Lumus V s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "14358336", "role": "other"},
+    {"name": "Lumus VI s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "17231167", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Kardi AI", "company_country": "CZ", "date": "2025-04-28", "round": null, "round_amount": 28000000, "currency": "CZK", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.lumusinvestment.com/", "publisher": "Lumus Investment Collective", "published_on": null, "source_class": "B", "quote": "Lumus Investment Collective is a community of badass women who are actively and eagerly stepping into the angel investing world, smashing the glass ceiling and breaking down gender barriers.", "language": "en"},
+    {"id": "e2", "url": "https://www.lumusinvestment.com/angels", "publisher": "Lumus Investment Collective", "published_on": null, "source_class": "B", "quote": "We are a community of investors (not a faceless syndicate) that invests in predominantly CEE-related startups on a deal-by-deal basis.", "language": "en"},
+    {"id": "e3", "url": "https://www.lumusinvestment.com/angels", "publisher": "Lumus Investment Collective", "published_on": null, "source_class": "B", "quote": "€3,000 per investment per angel investor is the minimum amount required.", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/cesky-kardiolog-v-kapse-nabira-dalsi-miliony-startup-ktery-hlida-srdce-se-ted-chysta-do-zahranici/", "publisher": "CzechCrunch", "published_on": "2025-04-28", "source_class": "C", "quote": "Od stávajících investorů BrightCap Ventures, Depo Ventures a Garage Angels a nově také od Lumus Investment Collective i nejmenovaného českého andělského investora získal celkem 28 milionů korun.", "language": "cs"}
+  ],
+  "co_investors_seen": ["BrightCap Ventures", "Depo Ventures", "Garage Angels"],
+  "analyst_notes": "Quick exclusion dossier (S1, angel network). The own site describes a community of 500+ (predominantly female) angels who receive deal proposals and invest deal by deal through a Special Purpose Vehicle formed for each deal (e2); minimum EUR 3,000 per angel per deal (e3, a member minimum, not a per-company ticket). ARES shows the organiser Lumus Investment Collective s.r.o. (2021, Praha 5) and SPVs Lumus II, III, V and VI s.r.o. at the same address. Activity is current: Kardi AI ('Kardiolog v kapse') round of CZK 28m (CzechCrunch 2025-04-28, e4); the portfolio page also lists HTG Medical, CloseRocket, Aleet, IRAYE (invested 2025) and ArtMaster (2026) with year-only dates. CB Insights types it 'Angel Investor (Group)'.",
+  "researched_on": "2026-10-25"
+}

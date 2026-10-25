@@ -23,7 +23,7 @@
     "I4",
     "I5"
   ],
-  "decision_note": "Brno pre-seed/seed VC fund (EUR 16m / CZK 400m) initiated by the regional innovation agency JIC, launched 7 April 2026; first investment FaceUp (Series A, May 2026).",
+  "decision_note": "Brno pre-seed/seed VC fund initiated by the regional innovation agency JIC, launched 7 April 2026 with CZK 320m committed towards a CZK 400m target (no final close yet); first investment FaceUp (Series A, May 2026).",
   "discovered_via": [
     "research-seed"
   ],
@@ -90,24 +90,33 @@
   },
   "capital": {
     "value": {
-      "amount": 16000000,
-      "currency": "EUR",
-      "basis": "latest_fund_size",
+      "amount": 320000000,
+      "currency": "CZK",
+      "basis": "interim_close",
       "as_of": "2026-04-07"
     },
     "method": "stated",
     "evidence": [
-      "e4"
+      "e7",
+      "e8"
     ]
   },
   "funds": [
     {
       "name": "JIC Ventures (JIC Ventures 2 a.s., osoba rizikového kapitálu)",
+      "size_amount": 320000000,
+      "currency": "CZK",
+      "event": "interim_close",
+      "event_date": "2026-04-07",
+      "evidence": "e7"
+    },
+    {
+      "name": "JIC Ventures (JIC Ventures 2 a.s., osoba rizikového kapitálu)",
       "size_amount": 400000000,
       "currency": "CZK",
-      "event": "launch",
+      "event": "target",
       "event_date": "2026-04-07",
-      "evidence": "e2"
+      "evidence": "e7"
     }
   ],
   "investments": [
@@ -150,15 +159,6 @@
       "language": "en"
     },
     {
-      "id": "e4",
-      "url": "https://www.jic.cz/en/about-us/pro-media/jic-launches-a-venture-capital-fund-for-startups-p",
-      "publisher": "JIC",
-      "published_on": "2026-04-07",
-      "source_class": "B",
-      "quote": "The EUR 16 million fund aims to contribute to the transformation of the Czech economy.",
-      "language": "en"
-    },
-    {
       "id": "e5",
       "url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do",
       "publisher": "JIC",
@@ -175,6 +175,24 @@
       "source_class": "B",
       "quote": "JIC Ventures will focus primarily on startups in the pre-seed and seed stages and plans to invest in around twenty technology companies from Central and Eastern Europe over the next four years, with a natural priority given to the Czech Republic and Slovakia.",
       "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/v-brne-vznikl-fond-jaky-nema-obdoby-spojuje-soukromniky-mesto-kraj-univerzity-i-biskupstvi/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-04-07",
+      "source_class": "C",
+      "quote": "Fond cílí na velikost 400 milionů korun, aktuálně má již alokovaných 320 milionů korun, a je tak ještě otevřený dalším kvalifikovaným investorům.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.jic.cz/en/about-us/pro-media/jic-launches-a-venture-capital-fund-for-startups-p",
+      "publisher": "JIC",
+      "published_on": "2026-04-07",
+      "source_class": "B",
+      "quote": "JIC Ventures has not yet reached its final close, which means it still represents an opportunity for additional qualified investors to join.",
+      "language": "en"
     }
   ],
   "co_investors_seen": [
@@ -185,6 +203,6 @@
     "Tilia Impact Ventures",
     "Reflex Capital"
   ],
-  "analyst_notes": "Fund size: EUR 16m (JIC English release) = CZK 400m (CTP release and Lupa); the release says the fund has not yet reached its final close, so the launch event (2026-04-07) is recorded, not a close. Geography stated as CEE 'with a natural priority given to the Czech Republic and Slovakia' (same JIC release). Public flag set because the fund was initiated by the innovation agency JIC (founded by the South Moravian Region, City of Brno and four universities) and the Region is an LP; most fund capital is private (about 40 investors incl. CTP, Česká spořitelna, Jan Barta). The fund vehicle IČO 24320358 (registered 2026-01-05) is matched by name; JIC Ventures, s.r.o. (2015) is the earlier JIC investment vehicle. FaceUp round size is the whole Series A (USD 5m); JIC Ventures' share undisclosed. Website: fund pages are on jic.cz (jicventures.cz returned no content).",
+  "analyst_notes": "Fund size: EUR 16m (JIC English release) = CZK 400m (CTP release and Lupa); the release says the fund has not yet reached its final close, so the launch event (2026-04-07) is recorded, not a close. Geography stated as CEE 'with a natural priority given to the Czech Republic and Slovakia' (same JIC release). Public flag set because the fund was initiated by the innovation agency JIC (founded by the South Moravian Region, City of Brno and four universities) and the Region is an LP; most fund capital is private (about 40 investors incl. CTP, Česká spořitelna, Jan Barta). The fund vehicle IČO 24320358 (registered 2026-01-05) is matched by name; JIC Ventures, s.r.o. (2015) is the earlier JIC investment vehicle. FaceUp round size is the whole Series A (USD 5m); JIC Ventures' share undisclosed. Website: fund pages are on jic.cz (jicventures.cz returned no content). [revision 2026-10-25 after review: capital changed from EUR 16m latest_fund_size to CZK 320m interim_close (as of 2026-04-07) - EUR 16m / CZK 400m is the fundraising target (CzechCrunch 2026-04-07: target CZK 400m, CZK 320m already allocated; JIC release: no final close yet); the launch fund event with size 400m was replaced by an interim_close event (CZK 320m) and a target event (CZK 400m), both dated 2026-04-07 (e7); evidence e4 ('The EUR 16 million fund...') removed because it only supported the old capital value. No close at CZK 400m found since. Activity (FaceUp, 2026-05-19) unchanged.]",
   "researched_on": "2026-10-25"
 }

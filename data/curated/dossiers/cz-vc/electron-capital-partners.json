@@ -1,0 +1,40 @@
+{
+  "investor_key": "electron-capital-partners",
+  "pilot": "cz-vc",
+  "name": "Electron Capital Partners",
+  "aliases": ["Electron Capital Partners, a.s.", "Skupina Electron", "Electron C.P. Investment, a.s."],
+  "investor_type": "family_office",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://electroncp.cz/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Brno multi-family office of the Tescan founders (private equity, real estate, listed securities) that also backs startups (HTG Medical July 2026, co-led Carebot October 2026) - a family office, not a VC fund.",
+  "discovered_via": ["co-investor:garage-angels", "second-pass"],
+  "legal_entities": [
+    {"name": "Electron Capital Partners, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19441215", "role": "manager"},
+    {"name": "Electron C.P. Investment, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19385161", "role": "holding"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Carebot", "company_country": "CZ", "date": "2026-10-02", "round": null, "round_amount": 1500000, "currency": "EUR", "evidence": "e5"},
+    {"company": "HTG Medical", "company_country": "CZ", "date": "2026-07-14", "round": "pre_seed", "round_amount": 450000, "currency": "EUR", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://electroncp.cz/", "publisher": "Electron Capital Partners", "published_on": null, "source_class": "B", "quote": "Skupina Electron je rodinná investiční kancelář a správce rodinného majetku zakladatelů společnosti Tescan Group, a.s., globálního výrobce elektronových mikroskopů v Brně.", "language": "cs"},
+    {"id": "e2", "url": "https://electroncp.cz/", "publisher": "Electron Capital Partners", "published_on": null, "source_class": "B", "quote": "Electron Capital Partners má za cíl uchování a růst rodinného majetku skrze diversifikované portfolio investic do private equity, nemovitostí a obchodovatelných cenných papírů.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/mikroskopy-prodali-za-miliardy-ted-je-investuji-v-brne-stavime-stovky-bytu-chceme-i-startupy-odhaluji/", "publisher": "CzechCrunch", "published_on": "2025-10-21", "source_class": "C", "quote": "Právě díky tomu se z fondu stal plnohodnotný family office, ve kterém již desetičlenný tým o tento kapitál pečuje.", "language": "cs"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/", "publisher": "Lupa.cz", "published_on": "2026-07-14", "source_class": "C", "quote": "Do financování se zapojily fondy Garage Angels, Electron Capital Partners a JIC Ventures i stávající investoři Jinej fond a Dendis Capital.", "language": "cs"},
+    {"id": "e5", "url": "https://aroundprague.cz/en/people/czech-startup-carebot-raises-record-36-million-crowns-to-grow-its-ai-diagnostics", "publisher": "Around Prague", "published_on": "2026-10-02", "source_class": "C", "quote": "The new funding round was led by Garage Angels and Electron Capital Partners, along with new investor JIC Ventures, alongside existing backers Gain Ventures and Eva Janečková.", "language": "en"},
+    {"id": "e6", "url": "https://aroundprague.cz/en/people/czech-startup-carebot-raises-record-36-million-crowns-to-grow-its-ai-diagnostics", "publisher": "Around Prague", "published_on": "2026-10-02", "source_class": "C", "quote": "The Czech medtech startup Carebot, led by CEO Matěj Misař, has secured the largest investment in its history — more than €1.5 million (over 36 million crowns).", "language": "en"}
+  ],
+  "co_investors_seen": ["Garage Angels", "JIC Ventures", "Jinej fond", "Dendis Capital", "Gain Ventures", "Eva Janečková"],
+  "analyst_notes": "Quick exclusion dossier (S1, family office). The own site calls the Electron group a family investment office managing the wealth of the Tescan Group founders (e1), investing in private equity, real estate and listed securities (e2); CzechCrunch (2025-10-21) describes a ten-person multi-family office of four Tescan founder families managing billions of CZK (no exact figure, so capital not recorded) that also wants startups. Startup activity is current: second pre-seed tranche of HTG Medical (EUR 450k, Lupa 2026-07-14, e4) and co-lead of Carebot's round of more than EUR 1.5m (Around Prague 2026-10-02, e5/e6; amount recorded as the lower bound). No separately branded VC fund or team found (brand rule); ARES shows many SPVs at the Brno address (Electron C.P. Technology I-VIII, Estate I-VI, Treasury, Winery). Electron C.P. Investment, a.s. is the website operator and a statutory member of Electron Capital Partners, a.s.",
+  "researched_on": "2026-10-25"
+}

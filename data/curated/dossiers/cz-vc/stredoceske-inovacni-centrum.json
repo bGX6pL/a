@@ -1,0 +1,38 @@
+{
+  "investor_key": "stredoceske-inovacni-centrum",
+  "pilot": "cz-vc",
+  "name": "Středočeské inovační centrum (SIC)",
+  "aliases": ["SIC", "Central Bohemian Innovation Centre", "Středočeské inovační centrum, spolek"],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": true, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://s-ic.cz/cs/",
+  "decision": "unverified",
+  "rule_codes": ["I1", "E8"],
+  "decision_note": "Regional innovation agency of the Central Bohemian Region whose 'investment programme' joined Elredo's EUR 1m+ round (Sept/Oct 2026), but no public source shows that it takes equity, its programme terms, ticket or capital (its other startup support is grants and prize money), so I2 cannot be shown.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Středočeské inovační centrum, spolek", "country": "CZ", "registry": "CZ-ICO", "registry_id": "04228235", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["CZ"], "method": "stated", "evidence": ["e4"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Elredo", "company_country": "CZ", "date": "2026-09-29", "round": null, "round_amount": 1000000, "currency": "EUR", "evidence": "e1"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://forbes.cz/cesky-ai-vyrobce-audioknih-elredo-ziskal-od-investoru-pres-dvacet-milionu-korun-a-miri-do-usa/", "publisher": "Forbes Česko", "published_on": "2026-09-29", "source_class": "C", "quote": "K JIC se připojilo také Středočeské inovační centrum, investor Jiří Hlavenka a švédský venture kapitálový fond Bond Ventures.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/", "publisher": "CzechCrunch", "published_on": "2026-10-01", "source_class": "C", "quote": "Vedoucím investorem je fond JIC Ventures, ke kterému se připojil známý podnikatel a investor Jiří Hlavenka, investiční program SIC a švédští Bond Ventures.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/driv-je-v-usa-ignorovali-ted-uz-uzaviraji-obri-kontrakty-a-stehuji-se-tam-navic-ziskali-dalsi-investory/", "publisher": "CzechCrunch", "published_on": "2026-10-01", "source_class": "C", "quote": "Startup dokončil další investiční kolo ve výši přesahující jeden milion eur, zhruba 25 milionů korun.", "language": "cs"},
+    {"id": "e4", "url": "https://www.businessinfo.cz/clanky/sic-podporuje-podnikani-a-inovace-ktere-zlepsuji-kvalitu-zivota-ve-stredoceskem-kraji/", "publisher": "BusinessInfo.cz", "published_on": "2024-12-27", "source_class": "B", "quote": "SIC je inovační agentura, která od roku 2015 podporuje podnikání a inovace v regionu středních Čech.", "language": "cs"},
+    {"id": "e5", "url": "https://www.businessinfo.cz/clanky/chcete-svuj-startup-posunout-o-roky-vpred-vyuzijte-novy-startup-accelerator-od-sic/", "publisher": "BusinessInfo.cz", "published_on": "2024-02-26", "source_class": "B", "quote": "Přihlaste se do nového programu Startup Accelerator a získejte v něm nejen špičkového mentora, ale i investora a výhru až 300 000 Kč.", "language": "cs"},
+    {"id": "e6", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04228235", "publisher": "ARES", "published_on": null, "source_class": "A", "quote": "Středočeské inovační centrum, spolek", "language": "cs"}
+  ],
+  "co_investors_seen": ["JIC Ventures", "Jiří Hlavenka", "Bond Ventures", "12bullets", "Petr Bláha", "Martin Ježek"],
+  "analyst_notes": "Unverified (E8 on I2). SIC is an association (spolek, IČO 04228235) founded by the Central Bohemian Region and four academic institutions; BusinessInfo articles are SIC-authored (byline 'Středočeské inovační centrum (SIC)'), hence class B. The Elredo round (led by JIC Ventures, >EUR 1m; Forbes 2026-09-29, CzechCrunch 2026-10-01) is the only investment found: Forbes says SIC 'joined' JIC, CzechCrunch names an 'investiční program SIC'; neither says whether SIC took equity or a convertible, nor its amount. The round amount recorded is the whole round (>EUR 1m), not SIC's share; date = Forbes publication date. SIC's other startup instrument found is non-equity: its Startup Accelerator offers mentoring and prize money of up to CZK 300,000 (e5). The SIC website (s-ic.cz) refused connections on 2026-10-25, so programme terms could not be checked. Re-screen as vc with the public flag if SIC publishes an equity programme (ticket, budget) or a second dated equity deal; if its participation proves to be a grant, close as E9.",
+  "researched_on": "2026-10-25"
+}

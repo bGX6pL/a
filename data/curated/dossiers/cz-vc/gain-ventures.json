@@ -1,0 +1,36 @@
+{
+  "investor_key": "gain-ventures",
+  "pilot": "cz-vc",
+  "name": "Gain Ventures",
+  "aliases": ["GAIN Ventures s.r.o."],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "unverified",
+  "rule_codes": ["E8"],
+  "decision_note": "Named as an investor in Carebot's EUR 1.2m round (March 2024) and as an existing backer in its October 2026 round, but it has no website or profile, no source ties it to the Prague company GAIN Ventures s.r.o., and no other deal or description of its model was found.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "GAIN Ventures s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "05690935", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Carebot", "company_country": "CZ", "date": "2024-03-22", "round": null, "round_amount": 1200000, "currency": "EUR", "evidence": "e1"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/", "publisher": "CzechCrunch", "published_on": "2024-03-22", "source_class": "C", "quote": "Kdo investuje: Karel Bastl, Roman Trachta, inovační laboratoř Pilulka Lab, Lukáš Kopčaj, Eva Janečková, venture kapitálová společnost Startguide VC, skupina BHM group Tomáše Krska a Gain Ventures.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/", "publisher": "CzechCrunch", "published_on": "2024-03-22", "source_class": "C", "quote": "Kolik: 1,2 milionu eur (30 milionů korun)", "language": "cs"},
+    {"id": "e3", "url": "https://aroundprague.cz/en/people/czech-startup-carebot-raises-record-36-million-crowns-to-grow-its-ai-diagnostics", "publisher": "Around Prague", "published_on": "2026-10-02", "source_class": "C", "quote": "The new funding round was led by Garage Angels and Electron Capital Partners, along with new investor JIC Ventures, alongside existing backers Gain Ventures and Eva Janečková.", "language": "en"},
+    {"id": "e4", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05690935", "publisher": "ARES", "published_on": null, "source_class": "A", "quote": "GAIN Ventures s.r.o.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Karel Bastl", "Roman Trachta", "Pilulka Lab", "Lukáš Kopčaj", "Eva Janečková", "Startguide VC", "BHM group", "Garage Angels", "Electron Capital Partners", "JIC Ventures"],
+  "analyst_notes": "Unverified (E8). Only two mentions found, both about Carebot: an investor in the EUR 1.2m round (CzechCrunch 2024-03-22, before the window) and an 'existing backer' alongside the October 2026 round (Around Prague 2026-10-02, e3) - the wording does not say it put in new money, so no in-window activity is recorded. ARES has GAIN Ventures s.r.o. (IČO 05690935, Praha 4 - Krč, founded 2017), but no source links the brand to that company, so I1 is not shown either. Search results also show a Seattle 'Gain Ventures' (AI/Web3, Crunchbase) and a Prague 'GAIN Financial Group' (SME growth equity, investor directory); a link to either is unconfirmed and was not checked further. Web searches in Czech and English (2026-10-25) found no website, team or other deals. Re-screen if a website or a second dated deal appears.",
+  "researched_on": "2026-10-25"
+}

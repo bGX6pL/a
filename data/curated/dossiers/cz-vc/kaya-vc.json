@@ -158,7 +158,7 @@
     {
       "company": "Sensible Biotechnologies",
       "company_country": "SK",
-      "date": "2026-10-07",
+      "date": "2026-10-06",
       "round": "series_a",
       "round_amount": 47000000,
       "currency": "USD",
@@ -300,6 +300,15 @@
       "source_class": "C",
       "quote": "Established in 2010, KAYA is a generalist venture capital fund that invests globally.",
       "language": "en"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.sensible.bio/",
+      "publisher": "Sensible Biotechnologies",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "Sensible Completes Series A to Advance and Scale Its mRNA Technology October 6, 2026",
+      "language": "en"
     }
   ],
   "co_investors_seen": [
@@ -321,6 +330,6 @@
     "Earlybird",
     "Irregular Expressions"
   ],
-  "analyst_notes": "KAYA is the 2021 rebrand of Enern's venture business (founded 2011 per kaya.vc; 2010 per Vestbee). Offices: Prague (Thámova 183/11), Warsaw, San Francisco, London (kaya.vc). Own site (undated, (c) 2026) states '$500M AUM Total', '$1–3M Ticket', 'Pre+Seed Round', '$85M Current Fund' as standalone figures - each label sits in a separate HTML element, so quotes are the bare figures. Capital = USD 500m total AUM (as_of = retrieval date, page undated). Fund V: first close EUR 70m on 2025-06-25 (Vestbee e10; Tech.eu says 'nearly €70 million'); target EUR 80m when launched June 2024; the site's 'USD 85M current fund' is presumably the later Fund V size (about EUR 73-78m) - final close not found in press. Fund IV (ET4): EUR 72m final close (Global Private Capital, older). Tech.eu 2025 gives tickets EUR 1-3m initially, up to EUR 20m per company with syndication; site gives USD 1-3m (used). Stage: initial tickets pre-seed/seed (site), fund supports up to Series A (Tech.eu). Investments: Sensible Biotechnologies Series A USD 47m incl. up to USD 20m public money, led by Oxford Science Enterprises (CzechCrunch 2026-10-07, amount e12); Viktor USD 75m Series A led by Accel (Fortune 2026-05-19); Supernova USD 9.2m Series A led by Taiwania Capital (CzechCrunch 2025-09-30). Also seen: TopK seed with Earlybird (CzechCrunch 2025-07-01), Jutro Medical EUR 12m (CzechCrunch 2025-03-20). Legal entities: KAYA (fka Enern) s.r.o. (10838821) taken as the management/brand entity (statutory body: Pavel Mucha); Kaya F3 GP s.r.o. (19844166, 2023) presumed GP of a newer vehicle; ENERN TECH III/IV sub-funds (ET3/ET4, InnovFin-backed per site footer) under ENERN Investments SICAV (01790765); KAYA LUXEMBOURG S.à r.l. (RCS B303112, created 2025-12-22) role unknown. Fund V's legal vehicle not identified. Several 'Kaya <gemstone> s.r.o.' companies at the same addresses look like holding/SPV entities and are not listed. Sector: generalist tech (site: digital, physical and consumer economies; Vestbee: 'generalist venture capital fund').",
+  "analyst_notes": "KAYA is the 2021 rebrand of Enern's venture business (founded 2011 per kaya.vc; 2010 per Vestbee). Offices: Prague (Thámova 183/11), Warsaw, San Francisco, London (kaya.vc). Own site (undated, (c) 2026) states '$500M AUM Total', '$1–3M Ticket', 'Pre+Seed Round', '$85M Current Fund' as standalone figures - each label sits in a separate HTML element, so quotes are the bare figures. Capital = USD 500m total AUM (as_of = retrieval date, page undated). Fund V: first close EUR 70m on 2025-06-25 (Vestbee e10; Tech.eu says 'nearly €70 million'); target EUR 80m when launched June 2024; the site's 'USD 85M current fund' is presumably the later Fund V size (about EUR 73-78m) - final close not found in press. Fund IV (ET4): EUR 72m final close (Global Private Capital, older). Tech.eu 2025 gives tickets EUR 1-3m initially, up to EUR 20m per company with syndication; site gives USD 1-3m (used). Stage: initial tickets pre-seed/seed (site), fund supports up to Series A (Tech.eu). Investments: Sensible Biotechnologies Series A USD 47m incl. up to USD 20m public money, led by Oxford Science Enterprises (CzechCrunch 2026-10-07, amount e12); Viktor USD 75m Series A led by Accel (Fortune 2026-05-19); Supernova USD 9.2m Series A led by Taiwania Capital (CzechCrunch 2025-09-30). Also seen: TopK seed with Earlybird (CzechCrunch 2025-07-01), Jutro Medical EUR 12m (CzechCrunch 2025-03-20). Legal entities: KAYA (fka Enern) s.r.o. (10838821) taken as the management/brand entity (statutory body: Pavel Mucha); Kaya F3 GP s.r.o. (19844166, 2023) presumed GP of a newer vehicle; ENERN TECH III/IV sub-funds (ET3/ET4, InnovFin-backed per site footer) under ENERN Investments SICAV (01790765); KAYA LUXEMBOURG S.à r.l. (RCS B303112, created 2025-12-22) role unknown. Fund V's legal vehicle not identified. Several 'Kaya <gemstone> s.r.o.' companies at the same addresses look like holding/SPV entities and are not listed. Sector: generalist tech (site: digital, physical and consumer economies; Vestbee: 'generalist venture capital fund'). [revision 2026-10-25 re-audit: activity date: the Sensible Biotechnologies Series A is dated by the company's own announcement, 6 October 2026 (sensible.bio news list, e14; Business Wire release of the same day; an Endpoints exclusive ran on 5 October), instead of the later CzechCrunch article date 2026-10-07; KAYA's participation is still cited from CzechCrunch (e7; The Recursive 2026-10-07 also lists 'Kaya VC'). Capital re-checked: Fund V had only a first close (EUR 70m, June 2025, target EUR 80m); no final close found, so the fund entries and the USD 500m AUM capital (aum, own site) are unchanged. Type, scope (Prague office, Czech deal Supernova) and ticket (USD 1-3m, stated per company) unchanged.]",
   "researched_on": "2026-10-25"
 }

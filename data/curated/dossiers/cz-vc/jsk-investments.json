@@ -6,11 +6,8 @@
     "JSK Investments SICAV a.s.",
     "JSK Seed Investments s.r.o."
   ],
-  "investor_type": "private_investor",
-  "secondary_types": [
-    "vc",
-    "pe"
-  ],
+  "investor_type": "pe",
+  "secondary_types": [],
   "flags": {
     "corporate": false,
     "public": false,
@@ -22,7 +19,7 @@
   "rule_codes": [
     "S1"
   ],
-  "decision_note": "Investment group of the Kijonka family with its own capital (self-managed SICAV with Private & Growth Equity, Venture Capital and Family Evergreen sub-funds); active in startups (Vetstor Dec 2025, MintNeuro Oct 2026) but primarily a multi-strategy private investment group - borderline, see notes.",
+  "decision_note": "Kijonka family investment group running a self-managed SICAV that takes qualified-investor money (min EUR 125k) and whose main strategy is majority stakes in mid-size companies (Private & Growth Equity) - pe, so outside the VC pilot (S1); its separately branded VC fund is the record jsk-investments-venture-capital.",
   "discovered_via": [
     "cvca"
   ],
@@ -33,13 +30,6 @@
       "registry": "CZ-ICO",
       "registry_id": "23823445",
       "role": "manager"
-    },
-    {
-      "name": "JSK Investments Venture Capital Fund I, podfond",
-      "country": "CZ",
-      "registry": "CZ-ICO",
-      "registry_id": "75166372",
-      "role": "fund"
     },
     {
       "name": "JSK Investments Private and Growth Equity Fund I, podfond",
@@ -64,14 +54,27 @@
     }
   ],
   "sector_focus": {
-    "value": null,
-    "method": "not_disclosed",
-    "evidence": []
+    "value": [
+      "ecommerce_marketplaces",
+      "mobility_logistics",
+      "consumer",
+      "industrial_manufacturing",
+      "healthtech"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e7"
+    ]
   },
   "stage_focus": {
-    "value": null,
-    "method": "not_disclosed",
-    "evidence": []
+    "value": [
+      "buyout"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5",
+      "e7"
+    ]
   },
   "geography_focus": {
     "value": null,
@@ -84,31 +87,28 @@
     "evidence": []
   },
   "capital": {
-    "value": null,
-    "method": "not_disclosed",
-    "evidence": []
-  },
-  "funds": [],
-  "investments": [
-    {
-      "company": "MintNeuro",
-      "company_country": "GB",
-      "date": "2026-10-09",
-      "round": null,
-      "round_amount": 5000000,
-      "currency": "USD",
-      "evidence": "e3"
+    "value": {
+      "amount": 2000000000,
+      "currency": "CZK",
+      "basis": "interim_close",
+      "as_of": "2025-09-30"
     },
+    "method": "stated",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "funds": [
     {
-      "company": "Vetstor",
-      "company_country": "CZ",
-      "date": "2025-12-09",
-      "round": "seed",
-      "round_amount": 1000000,
-      "currency": "EUR",
-      "evidence": "e4"
+      "name": "JSK Investments SICAV a.s. (founders' commitment at launch)",
+      "size_amount": 2000000000,
+      "currency": "CZK",
+      "event": "commitment",
+      "event_date": "2025-09-30",
+      "evidence": "e8"
     }
   ],
+  "investments": [],
   "evidence": [
     {
       "id": "e1",
@@ -154,9 +154,45 @@
       "source_class": "B",
       "quote": "V rámci Private & Growth Equity se zaměřujeme na majoritní kapitálové vstupy do středně velkých firem napříč tržními sektory.",
       "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Pod hlavičkou JSK Investments vznikl samosprávný investiční fond kvalifikovaných investorů typu SICAV, do kterého je možné vstoupit s minimální investicí 125 tisíc eur, což jsou v přepočtu zhruba tři miliony korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Podfond Private & Growth Equity se soustředí na majoritní podíly ve středně velkých firmách s investičním horizontem pět až osm let a má klást důraz na škálování a rozvoj v odvětvích jako e-commerce, logistika, rychloobrátkové zboží, výroba a zdravotnictví.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Společně s manželem Jaromírem Kijonkou už před osmi lety založili investiční skupinu JSK Investments a v rámci ní teď rozjíždí investiční fond, do kterého sami Kijonkovi vkládají zhruba dvě miliardy korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Capital is managed independently and is not shared across investment strategies.",
+      "language": "en"
     }
   ],
   "co_investors_seen": [],
-  "analyst_notes": "BORDERLINE: JSK presents itself as an investment group with its own capital (CVCA, e1) supporting startups, established companies and family projects (e2). Since 2025-2026 it runs a self-managed SICAV (JSK Investments SICAV a.s., ČNB-authorised above the threshold) with a Private & Growth Equity sub-fund (majority stakes in mid-size companies, e5; public offering of shares), a Venture Capital sub-fund (IČO 75166372, registered 2026-02-24; its investment director is quoted on the MintNeuro deal) and a Family Evergreen sub-fund. Startup deals: Vetstor EUR 1m round (Dec 2025, CzechCrunch) and MintNeuro USD 5m round led by Odyssey Ventures (release dated 2026-10-09; the homepage listing shows 10.10.2026). Typed private_investor with secondary vc and pe and excluded S1 per the brief for private investment groups; if the reviewer treats the VC sub-fund as a stand-alone Czech VC, the record should be re-typed vc and included (activity and legal entities are already evidenced). Facts (focus, ticket, capital) were not researched further.",
+  "analyst_notes": "BORDERLINE: JSK presents itself as an investment group with its own capital (CVCA, e1) supporting startups, established companies and family projects (e2). Since 2025-2026 it runs a self-managed SICAV (JSK Investments SICAV a.s., ČNB-authorised above the threshold) with a Private & Growth Equity sub-fund (majority stakes in mid-size companies, e5; public offering of shares), a Venture Capital sub-fund (IČO 75166372, registered 2026-02-24; its investment director is quoted on the MintNeuro deal) and a Family Evergreen sub-fund. Startup deals: Vetstor EUR 1m round (Dec 2025, CzechCrunch) and MintNeuro USD 5m round led by Odyssey Ventures (release dated 2026-10-09; the homepage listing shows 10.10.2026). Typed private_investor with secondary vc and pe and excluded S1 per the brief for private investment groups; if the reviewer treats the VC sub-fund as a stand-alone Czech VC, the record should be re-typed vc and included (activity and legal entities are already evidenced). Facts (focus, ticket, capital) were not researched further. [revision 2026-10-25 after review: type private_investor -> pe (secondary vc removed); decision stays exclude S1. The 'own capital only' ground was wrong: the self-managed SICAV is open to qualified investors from EUR 125k (e6) with external money to follow, and its dominant strategy is the Private & Growth Equity sub-fund taking majority stakes in mid-size companies (e5, e7; reviewer: EUR 100m target for the PE fund vs EUR 20m for VC) - pe. Under the brand rule the separately branded VC fund (JSK Investments Venture Capital Fund I, own site jskinvestments.ventures, own team, capital managed independently, e9) is now its own record cz-vc/jsk-investments-venture-capital.json; its sub-fund legal entity (IČO 75166372) and the MintNeuro and Vetstor investments moved there (e3, e4 kept here as context for the SICAV). Group facts now describe the PE strategy: sectors from the PGE sub-fund description (e-commerce, logistics, FMCG, manufacturing, healthcare; the SICAV page says 'across market sectors', e5), stage buyout. Capital: the founders put 'roughly CZK 2bn' into the fund at launch (e8) - recorded as interim_close (committed so far, fund still raising; approximate figure) with a matching commitment event; no fund close or fund size is published. Geography and ticket of the PE strategy not published.]",
   "researched_on": "2026-10-25"
 }

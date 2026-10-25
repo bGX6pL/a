@@ -1,0 +1,38 @@
+{
+  "investor_key": "strv",
+  "pilot": "cz-vc",
+  "name": "STRV (StartupFund)",
+  "aliases": ["STRV Group SE", "STRV s.r.o.", "StartupFund", "STRV fund"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.strv.com/",
+  "decision": "exclude",
+  "rule_codes": ["E7"],
+  "decision_note": "Prague software-development company whose planned USD 40m 'StartupFund' was abandoned in 2018; STRV had only made small own-money investments in about 20 (mainly US client) startups, and no dated STRV investment on/after 2024-10-25 was found.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "STRV Group SE", "country": "CZ", "registry": "CZ-ICO", "registry_id": "03347443", "role": "holding"},
+    {"name": "STRV s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "28888286", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["US"], "method": "stated", "evidence": ["e1", "e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "StartupFund (planned, abandoned)", "size_amount": 40000000, "currency": "USD", "event": "target", "event_date": "2017-03-01", "evidence": "e1"}
+  ],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://forbes.cz/vyvojari-strv-rozjizdi-miliardovy-fond-cilem-investic-budou-americke-startupy/", "publisher": "Forbes Česko", "published_on": "2017-03-01", "source_class": "C", "quote": "České vývojářské studio STRV se nově vrhá na pole rizikového kapitálu a zakládá venture kapitálový fond určený pro investice do amerických startupů v objemu 40 milionů dolarů (v přepočtu zhruba miliarda korun).", "language": "cs"},
+    {"id": "e2", "url": "https://forbes.cz/vyvojari-strv-rozjizdi-miliardovy-fond-cilem-investic-budou-americke-startupy/", "publisher": "Forbes Česko", "published_on": "2017-03-01", "source_class": "C", "quote": "O investici totiž mohou žádat jen ty startupy, které se připojí k platformě Startup Fund vyvinuté právě v dílně STRV.", "language": "cs"},
+    {"id": "e3", "url": "https://forbes.cz/david-semerad-z-strv-jak-jsme-neudelali-fond-do-americkych-startupu/", "publisher": "Forbes Česko", "published_on": "2018-04-23", "source_class": "C", "quote": "Již tehdy jsme investovali drobné částky do amerických startupů ze svých peněz, a to předeveším do svých klientů.", "language": "cs"},
+    {"id": "e4", "url": "https://forbes.cz/david-semerad-z-strv-jak-jsme-neudelali-fond-do-americkych-startupu/", "publisher": "Forbes Česko", "published_on": "2018-04-23", "source_class": "C", "quote": "Dnes již můžeme přiznat, že StartupFund nevznikne a my můžeme mluvit o fuckupu.", "language": "cs"},
+    {"id": "e5", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03347443", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "STRV Group SE", "language": "cs"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Second-pass screen of the name 'STRV fund'. The only STRV fund ever announced (StartupFund, USD 40m target for US seed startups, ~100 tickets of ~USD 100k, March 2017) was abandoned per CEO David Semerád (Forbes, 2018-04-23, e4); no successor fund was found. STRV itself is a software design and engineering agency (STRV Group SE, Karlín) that took small own-money stakes in roughly 20 mainly US client startups by 2018 (e3) - recorded as corporate investing (vc, corporate flag) only so the exclusion is typed; the dominant activity is software services. Stage 'seed' from the fund plan. Two searches (cs) found no dated STRV investment since 2024-10-25, hence E7; Lubo Smid's personal investments are not attributed to STRV. Quote e3 keeps the page's typo 'předeveším'.",
+  "researched_on": "2026-10-25"
+}

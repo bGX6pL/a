@@ -1,0 +1,35 @@
+{
+  "investor_key": "energy-venture-pals",
+  "pilot": "cz-vc",
+  "name": "Energy Venture Pals",
+  "aliases": [],
+  "investor_type": "angel_network",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.energyventurepals.cz/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Self-described 'investment syndicate of friends' that started in energy and now invests across sectors; co-invested in Webout's EUR 1.65m seed round (May 2026) - an angel syndicate, not a VC fund.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [],
+  "sector_focus": {"value": ["generalist"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["seed"], "method": "derived", "evidence": ["e4"]},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e5"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Webout", "company_country": "CZ", "date": "2026-05-26", "round": "seed", "round_amount": 1650000, "currency": "EUR", "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.energyventurepals.cz/", "publisher": "Energy Venture Pals", "published_on": null, "source_class": "B", "quote": "Energy Venture Pals je investiční syndikát kamarádů s životní i investiční energií.", "language": "cs"},
+    {"id": "e2", "url": "https://www.energyventurepals.cz/", "publisher": "Energy Venture Pals", "published_on": null, "source_class": "B", "quote": "Dnes hledáme perspektivní příležitosti napříč odvětvími – od inovativních energetických projektů po technologie s dlouhodobým růstovým potenciálem.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/proslavili-se-viraly-na-nichz-postavili-byznys-s-personalizovanymi-videy-ted-cesi-miri-do-usa/", "publisher": "CzechCrunch", "published_on": "2026-05-26", "source_class": "C", "quote": "K němu se přidaly fondy Energy Venture Pals a JIC Ventures.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/proslavili-se-viraly-na-nichz-postavili-byznys-s-personalizovanymi-videy-ted-cesi-miri-do-usa/", "publisher": "CzechCrunch", "published_on": "2026-05-26", "source_class": "C", "quote": "Aby svých cílů Webout dosáhl, uzavřel takzvané seedové investiční kolo ve výši 1,65 milionu eur, což je zhruba čtyřicet milionů korun.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/proslavili-se-viraly-na-nichz-postavili-byznys-s-personalizovanymi-videy-ted-cesi-miri-do-usa/", "publisher": "CzechCrunch", "published_on": "2026-05-26", "source_class": "C", "quote": "Český startup Webout už uzavřel druhé investiční kolo.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Seed Starter (Slovenská sporiteľňa)", "JIC Ventures"],
+  "analyst_notes": "Quick exclusion dossier (S1, angel syndicate). The own site (Squarespace, no team, no legal entity, contact info@energyventurepals.cz) describes a syndicate of friends whose investing began in energy and sustainable solutions (e1) and now spans sectors (e2). CzechCrunch calls it a 'fund' in the Webout round (e3; round led by Seed Starter of Slovenská sporiteľňa, with JIC Ventures; date = article date 2026-05-26, PitchBook shows 27 May 2026). No legal entity under this name in ARES (searched 'Energy Venture Pals', 'Energy Venture', 'Venture Pals'), so the vehicle behind the syndicate is unknown. Nordic9 lists only Webout. If a pooled fund vehicle with its own manager is found, re-screen as vc.",
+  "researched_on": "2026-10-25"
+}

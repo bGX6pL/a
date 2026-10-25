@@ -1,0 +1,38 @@
+{
+  "investor_key": "fond-nase-cesko",
+  "pilot": "cz-vc",
+  "name": "Fond Naše Česko",
+  "aliases": ["Naše ČESKO otevřený podílový fond", "Fond Naše Česko J&T Investiční společnosti"],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["E3"],
+  "decision_note": "Qualified-investor open-end fund of J&T Investiční společnost focused on Czech assets - mainly listed Czech shares and bonds, with startup and company stakes largely through related funds - so a listed-securities strategy (E3) despite one direct co-investment in ValkaAI's pre-seed (Feb 2026).",
+  "discovered_via": ["co-investor:jt-ventures", "co-investor:rockaway-ventures", "second-pass"],
+  "legal_entities": [
+    {"name": "Naše ČESKO otevřený podílový fond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75164086", "role": "fund"},
+    {"name": "J&T INVESTIČNÍ SPOLEČNOST, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "47672684", "role": "manager"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["CZ"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "Naše Česko", "size_amount": 1500000000, "currency": "CZK", "event": "target", "event_date": "2023-09-12", "evidence": "e2"}
+  ],
+  "investments": [
+    {"company": "ValkaAI", "company_country": "CZ", "date": "2026-02-24", "round": "pre_seed", "round_amount": 12000000, "currency": "EUR", "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/blba-nalada-neni-na-miste-cesko-je-na-tom-lepe-nez-se-zda-muzeme-byt-investicni-perla-zni-z-jt/", "publisher": "CzechCrunch", "published_on": "2023-09-12", "source_class": "C", "quote": "Nakupuje akcie českých firem, a to nejen na české burze, ale třeba i v Londýně, kam umístil cenné papíry Martin Vohánka se svým Eurowagem .", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/blba-nalada-neni-na-miste-cesko-je-na-tom-lepe-nez-se-zda-muzeme-byt-investicni-perla-zni-z-jt/", "publisher": "CzechCrunch", "published_on": "2023-09-12", "source_class": "C", "quote": "Fond Naše Česko má ambici nasbírat od investorů během tří let až 1,5 miliardy korun a plánuje dosahovat průměrného ročního zhodnocení kolem 12 procent.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/", "publisher": "CzechCrunch", "published_on": "2026-02-24", "source_class": "C", "quote": "a to od tuzemských fondů J&T Ventures, Tensor Ventures, BD Partners (za nímž stojí někdejší spolupracovníci Petra Kellnera Ladislav Bartoníček a Jean-Pascal Duvieusart ), Fondu Naše Česko J&T Investiční společnosti a právě Rockaway Ventures, který kolo vedl.", "language": "cs"}
+  ],
+  "co_investors_seen": ["J&T Ventures", "Tensor Ventures", "BD Partners", "Rockaway Ventures"],
+  "analyst_notes": "J&T opened the fund in 2023 for qualified investors (minimum about CZK 1m), with the aim of raising up to CZK 1.5bn in three years (target, not capital); portfolio manager Martin Cakl (ex-SPM family office). Strategy per CzechCrunch 2023-09-12: Czech listed shares (Prague and London, e.g. Eurowag), participation in startup and corporate investments through related funds, real estate exposure via CPI group bonds. Dominant activity is listed equities/bonds, so E3 (investor_type left null as for other E3 records); the only direct startup deal seen is ValkaAI's EUR 12m pre-seed led by Rockaway Ventures (Feb 2026, round total), which falls in the activity window - re-screen as a VC-type investor only if the fund turns out to invest mainly in private companies. ARES lists 'Naše ČESKO otevřený podílový fond' (75164086, est. 2023-03-31) at J&T IS's address. The fund's own J&T page was not retrieved (web search budget exhausted), so no class B source; quote e1 keeps the page's space before the full stop. Quote e3 is the second half of one sentence (full sentence exceeds 300 characters); its first half gives the EUR 12m pre-seed amount.",
+  "researched_on": "2026-10-25"
+}

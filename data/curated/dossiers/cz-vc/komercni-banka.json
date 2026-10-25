@@ -1,0 +1,38 @@
+{
+  "investor_key": "komercni-banka",
+  "pilot": "cz-vc",
+  "name": "Komerční banka",
+  "aliases": ["Komerční banka, a.s.", "KB", "KB SmartSolutions, s.r.o."],
+  "investor_type": "private_investor",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.kb.cz/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Société Générale-owned bank that takes strategic stakes in fintechs through KB SmartSolutions (Roger 24.9% in 2020, sold in 2025; Upvest, fully acquired in 2025); no venture-capital fund or unit investing as a financial minority investor was found.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Komerční banka, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "45317054", "role": "holding"},
+    {"name": "KB SmartSolutions, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "02021161", "role": "other"}
+  ],
+  "sector_focus": {"value": ["fintech"], "method": "derived", "evidence": ["e1", "e3"]},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e1", "e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Upvest", "company_country": "CZ", "date": "2025-08-01", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e3"},
+    {"company": "Platební instituce Roger", "company_country": "CZ", "date": "2020-12-01", "round": null, "round_amount": null, "currency": null, "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.kb.cz/cs/o-bance/tiskove-zpravy/tiskove-zpravy-2020/komercni-banka-majetkove-vstupuje-do-dalsiho-ceskeho-fintechu-%E2%80%93-spolecnosti-roger", "publisher": "Komerční banka", "published_on": "2020-10-05", "source_class": "B", "quote": "Do této úspěšné společnosti nyní majetkově vstupuje Komerční banka, která získala podíl 24,9 % s tím, že v dalších třech letech má přednostní právo nabýt ve společnosti majoritu.", "language": "cs"},
+    {"id": "e2", "url": "https://rmsystem.cz/docs/clanky/25-01-28-KBSS-Roger-CZ.pdf", "publisher": "Komerční banka (regulatory notice)", "published_on": "2025-01-28", "source_class": "B", "quote": "KB SmartSolutions investovala do společnosti Platební instituce Roger a.s. v prosinci 2020.", "language": "cs"},
+    {"id": "e3", "url": "https://www.twobirds.com/-/media/new-website-content/insights/pdfs/bird-and-bird-assists-kb-smartsolutions-czech.pdf", "publisher": "Bird & Bird", "published_on": "2025-08-01", "source_class": "C", "quote": "Advokátní kancelář Bird & Bird asistovala společnosti KB SmartSolutions, s.r.o. při nabytí plného vlastnictví ve společnosti upvest s.r.o. odkupem podílů menšinových společníků.", "language": "cs"},
+    {"id": "e4", "url": "https://www.twobirds.com/-/media/new-website-content/insights/pdfs/bird-and-bird-assists-kb-smartsolutions-czech.pdf", "publisher": "Bird & Bird", "published_on": "2025-08-01", "source_class": "C", "quote": "Tímto krokem byla úspěšně završena investiční cesta, která započala již v roce 2020 historicky prvním kapitálovým vstupem KB SmartSolutions, s.r.o., jakožto strategického investora, do této české fintechové společnosti.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Orbian Management Ltd."],
+  "analyst_notes": "Quick check, exclusion S1 (strategic corporate investor). Komerční banka invests in fintechs through its wholly owned subsidiary KB SmartSolutions, s.r.o. (IČO 02021161) as a strategic investor (e4): Roger (24.9% with a right of first refusal on a majority, October/December 2020, e1/e2; KB SmartSolutions agreed on 2025-01-28 to sell its 24.83% stake to Orbian) and Upvest (first equity entry in 2020, full ownership by buying out minority shareholders in August 2025, e3/e4 - a control acquisition, not a venture round; month-only date recorded as 2025-08-01). No KB venture fund, CVC programme or minority startup round in the window was found (KB SmartSolutions' site kbsmart.cz returned 503 on 2026-10-25). The closed type list has no strategic-corporate type, so it is recorded as private_investor (own balance-sheet capital) with the corporate flag; as a bank KB would otherwise fall under E4. Re-screen if KB launches a CVC fund.",
+  "researched_on": "2026-10-25"
+}

@@ -16,6 +16,12 @@
     {"task": "pilot: SK reference set (agent + 3 helpers; helper usage may not be included)", "phase": "dossiers", "tokens": 366719, "minutes": 52.2, "records": 21},
     {"task": "review: M1 batch B (15 published records)", "phase": "review", "tokens": 227264, "minutes": 16.3, "records": 15},
     {"task": "review: M2 exclusions (20 records)", "phase": "review", "tokens": 217349, "minutes": 17.1, "records": 20},
-    {"task": "review: M1 batch A (15 published records)", "phase": "review", "tokens": 262151, "minutes": 17.9, "records": 15}
+    {"task": "review: M1 batch A (15 published records)", "phase": "review", "tokens": 262151, "minutes": 17.9, "records": 15},
+    {"task": "second pass: CZ candidates batch 1 (resumed after a usage-limit stop; usage of the first part not included)", "phase": "dossiers", "tokens": 280776, "minutes": 7.0, "records": 13},
+    {"task": "second pass: CZ candidates batch 3 (resumed; first part not included)", "phase": "dossiers", "tokens": 298321, "minutes": 7.8, "records": 11},
+    {"task": "corrections: field-level fixes after review (resumed; first part not included)", "phase": "corrections", "tokens": 338729, "minutes": 7.9, "records": 12},
+    {"task": "second pass: CZ candidates batch 2 (resumed; first part not included)", "phase": "dossiers", "tokens": 311680, "minutes": 12.1, "records": 12},
+    {"task": "corrections: record-level fixes after review (resumed; first part not included)", "phase": "corrections", "tokens": 361693, "minutes": 12.3, "records": 15},
+    {"task": "corrections: re-audit of 18 published records under rules v2 (resumed; first part not included)", "phase": "corrections", "tokens": 367623, "minutes": 13.3, "records": 18}
   ]
 }

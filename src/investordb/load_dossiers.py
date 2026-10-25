@@ -14,6 +14,7 @@ import re
 import sys
 from pathlib import Path
 
+import psycopg
 from psycopg.types.json import Jsonb
 
 from investordb.db import PROJECT_ROOT, connect
@@ -282,8 +283,12 @@ def main() -> int:
             if problems:
                 invalid.append((path, problems))
                 continue
-            with conn.transaction():
-                insert_dossier(conn, doc, path)
+            try:
+                with conn.transaction():
+                    insert_dossier(conn, doc, path)
+            except psycopg.Error as e:  # a constraint the validator does not know about yet
+                invalid.append((path, [f"database rejected it: {e.diag.message_primary or e}"]))
+                continue
             loaded += 1
         keys = [json.loads(p.read_text(encoding="utf-8")).get("investor_key") for p in files]
         removed = conn.execute("delete from core.investor where not (investor_key = any(%s))", (keys,)).rowcount

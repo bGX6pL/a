@@ -3,9 +3,10 @@
   "pilot": "cz-vc",
   "name": "Presto Ventures",
   "aliases": [
-    "Presto Tech Horizons",
     "Presto Ventures II a.s., osoba rizikového kapitálu",
-    "Presto 2 GP s.r.o."
+    "Presto 2 GP s.r.o.",
+    "Presto 2",
+    "Presto Ventures II"
   ],
   "investor_type": "vc",
   "secondary_types": [],
@@ -16,15 +17,11 @@
   },
   "hq_country": "CZ",
   "website": "https://www.prestoventures.com",
-  "decision": "include",
+  "decision": "exclude",
   "rule_codes": [
-    "I1",
-    "I2",
-    "I3",
-    "I4",
-    "I5"
+    "E7"
   ],
-  "decision_note": "Prague VC (two funds, EUR 40m invested since 2016) that launched the EUR 150m defence/dual-use fund Presto Tech Horizons with CSG in 2024; led DiffuseDrive's seed (May 2025) and Occam's pre-seed (Feb 2026) and joined Firehawk's Series C (Sep 2025).",
+  "decision_note": "Prague B2B-SaaS seed VC (funds Presto I and Presto 2, EUR 40m invested since 2016); its defence fund Presto Tech Horizons was formally separated in April 2025 and renamed Tech Horizons (own record tech-horizons), and no investment by Presto Ventures' own funds on or after 2024-10-25 was found, so it is recorded as inactive.",
   "discovered_via": [
     "research-seed"
   ],
@@ -46,12 +43,11 @@
   ],
   "sector_focus": {
     "value": [
-      "defence_dualuse",
-      "deeptech_hardware"
+      "software_saas"
     ],
     "method": "stated",
     "evidence": [
-      "e3"
+      "e12"
     ]
   },
   "stage_focus": {
@@ -67,11 +63,12 @@
   },
   "geography_focus": {
     "value": [
-      "NATO"
+      "CEE"
     ],
-    "method": "stated",
+    "method": "derived",
     "evidence": [
-      "e5"
+      "e13",
+      "e14"
     ]
   },
   "ticket_size": {
@@ -86,55 +83,20 @@
     ]
   },
   "capital": {
-    "value": {
-      "amount": 150000000,
-      "currency": "EUR",
-      "basis": "latest_fund_size",
-      "as_of": "2024-06-26"
-    },
-    "method": "stated",
-    "evidence": [
-      "e4",
-      "e3"
-    ]
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
   },
-  "funds": [
-    {
-      "name": "Presto Tech Horizons",
-      "size_amount": 150000000,
-      "currency": "EUR",
-      "event": "launch",
-      "event_date": "2024-06-26",
-      "evidence": "e4"
-    }
-  ],
+  "funds": [],
   "investments": [
     {
-      "company": "Occam",
-      "company_country": null,
-      "date": "2026-02-11",
+      "company": "Elin.ai",
+      "company_country": "CZ",
+      "date": null,
       "round": "pre_seed",
-      "round_amount": 3000000,
+      "round_amount": 1000000,
       "currency": "EUR",
-      "evidence": "e6"
-    },
-    {
-      "company": "Firehawk Aerospace",
-      "company_country": "US",
-      "date": "2025-09-24",
-      "round": "series_c",
-      "round_amount": 60000000,
-      "currency": "USD",
-      "evidence": "e7"
-    },
-    {
-      "company": "DiffuseDrive",
-      "company_country": "US",
-      "date": "2025-05-15",
-      "round": "seed",
-      "round_amount": 3500000,
-      "currency": "USD",
-      "evidence": "e8"
+      "evidence": "e15"
     }
   ],
   "evidence": [
@@ -157,60 +119,6 @@
       "language": "en"
     },
     {
-      "id": "e3",
-      "url": "https://www.prestoventures.com/",
-      "publisher": "Presto Ventures",
-      "published_on": null,
-      "source_class": "B",
-      "quote": "Our new €150M fund targets the best of security, defense, and aerospace tech, with focus on dual-use.",
-      "language": "en"
-    },
-    {
-      "id": "e4",
-      "url": "https://cc.cz/startupovi-presto-ventures-a-zbrojarska-csg-michala-strnada-rozjizdi-fond-maji-v-nem-4-miliardy/",
-      "publisher": "CzechCrunch",
-      "published_on": "2024-06-26",
-      "source_class": "C",
-      "quote": "Disponuje celkem 150 miliony eur, v přepočtu 3,7 miliardy korun.",
-      "language": "cs"
-    },
-    {
-      "id": "e5",
-      "url": "https://cc.cz/startupovi-presto-ventures-a-zbrojarska-csg-michala-strnada-rozjizdi-fond-maji-v-nem-4-miliardy/",
-      "publisher": "CzechCrunch",
-      "published_on": "2024-06-26",
-      "source_class": "C",
-      "quote": "V členských zemích NATO a u spojenců plánuje podpořit desítky projektů, jejichž řešení mají víceúčelové, takzvané dual-use využití v civilním i bezpečnostním sektoru.",
-      "language": "cs"
-    },
-    {
-      "id": "e6",
-      "url": "https://cc.cz/investori-v-cele-s-miliardarem-michalem-strnadem-posilaji-desitky-milionu-na-vyvoj-autonomnich-dronu/",
-      "publisher": "CzechCrunch",
-      "published_on": "2026-02-11",
-      "source_class": "C",
-      "quote": "Klíčový milník jde ruku v ruce s uzavřením úvodního, tzv. pre-seedového investičního kola ve výši tři miliony eur (přes 72 milionů korun), které vedl fond český Presto Tech Horizons",
-      "language": "cs"
-    },
-    {
-      "id": "e7",
-      "url": "https://cc.cz/americka-firma-chce-zrychlit-vyrobu-strel-raket-a-delostrelecke-munice-ted-zaujala-michala-strnada/",
-      "publisher": "CzechCrunch",
-      "published_on": "2025-09-24",
-      "source_class": "C",
-      "quote": "Do Firehawku se navíc zapojil i fond Presto Tech Horizons, který založila VC firma Presto Ventures a průmyslově-technologická skupina CSG Michala Strnada.",
-      "language": "cs"
-    },
-    {
-      "id": "e8",
-      "url": "https://cc.cz/dronum-i-robotum-chybi-treninkova-data-z-terenu-a-z-boje-madary-kteri-je-vytvari-podporili-cesti-investori/",
-      "publisher": "CzechCrunch",
-      "published_on": "2025-05-15",
-      "source_class": "C",
-      "quote": "fond Presto Tech Horizons společně s americkým Outlanderem vedly seed investici ve výši 3,5 milionu dolarů, v přepočtu 78 milionů korun",
-      "language": "cs"
-    },
-    {
       "id": "e9",
       "url": "https://www.prestoventures.com/",
       "publisher": "Presto Ventures",
@@ -227,17 +135,84 @@
       "source_class": "B",
       "quote": "Seed TO SERIES A",
       "language": "en"
+    },
+    {
+      "id": "e11",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Mise Tech Horizons, který jsme od původní skupiny formálně oddělili už v dubnu 2025, pokračuje dál",
+      "language": "cs"
+    },
+    {
+      "id": "e12",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Nedávno jsme přistoupili k rebrandingu fondu, který zahrnoval také změnu názvu, abychom se vyhnuli záměně s dřívějšími Presto fondy zaměřenými na B2B SaaS startupy",
+      "language": "cs"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.prestoventures.com/",
+      "publisher": "Presto Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Behavio Czechia A SaaS platform that provides behavioral insights to maximize advertising performance.",
+      "language": "en"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.prestoventures.com/",
+      "publisher": "Presto Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Cloudtalk Slovakia SaaS cloud-based virtual phone system and PBX for sales and customer service teams.",
+      "language": "en"
+    },
+    {
+      "id": "e15",
+      "url": "https://tech.eu/2024/12/09/czech-mental-health-startup-elinai-secures-eur1m-pre-seed/",
+      "publisher": "Tech.eu",
+      "published_on": "2024-12-09",
+      "source_class": "C",
+      "quote": "Within the current pre-seed round, JSK Investments joins VC firms Presto Ventures and BD Partners, who backed Elin.ai in the spring of 2024 – closing the round at €1M.",
+      "language": "en"
+    },
+    {
+      "id": "e16",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Pro mě je teď nejvyšší prioritou dořešení situace v Presto 2 tak, aby fond pokračoval v doručování vyšší než slíbené performance našim investorům.",
+      "language": "cs"
+    },
+    {
+      "id": "e17",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Nespravují ho lidé, kteří jsou aktivní v dalších Presto nebo jiných fondech",
+      "language": "cs"
+    },
+    {
+      "id": "e18",
+      "url": "https://www.prestoventures.com/news",
+      "publisher": "Presto Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "svolalo řádnou valnou hromadu na 25.6.2026",
+      "language": "cs"
     }
   ],
   "co_investors_seen": [
-    "CSG (Czechoslovak Group)",
-    "Antler",
-    "Freedom Fund",
-    "TYR.vc",
-    "1789 Capital",
-    "Outlander VC",
-    "Gi21 Capital"
+    "BD Partners",
+    "JSK Investments"
   ],
-  "analyst_notes": "Presto Tech Horizons is the third Presto vehicle, set up with Michal Strnad's CSG as industrial partner and one of many LPs; EUR 150m per CzechCrunch 2024-06-26 (launch) and the Presto site (undated). Earlier: EUR 40m invested from two funds since 2016 (site, e9). Stage from the site block 'Seed TO SERIES A' plus e1 (rounds of EUR 800k-8M); tickets EUR 500k-5M (e2). Sector: security, defence and aerospace with dual-use focus (mapped to defence_dualuse + deeptech_hardware). Geography: NATO member states and allies (CzechCrunch 2024). Investments are made by Presto Tech Horizons; Firehawk round is the whole USD 60m Series C led by 1789 Capital; Occam EUR 3m pre-seed led by Presto Tech Horizons (company country not stated in the article - drones deployed on the Ukrainian front). Governance: founder Přemysl Rubeš was detained by police in March 2026 for reasons unrelated to the business per partner Vojta Roček (CzechCrunch 2026-03-11), and had not been involved in the CSG cooperation for several months; Presto says it continues investing. A CzechCrunch article of 2026-10-07 refers to 'Tech Horizons ze skupiny CSG', which may indicate a rebranding/separation; ARES lists Tech Horizons a.s. (IČO 22399127, 2024-12-21) and Tech Horizons Partners s.r.o. (IČO 23659441), but their link to the fund was not verified, so they are not listed as legal entities.",
+  "analyst_notes": "Presto Tech Horizons is the third Presto vehicle, set up with Michal Strnad's CSG as industrial partner and one of many LPs; EUR 150m per CzechCrunch 2024-06-26 (launch) and the Presto site (undated). Earlier: EUR 40m invested from two funds since 2016 (site, e9). Stage from the site block 'Seed TO SERIES A' plus e1 (rounds of EUR 800k-8M); tickets EUR 500k-5M (e2). Sector: security, defence and aerospace with dual-use focus (mapped to defence_dualuse + deeptech_hardware). Geography: NATO member states and allies (CzechCrunch 2024). Investments are made by Presto Tech Horizons; Firehawk round is the whole USD 60m Series C led by 1789 Capital; Occam EUR 3m pre-seed led by Presto Tech Horizons (company country not stated in the article - drones deployed on the Ukrainian front). Governance: founder Přemysl Rubeš was detained by police in March 2026 for reasons unrelated to the business per partner Vojta Roček (CzechCrunch 2026-03-11), and had not been involved in the CSG cooperation for several months; Presto says it continues investing. A CzechCrunch article of 2026-10-07 refers to 'Tech Horizons ze skupiny CSG', which may indicate a rebranding/separation; ARES lists Tech Horizons a.s. (IČO 22399127, 2024-12-21) and Tech Horizons Partners s.r.o. (IČO 23659441), but their link to the fund was not verified, so they are not listed as legal entities. [revision 2026-10-25 re-audit: Presto Ventures and Tech Horizons are NOT the same investor, and this record no longer carries Tech Horizons. The fund launched in 2024 as 'Presto Tech Horizons' with CSG was formally separated from the Presto group in April 2025 (Vojta Roček, CzechCrunch 2026-05-04, e11), renamed Tech Horizons in spring 2026 to avoid confusion with the earlier Presto B2B-SaaS funds (partner Petr Stoniš, e12), and is run by its own team who are not active in other Presto funds (e17; partners Kuba, Luhový, Stoniš, Davis, Holan, versus Presto's Rubeš and Roček on prestoventures.com/team). Under the brand rule it is its own record (cz-vc/tech-horizons, written by another analyst). Removed from this record because they belong to Tech Horizons: the alias 'Presto Tech Horizons', the EUR 150m capital and fund entry (the anchor investor CSG's 2024 annual report calls it 'a planned volume of up to €150 million', i.e. a target), the NATO geography and defence sector statements, and the three in-window deals (DiffuseDrive 2025-05, Firehawk 2025-09, Occam - entry 12/2025 per techhorizons.eu, announced 2026-02-11) with their evidence (old e3-e8). Presto Ventures' own facts: two earlier funds, EUR 40m invested since 2016, 60+ start-ups (homepage e9), B2B SaaS focus (e12), portfolio mostly CEE (Czech, Slovak, Baltic and other companies on the homepage list; geography derived, e13/e14); Prague seat (Presto Ventures II a.s., Na příkopě 859/22, Praha 1, per the news page). Activity (I3): no investment by Presto I or Presto 2 dated on or after 2024-10-25 was found - the latest is Presto's backing of Elin.ai's EUR 1m pre-seed in spring 2024 (tech.eu 2024-12-09, month not stated, so undated), Presto's news page lists no newer deal of its own, and Roček says his priority is 'resolving the situation in Presto 2' (e16); the company still exists (Presto Ventures II a.s. AGM called for 25 June 2026, e18). Decision therefore exclude E7 (inactive); the end of Presto 2's investment period is not public, so re-screen if a new Presto deal appears. Capital: no Presto I/II fund size found (one search); EUR 40m is deployment, not capital -> not_disclosed. Ticket and stage are Presto's homepage statements (EUR 500k-5M, seed to Series A), written while the site also promoted the defence fund - treat as indicative.]",
   "researched_on": "2026-10-25"
 }

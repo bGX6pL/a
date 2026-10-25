@@ -1,0 +1,36 @@
+{
+  "investor_key": "leverage",
+  "pilot": "cz-vc",
+  "name": "Leverage",
+  "aliases": ["Leverage Technology", "Leverage Technology a.s.", "Leverage Investment", "investiční skupina Leverage"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["E7"],
+  "decision_note": "Prague investment group / fund of entrepreneurs Matěj and Jan Boruta, Lumír Kunz and Václav Liška (Aukro, Luigi's Box, NutritionPro, Product Fruits) with no dated investment found since 2022, hence inactive for the window starting 2024-10-25.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Leverage Technology a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "06095127", "role": "manager"},
+    {"name": "Leverage Holding s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "06710751", "role": "holding"}
+  ],
+  "sector_focus": {"value": ["ecommerce_marketplaces", "software_saas"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "NutritionPro", "company_country": "CZ", "date": "2022-11-25", "round": null, "round_amount": 74000000, "currency": "CZK", "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/cesti-leverage-technology-investuji-desitky-milionu-korun-do-analytickeho-startupu-luigis-box/", "publisher": "CzechCrunch", "published_on": "2018-09-14", "source_class": "C", "quote": "Český fond Leverage Technology, který je řízen podnikateli Matějem Borutou, Lumírem Kunzem (CEO Aukra) , Václavem Liškou a Patrikem Czetöem, ohlašuje další investici.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/cesti-leverage-technology-investuji-desitky-milionu-korun-do-analytickeho-startupu-luigis-box/", "publisher": "CzechCrunch", "published_on": "2018-09-14", "source_class": "C", "quote": "A právě takový byznys je pro portfolio Leverage Technology v čele s Borutou ideální: cílem fondu je totiž podpora zejména e-commerce projektů a internetových technologií.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/ceske-nutritionpro-mesicne-rozveze-pres-100-tisic-jidel-v-expanzi-i-do-nemecka-mu-pomuze-74-milionu/", "publisher": "CzechCrunch", "published_on": "2022-11-25", "source_class": "C", "quote": "Celkem 74 milionů korun do NutritionPro vkládá venture kapitálový fond Nation 1, investiční skupina Leverage a americký investor William Jarvis.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Nation 1", "Lighthouse Ventures", "Venture to Future Fund", "Reflex Capital", "Presto Ventures"],
+  "analyst_notes": "Not to be confused with Leverage.cz (a consumer finance comparison site) or Leverage consulting s.r.o. Leverage Technology a.s. (IČO 06095127, Rybná 716/24, Praha 1, est. 2017) has the ARES activity 'správa majetku srovnatelná s obhospodařováním investičního fondu podle § 15' (sub-threshold manager); board Lumír Kunz, Václav Liška, Jan Boruta, Matěj Boruta; Leverage Holding s.r.o. is owned via LMH Group and FMFox. Portfolio per CzechCrunch: Aukro (15% in 2017, later 45%), Luigi's Box (2018, exited 2024 when Luigi's Box bought a Czech rival), Liftago (stake sold 2018), NutritionPro (CZK 74m round with Nation 1, Nov 2022), Product Fruits (seed ~2023; listed as an existing investor in May 2024). Typed vc because CzechCrunch calls it a fund and it is registered as a § 15 manager, but it may be a vehicle for the partners' own capital (private_investor) - not resolved. No investment dated on/after 2024-10-25 was found on the CzechCrunch 'leverage' tag (latest items: Product Fruits 2024-05-29 as an earlier investor; an Aug 2026 interview with Jan Boruta about his Playbag brand is not an investment), so E7. No own website found (web search budget exhausted).",
+  "researched_on": "2026-10-25"
+}

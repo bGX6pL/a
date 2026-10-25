@@ -1,0 +1,47 @@
+{
+  "investor_key": "budeto",
+  "pilot": "cz-vc",
+  "name": "BUDETO",
+  "aliases": ["BUDETO Startup Studio", "BUDETO STUDIO s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": true},
+  "hq_country": "CZ",
+  "website": "https://www.budeto.xyz/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague startup (venture) studio founded in 2023 that funds the first capital of the companies it co-founds for usually 10-15% equity; participated in Vetstor's EUR 1m seed round (December 2025) and seated CircuitNinja in Batch #2 (May 2026).",
+  "discovered_via": ["co-investor:zaka-vc", "second-pass"],
+  "legal_entities": [
+    {"name": "BUDETO STUDIO s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19265662", "role": "manager"},
+    {"name": "BUDETO SPV 2 s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "29889227", "role": "other"},
+    {"name": "BUDETO Learning s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "24087602", "role": "other"}
+  ],
+  "sector_focus": {"value": ["ai_data", "software_saas"], "method": "derived", "evidence": ["e4", "e5", "e6"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "derived", "evidence": ["e1", "e2", "e8"]},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e3", "e7"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "CircuitNinja", "company_country": "CZ", "date": "2026-05-01", "round": "pre_seed", "round_amount": null, "currency": null, "evidence": "e10"},
+    {"company": "Vetstor", "company_country": "CZ", "date": "2025-12-09", "round": "seed", "round_amount": 1000000, "currency": "EUR", "evidence": "e8"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.budeto.xyz/", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "BUDETO invests the very first capital to start the company: the demo, the lawyers, the quiet months before anyone else believes you.", "language": "en"},
+    {"id": "e2", "url": "https://www.budeto.xyz/co-found.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "We invest enough to reach an MVP and first revenue.", "language": "en"},
+    {"id": "e3", "url": "https://www.budeto.xyz/", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "A startup studio in Prague", "language": "en"},
+    {"id": "e4", "url": "https://www.budeto.xyz/batch-1.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "Testing for AI apps.", "language": "en"},
+    {"id": "e5", "url": "https://www.budeto.xyz/batch-1.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "An AI agent that writes the code, ships it and fixes what breaks.", "language": "en"},
+    {"id": "e6", "url": "https://www.budeto.xyz/batch-1.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "A 24/7 AI hotline for buildings.", "language": "en"},
+    {"id": "e7", "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/", "publisher": "CzechCrunch", "published_on": "2025-12-09", "source_class": "C", "quote": "Kromě Budeto a těchto dvou fondů se jej účastní také Ondřej Kania, zakladatel vzdělávací skupiny Consilium a většinový vlastník fotbalového klubu Slovan Liberec.", "language": "cs"},
+    {"id": "e8", "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/", "publisher": "CzechCrunch", "published_on": "2025-12-09", "source_class": "C", "quote": "Ty se účastní i aktuálního kola, které dosáhlo celkové výše jeden milion eur, v přepočtu 24 milionů korun.", "language": "cs"},
+    {"id": "e9", "url": "https://www.budeto.xyz/co-found.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "Usually 10 to 15%.", "language": "en"},
+    {"id": "e10", "url": "https://www.budeto.xyz/llms.txt", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "Batch #2 (2026): StudyFi took the first seat in January, CircuitNinja the second in May.", "language": "en"},
+    {"id": "e11", "url": "https://www.budeto.xyz/about.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "Founders and operators who backed the studio itself in 2023, when it was one person, a list of ideas and a plan.", "language": "en"},
+    {"id": "e12", "url": "https://www.budeto.xyz/batch-1.html", "publisher": "BUDETO", "published_on": null, "source_class": "B", "quote": "Started 2024 · Investors ZAKA, Purple Ventures, JSK Investments, Ondrej Kania, Traun", "language": "en"}
+  ],
+  "co_investors_seen": ["ZAKA VC", "Purple Ventures", "JSK Investments", "Ondřej Kania", "KAYA", "Miton", "Inovia", "Traun"],
+  "analyst_notes": "Second-pass screen. Type: a startup studio (it calls itself 'not an accelerator, not a VC', a co-founder) that puts in the first equity capital of each company it builds (usually 10-15% equity, e9) and follows on in rounds, so it is typed vc with the accelerator flag as the closest flag for a venture studio. The studio itself was backed in 2023 by Tomas Cupr, Zdenek Cendra, Pavel Mucha (KAYA) and Jan Krabec (e11), so it invests pooled capital of outside backers, not one family's money. Activity: Vetstor seed round of EUR 1m with ZAKA VC, Purple Ventures, Ondrej Kania and JSK (CzechCrunch 2025-12-09, e7/e8; same round is in the zaka-vc dossier); CircuitNinja took the second Batch #2 seat in May 2026 (own site, e10; month-only date recorded as 2026-05-01; per the co-found page the studio invests when a founder takes a seat, amount not stated). StudyFi took the first Batch #2 seat in January 2026 (not listed as an investment because a 1 January date would read as a placeholder). Exit: Macaly (with Langtail) sold in December 2025 (own site). Sector derived from three of five Batch #1 companies (Langtail AI testing, Macaly AI app builder, KREEDL AI hotline; also GRAET sports network and VETSTOR vet e-commerce). Geography derived: Prague studio, all portfolio companies Czech-founded; remote founders accepted. Ticket and capital: no amounts published (studio funds 'enough to reach an MVP'); no fund vehicle found. Legal: BUDETO STUDIO s.r.o. (IČO 19265662, named on the site); BUDETO SPV 2 s.r.o. (2026-08-12) and BUDETO Learning s.r.o. (2025-12-18) share the Záhřebská 562/41 address in ARES (roles not stated publicly). 'Traun' listed among Vetstor investors (e12) may be the Prague design studio TRAU (see trau dossier) - not confirmed. The site's llms.txt contains text addressed to AI agents; it was treated as data only.",
+  "researched_on": "2026-10-25"
+}

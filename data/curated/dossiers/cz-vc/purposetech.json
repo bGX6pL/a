@@ -2,43 +2,246 @@
   "investor_key": "purposetech",
   "pilot": "cz-vc",
   "name": "PurposeTech",
-  "aliases": ["PT Capital", "PurposeTech s.r.o.", "PurposeTech F1 s.r.o., osoba rizikového kapitálu"],
+  "aliases": [
+    "PT Capital",
+    "PurposeTech s.r.o.",
+    "PurposeTech F1 s.r.o., osoba rizikového kapitálu"
+  ],
   "investor_type": "vc",
   "secondary_types": [],
-  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
   "hq_country": "CZ",
   "website": "https://www.purposetech.vc/",
-  "decision": "include",
-  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
-  "decision_note": "Prague pre-seed impact fund (health, climate, future of work) that has nearly deployed its ~CZK 60m first fund (11-13 investments) and launched a second, healthtech-focused fund PT Capital (max EUR 10m) in February 2026.",
-  "discovered_via": ["news"],
-  "legal_entities": [
-    {"name": "PurposeTech s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19183992", "role": "manager"},
-    {"name": "PurposeTech F1 s.r.o., osoba rizikového kapitálu", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19185103", "role": "fund"}
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
   ],
-  "sector_focus": {"value": ["healthtech", "energy_climate", "software_saas"], "method": "stated", "evidence": ["e1", "e2"]},
-  "stage_focus": {"value": ["pre_seed"], "method": "stated", "evidence": ["e1"]},
-  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e3"]},
-  "ticket_size": {"value": {"min": 500000, "max": 1000000, "currency": "EUR"}, "method": "stated", "evidence": ["e6"]},
-  "capital": {"value": {"amount": 60000000, "currency": "CZK", "basis": "latest_fund_size", "as_of": "2026-02-10"}, "method": "stated", "evidence": ["e4"]},
+  "decision_note": "Prague pre-seed impact/healthtech VC (Fund I just under CZK 60m, closed Sep 2024 before the window; second fund PT Capital still raising) whose portfolio grew from 5 to 13 companies, but no investment or close dated on/after 2024-10-25 could be documented - unverified until a dated deal is found.",
+  "discovered_via": [
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "PurposeTech s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19183992",
+      "role": "manager"
+    },
+    {
+      "name": "PurposeTech F1 s.r.o., osoba rizikového kapitálu",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19185103",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "healthtech",
+      "energy_climate",
+      "software_saas"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1",
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 100000,
+      "max": 100000,
+      "currency": "EUR"
+    },
+    "method": "derived",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 60000000,
+      "currency": "CZK",
+      "basis": "latest_fund_size",
+      "as_of": "2026-02-10"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
   "funds": [
-    {"name": "PurposeTech Fund I (PurposeTech F1 s.r.o.)", "size_amount": null, "currency": null, "event": "final_close", "event_date": "2024-10-11", "evidence": "e3"},
-    {"name": "PT Capital (second fund)", "size_amount": 10000000, "currency": "EUR", "event": "launch", "event_date": "2026-02-10", "evidence": "e5"}
+    {
+      "name": "PurposeTech Fund I (PurposeTech F1 s.r.o.)",
+      "size_amount": null,
+      "currency": null,
+      "event": "final_close",
+      "event_date": "2024-09-25",
+      "evidence": "e9"
+    },
+    {
+      "name": "PT Capital (second fund)",
+      "size_amount": 10000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2026-02-10",
+      "evidence": "e5"
+    }
   ],
   "investments": [
-    {"company": "eNOugh", "company_country": null, "date": null, "round": null, "round_amount": null, "currency": null, "evidence": "e7"},
-    {"company": "Tingit", "company_country": "LT", "date": null, "round": null, "round_amount": null, "currency": null, "evidence": "e7"}
+    {
+      "company": "eNOugh",
+      "company_country": null,
+      "date": null,
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "Tingit",
+      "company_country": "LT",
+      "date": null,
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "Mamio",
+      "company_country": null,
+      "date": null,
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    }
   ],
   "evidence": [
-    {"id": "e1", "url": "https://www.purposetech.vc/", "publisher": "PurposeTech", "published_on": null, "source_class": "B", "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.", "language": "en"},
-    {"id": "e2", "url": "https://www.purposetech.vc/", "publisher": "PurposeTech", "published_on": null, "source_class": "B", "quote": "We're about to start investing from our second HealthTech fund.", "language": "en"},
-    {"id": "e3", "url": "https://en.ain.ua/2024/10/11/czech-vc-firm-purposetech-closes-its-first-fund-to-back-cee-startups", "publisher": "AIN.UA", "published_on": "2024-10-11", "source_class": "C", "quote": "Prague-based venture capital firm PurposeTech has announced the closure for its first pre-seed fund, supporting Central and Eastern European founders focusing on health, sustainability, and education.", "language": "en"},
-    {"id": "e4", "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/", "publisher": "CzechCrunch", "published_on": "2026-02-10", "source_class": "C", "quote": "Necelých šedesát milionů korun měl na to, aby vybudoval první portfolio a ověřil svou investiční tezi.", "language": "cs"},
-    {"id": "e5", "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/", "publisher": "CzechCrunch", "published_on": "2026-02-10", "source_class": "C", "quote": "Maximální velikost nového fondu PT Capital je deset milionů eur, tedy 240 milionů korun, přičemž první čtyři miliony eur má začít investovat během letošního podzimu a zbytek prostředků od investorů získat v následujících osmnácti měsících.", "language": "cs"},
-    {"id": "e6", "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/", "publisher": "CzechCrunch", "published_on": "2026-02-10", "source_class": "C", "quote": "Jednu společnost se fond chystá podpořit částkou kolem půl až jednoho milionu eur u valuace pohybující se v průměru kolem dvou až tří milionů eur.", "language": "cs"},
-    {"id": "e7", "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/", "publisher": "CzechCrunch", "published_on": "2026-02-10", "source_class": "C", "quote": "Během posledních dvou a půl let ve fondu analyzovali tři tisíce startupů a zainvestovali zatím jedenáct z nich jako například eNOugh nebo Tingit.", "language": "cs"}
+    {
+      "id": "e1",
+      "url": "https://www.purposetech.vc/",
+      "publisher": "PurposeTech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "PurposeTech is a pre-seed fund that backs founders reshaping Health, Climate, and the Future of Work.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.purposetech.vc/",
+      "publisher": "PurposeTech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We're about to start investing from our second HealthTech fund.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://en.ain.ua/2024/10/11/czech-vc-firm-purposetech-closes-its-first-fund-to-back-cee-startups",
+      "publisher": "AIN.UA",
+      "published_on": "2024-10-11",
+      "source_class": "C",
+      "quote": "Prague-based venture capital firm PurposeTech has announced the closure for its first pre-seed fund, supporting Central and Eastern European founders focusing on health, sustainability, and education.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-02-10",
+      "source_class": "C",
+      "quote": "Necelých šedesát milionů korun měl na to, aby vybudoval první portfolio a ověřil svou investiční tezi.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-02-10",
+      "source_class": "C",
+      "quote": "Maximální velikost nového fondu PT Capital je deset milionů eur, tedy 240 milionů korun, přičemž první čtyři miliony eur má začít investovat během letošního podzimu a zbytek prostředků od investorů získat v následujících osmnácti měsících.",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-02-10",
+      "source_class": "C",
+      "quote": "Jednu společnost se fond chystá podpořit částkou kolem půl až jednoho milionu eur u valuace pohybující se v průměru kolem dvou až tří milionů eur.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/cesky-fond-prehodnotil-jake-vysledky-ocekava-od-startupu-misto-prudkeho-rustu-a-miliard-hleda-zisk/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-02-10",
+      "source_class": "C",
+      "quote": "Během posledních dvou a půl let ve fondu analyzovali tři tisíce startupů a zainvestovali zatím jedenáct z nich jako například eNOugh nebo Tingit.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://en.ain.ua/2024/10/11/czech-vc-firm-purposetech-closes-its-first-fund-to-back-cee-startups",
+      "publisher": "AIN.UA",
+      "published_on": "2024-10-11",
+      "source_class": "C",
+      "quote": "Its recent deals include €100,000 investment in Mamio and participation in Tingit’s €500,000 round.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://vestbee.com/insights/articles/purpose-tech-closes-its-first-fund",
+      "publisher": "Vestbee",
+      "published_on": "2024-09-25",
+      "source_class": "C",
+      "quote": "Prague-based PurposeTech, a venture capital firm that supports Central and Eastern European founders, has closed its oversubscribed first pre-seed venture capital fund aimed at health, sustainability, and education startups across the CEE region, as reported to Vestbee.",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://vestbee.com/insights/articles/purpose-tech-closes-its-first-fund",
+      "publisher": "Vestbee",
+      "published_on": "2024-09-25",
+      "source_class": "C",
+      "quote": "With a presence in seven countries across the CEE region, PurposeTech has reviewed over 1,100 startups and made its first five investments.",
+      "language": "en"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.purposetech.vc/",
+      "publisher": "PurposeTech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "2.5 years of investing 3,000+ startups reviewed 13 investments made",
+      "language": "en"
+    }
   ],
   "co_investors_seen": [],
-  "analyst_notes": "Discovered via CzechCrunch (2026-02-10, second fund PT Capital). I3 rests on the PT Capital launch (2026-02-10; max EUR 10m / CZK 240m, first EUR 4m to be invested from autumn 2026) plus continued deployment of Fund I: 11 investments as of 2026-02-10 (CzechCrunch) vs '13 investments made' on the website now, implying further unnamed deals in 2026; no individual deal dated on/after 2024-10-25 was found in free sources (Tingit, Aug 2024, and Mamio, Jan 2024, predate the window). Ticket EUR 0.5-1m is the stated plan for PT Capital (fund II); fund I wrote smaller pre-seed tickets (directory profiles say EUR 25-250k, not cited). Capital = fund I 'just under CZK 60m' (recorded as 60m). Fund I close dated by AIN (2024-10-11, size undisclosed there). Fund II vehicle not yet in ARES ('PT Capital, s.r.o.', IČO 25835955 in Ostrava, is an unrelated 1999 company). Sector: website verticals Health, Climate, Future of Work (mapped to healthtech, energy_climate, software_saas); fund II narrows to healthtech. Tingit described by CzechCrunch (2024) as Lithuanian; eNOugh country not stated.",
+  "analyst_notes": "Discovered via CzechCrunch (2026-02-10, second fund PT Capital). I3 rests on the PT Capital launch (2026-02-10; max EUR 10m / CZK 240m, first EUR 4m to be invested from autumn 2026) plus continued deployment of Fund I: 11 investments as of 2026-02-10 (CzechCrunch) vs '13 investments made' on the website now, implying further unnamed deals in 2026; no individual deal dated on/after 2024-10-25 was found in free sources (Tingit, Aug 2024, and Mamio, Jan 2024, predate the window). Ticket EUR 0.5-1m is the stated plan for PT Capital (fund II); fund I wrote smaller pre-seed tickets (directory profiles say EUR 25-250k, not cited). Capital = fund I 'just under CZK 60m' (recorded as 60m). Fund I close dated by AIN (2024-10-11, size undisclosed there). Fund II vehicle not yet in ARES ('PT Capital, s.r.o.', IČO 25835955 in Ostrava, is an unrelated 1999 company). Sector: website verticals Health, Climate, Future of Work (mapped to healthtech, energy_climate, software_saas); fund II narrows to healthtech. Tingit described by CzechCrunch (2024) as Lithuanian; eNOugh country not stated. [revision 2026-10-25 after review: decision include -> unverified (E8). I3 needs a dated in-window event: Fund I closed before the window (Vestbee 2024-09-25, e9; the fund event now carries that date instead of the later AIN article date) and PT Capital (2026-02-10) is only a fund still raising (launch). The portfolio grew from 5 investments at the Fund I close (e10) to 11 (CzechCrunch 2026-02-10, e7) and 13 now (website, e11: Auryx, eNOugh, Lifeyear, Tingit, Doc2Me, SafePAS, Willow, Mamio, KANO Care, Neya, Fether Labs, Dognosis, Amorphous AI), so at least six investments fell in the window, but none could be dated with a verbatim source naming PurposeTech: searches of the portfolio companies' sites and coverage (SafePAS EstBAN syndicate, Auryx, KANO Care, Dognosis) did not name PurposeTech; PitchBook (paywalled, not citable) reportedly lists SafePAS Jun 2025, KANO Care Dec 2025 and Auryx Apr 2026. I1/I2/I4 are met; re-screen when one of these deals can be dated. Ticket: now the observed Fund I ticket - EUR 100k into Mamio (e8, one observed deal, labelled derived); the EUR 0.5-1m in e6 is the PLANNED ticket of the second fund PT Capital (not yet investing), and directory profiles put Fund I tickets at about EUR 25-250k (not cited).]",
   "researched_on": "2026-10-25"
 }

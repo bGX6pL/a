@@ -1,6 +1,7 @@
 """Shared plumbing for fetch scripts: a logged run, polite HTTP, raw file storage, text extraction."""
 
 import datetime as dt
+import gzip
 import hashlib
 import html
 import http.client
@@ -12,6 +13,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import zlib
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -27,6 +29,22 @@ http.client._MAXHEADERS = 1000
 
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 DEFAULT_UA = "Mozilla/5.0 (compatible; investor-db/0.1; public-data research)"
+
+
+def decompress(body: bytes, encoding: str | None) -> bytes:
+    """Undo Content-Encoding. urllib does not, and some servers (finance.cz) compress even when not asked."""
+    encoding = (encoding or "").lower()
+    try:
+        if "gzip" in encoding or body[:2] == b"\x1f\x8b":
+            return gzip.decompress(body)
+        if "deflate" in encoding:
+            try:
+                return zlib.decompress(body)
+            except zlib.error:
+                return zlib.decompress(body, -zlib.MAX_WBITS)  # raw deflate
+    except (OSError, zlib.error):
+        pass  # not actually compressed; keep the bytes as they are
+    return body
 
 
 @dataclass
@@ -107,12 +125,13 @@ class FetchRun:
             self._wait(url)
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=hdrs), timeout=timeout) as r:
-                    status, content_type, final_url, body = r.status, r.headers.get("Content-Type"), r.geturl(), r.read()
+                    status, content_type, final_url = r.status, r.headers.get("Content-Type"), r.geturl()
+                    body = decompress(r.read(), r.headers.get("Content-Encoding"))
                 error = None
                 break
             except urllib.error.HTTPError as e:
                 status, content_type, final_url = e.code, e.headers.get("Content-Type"), e.geturl()
-                body, error = e.read() or b"", None
+                body, error = decompress(e.read() or b"", e.headers.get("Content-Encoding")), None
                 if e.code < 500 and e.code != 429:
                     break
             except Exception as e:  # timeouts, DNS, TLS

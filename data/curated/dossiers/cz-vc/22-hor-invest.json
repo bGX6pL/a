@@ -1,0 +1,35 @@
+{
+  "investor_key": "22-hor-invest",
+  "pilot": "cz-vc",
+  "name": "22 Hor Invest",
+  "aliases": ["22 Hor Invest s.r.o."],
+  "investor_type": "family_office",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.22horinvest.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Brno family investment firm of Radek and Pavla Horváth (founders of GeneProof) investing its own money in deep-tech and health projects (e.g. QurieGen pre-seed, Apr 2025) - a family office, outside the VC pilot type.",
+  "discovered_via": ["co-investor:tensor-ventures", "news", "second-pass"],
+  "legal_entities": [
+    {"name": "22 Hor Invest s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "17834091", "role": "holding"}
+  ],
+  "sector_focus": {"value": ["healthtech", "biotech_life_sciences", "energy_climate"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "QurieGen", "company_country": "NL", "date": "2025-04-09", "round": "pre_seed", "round_amount": 2200000, "currency": "EUR", "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.22horinvest.com/", "publisher": "22 Hor Invest", "published_on": null, "source_class": "B", "quote": "Jsme rodinná investiční firma založená v roce 2022 manželi Horváthovými.", "language": "cs"},
+    {"id": "e2", "url": "https://www.22horinvest.com/", "publisher": "22 Hor Invest", "published_on": null, "source_class": "B", "quote": "Nyní naše zkušenosti s řízením firmy a jejím zhodnocením využíváme při komplexní podpoře projektů především v oblasti péče o fyzické i psychické zdraví a udržitelného prostředí pro budoucí generace.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/funguje-jako-google-mapy-pro-bunky-a-urychluje-vyvoj-leku-v-onkologii-startup-ziskal-investici-i-od-cechu/", "publisher": "CzechCrunch", "published_on": "2025-04-09", "source_class": "C", "quote": "Konkrétně jde o české fondy Tensor Ventures, Lighthouse Ventures, Moondust Ventures, 22 Hor Invest a také zahraniční BSV Ventures.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Tensor Ventures", "Lighthouse Ventures", "Moondust Ventures", "BSV Ventures"],
+  "analyst_notes": "Self-described family investment firm founded in 2022 by Radek and Pavla Horváth after the exit of their Brno biotech company GeneProof (now part of ALPCO Holdings); invests own family money in science-based projects (medical technology, AI in healthcare, in-vitro diagnostics, drug development, biotech, green energy, nanotech, circular economy) at any stage, plus philanthropy (Nadační fond 22 Hor Invest, IČO 21635447, not listed as an investing entity). Current projects on the site: Datlowe s.r.o. (CZ), QurieGen B.V. (NL); GeneProof and ALPCO are listed as holdings; SOLEK HOLDING SE was a short-term 2023 investment. Typed family_office (single-family) and excluded S1; it is active (QurieGen EUR 2.2m pre-seed led by Tensor Ventures, CzechCrunch 2025-04-09, where CzechCrunch calls it a fund). No fund vehicle, ticket or capital figure is public.",
+  "researched_on": "2026-10-25"
+}

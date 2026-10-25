@@ -1,0 +1,34 @@
+{
+  "investor_key": "novira-capital",
+  "pilot": "cz-vc",
+  "name": "Novira",
+  "aliases": ["Novira Capital", "Novira Capital s.r.o.", "Novira Investment AG", "Novira SE"],
+  "investor_type": "private_investor",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CH",
+  "website": "https://novira.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Private investment group of Vít Vrba (Zug/Brno) with about 70% of its capital in real estate and the rest in startups, loans and other investments; it says itself that it is not a VC, so it is a private investor outside the VC pilot.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Novira Capital s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "27697436", "role": "holding"},
+    {"name": "Novira SE", "country": "CZ", "registry": "CZ-ICO", "registry_id": "09737421", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://novira.com/", "publisher": "Novira", "published_on": null, "source_class": "B", "quote": "We are not a VC.", "language": "en"},
+    {"id": "e2", "url": "https://novira.com/", "publisher": "Novira", "published_on": null, "source_class": "B", "quote": "Our focus shifts from purely online to strongly physical, with ~70% of capital in real estate and the rest in startups, loans and other strategic investments.", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/tag/novira-capital/", "publisher": "CzechCrunch", "published_on": "2024-10-02", "source_class": "C", "quote": "Společnosti již dříve podpořily fondy Reflex Capital Ondřeje Fryce a Novira Capital Víta Vrby.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Reflex Capital"],
+  "analyst_notes": "Novira (group founded 2007, 'headquartered in Zürich' per the site, Novira Investment AG in Zug; Czech office and companies in Brno - Novira Capital s.r.o., Novira SE, Novira Management, Novira Property, Novira Construction, Novira Finance; ARES) invests the principals' own capital: real estate development and rental (about 70%), startup investments, loans/mezzanine financing and FX operations. Startup track record: Smartlook (sold to Cisco 2023), Shopsys, Reservio, Smartsupp, Survio (merged into a holding, CzechCrunch 2024-10-02, quote e3 from the tag page teaser), Ofisly (Brno, Nov 2023). Typed private_investor (real-estate-dominant group, so E3 would also apply to the group as a whole) and excluded S1. No startup investment dated on/after 2024-10-25 was found, so it would also be inactive as a startup investor (E7) - not separately tested. Note: unrelated to Novira Therapeutics (US biotech).",
+  "researched_on": "2026-10-25"
+}

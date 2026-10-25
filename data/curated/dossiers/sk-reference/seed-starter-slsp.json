@@ -84,22 +84,23 @@
     "value": {
       "amount": 5000000,
       "currency": "EUR",
-      "basis": "latest_fund_size",
-      "as_of": "2022-09-29"
+      "basis": "balance_sheet",
+      "as_of": "2022-09-08"
     },
     "method": "stated",
     "evidence": [
+      "e15",
       "e7"
     ]
   },
   "funds": [
     {
-      "name": "Seed Starter Slovenskej sporiteľne (programme launch)",
+      "name": "Seed Starter Slovenskej sporiteľne (programme budget set aside by the bank, first phase)",
       "size_amount": 5000000,
       "currency": "EUR",
       "event": "launch",
-      "event_date": "2022-09-29",
-      "evidence": "e6"
+      "event_date": "2022-09-08",
+      "evidence": "e15"
     }
   ],
   "investments": [
@@ -284,6 +285,15 @@
       "source_class": "C",
       "quote": "Bratislava, 5. februára 2025 - Slovak Investment Holding (SIH) a Seed Starter Slovenskej sporiteľne oznámili prvú spoločnú investíciu do slovenského startupu Eatster v celkovej hodnote 700 000 eur.",
       "language": "sk"
+    },
+    {
+      "id": "e15",
+      "url": "https://cc.cz/ceska-sporitelna-jde-podporovat-startupy-i-na-slovensko-pro-tamni-mlade-firmy-ma-pres-120-milionu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2022-09-08",
+      "source_class": "C",
+      "quote": "Pět milionů eur, tedy v přepočtu více než 123 milionů korun, si připravila Slovenská spořitelna na první fázi podpory startupů na Slovensku.",
+      "language": "cs"
     }
   ],
   "co_investors_seen": [
@@ -292,6 +302,6 @@
     "Slovak Investment Holding",
     "Miroslav Fedor"
   ],
-  "analyst_notes": "Legal form: no ORSR entity named 'Seed Starter' was found (ORSR name search, 2026-10-25) and Startitup (2026-09-25) calls it Slovenská sporiteľňa's 'investičný program'; it is therefore recorded as a corporate VC programme of Slovenská sporiteľňa, a.s. (IČO 00151653, part of Erste Group), with the bank as the legal entity. Caplight's claim that it is a 100% subsidiary set up in Sept 2022 could not be confirmed. Not on the NBS fund-manager register (bank balance-sheet investing). Capital: EUR 5m announced for investing at launch (Startitup 2022-09-29, e7, headline); by Q1 2026 SLSP reports EUR 3.14m invested over 3 years in seven Slovak startups - Blockmate, SmartHead, Vestberry, Eatster, Resitech, IntellCRE and Pointee (e8, undated quarterly infographic; Startup Report Slovensko 2025 says 'viac ako 3 milióny eur'). Vestberry March 2025 round: AIN describes the lead 'Seed Starter' as a programme of Česká a Slovenská spořitelna; CzechCrunch says almost half of EUR 2.2m came from the Seed Starter of Česká and Slovenská spořitelna (joint Erste programme); the SLSP infographic counts Vestberry in its own portfolio, so the deal is attributed here; the Czech Seed Starter ČS is covered by the cz-vc pilot. Sector: the site says it seeks startups 'not only in financial services' (e5) - recorded as generalist with a fintech/banking-synergy preference (pilots with the bank). Startup Awards Slovensko 2026 offers the winner an investment of up to EUR 250k from Seed Starter (Startitup 2026-09-25). Aggregator-only items not used: TrollWall AI (Apr 2026, Caplight). Investment-period/IntellCRE dates not published by SLSP. Added by reviewer: co-investments with Slovak Investment Holding announced by SIH (co-investor press releases, class C for Seed Starter): TrollWall AI EUR 800k (9 Apr 2026), Resitech EUR 500k (16 Jun 2025), Eatster EUR 700k total, EUR 350k each (5 Feb 2025); round amounts are totals. Latest cited activity is now 2026-04-09.",
+  "analyst_notes": "Legal form: no ORSR entity named 'Seed Starter' was found (ORSR name search, 2026-10-25) and Startitup (2026-09-25) calls it Slovenská sporiteľňa's 'investičný program'; it is therefore recorded as a corporate VC programme of Slovenská sporiteľňa, a.s. (IČO 00151653, part of Erste Group), with the bank as the legal entity. Caplight's claim that it is a 100% subsidiary set up in Sept 2022 could not be confirmed. Not on the NBS fund-manager register (bank balance-sheet investing). Capital: EUR 5m announced for investing at launch (Startitup 2022-09-29, e7, headline); by Q1 2026 SLSP reports EUR 3.14m invested over 3 years in seven Slovak startups - Blockmate, SmartHead, Vestberry, Eatster, Resitech, IntellCRE and Pointee (e8, undated quarterly infographic; Startup Report Slovensko 2025 says 'viac ako 3 milióny eur'). Vestberry March 2025 round: AIN describes the lead 'Seed Starter' as a programme of Česká a Slovenská spořitelna; CzechCrunch says almost half of EUR 2.2m came from the Seed Starter of Česká and Slovenská spořitelna (joint Erste programme); the SLSP infographic counts Vestberry in its own portfolio, so the deal is attributed here; the Czech Seed Starter ČS is covered by the cz-vc pilot. Sector: the site says it seeks startups 'not only in financial services' (e5) - recorded as generalist with a fintech/banking-synergy preference (pilots with the bank). Startup Awards Slovensko 2026 offers the winner an investment of up to EUR 250k from Seed Starter (Startitup 2026-09-25). Aggregator-only items not used: TrollWall AI (Apr 2026, Caplight). Investment-period/IntellCRE dates not published by SLSP. Added by reviewer: co-investments with Slovak Investment Holding announced by SIH (co-investor press releases, class C for Seed Starter): TrollWall AI EUR 800k (9 Apr 2026), Resitech EUR 500k (16 Jun 2025), Eatster EUR 700k total, EUR 350k each (5 Feb 2025); round amounts are totals. Latest cited activity is now 2026-04-09. [revision 2026-10-25 re-audit: capital basis changed from latest_fund_size to balance_sheet: the EUR 5m is the budget Slovenská sporiteľňa set aside from its own balance sheet for the programme's first phase (CzechCrunch 2022-09-08, e15; Startitup 2022-09-29 'investovať chce 5 miliónov eur', e7), not a closed fund; the programme-launch fund entry now carries the earlier CzechCrunch date. No newer allocation found; EUR 3.14m invested by Q1 2026 (e8) is deployment. Activity (TrollWall AI, SIH release 2026-04-09), scope (Bratislava, Slovak deals), corporate type and ticket (EUR 200k-1m, stated per company) unchanged.]",
   "researched_on": "2026-10-25"
 }

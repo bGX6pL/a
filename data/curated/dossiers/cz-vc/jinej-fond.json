@@ -1,0 +1,37 @@
+{
+  "investor_key": "jinej-fond",
+  "pilot": "cz-vc",
+  "name": "Jinej fond",
+  "aliases": ["Jinej fond, s.r.o."],
+  "investor_type": "private_investor",
+  "secondary_types": ["angel"],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.jinejfond.cz/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Brno investment company of two entrepreneurs who say they are 'not a classic VC fund' and invest their own money in early-stage startups (e.g. HTG Medical follow-on, July 2026) - a private investor/angel vehicle, outside the VC pilot.",
+  "discovered_via": ["co-investor:garage-angels", "second-pass"],
+  "legal_entities": [
+    {"name": "Jinej fond, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "09259104", "role": "holding"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "derived", "evidence": ["e2", "e4"]},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "HTG Medical", "company_country": "CZ", "date": "2026-07-14", "round": "pre_seed", "round_amount": 450000, "currency": "EUR", "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.jinejfond.cz/", "publisher": "Jinej fond", "published_on": null, "source_class": "B", "quote": "Nejsme klasický VC fond, ale dva podnikatelé ( Honza & Jirka ) investující do fajn lidí s fajn nápady.", "language": "cs"},
+    {"id": "e2", "url": "https://www.jinejfond.cz/", "publisher": "Jinej fond", "published_on": null, "source_class": "B", "quote": "Baví nás inovativní firmy, projekty a startupy v jejich rozletových fázích.", "language": "cs"},
+    {"id": "e3", "url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/", "publisher": "Lupa.cz", "published_on": "2026-07-14", "source_class": "C", "quote": "Do financování se zapojily fondy Garage Angels, Electron Capital Partners a JIC Ventures i stávající investoři Jinej fond a Dendis Capital.", "language": "cs"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/cesky-startup-automatizuje-rutinu-na-jip-s-investici-a-certifikaci-miri-do-zahranici/", "publisher": "Lupa.cz", "published_on": "2026-07-14", "source_class": "C", "quote": "Startup nyní získal dalších 450 tisíc eur (zhruba 11 milionů korun) jako druhou část pre-seed investičního kola.", "language": "cs"},
+    {"id": "e5", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09259104", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "Jinej fond, s.r.o.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Garage Angels", "Electron Capital Partners", "JIC Ventures", "Dendis Capital"],
+  "analyst_notes": "Second-pass screen (existing investor in Garage Angels' HTG Medical deal). Despite the name, the site says it is not a classic VC fund but two entrepreneurs ('Honza & Jirka') investing in founders (e1); Jinej fond, s.r.o. (IČO 09259104, Brno, est. 2020) has two natural-person partners in ARES VR, consistent with that. Typed private_investor (own-capital vehicle of two angels; secondary angel) - S1. Activity: HTG Medical second pre-seed tranche, EUR 450k round total (Lupa 2026-07-14); Jinej's share not disclosed. Stage derived from 'rozletové fáze' and the HTG pre-seed round. The site is a one-page teaser without portfolio, sectors or ticket.",
+  "researched_on": "2026-10-25"
+}

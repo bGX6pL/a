@@ -1,0 +1,38 @@
+{
+  "investor_key": "koopeo-ventures",
+  "pilot": "cz-vc",
+  "name": "KOOPEO Ventures",
+  "aliases": ["KOOPEO Ventures SE", "Koopeo"],
+  "investor_type": "private_investor",
+  "secondary_types": ["vc"],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.koopeoventures.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Brno/Prague investment company of a private group that invests only its own money (CZK 3-15m tickets) in CEE startups such as Localazy, Realpad and Kardi AI, and joined Trifft Loyalty's pre-seed round in July 2025 - an active private investor, not a pooled VC fund.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "KOOPEO Ventures SE", "country": "CZ", "registry": "CZ-ICO", "registry_id": "05269113", "role": "holding"}
+  ],
+  "sector_focus": {"value": ["software_saas", "ecommerce_marketplaces", "consumer"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "self_reported", "evidence": ["e3"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 3000000, "max": 15000000, "currency": "CZK"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Trifft Loyalty", "company_country": null, "date": "2025-07-30", "round": "pre_seed", "round_amount": 410000, "currency": "GBP", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.koopeoventures.com/approach/", "publisher": "KOOPEO Ventures", "published_on": null, "source_class": "B", "quote": "KOOPEO Ventures je investiční společnost zaměřená na venture capital a private equity projekty v rámci regionu CEE.", "language": "cs"},
+    {"id": "e2", "url": "https://www.koopeoventures.com/approach/", "publisher": "KOOPEO Ventures", "published_on": null, "source_class": "B", "quote": "Zpravidla investujeme v rozmezí 3 až 15 milionů korun, do projektů s vysokým potenciálem růstu, hlavně v oblastech internetu, mobilních aplikací, cloudových služeb, e-commerce, affiliate marketingu a moderních technologií.", "language": "cs"},
+    {"id": "e3", "url": "https://shizune.co/investors/life-science-investors-czech-republic/list.md", "publisher": "Shizune (investor profile)", "published_on": null, "source_class": "D", "quote": "We only invests our own money which allows us to make investment decisions very quickly.", "language": "en"},
+    {"id": "e4", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-exmanazeri-z-ppf-vsadili-na-cesko-britsky-trifft-282799", "publisher": "Seznam Zprávy", "published_on": "2025-07-30", "source_class": "C", "quote": "Trifft Loyalty uzavřel tzv. preseed kolo (počáteční fáze života startupu) ve výši 410 tisíc liber (11,6 milionu korun), které vedli čeští investoři Lighthouse Ventures za účasti BD Partners, Gi21 Capital a Koopeo.", "language": "cs"},
+    {"id": "e5", "url": "https://www.koopeoventures.com/", "publisher": "KOOPEO Ventures", "published_on": null, "source_class": "B", "quote": "Portfolio investovaných projektů AIffinity Localazy Kardi AI Senzoor Realpad", "language": "cs"},
+    {"id": "e6", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05269113", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "KOOPEO Ventures SE", "language": "cs"}
+  ],
+  "co_investors_seen": ["Lighthouse Ventures", "BD Partners", "Gi21 Capital"],
+  "analyst_notes": "Second-pass screen. Type: self-described 'investiční společnost' for VC and PE projects (e1); its investor profile says it invests only its own money (e3, self-reported); the site shows a group with 'Společností ve skupině' and '1 miliarda Kč v aktivech' (group-level figure, not a fund - not recorded as capital); directories place it in the WASA group. Treated as private_investor with own capital (consistent with Miton, Gi21 Capital), so S1. If the coordinator decides own-capital startup investors with a dedicated team count as vc, this is an include candidate: Czech offices (Brno seat, Praha, Bratislava), Czech portfolio (Localazy, Realpad, Kardi AI) and a dated in-window deal (Trifft Loyalty pre-seed, Seznam Zprávy 2025-07-30, led by Lighthouse Ventures; Caplight dates it July 2025). Ticket: the approach page gives CZK 3-15m 'zpravidla' while its banner shows 0.5-15 mil. Kč; the profile says up to EUR 500k. Stage taken from the self-reported profile (pre-seed and seed). Sector mapping: internet/cloud/mobile apps -> software_saas; e-commerce/affiliate -> ecommerce_marketplaces/consumer. Trifft Loyalty is Czech-British; company_country left null. Statutory body (ARES VR): Vladimír Šťastný, Petr Špaček, Libor Daněk.",
+  "researched_on": "2026-10-25"
+}

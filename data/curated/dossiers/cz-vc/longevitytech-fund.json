@@ -1,0 +1,40 @@
+{
+  "investor_key": "longevitytech-fund",
+  "pilot": "cz-vc",
+  "name": "Longevitytech.fund",
+  "aliases": ["LongevityTech.Fund", "Longevity Tech Fund"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": null,
+  "website": "https://longevitytech.fund/",
+  "decision": "unverified",
+  "rule_codes": ["I2", "E7", "E8"],
+  "decision_note": "Czech-founded (Petr Šrámek) pre-seed/seed longevity fund with ~46 mostly US/UK portfolio companies; its first fund finished investing in 2022, the second (US) fund was only raising in 2024, no legal entity could be identified and no dated activity on/after 2024-10-25 is verifiable.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [],
+  "sector_focus": {"value": ["biotech_life_sciences", "healthtech"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["US", "GB", "Europe"], "method": "derived", "evidence": ["e6", "e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 16000000, "currency": "USD", "basis": "latest_fund_size", "as_of": "2022-02-19"}, "method": "stated", "evidence": ["e5"]},
+  "funds": [
+    {"name": "LongevityTech.Fund (first fund)", "size_amount": 16000000, "currency": "USD", "event": "other", "event_date": "2022-02-19", "evidence": "e5"},
+    {"name": "LongevityTech.Fund (second fund)", "size_amount": 50000000, "currency": "USD", "event": "target", "event_date": "2024-01-01", "evidence": "e7"}
+  ],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "Nad očekávání se daří i jeho LongevityTech.Fundu, který podporuje biotechnologické startupy a projekty napříč celým spektrem dlouhověkosti.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "Zaměřujeme se při investicích na raná stádia startupů od preseed po seed.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "Stávající fond je v Česku, nový bude v Americe a investovat bude i do hodně futuristických projektů.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "kteří vyvíjí technologii pro zefektivnění sekvenování buněk, jsou z Česka, nicméně my jakožto investor jim pomáháme s přesunutím do USA, aby mohli víc expandovat.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "A aby podpořil startupy, jež se dlouhověkostí zabývají, založil fond LongevityTech.Fund s rozsahem šestnáct milionů dolarů, za kterým stojí dnes již stovka akcionářů.", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/jak-zvratit-starnuti-testuje-i-klinika-v-praze-zalozil-ji-cesky-fond-pro-dlouhovekost-ktery-dava-na-boj-s-vekem-miliony/", "publisher": "CzechCrunch", "published_on": "2022-02-19", "source_class": "C", "quote": "Milionovými investicemi podpořil již čtyřicet převážně amerických a britských startupů a k tomu pod jeho hlavičkou vzniklo pět vlastních firem.", "language": "cs"},
+    {"id": "e7", "url": "https://forbes.cz/dlouhovekost-je-novy-svaty-gral-a-petr-sramek-tvrdi-ze-vi-kde-ho-hledat/", "publisher": "Forbes Česko", "published_on": "2024-01-01", "source_class": "C", "quote": "A do nového fondu aktuálně raisuje dalších padesát milionů dolarů, tedy víc než miliardu korun.", "language": "cs"},
+    {"id": "e8", "url": "https://forbes.cz/dlouhovekost-je-novy-svaty-gral-a-petr-sramek-tvrdi-ze-vi-kde-ho-hledat/", "publisher": "Forbes Česko", "published_on": "2024-01-01", "source_class": "C", "quote": "Podpořil už 46 firem částkou patnáct milionů dolarů, což je v přepočtu asi 340 milionů korun.", "language": "cs"},
+    {"id": "e9", "url": "https://agetechworld.co.uk/market/second-longevitytech-fund-now-accepting-new-investors/", "publisher": "Agetech World", "published_on": "2022-08-26", "source_class": "C", "quote": "LongevityTech.Fund is now accepting new investors with a maximum fund size of US$100m.", "language": "en"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Second-pass screen; kept unverified. Identity (I1): no Czech legal entity found in ARES (searches 'Longevitytech', 'Longevity Tech', 'Longevity'); press says the fund's companies are US-registered (Palo Alto) and PitchBook lists it in Boca Raton, Florida, while CzechCrunch 2022 says the existing (first) fund 'is in Czechia' (e3) - HQ left null. I2 is shown (portfolio named in e1/e4/e6, e.g. GenFlow Biosciences, Intervene Immune, Siphox, Sampling Human - the only Czech company, being moved to the US). Activity (I3): the first fund's last round was to close in March 2022 and it was then near the end of its investment period; the second fund (US) was 'accepting new investors' in 2022 (max US$100m) and still raising USD 50m in Jan 2024 with ~20 investors (Forbes; published_on is the page's 2024-01-01 timestamp). A PitchBook profile reportedly lists deals with Whytics (Jan 2025) and BE Therapeutics (Mar 2025) but returns HTTP 403 and was not verifiable; no other dated deal or second-fund close since 2024-10-25 was found. Capital = first fund's stated size of USD 16m (2022; the fund invested USD 15m in 46 companies per Forbes 2024) - recorded as the latest public fund size with its date because the newer fund has only a target; event 'other' because the source does not call it a close. Even if activity were verified, scope is doubtful (S2 risk): portfolio mostly US/UK, new fund US-based, no Czech office confirmed (the Prague HealthyLongevity clinic is an operating company). Ticket: Šrámek says investments 'v řádech několika milionů korun' (2022) - not recorded as a range. Website is a script-rendered app with no plain-HTML text.",
+  "researched_on": "2026-10-25"
+}

@@ -28,7 +28,7 @@
     "I4",
     "I5"
   ],
-  "decision_note": "Bratislava-rooted early-stage VC (formerly Zero Gravity Capital, SIH-backed Fund I) that launched a EUR 25m Fund II in Sept 2025 with five new investments and co-invested in Vestberry in March 2025, and joined Readmio's EUR 1m round in Feb 2026.",
+  "decision_note": "Bratislava-rooted early-stage VC (formerly Zero Gravity Capital; SIH-backed EUR 23m Fund I) that launched Fund II (announced at EUR 25m, still raising) in Sept 2025 with five new investments, co-invested in Vestberry in March 2025 and joined Readmio's EUR 1m round in Feb 2026.",
   "discovered_via": [
     "research-seed",
     "nbs-register",
@@ -104,19 +104,19 @@
   },
   "capital": {
     "value": {
-      "amount": 25000000,
+      "amount": 23000000,
       "currency": "EUR",
       "basis": "latest_fund_size",
-      "as_of": "2025-09-24"
+      "as_of": "2022-12-20"
     },
     "method": "stated",
     "evidence": [
-      "e4"
+      "e13"
     ]
   },
   "funds": [
     {
-      "name": "Zero One Hundred Fund II (0100 VC RAIF F.C.I.C. PLC)",
+      "name": "Zero One Hundred Fund II (0100 VC RAIF F.C.I.C. PLC) - launch size, still raising",
       "size_amount": 25000000,
       "currency": "EUR",
       "event": "launch",
@@ -127,9 +127,17 @@
       "name": "Zero Gravity Capital fund (ZGC Fund I.)",
       "size_amount": 23000000,
       "currency": "EUR",
+      "event": "final_close",
+      "event_date": null,
+      "evidence": "e13"
+    },
+    {
+      "name": "Zero Gravity Capital fund (ZGC Fund I.) - investment window closed",
+      "size_amount": null,
+      "currency": null,
       "event": "other",
       "event_date": "2023-12-01",
-      "evidence": "e13"
+      "evidence": "e14"
     }
   ],
   "investments": [
@@ -314,6 +322,15 @@
       "source_class": "C",
       "quote": "Prague-based Readmio, which develops interactive children’s story apps with sound and learning features, has secured €1 million in new funding from Simpact Ventures, with support from ZAKA VC, Zero One Hundred, and DEPO Ventures, as Vestbee was informed.",
       "language": "en"
+    },
+    {
+      "id": "e16",
+      "url": "https://0100.vc/",
+      "publisher": "Zero One Hundred",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We are continuing our journey with Fund II and we are interested in speaking with you.",
+      "language": "en"
     }
   ],
   "co_investors_seen": [
@@ -323,6 +340,6 @@
     "ZAKA VC",
     "Simpact Ventures"
   ],
-  "analyst_notes": "One brand, two generations: Fund I = ZGC Fund I., s.r.o. (IČO 52768058), managed by Zero Gravity Capital s.r.o. (IČO 52651894, NBS registered manager since 2020-02-13, fund registered same date); EUR 23m incl. SIH money (2019 SIH selection gave Crowdberry, Zero Gravity and Vision Ventures EUR 11.6m each); SIH says its investment window closed in December 2023 (e14; event date 2023-12-01, month only) and it is divesting. Fund II = 0100 VC RAIF F.C.I.C. PLC, a Cyprus RAIF (e10; no registry id found), EUR 25m, launched Sept 2025 (The Recursive 2025-09-23; MamStartup 2025-09-24, e4) with 70% for leading pre-seed/seed rounds in CEE and 30% for MENA co-investments; five new investments named at launch (Biteberry SK, Reno Home UAE, Medannot SK/BE, Palm.hr KSA, IntellCRE US/SK). Investment dates for those five use the article date (exact closing dates not published). Vestberry (14 Mar 2025, EUR 2.2m led by Seed Starter) - vehicle not stated; Zero One Hundred's Technical Partner Marek Zamecnik is a Vestberry co-founder and Vestberry belongs to the 0100 Ventures holding (Startitup 2023), so this is a related-party deal. Hq kept as SK: team and offices in Bratislava, plus Prague, Cyprus and the UAE (e12); the new fund vehicle is Cypriot, so the S2 question (Slovak office and Slovak activity) is answered yes via the Bratislava office and Slovak portfolio (Biteberry, Medannot, Vestberry). Sector focus derived from the Fund II deals (foodtech-software, proptech, medtech, HR tech, AI; e6-e9); the firm does not state a sector focus. Ticket not disclosed by the firm (aggregators guess EUR 0.1-1m). Earlier targets of EUR 60m for Fund II (Techloy/CzechCrunch Dec 2022, Startitup Apr 2023) were not reached; the 2025 launch size is EUR 25m. Patron GO (CZ, Aug 2024) lists Zero Gravity Capital among existing investors (VFF page). Added by reviewer: Readmio (Prague-based, Slovak founders) EUR 1m round of 5 Feb 2026 led by Simpact Ventures with ZAKA VC, Zero One Hundred and DEPO Ventures (Vestbee, e15) - latest cited activity; whether Fund I reserves or Fund II invested is not stated.",
+  "analyst_notes": "One brand, two generations: Fund I = ZGC Fund I., s.r.o. (IČO 52768058), managed by Zero Gravity Capital s.r.o. (IČO 52651894, NBS registered manager since 2020-02-13, fund registered same date); EUR 23m incl. SIH money (2019 SIH selection gave Crowdberry, Zero Gravity and Vision Ventures EUR 11.6m each); SIH says its investment window closed in December 2023 (e14; event date 2023-12-01, month only) and it is divesting. Fund II = 0100 VC RAIF F.C.I.C. PLC, a Cyprus RAIF (e10; no registry id found), EUR 25m, launched Sept 2025 (The Recursive 2025-09-23; MamStartup 2025-09-24, e4) with 70% for leading pre-seed/seed rounds in CEE and 30% for MENA co-investments; five new investments named at launch (Biteberry SK, Reno Home UAE, Medannot SK/BE, Palm.hr KSA, IntellCRE US/SK). Investment dates for those five use the article date (exact closing dates not published). Vestberry (14 Mar 2025, EUR 2.2m led by Seed Starter) - vehicle not stated; Zero One Hundred's Technical Partner Marek Zamecnik is a Vestberry co-founder and Vestberry belongs to the 0100 Ventures holding (Startitup 2023), so this is a related-party deal. Hq kept as SK: team and offices in Bratislava, plus Prague, Cyprus and the UAE (e12); the new fund vehicle is Cypriot, so the S2 question (Slovak office and Slovak activity) is answered yes via the Bratislava office and Slovak portfolio (Biteberry, Medannot, Vestberry). Sector focus derived from the Fund II deals (foodtech-software, proptech, medtech, HR tech, AI; e6-e9); the firm does not state a sector focus. Ticket not disclosed by the firm (aggregators guess EUR 0.1-1m). Earlier targets of EUR 60m for Fund II (Techloy/CzechCrunch Dec 2022, Startitup Apr 2023) were not reached; the 2025 launch size is EUR 25m. Patron GO (CZ, Aug 2024) lists Zero Gravity Capital among existing investors (VFF page). Added by reviewer: Readmio (Prague-based, Slovak founders) EUR 1m round of 5 Feb 2026 led by Simpact Ventures with ZAKA VC, Zero One Hundred and DEPO Ventures (Vestbee, e15) - latest cited activity; whether Fund I reserves or Fund II invested is not stated. [revision 2026-10-25 re-audit: capital changed from Fund II's EUR 25m 'latest_fund_size' to Fund I's EUR 23m: Fund II's EUR 25m comes only from the September 2025 launch announcement ('ogłosił uruchomienie', MamStartup e4, after The Recursive) and the firm's own site still invites investors into Fund II ('We are continuing our journey with Fund II', e16), so no close or committed amount is public and the launch figure is not capital. Per the revised rule the latest public fund size is used instead: Fund I (ZGC Fund I.) was set up with EUR 23m (SIH EUR 11.6m plus private money; CzechCrunch 2022-12-20, e13), recorded as its final size (final_close, date not published - the vehicle was registered in Feb 2020); as_of = article date. Fund I's investment-window end (Dec 2023, SIH e14) is a separate 'other' entry. Activity (Readmio 2026-02-05, Vestbee), scope (Bratislava office, Slovak portfolio), type vc and ticket (not disclosed) unchanged.]",
   "researched_on": "2026-10-25"
 }

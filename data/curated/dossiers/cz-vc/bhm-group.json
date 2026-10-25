@@ -1,0 +1,37 @@
+{
+  "investor_key": "bhm-group",
+  "pilot": "cz-vc",
+  "name": "BHM group",
+  "aliases": ["BHM group a.s.", "BHM Ventures"],
+  "investor_type": "private_investor",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.bhmgroup.eu/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague private investment group of Tomáš Krsek (founded 2013) that owns and runs dozens of companies in medtech, lab technology, renewables and real estate and holds a small tech-startup portfolio (Carebot, CloudTalk, GoRamp, IP Fabric) - a private holding, not a VC fund.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "BHM group a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "02865998", "role": "holding"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["Europe"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 1000000000, "currency": "EUR", "basis": "balance_sheet", "as_of": "2026-10-25"}, "method": "stated", "evidence": ["e2"]},
+  "funds": [],
+  "investments": [
+    {"company": "Carebot", "company_country": "CZ", "date": "2024-03-22", "round": null, "round_amount": 1200000, "currency": "EUR", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.bhmgroup.eu/o-nas", "publisher": "BHM group", "published_on": null, "source_class": "B", "quote": "BHM group je soukromá investiční společnost založená v roce 2013 podnikatelem a filantropem Tomášem Krskem.", "language": "cs"},
+    {"id": "e2", "url": "https://www.bhmgroup.eu/portfolio?industry=tech-startups", "publisher": "BHM group", "published_on": null, "source_class": "B", "quote": "BHM group spravuje aktiva v hodnotě 1 miliardy eur, působí ve více než 20 evropských zemích a zaměstnává přes 2000 lidí po celé Evropě.", "language": "cs"},
+    {"id": "e3", "url": "https://www.bhmgroup.eu/", "publisher": "BHM group", "published_on": null, "source_class": "B", "quote": "BHM group cíleně hledá start-upy s inovativním vědecko-technickým potenciálem.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/", "publisher": "CzechCrunch", "published_on": "2024-03-22", "source_class": "C", "quote": "Kdo investuje: Karel Bastl, Roman Trachta, inovační laboratoř Pilulka Lab, Lukáš Kopčaj, Eva Janečková, venture kapitálová společnost Startguide VC, skupina BHM group Tomáše Krska a Gain Ventures.", "language": "cs"},
+    {"id": "e5", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-skupina-miliardare-krska-ma-na-nakupy-pripravene-miliardy-korun-254526", "publisher": "Seznam Zprávy", "published_on": "2024-06-25", "source_class": "C", "quote": "Máme velkou výhodu v tom, že nejsme fond, to znamená, že nemusíme vracet peníze našemu akcionáři, nemáme jasně definovaný investiční horizont.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Pilulka Lab", "Startguide VC", "Gain Ventures", "Eva Janečková"],
+  "analyst_notes": "Quick exclusion dossier (S1, private investment holding). The own site describes a private investment company founded in 2013 by Tomáš Krsek (e1) that manages dozens of companies across Europe; its CEO Jan Černý told Seznam Zprávy (2024-06-25) that BHM is 'not a fund' and need not return money to its shareholder (e5), i.e. it invests its owner's capital. Startups are one of seven business lines ('BHM Ventures', e3; www.bhmventures.eu did not resolve on 2026-10-25), with portfolio entries Carebot, CloudTalk, GoRamp and IP Fabric and no separate team or fund found, so the brand rule does not create a separate VC record on current evidence - BHM Ventures is flagged for a separate check. Capital: the portfolio page states assets of EUR 1bn (e2; the homepage shows 'EUR 1100 mil.' assets); the page is undated, so as_of = retrieval date and basis balance_sheet (group assets, not a fund). Latest dated startup deal found: Carebot (March 2024, before the window).",
+  "researched_on": "2026-10-25"
+}
