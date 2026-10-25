@@ -1,0 +1,172 @@
+{
+  "investor_key": "limerock",
+  "pilot": "sk-reference",
+  "name": "Limerock",
+  "aliases": [
+    "Limerock Investment Holding, s.r.o.",
+    "Limerock Fund Manager, s. r. o.",
+    "Limerock Advisory, s. r. o.",
+    "JEREMIE Co-Investment Fund, s.r.o. v likvidácii"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.limerock.sk/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Bratislava manager of the EIF/JEREMIE-mandated JEREMIE Co-Investment Fund, which made its last investment decisions in 2016 and is in liquidation; no new fund or dated investment on or after 2024-10-25 found.",
+  "discovered_via": [
+    "research-seed",
+    "nbs-register",
+    "sih-programmes"
+  ],
+  "legal_entities": [
+    {
+      "name": "Limerock Investment Holding, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47777028",
+      "role": "manager"
+    },
+    {
+      "name": "JEREMIE Co-Investment Fund, s.r.o. v likvidácii",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47254734",
+      "role": "fund"
+    },
+    {
+      "name": "Limerock Advisory, s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "46092897",
+      "role": "holding"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "industrial_manufacturing",
+      "software_saas"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK",
+      "CZ"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1547454",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Limerock Investment Holding, s.r.o. - IČO: 47777028",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1551952",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "JEREMIE Co-Investment Fund, s.r.o. v likvidácii - IČO: 47254734",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.limerock.sk/sfdr",
+      "publisher": "Limerock Investment Holding",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Registrovaný správca neprijal žiadne nové investičné rozhodnutia od 1. novembra 2016.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.limerock.sk/main",
+      "publisher": "Limerock Advisory",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Currently, we are looking for investment opportunities in Late Seed & Series A rounds in revenue-generating firms primarily emerging from the Czech and Slovak region, with a focus on Industrial Tech and other B2B businesses.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.limerock.sk/main",
+      "publisher": "Limerock Advisory",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Gradually, Limerock has diversified also into venture capital investing when we started to manage JEREMIE Co-Investment Fund based on the mandate from European Investment Fund.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/limerock-fund-manager-kapitalova-investicia",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "The fund has completed its divestment process and is currently undergoing liquidation.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/limerock-fund-manager-kapitalova-investicia",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "The fund's investment period ran from 2014 to 2016 and focused on supporting small and medium-sized enterprises (SMEs) through equity investments made alongside private investors on a pari passu basis.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.limerock.sk/sfdr",
+      "publisher": "Limerock Investment Holding",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond je uzavretým alternatívnym investičným fondom, ktorý drží historické portfólio investičných aktív nadobudnutých v súlade s jeho investičnou stratégiou.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Inactive (E7): Limerock's own SFDR disclosure says the registered manager has taken no new investment decisions since 1 Nov 2016 and that the fund (JEREMIE Co-Investment Fund, s.r.o., IČO 47254734) does not raise capital or seek new deals; SIH says the fund has finished divesting and is in liquidation (ORSR name 'v likvidácii' since 2026-06-06). The 2025-07-25 NBS registration date of Limerock Investment Holding, s.r.o. reflects its merger with Limerock Fund Manager, s. r. o. (IČO 47254718, legal predecessor per ORSR from 2025-07-25), not a new fund. Limerock's homepage still says it looks for Late Seed & Series A deals (CZ/SK, industrial tech/B2B), but no vehicle or deal after 2016 was found. ORSR: JEREMIE Co-Investment Fund partners are National Development Fund I., s. r. o. (SIH, IČO 44690487) and Limerock Investment Holding; Limerock Investment Holding is owned by Limerock Advisory, s.r.o. (IČO 46092897; owners Roman Čmelík, Michal Jablonka) and Aika Group Oy (Finland). Limerock's SFDR page prints the manager's IČO as '44 777 028' (typo; ORSR and RÚZ: 47777028). Portfolio logos on limerock.sk (alt text, not quotable): Amena Displays, Aykiro, Gevorkyan (listed), Jaspravim, Maxsport, Runecast, Zlty melon - not linked as investments for lack of a quotable source. Related: Michal Jablonka and Roman Čmelík are also co-founders of Zero Gravity Capital (see zero-one-hundred). Limerock Advisory also does M&A advisory (E1 activity, not the investor record). Ticket and capital not disclosed. eif-portfolio not added: the EIF JEREMIE 2014 Slovakia page now returns 404 and Limerock is not on the current EIF fund-partner list.",
+  "researched_on": "2026-10-25"
+}

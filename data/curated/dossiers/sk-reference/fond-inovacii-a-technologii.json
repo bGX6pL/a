@@ -1,0 +1,212 @@
+{
+  "investor_key": "fond-inovacii-a-technologii",
+  "pilot": "sk-reference",
+  "name": "Fond inovácií a technológií (FIT)",
+  "aliases": [
+    "Fond inovácií a technológií, a.s.",
+    "FIT",
+    "Fond FIT"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": true,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.fondfit.sk/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "SBA-backed Slovak public seed/start-up VC fund (first deal Datamolino 2014) that states it entered its post-investment phase in 2025; no dated investment on or after 2024-10-25 found.",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "nbs-register",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "Fond inovácií a technológií, a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "47051981",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "energy_climate",
+      "industrial_manufacturing",
+      "ecommerce_marketplaces",
+      "software_saas"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a",
+      "growth"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 20000,
+      "max": 1500000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Datamolino",
+      "company_country": "SK",
+      "date": "2014-09-22",
+      "round": "seed",
+      "round_amount": 500000,
+      "currency": "EUR",
+      "evidence": "e8"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.fondfit.sk/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond inovácií a technológií vstúpil v roku 2025 do post-investičnej fázy.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.fondfit.sk/index.php/financovanie-kapitalu/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Výška investície: od 20 000 EUR do 1 500 000 EUR",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.fondfit.sk/index.php/financovanie-kapitalu/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Oblasti, ktorým venujeme osobitnú pozornosť sú životné prostredie, obnoviteľné zdroje energie, priemyselné inovácie, e-commerce, informačné technológie, telekomunikácie, technológie, ktoré zlepšia život alebo softvérové riešenia.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.fondfit.sk/index.php/financovanie-kapitalu/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Naša podpora zahŕňa: predštartovací (seed) kapitál, štartovací (start-up) kapitál ako aj kapitál na rozšírenie (expansion)",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.fondfit.sk/index.php/financovanie-kapitalu/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Územná pôsobnosť: sídlo investičného cieľa a aspoň časť aktivít na území Slovenskej republiky",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1486813",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Fond inovácií a technológií, a.s. - IČO: 47051981",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.fondfit.sk/",
+      "publisher": "Fond inovácií a technológií",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Je výsledkom spolupráce Slovak Business Agency (SBA) s investormi.",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.podnikajte.sk/investor/fit-fond-financovanie",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2014-09-22",
+      "source_class": "C",
+      "quote": "Prvou investíciou Fondu inovácií a technológií je startup Datamolino.",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.podnikajte.sk/investor/fit-fond-financovanie",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2014-09-22",
+      "source_class": "C",
+      "quote": "FIT doň investoval 500 000 eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.nhfond.sk/fondy-rizikoveho-kapitalu/fond-inovacii-a-technologii/podmienky-poskytnutia/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investičným manažérom spoločnosti Fond inovácií a technológii je spoločnosť Investeers, a.s., ktorá vyhľadáva investičných príležitostí, príprava a dojednávanie podmienok vstupu, fungovania a exitu.",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.nhfond.sk/o-nas/historia-a-poslanie-spolocnosti/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "V súčasnosti spoločnosť Národný holdingový fond s.r.o. spravuje dva fondy rizikového kapitálu so samostatnou právnou subjektivitou (Eterus Capital a.s. a Fond inovácií a technológií, a.s.).",
+      "language": "sk"
+    },
+    {
+      "id": "e12",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/fond-inovacii-a-technologii.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Zameranie na seed spoločnosti, start-up a spin-off spoločnosti, expansion spoločnosti",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Inactive (E7): FIT's homepage says it entered the post-investment phase in 2025; no dated new investment on/after 2024-10-25 was found (web-search budget ran out before Slovak press was exhausted). Current portfolio listed on fondfit.sk without dates: Elearn.Aero, Futureplastix, Trigen, Cognexa, Datamolino. Datamolino (first investment, EUR 500k for 20 %, podnikajte.sk 2014-09-22) is the only dated deal found; date is the article date, not the closing date. Structure: joint SBA/private-investor vehicle (state majority per older press), registered self-managed AIF at NBS since 2023-08-21 (NBS export 2026-10-24); investment manager Investeers, a.s. (per nhfond.sk); NHF's site says NHF 'manages' FIT and Eterus Capital - FIT could be treated as a child vehicle of narodny-holdingovy-fond (E10) at load time. Instruments include equity and debt (financovanie-kapitalu page). Stage: seed, start-up and expansion mapped to seed/series_a/growth. Capital not disclosed on its site (older press estimated ~EUR 15m on account); RÚZ balance sheet (RÚZ id 1486813, FY2025 filed 2026-05-29) not extracted. SK NACE in RÚZ: 64920. Also listed in the Vestbee round-up of Slovak VC funds (2020-10-08) - counted as 'news' discovery.",
+  "researched_on": "2026-10-25"
+}

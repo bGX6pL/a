@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-21125929",
+  "pilot": "cz-s15-sample",
+  "name": "M&F Investments",
+  "aliases": [
+    "M&F Investments osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.mfinvestments.cz/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Actively managed listed-equity value fund (mostly US stocks, short puts).",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "M&F Investments osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "21125929",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21125929",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "M&F Investments osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.mfinvestments.cz/",
+      "publisher": "M&F Investments",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "M&F Investments je akciový fond s aktivní správou a zaměřením na optimalizovaný poměr rizika a výnosu (risk/reward).",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Fund started 2026-03-23 with about CZK 0.5m under management per its site. ARES czNace 024, 6820, 016, 00, 022, G (forestry/agriculture codes, unrelated).",
+  "researched_on": "2026-10-25"
+}

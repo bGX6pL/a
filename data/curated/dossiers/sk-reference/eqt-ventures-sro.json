@@ -1,0 +1,58 @@
+{
+  "investor_key": "eqt-ventures-sro",
+  "pilot": "sk-reference",
+  "name": "EQT Ventures s.r.o. (Bratislava)",
+  "aliases": [
+    "EQT Ventures s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Small Bratislava company with AIF management among many generic trade licences; no fund, portfolio or website found, and no link to the Swedish EQT Ventures.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "EQT Ventures s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "50532481",
+      "role": "manager"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=360426&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "vytváranie a spravovanie alternatívnych investičných fondov a zahraničných alternatívnych investičných fondov",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=360426&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Ing. Tomáš Pivarči",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Not the EQT AB venture arm (EQT Ventures, Stockholm): sole shareholder is a Slovak individual (e2) and no public material connects the two. RÚZ 2025 (micro entity): total assets EUR 0.82m, equity EUR 0.10m; notes are a generic template. No managed fund appears in the Bank of Spain list of Slovak funds. Web search budget exhausted during the screen, so news was not checked.",
+  "researched_on": "2026-10-25"
+}

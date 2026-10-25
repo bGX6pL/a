@@ -1,0 +1,47 @@
+{
+  "investor_key": "startguide",
+  "pilot": "cz-vc",
+  "name": "StartGuide VC",
+  "aliases": ["STARTGUIDE", "Start Guide - osoba rizikového kapitálu, s.r.o.", "SGOne", "SGTwo", "SG Two a.s."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://startguide.vc/",
+  "decision": "exclude",
+  "rule_codes": ["E7"],
+  "decision_note": "Prague pre-seed/seed VC whose first fund (SGOne, investment period closed May 2023) invested about CZK 35m in 13 startups; no dated investment or fund close since 2024-10-25 was found, and the second fund SGTwo exists only as a target and a newly registered vehicle (SG Two a.s., 2026-09-07).",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Start Guide - osoba rizikového kapitálu, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "28418425", "role": "manager"},
+    {"name": "SG Two a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "29977321", "role": "fund"},
+    {"name": "SG Studio - osoba rizikového kapitálu, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "29714800", "role": "gp"}
+  ],
+  "sector_focus": {"value": ["healthtech", "software_saas", "fintech", "cybersecurity", "ai_data"], "method": "stated", "evidence": ["e1", "e8"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e3"]},
+  "ticket_size": {"value": {"min": 50000, "max": 200000, "currency": "USD"}, "method": "stated", "evidence": ["e4"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "SGOne", "size_amount": 6000000, "currency": "EUR", "event": "target", "event_date": null, "evidence": "e5"},
+    {"name": "SGTwo", "size_amount": 25000000, "currency": "EUR", "event": "target", "event_date": "2024-10-22", "evidence": "e8"},
+    {"name": "SGTwo", "size_amount": 20000000, "currency": "EUR", "event": "target", "event_date": null, "evidence": "e7"}
+  ],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://startguide.vc/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "We concentrate on areas like Healthtech, Enterprise Software, Fintech, and Cybersecurity, which are not only expanding rapidly but also offering substantial opportunities for operational and financial innovation.", "language": "en"},
+    {"id": "e2", "url": "https://startguide.vc/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "We consider investment opportunities up to seed, and provide bridge funding as we believe this allows us to get in on the ground floor of promising startups and support their growth as they progress.", "language": "en"},
+    {"id": "e3", "url": "https://startguide.vc/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "We prioritize investment in Central and Eastern European tech startups as we believe this region has a strong talent pool and a growing technology ecosystem.", "language": "en"},
+    {"id": "e4", "url": "https://www.startguide.cz/en/sgone/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "Conditions: Ticket size is USD 50‑200,000 | Share size 1‑15 % | Length of stay 3‑7 years", "language": "en"},
+    {"id": "e5", "url": "https://www.startguide.cz/en/sgone/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "The fund is set up for EUR 6 mil.", "language": "en"},
+    {"id": "e6", "url": "https://www.startguide.cz/en/sgone/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "The closing date for investments is 1 May 2023; the fund will be open or 7 years.", "language": "en"},
+    {"id": "e7", "url": "https://www.startguide.cz/en/sgtwo/", "publisher": "StartGuide", "published_on": null, "source_class": "B", "quote": "SG Two Plan to invest 20 M EUR", "language": "en"},
+    {"id": "e8", "url": "https://cc.cz/jana-sedlakova-se-presouva-z-advokacie-ke-startupum-bude-partnerkou-noveho-fondu/", "publisher": "CzechCrunch", "published_on": "2024-10-22", "source_class": "C", "quote": "Jako trojice partnerů nyní již i se Sedlákovou představili druhý fond StartGuide s názvem SGTwo, v němž cílí na velikost 25 milionů eur (630 milionů korun) a investičním horizontem deset plus jeden rok.", "language": "cs"},
+    {"id": "e9", "url": "https://cc.cz/jana-sedlakova-se-presouva-z-advokacie-ke-startupum-bude-partnerkou-noveho-fondu/", "publisher": "CzechCrunch", "published_on": "2024-10-22", "source_class": "C", "quote": "SGOne přitom odkazuje na první fond StartGuide, v rámci něhož investovali asi 35 milionů korun do třinácti startupů včetně DTS digitalizujícího stavebnictví", "language": "cs"},
+    {"id": "e10", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28418425", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "Start Guide - osoba rizikového kapitálu, s.r.o.", "language": "cs"},
+    {"id": "e11", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29977321", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "SG Two a.s.", "language": "cs"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Second-pass screen. Identity: Start Guide - osoba rizikového kapitálu, s.r.o. (IČO 28418425, Opletalova 55, Praha 1; §15 sub-threshold manager activity registered 2025-02-05; statutory body Petr Jahn). SG Two a.s. (IČO 29977321) was registered 2026-09-07 at the same address; its sole shareholder and board member is SG Studio - osoba rizikového kapitálu, s.r.o. (IČO 29714800, registered 2026-06-24) - presumably the SGTwo vehicle and its GP, but no close is announced. Activity: SGOne's investment period closed 1 May 2023 (e6); CzechCrunch (2024-10-22, just before the window) reports CZK 35m invested in 13 startups (DTS, Ringil, Carebot). Third-party directories (CB Insights, Caplight) show the latest deal as Carebot seed in March 2024 - outside the window and not from a fetchable primary source. Four searches (cs/en) found no StartGuide deal or SGTwo close dated on/after 2024-10-25, so E7. Funds: SGOne 'set up for EUR 6 mil.' (2022 page, 30% committed then) and SGTwo targets (EUR 25m per CzechCrunch 2024; 'Plan to invest 20 M EUR' on the current site) are targets only, so capital not_disclosed. Ticket is SGOne's stated USD 50-200k (the SGOne page also says 'cca EUR 100k in each project'); SGTwo says 'Investing up to 2M EUR in tranches'. Team change: the current SGTwo page lists Petr Jahn, Martin Korman (CFO in Tensor Ventures) and Lukáš Vácha as general partners; Jana Sedláková (announced as partner in Oct 2024) appears only on the SGOne page. Re-screen when SGTwo announces a first close or a new investment.",
+  "researched_on": "2026-10-25"
+}

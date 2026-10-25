@@ -1,0 +1,20 @@
+{
+  "investor_key": "inven-capital",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "Prague self-managed SICAV controlled by CEZ (corporate flag right); homepage: EUR 500m, 2-30m EUR ticket, climate tech, Europe and Israel, Praha 4 address; Czech portfolio history (Woltair). Wint USD 36m Series D co-led (PR Newswire 2026-09-09) and Andercore Series B (2026-02) verified. EUR 500m is total committed capital (EIB/own site); Inven's own 2026 release calls it under management, so basis aum accepted."
+}

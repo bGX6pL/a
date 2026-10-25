@@ -1,0 +1,176 @@
+{
+  "investor_key": "wood-and-company",
+  "pilot": "cz-vc",
+  "name": "WOOD & Company",
+  "aliases": [
+    "WOOD & Company Financial Services, a.s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.wood.cz",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7",
+    "E5"
+  ],
+  "decision_note": "Central European investment bank / broker / asset manager whose 'Venture Investments' unit has held direct startup stakes (Pilulka, Rohlik, Snuggs, Aireen), but the latest direct deals are from 2023 (E7) and its current venture offer is client exposure via single-company vehicles and third-party VC funds (E5).",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [
+    {
+      "name": "WOOD & Company Financial Services, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "26503808",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Window Holding",
+      "company_country": "CZ",
+      "date": "2023-08-01",
+      "round": "buyout",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "Aireen",
+      "company_country": "CZ",
+      "date": "2023-06-01",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    },
+    {
+      "company": "Snuggs",
+      "company_country": "CZ",
+      "date": "2023-02-01",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e9"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://cvca.cz/clenstvi/pridruzeni-clenove/",
+      "publisher": "CVCA (association member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "WOOD & Company je přední finanční a investiční skupina působící primárně na středoevropském trhu v oblastech obchodování s cennými papíry, správy aktiv a služeb investičního bankovnictví.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.wood.cz/",
+      "publisher": "WOOD & Company",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Už více než 35 let poskytujeme služby v oblasti investičního bankovnictví, obchodování s cennými papíry, správy majetku a tvorby investičních fondů.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.wood.cz/sluzby/venture-investments",
+      "publisher": "WOOD & Company",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Ve WOOD & Company máme s tímto typem investic dlouhodobé zkušenosti a za sebou investice do desítek firem v celkovém objemu desítek milionů eur.",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.wood.cz/sluzby/venture-investments",
+      "publisher": "WOOD & Company",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Do naší sítě patří startupy z perspektivních odvětví, jakými jsou high tech, digital health nebo retail, mezi nimi například Pilulka, Rohlik, Snuggs, Fruitisimo, Eseye nebo LutherOne.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.wood.cz/sluzby/venture-investments",
+      "publisher": "WOOD & Company",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investiční příležitosti, které nabízíme zejména kvalifikovaným investorům, mají typicky charakter expozice do konkrétní společnosti nebo projektu se svým specifickým příběhem a vizí.",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.wood.cz/sluzby/venture-investments",
+      "publisher": "WOOD & Company",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Umožňujeme však také investice do diverzifikovaného portfolia venture kapitálu spravovaného prestižními lokálními a mezinárodními fondy, které jsou obvykle přístupné pouze pro úzký okruh investorů.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.caplight.com/investor/wood",
+      "publisher": "Caplight (investor profile, aggregator)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Window Holding a.s. Aug 2023 Buyout/LBO Co-investor",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.caplight.com/investor/wood",
+      "publisher": "Caplight (investor profile, aggregator)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Aireen a.s. Jun 2023 VC Round Co-investor",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.caplight.com/investor/wood",
+      "publisher": "Caplight (investor profile, aggregator)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "snuggs Feb 2023 VC Round Co-investor",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Broker / investment bank / asset manager (E1). Its investment funds were not reviewed in detail (the group is best known for real-estate and listed-asset products, which would be E3); no VC or direct private-company investing found. The CVCA contact is the Managing Director, Investment Banking (M&A advisory). [revision 2026-10-25 after review: rule_codes E1 -> E7 + E5. WOOD runs a 'Venture Investments' unit with investments in dozens of companies totalling tens of millions of EUR (e3; network incl. Pilulka, Rohlik, Snuggs, Fruitisimo, Eseye, LutherOne, e4), so it is not only a service provider. Its direct venture book is inactive: the latest dated direct deals found are Window Holding (buyout, Aug 2023), Aireen (VC round, Jun 2023) and Snuggs (VC round, Feb 2023) per Caplight (e7-e9; month-only dates recorded as the 1st of the month); Snuggs' Feb 2025 round names only TripleB (reviewer) - hence E7. The current venture offer packages single-company exposures for qualified investors (e5) and access to portfolios of third-party VC funds (e6, fund-of-funds, E5; WOOD Venture One certificates per the reviewer). The group as a whole remains a broker / investment bank (e1, e2); investor_type left null.]",
+  "researched_on": "2026-10-25"
+}

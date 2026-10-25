@@ -1,0 +1,20 @@
+{
+  "investor_key": "slovak-investment-holding",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "Direct-investment activity confirmed on sih.sk: VisionFlow EUR 1.4m convertible loan (2026-09-22, director of direct investments Juraj Jusko), AT Crystals EUR 280k (2026-09-15), Veslo, Definic, CloseRocket, TrollWall AI (2026), Eatster/Resitech (2025) - all direct, mostly CLAs pari passu, from RRP Component 9. Ticket 280k-1.4m derived from SIH's own amounts; seed stage and EUR 15m seed instrument (2024-06-27, 'plánuje SIH alokovať') as stated. Type: public flag right; note SIH's dominant activity overall is guarantees/loans and fund-of-funds (VFF, Neulogy, etc.), so 'vc' only describes its direct-investment unit - acceptable because it is neither debt-only (E4) nor LP-only (E5), but the EUR 15m is a programme allocation rather than a fund size."
+}

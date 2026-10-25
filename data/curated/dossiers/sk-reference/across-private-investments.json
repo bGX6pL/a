@@ -1,0 +1,197 @@
+{
+  "investor_key": "across-private-investments",
+  "pilot": "sk-reference",
+  "name": "Across Private Investments",
+  "aliases": [
+    "Across Private Investments, o.c.p., a.s.",
+    "Across Wealth",
+    "Across Group",
+    "Across Asset Management, správ. spol., a. s.",
+    "Across Heritage Fund, investičný fond s premenlivým základným imaním, a.s. v likvidácii"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.across.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E2",
+    "E3"
+  ],
+  "decision_note": "Bratislava securities dealer / wealth manager (EUR 450m+ under management) whose Across Wealth app now places retail money into private start-up deals via SPV preferred shares (first: Glycanostics, Oct 2026) - an intermediary, not an investor of own or managed VC capital; its asset-management arm runs listed-securities funds.",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "Across Private Investments, o.c.p., a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "35763388",
+      "role": "other"
+    },
+    {
+      "name": "Across Asset Management, správ. spol., a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "56333714",
+      "role": "manager"
+    },
+    {
+      "name": "Across Heritage Fund, investičný fond s premenlivým základným imaním, a.s. v likvidácii",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53566009",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": {
+      "amount": 450000000,
+      "currency": "EUR",
+      "basis": "aum",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/460460",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Across Private Investments, o.c.p., a.s. - IČO: 35763388",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2324416",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Across Asset Management, správ. spol., a. s. - IČO: 56333714",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.across.sk/across-wealth-otvara-pre-investorov-private-markets",
+      "publisher": "Across",
+      "published_on": "2026-10-20",
+      "source_class": "B",
+      "quote": "Across rozširuje ponuku vo svojej investičnej aplikácii o venture-capital projekty.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.across.sk/across-wealth-otvara-pre-investorov-private-markets",
+      "publisher": "Across",
+      "published_on": "2026-10-20",
+      "source_class": "B",
+      "quote": "Glycanostics chce získať financovanie aj prostredníctvom investičnej platformy Across Wealth.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.across.sk/across-wealth-otvara-pre-investorov-private-markets",
+      "publisher": "Across",
+      "published_on": "2026-10-20",
+      "source_class": "B",
+      "quote": "My tieto príležitosti aktívne vyhľadávame a prepájame s investormi.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.across.sk/o-nas",
+      "publisher": "Across",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "450+ mil. eur pod správou",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.across.sk/o-nas",
+      "publisher": "Across",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "S cennými papiermi obchoduje na základe licencie od Národnej banky Slovenska.",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.across.sk/",
+      "publisher": "Across",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Forma investície Prioritné akcie účelovej spoločnosti",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.across.sk/acrossam",
+      "publisher": "Across Asset Management",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Typ fondu verejný špeciálny fond cenných papierov",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.slovca.sk/sk/pridruzeni-clenovia/across-private-investments.html",
+      "publisher": "SLOVCA (member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Across Private Investments, o.c.p., a.s. Adresa: Zochova 755 811 03 Bratislava Slovakia",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1966500",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Across Heritage Fund, investičný fond s premenlivým základným imaním, a.s. v likvidácii - IČO: 53566009",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "SLOVCA associate member listed as 'Across Private Investments, o.c.p., a.s.'. Business model: licensed securities dealer (o.c.p.) and wealth manager; Across Asset Management, správ. spol. (NBS: licensed management company since 2025-07-08) runs public special securities funds (Smart Wallet Fund, Smart Bond Fund) -> E3; Across Heritage Fund (NBS: registered AIF since 2020-11-30) is in liquidation per RÚZ (e10), its strategy was not researched further. The new 'private markets' offer (e3-e5, 2026-10-20) lets app users buy preferred shares of a special-purpose company investing in Glycanostics (target EUR 500k, min EUR 500, e8); Across selects and 'connects' deals with investors (e5) -> intermediary E2, not own/managed VC capital (fails I4). investor_type left null. Capital = group-wide assets under management for clients (e6), not investable VC capital. If Across later runs a dedicated VC fund (AIF) with its own investment decisions, re-screen.",
+  "researched_on": "2026-10-25"
+}

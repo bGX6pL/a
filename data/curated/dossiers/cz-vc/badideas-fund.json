@@ -1,0 +1,38 @@
+{
+  "investor_key": "badideas-fund",
+  "pilot": "cz-vc",
+  "name": "BADideas.fund",
+  "aliases": ["BADideas", "BADideas Fund I"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "LV",
+  "website": "https://badideas.fund/",
+  "decision": "exclude",
+  "rule_codes": ["S2"],
+  "decision_note": "Riga-based pre-seed/seed software VC (Latvian AIF, EUR 22m Fund I closed March 2025) that co-invested in the Czech startup Tapaya in April 2026 but has no office in Czechia.",
+  "discovered_via": ["co-investor:depo-ventures", "second-pass"],
+  "legal_entities": [],
+  "sector_focus": {"value": ["software_saas", "ai_data"], "method": "stated", "evidence": ["e1", "e4"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE", "Northern Europe"], "method": "stated", "evidence": ["e2", "e4"]},
+  "ticket_size": {"value": {"min": 200000, "max": 1500000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": {"amount": 22000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2025-03-01"}, "method": "stated", "evidence": ["e5"]},
+  "funds": [
+    {"name": "BADideas Fund I", "size_amount": 22000000, "currency": "EUR", "event": "final_close", "event_date": "2025-03-01", "evidence": "e5"}
+  ],
+  "investments": [
+    {"company": "Tapaya", "company_country": "CZ", "date": "2026-04-28", "round": "pre_seed", "round_amount": null, "currency": null, "evidence": "e6"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://badideas.fund/", "publisher": "BADideas.fund", "published_on": null, "source_class": "B", "quote": "We invest in software only.", "language": "en"},
+    {"id": "e2", "url": "https://badideas.fund/", "publisher": "BADideas.fund", "published_on": null, "source_class": "B", "quote": "Central and Eastern Europe STAGE Pre-seed and seed FIRST CHECK €200K to €1.5M", "language": "en"},
+    {"id": "e3", "url": "https://badideas.fund/firm", "publisher": "BADideas.fund", "published_on": null, "source_class": "B", "quote": "A Latvian alternative investment fund with the state development finance institution ALTUM as anchor investor.", "language": "en"},
+    {"id": "e4", "url": "https://badideas.fund/firm", "publisher": "BADideas.fund", "published_on": null, "source_class": "B", "quote": "We write the first check for founders building AI and resilience software in Central, Eastern and Northern Europe", "language": "en"},
+    {"id": "e5", "url": "https://badideas.fund/firm", "publisher": "BADideas.fund", "published_on": null, "source_class": "B", "quote": "FUND €22M, closed March 2025", "language": "en"},
+    {"id": "e6", "url": "https://cc.cz/za-co-nejjednodussi-prijimani-penez-cesi-meni-jakykoliv-mobil-v-platebni-terminal/", "publisher": "CzechCrunch", "published_on": "2026-04-28", "source_class": "C", "quote": "Investiční kolo vedl tuzemský fond Depo Ventures společně s britským Passion Capital, připojil se také lotyšský BADideas.fund.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Depo Ventures", "Passion Capital"],
+  "analyst_notes": "Second-pass screen (co-investor in Depo Ventures' Tapaya deal). Real, active VC (Fund I final close March 2025 - month-only date recorded as 2025-03-01; Tapaya pre-seed April 2026, round per the Depo Ventures dossier EUR 1m), but the site's structured data and its 'Co-funded by the European Union through ERDF and administered by ALTUM' line place it in Riga, Latvia; the manager is registered with the Bank of Latvia. No Czech office or Czech team member found, so S2 despite the Czech deal. Fund vehicle and manager names were not shown on the fetched pages, so no legal entity recorded.",
+  "researched_on": "2026-10-25"
+}

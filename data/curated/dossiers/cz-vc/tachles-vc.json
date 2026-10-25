@@ -1,0 +1,48 @@
+{
+  "investor_key": "tachles-vc",
+  "pilot": "cz-vc",
+  "name": "Tachles VC",
+  "aliases": ["Tachles VC Management s.r.o.", "Tachles VC Management, LLC", "Tachles"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://tachlesvc.com/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Early-stage cyber/cloud/AI fund of Czech founders Karel Tušek and David Marek (ex-Springtide) with a Prague presence; first close CZK 500m in 2024 and co-invested in Boost.space's EUR 3m round in October 2025.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Tachles VC Management s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "14376032", "role": "manager"},
+    {"name": "Tachles VC Management, LLC", "country": "US", "registry": "OTHER", "registry_id": null, "role": "gp"}
+  ],
+  "sector_focus": {"value": ["cybersecurity", "software_saas", "ai_data"], "method": "stated", "evidence": ["e1", "e3"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "derived", "evidence": ["e1", "e6", "e10", "e11", "e12"]},
+  "geography_focus": {"value": ["IL", "CEE"], "method": "stated", "evidence": ["e3", "e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 500000000, "currency": "CZK", "basis": "interim_close", "as_of": "2024-06-13"}, "method": "stated", "evidence": ["e4", "e8"]},
+  "funds": [
+    {"name": "Tachles VC fund (first phase)", "size_amount": 500000000, "currency": "CZK", "event": "first_close", "event_date": "2024-06-13", "evidence": "e4"},
+    {"name": "Tachles VC fund (target: more than CZK 1bn)", "size_amount": 1000000000, "currency": "CZK", "event": "target", "event_date": "2024-04-02", "evidence": "e9"}
+  ],
+  "investments": [
+    {"company": "Boost.space", "company_country": "CZ", "date": "2025-10-09", "round": null, "round_amount": 3000000, "currency": "EUR", "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://tachlesvc.com/", "publisher": "Tachles VC", "published_on": null, "source_class": "B", "quote": "We invest where technology meets transformation: early-stage startups in cybersecurity, cloud, and AI.", "language": "en"},
+    {"id": "e2", "url": "https://tachlesvc.com/", "publisher": "Tachles VC", "published_on": null, "source_class": "B", "quote": "We have a strong local presence and have been investing in the region for more than decade.", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2024-06-13", "source_class": "C", "quote": "Fond cílí převážně na izraelské startupy z oblasti kyberbezpečnosti, cloudové infrastruktury a umělé inteligence.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2024-06-13", "source_class": "C", "quote": "Společnými silami v Tachles už uzavřeli první fázi fondu, ve které mají k dispozici prostředky na úrovni půl miliardy korun a během šesti měsíců část z nich investovali do pěti izraelských startupů.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/", "publisher": "CzechCrunch", "published_on": "2025-10-09", "source_class": "C", "quote": "Hlavním investorem je skupina Jet Investment miliardáře Igora Faita s přispěním českého fond Tachles VC, Gi21 Capital Damira Špoljariče a stávajících akcionářů.", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/", "publisher": "CzechCrunch", "published_on": "2025-10-09", "source_class": "C", "quote": "Český startup Boost.space, který vyvíjí platformu pro centralizaci firemních dat, uzavřel investiční kolo ve výši tři miliony eur, zhruba 73 milionů korun.", "language": "cs"},
+    {"id": "e7", "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/", "publisher": "CzechCrunch", "published_on": "2025-02-12", "source_class": "C", "quote": "Jen během minulého roku podpořili sedm startupů dohromady částkou třicet milionů korun.", "language": "cs"},
+    {"id": "e8", "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2024-06-13", "source_class": "C", "quote": "Fond je ale nadále otevřen i dalším investorům.", "language": "cs"},
+    {"id": "e9", "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/", "publisher": "CzechCrunch", "published_on": "2024-04-02", "source_class": "C", "quote": "Nový fond pod názvem Tachles s cílovou velikostí přes miliardu korun rozbíhají původní partneři Springtide Ventures (spadající pod KKCG Karla Komárka) Karel Tušek a David Marek.", "language": "cs"},
+    {"id": "e10", "url": "https://therecursive.com/boost-space-seed-round-fueling-us-expansion-and-agentic-database/", "publisher": "The Recursive", "published_on": "2025-10-22", "source_class": "C", "quote": "Boost.space Closes Seed Round at €6.17M, Further Fueling Its “Agentic Database”", "language": "en"},
+    {"id": "e11", "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/", "publisher": "CzechCrunch", "published_on": "2025-02-12", "source_class": "C", "quote": "Chronom (celková investice 600 tisíc dolarů) pomáhá se správou cloudu pro poskytovatele tzv. spravovaných služeb (MSP).", "language": "cs"},
+    {"id": "e12", "url": "https://cc.cz/cesi-v-izraeli-na-lovu-miliardovych-jednorozcu-navzdory-konfliktu-se-tu-startupum-dari-hlasi/", "publisher": "CzechCrunch", "published_on": "2025-02-12", "source_class": "C", "quote": "Illustria (celková investice 1 milion dolarů) pomocí umělé inteligence aktivně chrání před hrozbami během vývoje software, současně zefektivňuje samotný proces vývoje.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Jet Investment", "Gi21 Capital"],
+  "analyst_notes": "Discovered via CzechCrunch (2025-10-09, Boost.space round led by Jet Investment). Location: CzechCrunch calls Tachles a Czech fund; the Prague company Tachles VC Management s.r.o. has Karel Tušek and David Marek in its statutory body and is owned by the US Tachles VC Management, LLC (ARES VR); the website lists a US address (Peachtree Corners, GA) but states a 'strong local presence' in Prague/Central Europe. hq_country set to CZ for the pilot on that basis; the fund vehicle itself (possibly US) was not identified. Ticket not disclosed; 2024 average was about CZK 4.3m per company (CZK 30m across seven startups, CzechCrunch 2025-02-12). Stage derived: the website says early-stage; observed rounds (Boost.space EUR 3m) are seed/Series A sized. Capital = first phase of CZK 500m closed by June 2024 (before the window); activity inside the window is the Boost.space deal. 2024 portfolio (Hirundo, Brinker, Illustria and others) not itemised because exact dates are not given. [revision 2026-10-25 after review: capital basis changed from latest_fund_size to interim_close - the CZK 500m is the closed first phase (first close, CzechCrunch 2024-06-13) of a fund that the same article says remains open to further investors (e8); a target fund event added (more than CZK 1bn, CzechCrunch 2024-04-02, e9; 1bn recorded as the stated lower bound 'přes miliardu'). No later close found (one search, no result). Activity (Boost.space, 2025-10-09) unchanged.] [revision 2026-10-25 after review round 2: stage_focus changed from seed+series_a to pre_seed+seed, method still derived. Tachles states no stage beyond 'Early-stage specialist' / 'early-stage startups' (homepage and portfolio page, e1), so the stages are derived from the cited deals: the Boost.space EUR 3m round with Tachles (CzechCrunch 2025-10-09, e5/e6) is part of the seed round that The Recursive reports closed at EUR 6.17m (2025-10-22, e10); the 2024 Israeli portfolio listed by CzechCrunch (2025-02-12) has pre-seed/seed-sized totals, e.g. Chronom USD 600k (e11), Illustria USD 1m (e12), Brinker USD 1.6m and Acsense USD 1.35m (same article). The larger totals (Langware USD 8.7m, Hirundo USD 7.6m in two rounds, Cyngular USD 4m) are not labelled by round in the source; no Series A by Tachles is reported, so series_a was dropped. The amounts are the companies' total raises, not Tachles' tickets (the fund does not disclose its own amounts). The earlier sentence 'observed rounds (Boost.space EUR 3m) are seed/Series A sized' is superseded.]",
+  "researched_on": "2026-10-25"
+}

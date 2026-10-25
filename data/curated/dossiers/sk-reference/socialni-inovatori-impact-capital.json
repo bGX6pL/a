@@ -1,0 +1,201 @@
+{
+  "investor_key": "socialni-inovatori-impact-capital",
+  "pilot": "sk-reference",
+  "name": "Sociálni Inovátori Impact Capital",
+  "aliases": [
+    "Sociálni Inovátori Impact Capital, s.r.o.",
+    "SIIC",
+    "SIIC Fund, s.r.o.",
+    "Sociálni inovátori"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.socialniinovatori.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Bratislava impact fund manager whose SIH-financed SIIC Fund invested almost EUR 19m of equity/quasi-equity in Slovak social-impact organisations during an investment period that ended on 31.12.2023; no investment or fund event since.",
+  "discovered_via": [
+    "research-seed",
+    "nbs-register",
+    "sih-programmes"
+  ],
+  "legal_entities": [
+    {
+      "name": "Sociálni Inovátori Impact Capital, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54184339",
+      "role": "manager"
+    },
+    {
+      "name": "SIIC Fund, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54544378",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "impact_social"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "stage_focus": {
+    "value": [],
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 50000,
+      "max": 800000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 20353318,
+      "currency": "EUR",
+      "basis": "balance_sheet",
+      "as_of": "2025-12-31"
+    },
+    "method": "registry",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "funds": [
+    {
+      "name": "SIIC Fund, s.r.o.",
+      "size_amount": 10450000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2022-06-01",
+      "evidence": "e7"
+    }
+  ],
+  "investments": [
+    {
+      "company": "MediCloud",
+      "company_country": "SK",
+      "date": null,
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e9"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2034460",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Sociálni Inovátori Impact Capital, s.r.o. - IČO: 54184339",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2076807",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "SIIC Fund, s.r.o. - IČO: 54544378",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.socialniinovatori.sk/investicny-fond",
+      "publisher": "Sociálni inovátori",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "V rámci investičného 19 mesačného obdobia končiaceho 31.12.2023 fond SIIC Fund, s.r.o. (pod správou Sociálni Inovátori Impact Capital, s.r.o.) zainvestoval do slovenských spoločností s pozitívnym spoločenským dopadom (s impactom) celkovo takmer 19 mil EUR , formou equity a/alebo quasi-equity.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.podnikajte.sk/financie-na-podnikanie/investicny-fond-pre-socialnu-ekonomiku",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2022-09-11",
+      "source_class": "C",
+      "quote": "Slovak Investment Holding (SIH) spolu so správcovskými spoločnosťami CB ESPRI a Sociálni Inovátori Impact Capital otvoril činnosť dvoch investičných fondov na podporu sociálnej ekonomiky.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.podnikajte.sk/financie-na-podnikanie/investicny-fond-pre-socialnu-ekonomiku",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2022-09-11",
+      "source_class": "C",
+      "quote": "Prostredníctvom novovzniknutého investičného fondu SIIC chcú investovať do organizácií s pozitívnym spoločenským vplyvom v oblasti vzdelávania, zdravotnej a sociálnej starostlivosti a rozvoja komunít a podpore zamestnanosti v regiónoch.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.podnikajte.sk/financie-na-podnikanie/investicny-fond-pre-socialnu-ekonomiku",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2022-09-11",
+      "source_class": "C",
+      "quote": "Čo sa týka správcu Sociálni Inovátori Impact Capital, zo spomínaných vyčlenených 10 miliónov eur slovenským organizáciám s pozitívnym spoločenským dopadom ponúka investíciu vo výške 50 000 eur - 800 000 eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.socialniinovatori.sk/v-mediach",
+      "publisher": "Sociálni inovátori",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Slovenský investičný holding, 1.6.2022 Slovak Investment Holding, CB ESPRI a Sociálni Inovátori spúšťajú investičné fondy pre sociálnu ekonomiku",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12552049",
+      "publisher": "SIIC Fund, s.r.o. financial statements 2025 (RÚZ)",
+      "published_on": "2026-05-07",
+      "source_class": "A",
+      "quote": "II. Vlastné imanie (súčet položiek 16 až 21) 20 353 318 20 748 800",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.socialniinovatori.sk/investicny-fond",
+      "publisher": "Sociálni inovátori",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "MEDICLOUD Administrácia lekárskych prehliadok",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Slovak Investment Holding"
+  ],
+  "analyst_notes": "Manager Sociálni Inovátori Impact Capital, s.r.o. (linked to the cooperative Sociálni inovátori, družstvo); single fund SIIC Fund, s.r.o., financed by SIH / NDF II from the European Social Fund (two social-economy funds of EUR 10.45m SIH money each; the other is CB ESPRI). NBS register export of 2026-10-24: Sociálni Inovátori Impact Capital registered AIF manager since 2022-06-06; SIIC Fund registered AIF since 2022-06-06. Instruments: 'equity a/alebo quasi-equity' (e3), so not debt-only and not E4; typed vc with impact focus, but note that part of the portfolio is real-estate-backed social infrastructure (RENSO: buildings, affordable housing) next to operating companies (MediCloud, SmartBooks, Sharvan, SciLabs, Novuma, Silvers etc.). Inactive: 19-month investment period ended 31.12.2023, now an ~8-year value-creation/exit period (e3); no new fund announced. Individual deal dates are not published on the site (portfolio of ~21 names on the fund page); MediCloud listed as an example with date null. Stage focus not stated (social enterprises, NGOs and start-ups of any stage) -> not_disclosed. Ticket EUR 50k-800k per podnikajte.sk 2022-09-11 (C, based on the manager's materials). Capital: balance-sheet equity of SIIC Fund EUR 20.35m at 2025-12-31 (e8), larger than the EUR 10.45m SIH commitment at launch. The site www.siic.sk is an unrelated construction company - do not use.",
+  "researched_on": "2026-10-25"
+}

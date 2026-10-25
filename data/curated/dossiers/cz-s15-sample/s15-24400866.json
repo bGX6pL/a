@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-24400866",
+  "pilot": "cz-s15-sample",
+  "name": "Rossum Capital",
+  "aliases": [
+    "Rossum Capital s.r.o., osoba rizikového kapitálu"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.rossum.capital/en",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Algorithmic fund: futures overlay on listed assets plus systematic crypto trading.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Rossum Capital s.r.o., osoba rizikového kapitálu",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "24400866",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24400866",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Rossum Capital s.r.o., osoba rizikového kapitálu",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.rossum.capital/en",
+      "publisher": "Rossum Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "The systematic crypto component runs independently, adding an uncorrelated return stream.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "rossum.capital structured data gives legalName Rossum Capital s.r.o. and IČO 24400866; minimum EUR 125,000. ARES datumVzniku 2026-01-22.",
+  "researched_on": "2026-10-25"
+}

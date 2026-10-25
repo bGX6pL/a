@@ -1,0 +1,58 @@
+{
+  "investor_key": "stonebridge-alpha-management",
+  "pilot": "sk-reference",
+  "name": "STONEBRIDGE ALPHA MANAGEMENT",
+  "aliases": [
+    "STONEBRIDGE ALPHA MANAGEMENT s. r. o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "UK-owned registered manager with a zero balance sheet in 2024-2025 and no public fund; the related Stonebridge brand runs a hedge fund.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "STONEBRIDGE ALPHA MANAGEMENT s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "55778674",
+      "role": "manager"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=675610&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "STONEBRIDGE CAPITAL MOUNTAIN LTD",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=679884&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "STONEBRIDGE CAPITAL HEDGE FUND, investičný fond s premenlivým základným imaním a. s.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025 and 2024: all balance-sheet values 0. Related ORSR entities under the brand: STONEBRIDGE CAPITAL HEDGE FUND (IČO 55998011, owned by STONEBRIDGE CAPITAL HOLDING, a.s.), STONEBRIDGE CAPITAL Da Vinci I, StoneBridge Trading; a link between the manager and that hedge fund is not documented. Leans E3; web search budget exhausted.",
+  "researched_on": "2026-10-25"
+}

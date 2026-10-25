@@ -1,0 +1,47 @@
+{
+  "investor_key": "spinoffy",
+  "pilot": "cz-vc",
+  "name": "Spinoffy",
+  "aliases": ["Spinoffy Fund", "Spinoffy SICAV a.s.", "Spinoffy 1", "Spinoffy s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://spinoffy.com/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague deep-tech spin-off fund (Spinoffy SICAV, managed by AMISTA IS) launched in March 2026 with a EUR 16m target; first announced investment DiagnostiQS (quantum sensors) in October 2026.",
+  "discovered_via": ["news"],
+  "legal_entities": [
+    {"name": "Spinoffy s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23785349", "role": "manager"},
+    {"name": "Spinoffy SICAV a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "24006793", "role": "fund"},
+    {"name": "Spinoffy SICAV a.s., Podfond Spinoffy 1", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75166186", "role": "fund"},
+    {"name": "AMISTA investiční společnost, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "27437558", "role": "other"}
+  ],
+  "sector_focus": {"value": ["ai_data", "cybersecurity", "industrial_manufacturing", "deeptech_hardware", "energy_climate"], "method": "stated", "evidence": ["e4"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CZ", "CEE"], "method": "stated", "evidence": ["e5"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [
+    {"name": "Spinoffy 1 (sub-fund of Spinoffy SICAV a.s.)", "size_amount": null, "currency": null, "event": "launch", "event_date": "2026-03-02", "evidence": "e3"},
+    {"name": "Spinoffy 1 (sub-fund of Spinoffy SICAV a.s.)", "size_amount": 16000000, "currency": "EUR", "event": "target", "event_date": null, "evidence": "e6"}
+  ],
+  "investments": [
+    {"company": "DiagnostiQS", "company_country": "CZ", "date": "2026-10-14", "round": null, "round_amount": null, "currency": null, "evidence": "e7"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://spinoffy.com/", "publisher": "Spinoffy", "published_on": null, "source_class": "B", "quote": "Spinoffy is the first investment fund in Central and Eastern Europe with a built-in, hands-on incubator focused on scientific spin-offs.", "language": "en"},
+    {"id": "e2", "url": "https://spinoffy.com/for-investors", "publisher": "Spinoffy", "published_on": null, "source_class": "B", "quote": "Strategy: early-stage deep-tech investments across PoC → Pre-Seed → Seed, with active incubation and structured tech-transfer support.", "language": "en"},
+    {"id": "e3", "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/", "publisher": "Lupa.cz", "published_on": "2026-03-02", "source_class": "C", "quote": "V Česku ohlásil svůj start nový investiční fond Spinoffy zaměřený na podporu technologických spin-offů už ve fázi ověření konceptu, tedy ve chvíli, kdy se testuje technologie a dřív, než dojde k založení firmy.", "language": "cs"},
+    {"id": "e4", "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/", "publisher": "Lupa.cz", "published_on": "2026-03-02", "source_class": "C", "quote": "Nový fond se zaměřuje na umělou inteligenci a kyberbezpečnost, pokročilou výrobu a robotiku, pokročilé materiály a chemii, kvantové technologie, cleantech a energetiku.", "language": "cs"},
+    {"id": "e5", "url": "https://www.lupa.cz/aktuality/odstartoval-fond-pro-technologie-ktery-chce-prekonat-univerzitni-udoli-smrti-a-ma-podporu-velmi-zajimavych-investoru/", "publisher": "Lupa.cz", "published_on": "2026-03-02", "source_class": "C", "quote": "Primárním trhem je Česká republika, fond však pracuje i s projekty ze střední a východní Evropy, pokud mají českou stopu.", "language": "cs"},
+    {"id": "e6", "url": "https://spinoffy.com/for-investors", "publisher": "Spinoffy", "published_on": null, "source_class": "B", "quote": "Target fund size: EUR 16 million", "language": "en"},
+    {"id": "e7", "url": "https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/", "publisher": "CzechCrunch", "published_on": "2026-10-14", "source_class": "C", "quote": "Fond do startupu také přímo investoval, konkrétní částku si však chce nechat pro sebe.", "language": "cs"},
+    {"id": "e8", "url": "https://spinoffy.com/for-investors", "publisher": "Spinoffy", "published_on": null, "source_class": "B", "quote": "Spinoffy 1 is a sub-fund of Spinoffy SICAV a.s., a qualified investors fund established under Czech law and regulated under the Act No. 240/2013 Coll., administered and managed by AMISTA investiční společnost, a.s., a licensed investment company supervised by the Czech National Bank.", "language": "en"},
+    {"id": "e9", "url": "https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/", "publisher": "CzechCrunch", "published_on": "2026-10-14", "source_class": "C", "quote": "V Česku totiž podpořil vznikající projekt DiagnostiQS, zaměřený na kvantové technologie.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Palmont Family Office"],
+  "analyst_notes": "Discovered via CzechCrunch (2026-10-14, DiagnostiQS) and Lupa.cz (2026-03-02 launch). Fund LPs named in the press include Jan Barta (Pale Fire Capital), Martin Vohánka, Václav Dejčmar and Libor Winkler (RSJ), Ondřej Tomek (Impulse Ventures) and Palmont Family Office; these are LPs, not co-investors in the deal, except that Palmont is described as also supporting such projects. Capital: website gives only a target fund size of EUR 16m (CzechCrunch says 'hundreds of millions of CZK'); no close announced, so capital left not_disclosed and the target recorded under funds (undated page). Ticket not disclosed (CzechCrunch: amount in DiagnostiQS 'above standard', undisclosed). DiagnostiQS investment dated by the CzechCrunch article (2026-10-14); round type not stated (PoC/incubation stage). The fund runs its own incubator but is a regulated fund, so the accelerator flag is not set. Legal: Spinoffy SICAV a.s. and sub-fund Spinoffy 1 are managed and administered by AMISTA investiční společnost (licensed AIFM, role other); Spinoffy s.r.o. (statutory body = the three founders per ARES VR) assumed to be the team company.",
+  "researched_on": "2026-10-25"
+}

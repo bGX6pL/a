@@ -1,0 +1,99 @@
+{
+  "investor_key": "slovak-business-angels-network",
+  "pilot": "sk-reference",
+  "name": "Slovak Business Angels Network",
+  "aliases": [
+    "SBAN",
+    "Slovak Business Angels",
+    "Slovak business angels club",
+    "Klub podnikateľských anjelov Slovenska"
+  ],
+  "investor_type": "angel_network",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Business-angel network (the network organises, members invest) - a real investor channel but not type vc, so out of the Slovak VC reference set.",
+  "discovered_via": [
+    "research-seed",
+    "news"
+  ],
+  "legal_entities": [],
+  "sector_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 10000,
+      "max": 80000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "It’s the first business angels’ network in the Slovak Republic which gathers entrepreneurs and managers that are willing to invest into promising projects and support startups with unique expertise.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "The typical investment range is between €10-80k but it varies depending on many factors.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.podnikajte.sk/temy/podnikatelski-anjeli",
+      "publisher": "Podnikajte.sk",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "Klub podnikateľských anjelov Slovenska založili Slovak Business Agency a Združenie mladých podnikateľov Slovenska.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Screened only to the depth needed for an S1 exclusion. Vestbee (article first published 2020-10-08, modified 2024-02-21) describes 'Slovak Business Angels' as the first Slovak business-angel network with typical tickets of EUR 10-80k (e1, e2). Podnikajte.sk says the Klub podnikateľských anjelov Slovenska (founded 2011 per earlier desk research) was set up by Slovak Business Agency and ZMPS (e3); treating SBAN and the club as the same network is an assumption, not confirmed by a source. No website resolved (sban.sk does not resolve), no ORSR/RÚZ legal entity found under these names (likely a civic association or SBA programme), and no dated network-announced deal since 2024-10-25 was found; web search was unavailable during this pass, so activity was not checked exhaustively. Its members' deals, if any, would be angel records (type angel), outside this VC pilot.",
+  "researched_on": "2026-10-25"
+}

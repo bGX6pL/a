@@ -1,0 +1,70 @@
+{
+  "investor_key": "ap-capital",
+  "pilot": "sk-reference",
+  "name": "AP Capital",
+  "aliases": [
+    "AP Capital s.r.o.",
+    "AP Fund",
+    "Slovenský agrárny fond"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.apcapital.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E4"
+  ],
+  "decision_note": "AIF manager offering bond issues of its funds and bespoke instruments for debt, project and M&A financing (funds: AP Fund, Slovenský agrárny fond) - debt/project finance, not VC.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "AP Capital s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "50301683",
+      "role": "manager"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.apcapital.sk/",
+      "publisher": "AP Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Ide buď o priame investovanie alebo o emisiu dlhopisov alternatívnych investičných fondov pod správou AP Capital.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.apcapital.sk/",
+      "publisher": "AP Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "dlhového financovania obchodných spoločností, projektového financovania a rôzne iné portfóliové investície",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.orsr.sk/vypis.asp?ID=352668&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Spravovanie alternatívneho investičného fondu podľa ustanovenia § 31a zákona č. 203/2011 Z.z. o kolektívnom investovaní v znení neskorších predpisov.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Sole shareholder APOLIS, a. s. (IČO 46414614). Latest statement in RÚZ is for 2023 (none filed for 2024/2025 at screening). Fund-level strategies of AP Fund and Slovenský agrárny fond not researched.",
+  "researched_on": "2026-10-25"
+}

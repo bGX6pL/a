@@ -1,0 +1,20 @@
+{
+  "investor_key": "startupyard",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "incorrect",
+    "capital": "not_applicable",
+    "activity_evidence": "incorrect"
+  },
+  "notes": "Equity-taking accelerator in Prague; accelerator flag right; Ydoca CZK 500k (CzechCrunch 2025-02-14, verified) keeps it active. ticket_size: min EUR 25k is wrong - FAQ: every startup gets a EUR 45k in-kind convertible note, optionally +EUR 25k cash (total 70k); a 25k-only ticket does not exist (record mixes the cash component with the total-note max). activity_evidence: the latest item (CaseLens, 2026-04-30) is an interview post that shows no investment, amount or batch; the date is the post date and the investment is inferred from the FAQ; CaseLens is Yerevan-based per PitchBook."
+}

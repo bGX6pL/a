@@ -1,0 +1,46 @@
+{
+  "investor_key": "lighthouse-ventures",
+  "pilot": "cz-vc",
+  "name": "Lighthouse Ventures",
+  "aliases": ["Lighthouse Ventures GP s.r.o.", "Lighthouse Seed Fund", "LHV"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://lhv.vc",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague early-stage VC (Lighthouse Seed Fund backed by the Czech ESIF Fund of Funds; Fund II started 2024); led Ranketta's pre-seed (Nov 2025) and joined Merchantee's seed extension (Jun 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "Lighthouse Ventures GP s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "07500912", "role": "gp"}
+  ],
+  "sector_focus": {"value": ["software_saas", "fintech", "ai_data"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["Europe", "US"], "method": "stated", "evidence": ["e3"]},
+  "ticket_size": {"value": {"min": 200000, "max": 1000000, "currency": "EUR"}, "method": "stated", "evidence": ["e4"]},
+  "capital": {"value": {"amount": 23000000, "currency": "EUR", "basis": "aum", "as_of": "2019-06-06"}, "method": "stated", "evidence": ["e8", "e9"]},
+  "funds": [
+    {"name": "Lighthouse Seed Fund (Fund I, CZFoF-backed)", "size_amount": 23000000, "currency": "EUR", "event": "other", "event_date": "2019-06-06", "evidence": "e8"},
+    {"name": "Lighthouse Ventures Fund II", "size_amount": null, "currency": null, "event": "launch", "event_date": null, "evidence": "e10"}
+  ],
+  "investments": [
+    {"company": "Merchantee", "company_country": "CZ", "date": "2026-06-09", "round": "seed", "round_amount": 30000000, "currency": "CZK", "evidence": "e6"},
+    {"company": "Ranketta", "company_country": "CZ", "date": "2025-11-27", "round": "pre_seed", "round_amount": 1000000, "currency": "EUR", "evidence": "e7"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://lhv.vc/", "publisher": "Lighthouse Ventures", "published_on": null, "source_class": "B", "quote": "B2B Software of various verticals, Fintech, AI", "language": "en"},
+    {"id": "e2", "url": "https://lhv.vc/", "publisher": "Lighthouse Ventures", "published_on": null, "source_class": "B", "quote": "Idea / Seed", "language": "en"},
+    {"id": "e3", "url": "https://lhv.vc/", "publisher": "Lighthouse Ventures", "published_on": null, "source_class": "B", "quote": "Lighthouse Ventures invests in European and US based startups.", "language": "en"},
+    {"id": "e4", "url": "https://lhv.vc/", "publisher": "Lighthouse Ventures", "published_on": null, "source_class": "B", "quote": "From €200k to €1m", "language": "en"},
+    {"id": "e5", "url": "https://www.eif.org/files/records/eif-backed-active-funds.pdf", "publisher": "European Investment Fund", "published_on": null, "source_class": "C", "quote": "Lighthouse Seed Fund", "language": "en"},
+    {"id": "e6", "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/", "publisher": "CzechCrunch", "published_on": "2026-06-09", "source_class": "C", "quote": "Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.", "language": "cs"},
+    {"id": "e7", "url": "https://www.thesaasnews.com/news/ranketta-raises-1m-pre-seed-round/", "publisher": "The SaaS News", "published_on": "2025-11-27", "source_class": "C", "quote": "The funding round was led by Lighthouse Ventures, with participation from Gi21 Capital.", "language": "en"},
+    {"id": "e8", "url": "https://www.lupa.cz/aktuality/zalesakuv-lighthouse-investuje-do-brnenskych-pekat-vision-pomoci-ai-hleda-chyby/", "publisher": "Lupa.cz", "published_on": "2019-06-06", "source_class": "C", "quote": "Fond Lighthouse aktuálně operuje s 23 miliony eur.", "language": "cs"},
+    {"id": "e9", "url": "https://cc.cz/cesky-fond-lighthouse-ventures-vlozil-vyssi-stovky-tisic-eur-do-brnenskeho-ai-startupu-pekat-vision/", "publisher": "CzechCrunch", "published_on": "2019-06-07", "source_class": "C", "quote": "Brněnský startup nyní získal investici ve vyšších stovkách tisíc eur od nového pražského investičního fondu Lighthouse Ventures, který celkově spravuje kapitál ve výši 23 milionů eur, tedy necelých 600 milionů korun.", "language": "cs"},
+    {"id": "e10", "url": "https://lhv.vc/", "publisher": "Lighthouse Ventures", "published_on": null, "source_class": "B", "quote": "2024 Start year of most recent Fund II", "language": "en"}
+  ],
+  "co_investors_seen": ["Reflex Capital", "Czech Founders VC", "Gi21 Capital", "Tilia Impact Ventures"],
+  "analyst_notes": "Website is lhv.vc (lighthouseventures.cz does not resolve). Focus, ticket ('From €200k to €1m' investment in a single startup), stage ('Idea / Seed', mapped to pre_seed + seed) and geography ('Europe and US') are labels in the homepage strategy block; the homepage also states '2024 - Start year of most recent Fund II' (fund size not published). The Lighthouse Seed Fund is backed by the Czech ESIF Fund of Funds (CZFoF) per the site; the EIF list of EIF-backed active funds names 'Lighthouse Seed Fund (Prague)' with manager Lighthouse Ventures GP s.r.o. Capital not disclosed (a directory lists USD 24m AUM - not used). Merchantee: CZK 30m extension of the 2024 CZK 15m seed round (CzechCrunch 2026-06-09; Nordic9/Raising.fi give EUR 1.8m in total). Ranketta: EUR 1m pre-seed led by Lighthouse. Fund vehicle IČO not identified in ARES (only the GP company). [revision 2026-10-25 after review: capital filled - was not_disclosed although the Fund I size is public: EUR 23m, the Lighthouse Seed Fund (Fund I) - Lupa.cz 2019-06-06 'Fond Lighthouse aktuálně operuje s 23 miliony eur' (e8), CzechCrunch 2019-06-07: Lighthouse Ventures 'celkově spravuje kapitál ve výši 23 milionů eur' (e9; other 2019 reports: about CZK 600m incl. EUR 15m via CZFoF/EIF). Recorded with basis 'aum' as of 2019-06-06 because it is the total capital the manager ran in 2019 (Fund I only) and is not the newest fund, so 'latest_fund_size' would mislabel it; the Fund I entry now carries EUR 23m (event 'other', dated by the 2019 report - no close date published). Fund II (start year 2024 per the homepage, e10) has no published size, so current capital is likely higher than this 2019 figure. Activity (Ranketta 2025-11-27, Merchantee 2026-06-09) unchanged.]",
+  "researched_on": "2026-10-25"
+}

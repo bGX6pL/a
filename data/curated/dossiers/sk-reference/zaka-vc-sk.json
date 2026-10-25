@@ -1,0 +1,194 @@
+{
+  "investor_key": "zaka-vc-sk",
+  "pilot": "sk-reference",
+  "name": "ZAKA VC",
+  "aliases": [
+    "ZAKA",
+    "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+    "ZAKA Fund I"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://zaka.vc/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S2"
+  ],
+  "decision_note": "Active pre-seed/seed VC founded by Slovak entrepreneurs with a Bratislava presence, but its fund is a Prague-registered osoba rizikového kapitálu, it describes itself as operating from Prague and London and invests mainly in the US and Europe; no in-window deal in a Slovak company found.",
+  "discovered_via": [
+    "news",
+    "co-investor:zero-one-hundred"
+  ],
+  "legal_entities": [
+    {
+      "name": "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "21514992",
+      "role": "fund"
+    },
+    {
+      "name": "ZAKA Startup 1 j.s.a.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52994490",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "biotech_life_sciences",
+      "healthtech",
+      "industrial_manufacturing"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "US",
+      "Europe"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": {
+      "amount": 15000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2024-07-19"
+    },
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "funds": [
+    {
+      "name": "ZAKA VC Fund I",
+      "size_amount": 10500000,
+      "currency": "EUR",
+      "event": "first_close",
+      "event_date": "2024-07-01",
+      "evidence": "e5"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Readmio",
+      "company_country": "CZ",
+      "date": "2026-02-05",
+      "round": null,
+      "round_amount": 1000000,
+      "currency": "EUR",
+      "evidence": "e6"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://zaka.vc/privacy-policy/",
+      "publisher": "ZAKA VC",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "The operator of the website and personal data is the company ZAKA VC I, osoba rizikového kapitálu, a.s., with its registered office at Italská 2581/67, 120 00 Prague 2, ID number: 215 14 992, registered in the Commercial Register of the Municipal Court Prague I, File no. B 28844 (“Operator”).",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://zaka.vc/",
+      "publisher": "ZAKA VC",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://zaka.vc/",
+      "publisher": "ZAKA VC",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://zaka.vc/",
+      "publisher": "ZAKA VC",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Silicon Valley / London / Prague / Bratislava",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://zaka.vc/unveiling-zaka-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
+      "publisher": "ZAKA VC",
+      "published_on": "2024-07-19",
+      "source_class": "B",
+      "quote": "ZAKA VC Fund I sized EUR 15M is now starting with a EUR 10.5M first closing in July 2024 with a minimum LP ticket of EUR 130k for qualified investors only.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://vestbee.com/insights/articles/readmio-secures-1-m",
+      "publisher": "Vestbee",
+      "published_on": "2026-02-05",
+      "source_class": "C",
+      "quote": "Prague-based Readmio, which develops interactive children’s story apps with sound and learning features, has secured €1 million in new funding from Simpact Ventures, with support from ZAKA VC, Zero One Hundred, and DEPO Ventures, as Vestbee was informed.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://zaka.vc/unveiling-zaka-fund-i-15m-for-bridging-the-us-with-the-eu-market/",
+      "publisher": "ZAKA VC",
+      "published_on": "2024-07-19",
+      "source_class": "B",
+      "quote": "Operating from the vibrant startup ecosystems of Prague and London, ZAKA VC established its first fund sized EUR 15M and ready to support early-stage startups in US and EU.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1911801",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "ZAKA Startup 1 j.s.a. - IČO: 52994490",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Simpact Ventures",
+    "Zero One Hundred",
+    "DEPO Ventures"
+  ],
+  "analyst_notes": "Scope call, not a quality call: ZAKA started in 2019/2020 as the family office of Slovak entrepreneurs Jan Kasper and Peter Zalesak (Nay Elektrodom) and lists Bratislava among its locations (e4); ORSR shows a series of Bratislava-registered vehicles 'ZAKA Startup 1 ... 20 j. s. a.' (Révová 7, Bratislava; ZAKA Startup 1 IČO 52994490, e8), presumably the family-office holding SPVs - their link to ZAKA VC is inferred from the name only. The VC fund itself is the Czech ZAKA VC I, osoba rizikového kapitálu, a.s. (IČO 21514992, Prague, e1), and ZAKA describes itself as operating from Prague and London (e7) with a US/Europe mandate (e2); hence hq_country CZ and S2 for the Slovak set - the CZ pilot (ČNB §15 list) should hold the full record. Fund I: EUR 15M target with EUR 10.5M first close in July 2024 (date set to 2024-07-01, month only); the homepage now shows 'Fund 1 17M', not cited. Latest cited activity: Readmio (Prague-based, Slovak founders) EUR 1m round of 5 Feb 2026 with Zero One Hundred (e6); the ZAKA news page also announces FinalDose (Jul 2026) and Sensible Biotechnologies' USD 47m round (6 Oct 2026, an existing portfolio company with a Bratislava team) - not cited. Ticket not disclosed (EUR 130k on the site is the minimum LP commitment, not a startup ticket). Discovered via the Papermark 'Bratislava VC' list (marketing content, Feb 2026) and the Readmio deal co-invested with zero-one-hundred. [coordinator: renamed from zaka-vc to avoid a key collision with the Czech pilot record of the same brand]",
+  "researched_on": "2026-10-25"
+}

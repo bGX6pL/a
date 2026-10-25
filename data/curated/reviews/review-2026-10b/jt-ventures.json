@@ -1,0 +1,20 @@
+{
+  "investor_key": "jt-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 22175903 (J&T Ventures III SICAV) active, Prague. Definic EUR 2.5m seed led by J&T Ventures confirmed (CzechCrunch 2026-06-12). Homepage blocks EUR 120M assets, EUR 300K-3M, pre-seed to Series A, sector agnostic confirmed (undated page; no newer fund figure found). Corporate flag supported: J&T Banka was the majority investor in J&T Ventures II (startitup.sk/TASR 2020-06-06)."
+}

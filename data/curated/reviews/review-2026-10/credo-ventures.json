@@ -1,0 +1,20 @@
+{
+  "investor_key": "credo-ventures",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "Homepage re-checked: 'Leading Pre-Seed rounds', '$1M - $5M checks', 'Backing exceptional people, not thesis-driven'. TNW and tech.eu 2026-03-23 confirm USD 88m Credo Stage 5 raised in a single closing (largest fund, up from EUR 75m Stage 4). Deals (Supernova 2025-09-30, Delta Green 2025-10-15, Duvo.ai 2025-12-02, Picogrid 2026-06-02) in window; round amounts are whole-round sizes and labelled so. CVCA 2020 D-class figures correctly superseded. No contradicting newer source found."
+}

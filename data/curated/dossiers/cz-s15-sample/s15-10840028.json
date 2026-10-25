@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-10840028",
+  "pilot": "cz-s15-sample",
+  "name": "Zachs BM Invest",
+  "aliases": [
+    "Zachs BM Invest, osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://zachsbminvest.cz/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Trades cryptocurrencies, commodities and listed securities for friends, family and qualified investors.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Zachs BM Invest, osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "10840028",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10840028",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Zachs BM Invest, osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://zachsbminvest.cz/",
+      "publisher": "ZACHS BM INVEST",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investiční fond, který spravujeme se zabývá zejména nákupem a prodejem kryptoměn, komodit a cenných papírů světového obchodu.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Site also mentions investing in movable and immovable assets; no private-company investments. ARES czNace generic list incl. 66300, 6820.",
+  "researched_on": "2026-10-25"
+}

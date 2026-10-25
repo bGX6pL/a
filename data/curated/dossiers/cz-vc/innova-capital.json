@@ -1,0 +1,36 @@
+{
+  "investor_key": "innova-capital",
+  "pilot": "cz-vc",
+  "name": "Innova Capital",
+  "aliases": ["Innova/7", "Innova/6 SCA SICAV"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "PL",
+  "website": "https://innovacap.com",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Warsaw-based mid-cap buyout private equity firm (controlling stakes; Innova/7 EUR 407m); real and active (Punkta Group corporate insurance business, Mar 2025) but not VC, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [],
+  "stage_focus": {"value": ["buyout"], "method": "stated", "evidence": ["e1", "e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 407000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2024-04-01"}, "method": "stated", "evidence": ["e2"]},
+  "funds": [
+    {"name": "Innova/7", "size_amount": 407000000, "currency": "EUR", "event": "final_close", "event_date": "2024-04-01", "evidence": "e2"}
+  ],
+  "investments": [
+    {"company": "Punkta Group corporate insurance distribution and services business (ISON Group)", "company_country": "PL", "date": "2025-03-17", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e3"},
+    {"company": "Proservice Finteco", "company_country": "PL", "date": "2025-03-13", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://innovacap.com/", "publisher": "Innova Capital", "published_on": null, "source_class": "B", "quote": "We are an independent private equity firm established in 1994 in Poland with the objective of investing in controlling stakes of mid-sized companies in the CEE region.", "language": "en"},
+    {"id": "e2", "url": "https://innovacap.com/our-investments/funds/", "publisher": "Innova Capital", "published_on": null, "source_class": "B", "quote": "In April 2024, the firm closed its seventh fund, achieving a record EUR 407m.", "language": "en"},
+    {"id": "e3", "url": "https://innovacap.com/press/innova-capital-acquires-punkta-groups-corporate-insurance-distribution-and-services-business", "publisher": "Innova Capital", "published_on": "2025-03-17", "source_class": "B", "quote": "Innova Capital, a leading private equity firm in Central and Eastern Europe (CEE), announces its acquisition of Punkta Group's corporate insurance distribution and services business.", "language": "en"},
+    {"id": "e4", "url": "https://innovacap.com/press/innova-capital-acquires-majority-stake-in-proservice-finteco-and-50-of-ifds", "publisher": "Innova Capital", "published_on": "2025-03-13", "source_class": "B", "quote": "This transaction is a key milestone to accelerate the implementation of Innova Capital's investment strategy, which focuses on backing high-growth companies in key sectors of the economy.", "language": "en"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick S1 dossier. Innova/7 closed 'In April 2024' (month only; date set to 2024-04-01) at EUR 407m; funds page also says seven funds with a combined EUR 1.6bn. Release detail pages show only the year; dates 2025-03-17 (Punkta) and 2025-03-13 (Proservice Finteco / 50% of IFDS) are from the dated news listing at https://innovacap.com/press/. Newest item on the site is the OSHEE exit to Mid Europa Partners (2026-02-16); add-on deals by portfolio companies (Prime Label / Arti-Bau, 2025-08-05) also listed. Ticket not stated on the pages read; the CVCA profile (class D, 2020) says EUR 20-50m. Polish/Luxembourg entities not looked up.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,47 @@
+{
+  "investor_key": "zaka-vc",
+  "pilot": "cz-vc",
+  "name": "ZAKA VC",
+  "aliases": ["ZAKA Ventures", "Zaka VC", "ZAKA VC I, osoba rizikového kapitálu, a.s.", "ZAKA Management s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://zaka.vc",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Czech-Slovak pre-seed/seed VC (family-backed, opened to external LPs in 2024 with a EUR 15m Fund I target, since raised to EUR 17m) with a Prague-registered fund vehicle; co-invested in Vetstor's pre-seed (Apr 2025) and follow-on round (Dec 2025).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "ZAKA Management s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21053987", "role": "manager"},
+    {"name": "ZAKA VC I, osoba rizikového kapitálu, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21514992", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["healthtech", "biotech_life_sciences", "industrial_manufacturing"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["US", "Europe"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 250000, "max": 300000, "currency": "EUR"}, "method": "stated", "evidence": ["e9"]},
+  "capital": {"value": {"amount": 17000000, "currency": "EUR", "basis": "interim_close", "as_of": "2025-10-21"}, "method": "stated", "evidence": ["e7", "e8"]},
+  "funds": [
+    {"name": "ZAKA VC Fund I (ZAKA VC I, osoba rizikového kapitálu, a.s.)", "size_amount": 17000000, "currency": "EUR", "event": "interim_close", "event_date": "2025-10-21", "evidence": "e8"},
+    {"name": "ZAKA VC Fund I (ZAKA VC I, osoba rizikového kapitálu, a.s.)", "size_amount": 10500000, "currency": "EUR", "event": "first_close", "event_date": "2024-07-22", "evidence": "e3"},
+    {"name": "ZAKA VC Fund I (ZAKA VC I, osoba rizikového kapitálu, a.s.)", "size_amount": 15000000, "currency": "EUR", "event": "target", "event_date": "2024-07-22", "evidence": "e3"}
+  ],
+  "investments": [
+    {"company": "Vetstor", "company_country": "CZ", "date": "2025-12-09", "round": "seed", "round_amount": 1000000, "currency": "EUR", "evidence": "e5"},
+    {"company": "Vetstor", "company_country": "CZ", "date": "2025-04-08", "round": "pre_seed", "round_amount": 13000000, "currency": "CZK", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://zaka.vc/", "publisher": "ZAKA VC", "published_on": null, "source_class": "B", "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe.", "language": "en"},
+    {"id": "e2", "url": "https://zaka.vc/", "publisher": "ZAKA VC", "published_on": null, "source_class": "B", "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals.", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/zaka-vc-se-meni-z-rodinneho-na-klasicky-startupovy-fond-ma-stovky-milionu-korun/", "publisher": "CzechCrunch", "published_on": "2024-07-22", "source_class": "C", "quote": "cílí na celkovou částku 15 milionů eur (přibližně 380 milionů korun), z čehož již 10,5 milionu eur (265 milionů korun) nasbíral", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/", "publisher": "CzechCrunch", "published_on": "2025-12-09", "source_class": "C", "quote": "kdy mu v tzv. pre-seedovém, úvodním kole 13 milionů korun poslaly české fondy Zaka VC a Purple Ventures.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/", "publisher": "CzechCrunch", "published_on": "2025-12-09", "source_class": "C", "quote": "Ty se účastní i aktuálního kola, které dosáhlo celkové výše jeden milion eur, v přepočtu 24 milionů korun.", "language": "cs"},
+    {"id": "e6", "url": "https://zaka.vc/", "publisher": "ZAKA VC", "published_on": null, "source_class": "B", "quote": "Silicon Valley / London / Prague / Bratislava", "language": "en"},
+    {"id": "e7", "url": "https://zaka.vc/", "publisher": "ZAKA VC", "published_on": null, "source_class": "B", "quote": "17M Current fund size", "language": "en"},
+    {"id": "e8", "url": "https://www.startitup.sk/jan-buza-zo-zaka-vc-slovensky-povod-nie-je-v-silicon-valley-prekazkou/", "publisher": "Startitup.sk (interview with ZAKA VC partner Ján Búza)", "published_on": "2025-10-21", "source_class": "C", "quote": "Pôvodnú veľkosť sme sa rozhodli zvýšiť pre dopyt zo strany investorov na 17 miliónov eur.", "language": "sk"},
+    {"id": "e9", "url": "https://vestbee.com/insights/articles/zaka-vc-is-raising-15-m-fund", "publisher": "Vestbee", "published_on": "2024-07-19", "source_class": "C", "quote": "Ticket sizes will range from €250,000 to €300,000.", "language": "en"}
+  ],
+  "co_investors_seen": ["Purple Ventures", "Budeto", "Ondřej Kania", "JSK Investments"],
+  "analyst_notes": "Czech-Slovak fund founded by the families of Ján Kasper and Peter Zálešák; offices listed on the site: Silicon Valley, London, Prague, Bratislava (e6). The fund vehicle ZAKA VC I, osoba rizikového kapitálu, a.s. and ZAKA Management s.r.o. are registered in Prague (ARES), so the record is filed as CZ; it may also appear in the Slovak reference set - check for overlap. Capital: Fund I targets EUR 15m, of which EUR 10.5m raised by 2024-07-22 (CzechCrunch; recorded as first close at article date). Before 2024 it invested as a family fund (55 startups, almost CZK 280m per the same article). Sector focus from the site (Health & Biotech, Industrial Tech); CzechCrunch 2024 also lists B2B software and AI. Ticket not disclosed (the site's 'minimum ticket is 130K' refers to LP commitments). Vetstor: April 2025 pre-seed of CZK 13m (Zaka VC + Purple Ventures; month from CzechCrunch article of 2025-04-08 listed on the ZAKA VC tag page, quote taken from the 2025-12-09 article) and a EUR 1m round in December 2025 in which both funds took part again; ZAKA's own amounts undisclosed. [revision 2026-10-25 after review: capital changed from EUR 10.5m latest_fund_size (that was the 2024 first closing of a EUR 15m-target Fund I) to EUR 17m interim_close as of 2025-10-21 - the newest public figure: the own site states '17M Current fund size' (undated, no currency shown; Fund 1: 17M, 8M invested, 46 companies) and partner Ján Búza told Startitup.sk (2025-10-21) the original size was increased to EUR 17m on investor demand (source of the currency). No final-close announcement was found, so the figure is not labelled latest_fund_size; the 17m fund event (interim_close) is dated by the interview, not by a known close date. Added the EUR 15m target event (e3). The first-close event keeps the CzechCrunch article date 2024-07-22 (AIN/tech.eu say July 2024, Vestbee June 2024).] [revision 2026-10-25 after review round 2: ticket_size changed from not_disclosed to EUR 250k-300k per company, stated - Vestbee's Fund I report (2024-07-19, e9) says ticket sizes will range from EUR 250,000 to EUR 300,000 (Sifted reported the same range on the same day; its page text is not fully public, so it is not cited). The figure dates from the 2024 Fund I launch and was not restated after the fund grew to EUR 17m; the own site still gives no per-company ticket (its 'minimum ticket is 130K' is the LP minimum). The earlier sentence 'Ticket not disclosed' is superseded.]",
+  "researched_on": "2026-10-25"
+}

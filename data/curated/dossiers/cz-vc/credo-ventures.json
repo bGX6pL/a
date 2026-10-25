@@ -1,0 +1,49 @@
+{
+  "investor_key": "credo-ventures",
+  "pilot": "cz-vc",
+  "name": "Credo Ventures",
+  "aliases": ["Credo Ventures a.s.", "Credo", "Credo Stage 5"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.credoventures.com",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague (and Krakow) pre-seed VC; closed the USD 88m Credo Stage 5 fund in March 2026 and invested in Supernova, Delta Green, Duvo.ai and Picogrid in 2025-2026.",
+  "discovered_via": ["cvca", "news"],
+  "legal_entities": [
+    {"name": "Credo Ventures a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "28538137", "role": "manager"},
+    {"name": "Credo Ventures Management II a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "24396893", "role": "other"}
+  ],
+  "sector_focus": {"value": ["generalist"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e3", "e5"]},
+  "geography_focus": {"value": ["CEE", "global"], "method": "stated", "evidence": ["e1", "e5"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 5000000, "currency": "USD"}, "method": "stated", "evidence": ["e4", "e5"]},
+  "capital": {"value": {"amount": 88000000, "currency": "USD", "basis": "latest_fund_size", "as_of": "2026-03-23"}, "method": "stated", "evidence": ["e6"]},
+  "funds": [
+    {"name": "Credo Stage 5", "size_amount": 88000000, "currency": "USD", "event": "final_close", "event_date": "2026-03-23", "evidence": "e6"}
+  ],
+  "investments": [
+    {"company": "Picogrid", "company_country": "US", "date": "2026-06-02", "round": null, "round_amount": 45000000, "currency": "USD", "evidence": "e7"},
+    {"company": "Duvo.ai", "company_country": "CZ", "date": "2025-12-02", "round": "seed", "round_amount": 15000000, "currency": "USD", "evidence": "e8"},
+    {"company": "Delta Green", "company_country": "CZ", "date": "2025-10-15", "round": null, "round_amount": 2000000, "currency": "EUR", "evidence": "e9"},
+    {"company": "Supernova", "company_country": "CZ", "date": "2025-09-30", "round": "series_a", "round_amount": 9200000, "currency": "USD", "evidence": "e10"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.credoventures.com/", "publisher": "Credo Ventures", "published_on": null, "source_class": "B", "quote": "The fund of choice for CEE founders around the world building generational companies.", "language": "en"},
+    {"id": "e2", "url": "https://www.credoventures.com/", "publisher": "Credo Ventures", "published_on": null, "source_class": "B", "quote": "Backing exceptional people, not thesis-driven.", "language": "en"},
+    {"id": "e3", "url": "https://www.credoventures.com/", "publisher": "Credo Ventures", "published_on": null, "source_class": "B", "quote": "Leading Pre-Seed rounds.", "language": "en"},
+    {"id": "e4", "url": "https://www.credoventures.com/", "publisher": "Credo Ventures", "published_on": null, "source_class": "B", "quote": "$1M - $5M checks.", "language": "en"},
+    {"id": "e5", "url": "https://thenextweb.com/news/credo-ventures-88m-fund", "publisher": "The Next Web", "published_on": "2026-03-23", "source_class": "C", "quote": "The Prague and Krakow firm, whose earliest bets include UiPath and ElevenLabs, is doubling down on pre-seed in Central and Eastern Europe and its global diaspora, with a six-partner team and a $1–5M typical cheque.", "language": "en"},
+    {"id": "e6", "url": "https://thenextweb.com/news/credo-ventures-88m-fund", "publisher": "The Next Web", "published_on": "2026-03-23", "source_class": "C", "quote": "Credo Ventures has closed Credo Stage 5, an $88 million fund raised in a single closing", "language": "en"},
+    {"id": "e7", "url": "https://www.lupa.cz/aktuality/ceske-credo-ventures-investovalo-do-americkeho-startupu-ktery-vyviji-technologie-pro-pentagon/", "publisher": "Lupa.cz", "published_on": "2026-06-02", "source_class": "C", "quote": "Mezi investory se objevuje také český fond Credo Ventures, který už do Picogridu peníze dříve posílal.", "language": "cs"},
+    {"id": "e8", "url": "https://www.lupa.cz/aktuality/cupr-vytvoril-ai-silu-pro-retail-spousti-duvo-ai-a-ziskava-na-nej-15-milionu-dolaru/", "publisher": "Lupa.cz", "published_on": "2025-12-02", "source_class": "C", "quote": "Kolo vede Index Ventures, účastní se také Credo Ventures, Northzone, Puzzle Ventures a několik známých andělů", "language": "cs"},
+    {"id": "e9", "url": "https://cc.cz/z-prahy-propojuji-evropske-domacnosti-a-tvori-z-nich-obri-elektrarnu-jejich-cena-je-ve-stamilionech/", "publisher": "CzechCrunch", "published_on": "2025-10-15", "source_class": "C", "quote": "Pražský energetický startup Delta Green získal dva miliony eur, tedy 50 milionů korun, od investorů z Credo Ventures, Tilia Impact Ventures a Purple Ventures.", "language": "cs"},
+    {"id": "e10", "url": "https://tech.eu/2025/09/30/supernova-raises-92-million-series-a-to-bring-ai-powered-vibe-coding-to-enterprise-product-teams/", "publisher": "Tech.eu", "published_on": "2025-09-30", "source_class": "C", "quote": "The round was led by Taiwania Capital, with participation from J&T Ventures, Reflex Capital, Kaya, Credo Ventures, EQT Ventures, Wing VC and Y Combinator.", "language": "en"},
+    {"id": "e11", "url": "https://cvca.cz/credo-ventures/", "publisher": "CVCA (self-reported member profile)", "published_on": "2020-01-24", "source_class": "D", "quote": "50k EUR – 10M EUR", "language": "cs"}
+  ],
+  "co_investors_seen": ["Index Ventures", "Northzone", "Puzzle Ventures", "Tilia Impact Ventures", "Purple Ventures", "Taiwania Capital", "J&T Ventures", "Reflex Capital", "KAYA VC", "EQT Ventures", "Wing VC", "Y Combinator"],
+  "analyst_notes": "Sector: Credo states it backs people rather than a thesis, so 'generalist' (stated); in practice the portfolio is technology (AI, software, energy tech, defence tech). Stage: leads pre-seed and follows on later (Supernova Series A, Picogrid follow-on); stage_focus lists the stated entry stages. Ticket USD 1-5m stated on the homepage and repeated by TNW (2026-03-23); the CVCA profile (self-reported, dated 2020-01-24) says EUR 50k-10M and AUM EUR 170M - superseded by the newer B/C sources. Capital = Credo Stage 5 (USD 88m) closed in a single closing per TNW 2026-03-23; tech.eu the same day says Credo 'announces' the fund; CzechCrunch converts it to almost CZK 1.9bn. Earlier fund: Credo Stage 4, EUR 75m (2022, not re-verified here). Investment amounts are the total round sizes (Credo's share not disclosed): Picogrid USD 45m (Credo a returning investor, round type not stated); Duvo.ai USD 15m seed led by Index Ventures (amount stated in the preceding sentence of the same Lupa article); Delta Green EUR 2m from existing investors Credo, Tilia and Purple; Supernova USD 9.2m Series A led by Taiwania (amount in the tech.eu headline). Legal: Credo Ventures a.s. (IČO 28538137, Karlovo nám. 2097/10, Praha 2) is the long-standing management company (GLEIF LEI 315700V9DQ1HLW5Z2K13, active); Credo Ventures Management II a.s. (IČO 24396893) was registered 2026-01-20 at the same address, role not confirmed (possibly the Stage 5 manager) so marked 'other'. The fund vehicles of Credo Stage 4/5 were not found in ARES (likely foreign-domiciled); not listed.",
+  "researched_on": "2026-10-25"
+}

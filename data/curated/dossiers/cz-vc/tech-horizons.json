@@ -1,0 +1,217 @@
+{
+  "investor_key": "tech-horizons",
+  "pilot": "cz-vc",
+  "name": "Tech Horizons",
+  "aliases": [
+    "Presto Tech Horizons",
+    "Tech Horizons SCSp",
+    "Tech Horizons GP S.à r.l.",
+    "Tech Horizons a.s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.techhorizons.eu/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S2"
+  ],
+  "decision_note": "Prague-run defence/dual-use VC fund (formerly Presto Tech Horizons, CSG as anchor LP, separated from Presto Ventures in April 2025) that is active (Atmos Space Cargo Apr 2026, North Vector Dynamics May 2026, Sensible Biotechnologies Oct 2026) but has no Czech portfolio company or deal, so it is outside the Czech pilot scope.",
+  "discovered_via": [
+    "news",
+    "co-investor:kaya-vc",
+    "second-pass"
+  ],
+  "legal_entities": [
+    {
+      "name": "Tech Horizons SCSp",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "fund"
+    },
+    {
+      "name": "Tech Horizons a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "22399127",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "defence_dualuse",
+      "deeptech_hardware"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "NATO"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [
+    {
+      "name": "Presto Tech Horizons (now Tech Horizons SCSp)",
+      "size_amount": 150000000,
+      "currency": "EUR",
+      "event": "target",
+      "event_date": "2024-06-26",
+      "evidence": "e4"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Sensible Biotechnologies",
+      "company_country": "SK",
+      "date": "2026-10-06",
+      "round": "series_a",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "North Vector Dynamics",
+      "company_country": "CA",
+      "date": "2026-05-14",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    },
+    {
+      "company": "Atmos Space Cargo",
+      "company_country": "DE",
+      "date": "2026-04-22",
+      "round": "series_a",
+      "round_amount": 25700000,
+      "currency": "EUR",
+      "evidence": "e6"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.techhorizons.eu/",
+      "publisher": "Tech Horizons",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We target post-product startups generating revenue, across NATO and allied countries.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.techhorizons.eu/",
+      "publisher": "Tech Horizons",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "€1M to €5M",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.techhorizons.eu/",
+      "publisher": "Tech Horizons",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "All Seed and Series A stages",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://cc.cz/startupovi-presto-ventures-a-zbrojarska-csg-michala-strnada-rozjizdi-fond-maji-v-nem-4-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2024-06-26",
+      "source_class": "C",
+      "quote": "Disponuje celkem 150 miliony eur, v přepočtu 3,7 miliardy korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Mise Tech Horizons, který jsme od původní skupiny formálně oddělili už v dubnu 2025, pokračuje dál – poslední čtyři roky jsem strávil budováním velmi talentovaného týmu, který je schopný fond nejen převzít, ale hlavně rozvíjet možná i lépe, než bych to v současné situaci zvládl já.",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://cc.cz/tichy-konec-strnadovych-startupovych-partaku-odesli-tri-partneri-fondu-ten-ted-meni-i-nazev/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-04",
+      "source_class": "C",
+      "quote": "Ve středu 22. dubna český venture kapitálový fond Tech Horizons komunikoval svou nejnovější investici, kdy se vedle zástupu dalších evropských investorů podílel na finanční injekci ve výši 25,7 milionu eur (necelých 630 milionů korun) do startupu Atmos Space Cargo.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-10-07",
+      "source_class": "C",
+      "quote": "K současnému kolu se přidaly také české fondy Kaya VC a Tech Horizons ze skupiny CSG nejbohatšího Čecha Michala Strnada, jak informuje deník e15.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.techhorizons.eu/",
+      "publisher": "Tech Horizons",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Tech Horizons invests in North Vector Dynamics to advance counter-drone defence",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "CSG (Czechoslovak Group)",
+    "Kaya VC",
+    "Oxford Science Enterprises",
+    "OTB Ventures",
+    "In-Q-Tel",
+    "NATO Innovation Fund",
+    "Antler",
+    "Freedom Fund",
+    "TYR.vc"
+  ],
+  "analyst_notes": "Same fund as 'Presto Tech Horizons' but not the same investor as presto-ventures: the fund was formally separated from the Presto group in April 2025 (Vojta Roček, e5), renamed Tech Horizons in spring 2026 to avoid confusion with the earlier Presto B2B SaaS funds, and is run by its own team (partners Stanislav Kuba, Matej Luhový, Petr Stoniš, Martin Davis, Miroslav Holan) who per Stoniš are not active in other Presto funds; CSG is anchor investor and key partner, not manager (CzechCrunch 2026-05-04). By the brand rule it is its own record. Consequence for the presto-ventures re-audit: that record's aliases ('Presto Tech Horizons'), capital (EUR 150m) and all three in-window deals (Occam Feb 2026, Firehawk Sep 2025, DiffuseDrive May 2025) belong to this fund; Presto Ventures' own vehicle Presto 2 appears to be in run-off ('dořešení situace v Presto 2', e5 article). Scope: Prague-based team (Tech Horizons a.s., Václavské náměstí, Praha 1, board = the four Czech partners per ARES; CzechCrunch calls it a Czech VC fund), but none of the ten portfolio companies on the site is Czech (Vidar Systems DE/UA, Bavovna AI US/UA, BlueQubit, DiffuseDrive US/HU, SatVu, Firehawk US, Sensible Biotechnologies SK/UK, Occam Industries, Atmos Space Cargo DE/FR, North Vector Dynamics - Canadian per the URL of the Startup Kitchen article linked from the site, page not retrievable), so S2 under the revised scope rule; re-screen if a Czech deal appears. Capital: EUR 150m 'disponuje celkem' at launch (CzechCrunch 2024-06-26; 2026-05-04 repeats CZK 3.7bn); no first/final close announcement was found, so it is labelled interim_close rather than latest_fund_size. Fund vehicle Tech Horizons SCSp (Luxembourg, registered office Capellen; GP Tech Horizons GP S.à r.l., per site footer) - no LEI found in GLEIF. Sensible Biotechnologies: Series A (USD 47m per the kaya-vc record) led by Oxford Science Enterprises; Tech Horizons' own news item is dated 6/10/26; the site lists entry 11/2025, so the 2025 date may be a first tranche. North Vector Dynamics date is the site news date (14/5/26). Tech Horizons Partners s.r.o. (23659441) is owned solely by Matej Luhový and is not listed. [revision 2026-10-25, coordinator: EUR 150m is a planned volume (CSG annual report 2024: 'a planned volume of up to €150 million'), so capital is not disclosed and the 150m is kept as a target, per plan 10a. Re-audit also notes the Sensible Biotechnologies deal date is 2026-10-06 per the own release.]",
+  "researched_on": "2026-10-25"
+}

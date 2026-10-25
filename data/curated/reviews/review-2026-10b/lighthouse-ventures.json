@@ -1,0 +1,20 @@
+{
+  "investor_key": "lighthouse-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 07500912 (GP) active. Ranketta EUR 1m pre-seed led by Lighthouse (The SaaS News 2025-11-27) and Merchantee seed extension (CzechCrunch 2026-06-09) confirmed. Site strategy block (B2B software/fintech/AI, Idea/Seed, EUR 200k-1m) confirmed. Capital EUR 23m dated 2019 is the latest public figure; Fund II (started 2024) size not found in search, so the dated older figure is acceptable."
+}

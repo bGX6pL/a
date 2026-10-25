@@ -1,0 +1,345 @@
+{
+  "investor_key": "zero-one-hundred",
+  "pilot": "sk-reference",
+  "name": "Zero One Hundred",
+  "aliases": [
+    "0100 Ventures",
+    "0100 VC",
+    "Zero Gravity Capital",
+    "Zero Gravity Capital s.r.o.",
+    "ZGC Fund I., s.r.o.",
+    "0100 VC RAIF F.C.I.C. PLC",
+    "Zero Gravity Ventures"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://0100.vc/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Bratislava-rooted early-stage VC (formerly Zero Gravity Capital; SIH-backed EUR 23m Fund I) that launched Fund II (announced at EUR 25m, still raising) in Sept 2025 with five new investments, co-invested in Vestberry in March 2025 and joined Readmio's EUR 1m round in Feb 2026.",
+  "discovered_via": [
+    "research-seed",
+    "nbs-register",
+    "sih-programmes",
+    "news",
+    "co-investor:venture-to-future-fund",
+    "co-investor:seed-starter-slsp",
+    "co-investor:zaka-vc"
+  ],
+  "legal_entities": [
+    {
+      "name": "Zero Gravity Capital s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52651894",
+      "role": "manager"
+    },
+    {
+      "name": "ZGC Fund I., s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52768058",
+      "role": "fund"
+    },
+    {
+      "name": "0100 VC RAIF F.C.I.C. PLC",
+      "country": "CY",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "software_saas",
+      "ai_data",
+      "healthtech",
+      "proptech_construction"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e6",
+      "e7",
+      "e8",
+      "e9"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE",
+      "Middle East"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3",
+      "e4"
+    ]
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": {
+      "amount": 23000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2022-12-20"
+    },
+    "method": "stated",
+    "evidence": [
+      "e13"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Zero One Hundred Fund II (0100 VC RAIF F.C.I.C. PLC) - launch size, still raising",
+      "size_amount": 25000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2025-09-24",
+      "evidence": "e4"
+    },
+    {
+      "name": "Zero Gravity Capital fund (ZGC Fund I.)",
+      "size_amount": 23000000,
+      "currency": "EUR",
+      "event": "final_close",
+      "event_date": null,
+      "evidence": "e13"
+    },
+    {
+      "name": "Zero Gravity Capital fund (ZGC Fund I.) - investment window closed",
+      "size_amount": null,
+      "currency": null,
+      "event": "other",
+      "event_date": "2023-12-01",
+      "evidence": "e14"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Readmio",
+      "company_country": "CZ",
+      "date": "2026-02-05",
+      "round": null,
+      "round_amount": 1000000,
+      "currency": "EUR",
+      "evidence": "e15"
+    },
+    {
+      "company": "Biteberry",
+      "company_country": "SK",
+      "date": "2025-09-24",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "Medannot",
+      "company_country": "SK",
+      "date": "2025-09-24",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e8"
+    },
+    {
+      "company": "IntellCRE",
+      "company_country": "US",
+      "date": "2025-09-24",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e9"
+    },
+    {
+      "company": "Vestberry",
+      "company_country": "SK",
+      "date": "2025-03-14",
+      "round": null,
+      "round_amount": 2200000,
+      "currency": "EUR",
+      "evidence": "e11"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1873031",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Zero Gravity Capital s.r.o. - IČO: 52651894",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1889534",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "ZGC Fund I., s.r.o. - IČO: 52768058",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://0100.vc/",
+      "publisher": "Zero One Hundred",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "A venture capital company founded by builders, with a unique ecosystem, backing the best startups from Emerging Europe and the Middle East.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "Nowy wehikuł inwestycyjny o wartości 25 milionów EUR ma na celu wspieranie wczesnych etapów rozwoju startupów, tworząc pomost między regionami CEE a Bliskiego Wschodu i Północnej Afryki.",
+      "language": "pl"
+    },
+    {
+      "id": "e5",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "przeznaczy 70% kapitału na rundy pre-seed i seed w regionie CEE",
+      "language": "pl"
+    },
+    {
+      "id": "e6",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "W ramach nowego funduszu Zero One Hundred dokonał już pięciu inwestycji w firmach z branży foodtech, proptech, medtech, HRtech i AI.",
+      "language": "pl"
+    },
+    {
+      "id": "e7",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "Biteberry (Słowacja) – system operacyjny oparty na AI dla restauracji.",
+      "language": "pl"
+    },
+    {
+      "id": "e8",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "Medannot (Słowacja/Belgia) – narzędzie do automatyzacji i diagnostyki AI w radiologii.",
+      "language": "pl"
+    },
+    {
+      "id": "e9",
+      "url": "https://mamstartup.pl/zero-one-hundred-czyli-nowy-fundusz-na-horyzoncie-jakie-branze-interesuja-inwestorow/",
+      "publisher": "MamStartup",
+      "published_on": "2025-09-24",
+      "source_class": "C",
+      "quote": "IntellCRE (USA/Słowacja) – oprogramowanie AI do oceny i obsługi transakcji w sektorze nieruchomości komercyjnych.",
+      "language": "pl"
+    },
+    {
+      "id": "e10",
+      "url": "https://0100.vc/",
+      "publisher": "Zero One Hundred",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "This website and all its content belong exclusively to 0100 VC RAIF F.C.I.C. PLC., with a registered office at 5 Esperidon Street 2001, Strovolos, Nicosia, Cyprus.",
+      "language": "en"
+    },
+    {
+      "id": "e11",
+      "url": "https://en.ain.ua/2025/03/14/slovak-fintech-vestberry-secures-eur22m",
+      "publisher": "AIN.UA",
+      "published_on": "2025-03-14",
+      "source_class": "C",
+      "quote": "Other investors include Venture to Future Fund and Zero One Hundred",
+      "language": "en"
+    },
+    {
+      "id": "e12",
+      "url": "https://0100.vc/",
+      "publisher": "Zero One Hundred",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "You can meet us in our offices in Czechia, Slovakia, Cyprus and the UAE.",
+      "language": "en"
+    },
+    {
+      "id": "e13",
+      "url": "https://cc.cz/podporili-nejvetsi-startupove-nadeje-na-slovensku-s-novym-fondem-maji-i-pro-ceske-firmy-15-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2022-12-20",
+      "source_class": "C",
+      "quote": "Investiční aktivity Zero One Hundred začaly před třemi lety založením samostatného fondu Zero Gravity Capital s prostředky v hodnotě 23 milionů eur, aktuálně přibližně 560 milionů korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/zero-gravity-capital-kapitalova-investicia",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "The fund was established as a fixed-term investment vehicle with an expected 10-year term, initiating its activities in 2020 and closing its investment window in December 2023.",
+      "language": "en"
+    },
+    {
+      "id": "e15",
+      "url": "https://vestbee.com/insights/articles/readmio-secures-1-m",
+      "publisher": "Vestbee",
+      "published_on": "2026-02-05",
+      "source_class": "C",
+      "quote": "Prague-based Readmio, which develops interactive children’s story apps with sound and learning features, has secured €1 million in new funding from Simpact Ventures, with support from ZAKA VC, Zero One Hundred, and DEPO Ventures, as Vestbee was informed.",
+      "language": "en"
+    },
+    {
+      "id": "e16",
+      "url": "https://0100.vc/",
+      "publisher": "Zero One Hundred",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We are continuing our journey with Fund II and we are interested in speaking with you.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "Seed Starter (Česká a Slovenská spořitelna)",
+    "Venture to Future Fund",
+    "DEPO Ventures",
+    "ZAKA VC",
+    "Simpact Ventures"
+  ],
+  "analyst_notes": "One brand, two generations: Fund I = ZGC Fund I., s.r.o. (IČO 52768058), managed by Zero Gravity Capital s.r.o. (IČO 52651894, NBS registered manager since 2020-02-13, fund registered same date); EUR 23m incl. SIH money (2019 SIH selection gave Crowdberry, Zero Gravity and Vision Ventures EUR 11.6m each); SIH says its investment window closed in December 2023 (e14; event date 2023-12-01, month only) and it is divesting. Fund II = 0100 VC RAIF F.C.I.C. PLC, a Cyprus RAIF (e10; no registry id found), EUR 25m, launched Sept 2025 (The Recursive 2025-09-23; MamStartup 2025-09-24, e4) with 70% for leading pre-seed/seed rounds in CEE and 30% for MENA co-investments; five new investments named at launch (Biteberry SK, Reno Home UAE, Medannot SK/BE, Palm.hr KSA, IntellCRE US/SK). Investment dates for those five use the article date (exact closing dates not published). Vestberry (14 Mar 2025, EUR 2.2m led by Seed Starter) - vehicle not stated; Zero One Hundred's Technical Partner Marek Zamecnik is a Vestberry co-founder and Vestberry belongs to the 0100 Ventures holding (Startitup 2023), so this is a related-party deal. Hq kept as SK: team and offices in Bratislava, plus Prague, Cyprus and the UAE (e12); the new fund vehicle is Cypriot, so the S2 question (Slovak office and Slovak activity) is answered yes via the Bratislava office and Slovak portfolio (Biteberry, Medannot, Vestberry). Sector focus derived from the Fund II deals (foodtech-software, proptech, medtech, HR tech, AI; e6-e9); the firm does not state a sector focus. Ticket not disclosed by the firm (aggregators guess EUR 0.1-1m). Earlier targets of EUR 60m for Fund II (Techloy/CzechCrunch Dec 2022, Startitup Apr 2023) were not reached; the 2025 launch size is EUR 25m. Patron GO (CZ, Aug 2024) lists Zero Gravity Capital among existing investors (VFF page). Added by reviewer: Readmio (Prague-based, Slovak founders) EUR 1m round of 5 Feb 2026 led by Simpact Ventures with ZAKA VC, Zero One Hundred and DEPO Ventures (Vestbee, e15) - latest cited activity; whether Fund I reserves or Fund II invested is not stated. [revision 2026-10-25 re-audit: capital changed from Fund II's EUR 25m 'latest_fund_size' to Fund I's EUR 23m: Fund II's EUR 25m comes only from the September 2025 launch announcement ('ogłosił uruchomienie', MamStartup e4, after The Recursive) and the firm's own site still invites investors into Fund II ('We are continuing our journey with Fund II', e16), so no close or committed amount is public and the launch figure is not capital. Per the revised rule the latest public fund size is used instead: Fund I (ZGC Fund I.) was set up with EUR 23m (SIH EUR 11.6m plus private money; CzechCrunch 2022-12-20, e13), recorded as its final size (final_close, date not published - the vehicle was registered in Feb 2020); as_of = article date. Fund I's investment-window end (Dec 2023, SIH e14) is a separate 'other' entry. Activity (Readmio 2026-02-05, Vestbee), scope (Bratislava office, Slovak portfolio), type vc and ticket (not disclosed) unchanged.]",
+  "researched_on": "2026-10-25"
+}

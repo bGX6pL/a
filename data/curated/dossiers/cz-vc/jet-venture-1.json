@@ -1,0 +1,51 @@
+{
+  "investor_key": "jet-venture-1",
+  "pilot": "cz-vc",
+  "name": "Jet Venture 1",
+  "aliases": ["Jet Ventures", "Jet Venture 1 SICAV, a.s.", "Jet Venture 1 podfond SICAV"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://ventures.jetinvestment.cz/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Brno-based B2B/industrial-tech VC fund of the Jet Investment group with its own Jet Ventures team (brand rule); over EUR 30m raised in its first fundraising round and eleven investments, incl. Czech DecisionRules and IAG (June 2026) and AppNava (Sep 2026).",
+  "discovered_via": ["co-investor:jet-investment", "news", "second-pass"],
+  "legal_entities": [
+    {"name": "Jet Venture 1 SICAV, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "22030417", "role": "fund"},
+    {"name": "Jet Venture 1 podfond SICAV", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75165121", "role": "fund"},
+    {"name": "Jet Investment, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "03890333", "role": "manager"},
+    {"name": "Jet Venture 1 Founders, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "22558870", "role": "other"},
+    {"name": "Jet Venture 1 fond fondů, otevřený podílový fond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75165228", "role": "other"}
+  ],
+  "sector_focus": {"value": ["industrial_manufacturing", "software_saas", "ai_data"], "method": "stated", "evidence": ["e1", "e2"]},
+  "stage_focus": {"value": ["seed", "series_a"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CZ", "PL", "AT", "DE", "SK"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 2000000, "currency": "EUR"}, "method": "stated", "evidence": ["e3", "e5"]},
+  "capital": {"value": {"amount": 30000000, "currency": "EUR", "basis": "interim_close", "as_of": "2025-12-18"}, "method": "stated", "evidence": ["e4"]},
+  "funds": [
+    {"name": "Jet Venture 1", "size_amount": 50000000, "currency": "EUR", "event": "target", "event_date": "2025-12-18", "evidence": "e4"},
+    {"name": "Jet Venture 1", "size_amount": 30000000, "currency": "EUR", "event": "interim_close", "event_date": "2025-12-18", "evidence": "e4"}
+  ],
+  "investments": [
+    {"company": "AppNava", "company_country": "US", "date": "2026-09-17", "round": null, "round_amount": 2300000, "currency": "USD", "evidence": "e6"},
+    {"company": "Phantasma Labs", "company_country": "DE", "date": "2026-09-01", "round": null, "round_amount": 2600000, "currency": "EUR", "evidence": "e7"},
+    {"company": "DecisionRules", "company_country": "CZ", "date": "2026-06-23", "round": null, "round_amount": 1500000, "currency": "EUR", "evidence": "e8"},
+    {"company": "International Automotive Group (IAG)", "company_country": "CZ", "date": "2026-06-02", "round": null, "round_amount": 6000000, "currency": "EUR", "evidence": "e9"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://ventures.jetinvestment.cz/", "publisher": "Jet Ventures (Jet Investment)", "published_on": null, "source_class": "B", "quote": "We invest in high-growth B2B and industrial-tech start-ups based in the industrial heartland of Europe: Czechia, Poland, Austria, Germany, and Slovakia.", "language": "en"},
+    {"id": "e2", "url": "https://ventures.jetinvestment.cz/", "publisher": "Jet Ventures (Jet Investment)", "published_on": null, "source_class": "B", "quote": "We support ambitious start-ups in late-seed to Series A stages in the industrial-tech/B2B to achieve their global ambitions.", "language": "en"},
+    {"id": "e3", "url": "https://ventures.jetinvestment.cz/", "publisher": "Jet Ventures (Jet Investment)", "published_on": null, "source_class": "B", "quote": "Our initial investment can reach up to 2M EUR, and we are flexible in leading the round or co-investing to fuel your growth.", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/teoreticka-hodnota-nestaci-fondy-musi-investorum-vydelavat-rika-sef-fondu-jet-venture-1/", "publisher": "CzechCrunch", "published_on": "2025-12-18", "source_class": "C", "quote": "Fond Jet Venture 1 cílí na velikost padesát milionů eur (zhruba 1,2 miliardy korun) a už po prvním kole fundraisingu má k dispozici přes třicet milionů eur.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/teoreticka-hodnota-nestaci-fondy-musi-investorum-vydelavat-rika-sef-fondu-jet-venture-1/", "publisher": "CzechCrunch", "published_on": "2025-12-18", "source_class": "C", "quote": "Z toho máme aktuálně zainvestovaných zhruba devět a půl milionu eur rozdělených do šesti společností, což odpovídá naší ideální velikosti ticketu, kdy se chceme u jedné investice pohybovat mezi jedním a dvěma miliony eur.", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/", "publisher": "CzechCrunch", "published_on": "2026-09-17", "source_class": "C", "quote": "Jet jako hlavní investor vložil 1,8 milionu dolarů (38 milionů korun), zhruba čtyři pětiny kola, které doplnil fond Arya Women.", "language": "cs"},
+    {"id": "e7", "url": "https://www.jetinvestment.cz/en/news/jet-investment-announces-eu2-1-million-investment-in-berlin-ai-startup-phantasma-labs", "publisher": "Jet Investment", "published_on": "2026-09-01", "source_class": "B", "quote": "(Brno, September 1, 2026) The Jet Investment has made its tenth investment through the Jet Venture 1 SICAV venture capital fund investing €2.1 million in Phantasma Labs, a Berlin-based startup developing artificial intelligence for production planning and scheduling in manufacturing.", "language": "en"},
+    {"id": "e8", "url": "https://cc.cz/cesi-vyviji-centralni-mozek-pro-lepsi-firemni-rozhodovani-od-investoru-na-nej-maji-pres-70-milionu/", "publisher": "CzechCrunch", "published_on": "2026-06-23", "source_class": "C", "quote": "Český technologický startup DecisionRules získává investici ve výši 1,5 milionu eur (36 milionů korun) od brněnské skupiny Jet Investment, respektive jejího venture kapitálového fondu Jet Venture 1.", "language": "cs"},
+    {"id": "e9", "url": "https://cc.cz/dalsich-140-milionu-na-rychlejsi-nakup-autodilu-cesi-chteji-pomoci-mechanikum-a-miri-do-evropy/", "publisher": "CzechCrunch", "published_on": "2026-06-02", "source_class": "C", "quote": "Kapitál poskytly fondy Orbit Capital a Jet Venture 1 prostřednictvím kombinace klasické kapitálové investice a takzvaného venture debt financování.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Arya Women", "Lighthouse Ventures (Lighthouse Seed Fund II)", "Orbit Capital", "Venture to Future Fund", "Look AI Ventures", "Jason Calacanis"],
+  "analyst_notes": "Brand rule: Jet Ventures / Jet Venture 1 is the separately branded VC fund of the Brno PE group Jet Investment (record jet-investment, S1 pe) with its own site and team (Managing Partner Kamil Levinský, four-person team per CzechCrunch 2025-12-18); the investment committee includes Jet Investment partners. The jet-investment record still lists 'Jet Ventures' as an alias and Jet Venture 1 SICAV (22030417) as a fund entity - overlap to be resolved in that record's re-audit. Capital: over EUR 30m available after the first fundraising round (interview 2025-12-18; recorded as 30m interim_close, as_of = article date because the close date is not given); EUR 50m is the target (expected to be reached during 2026), recorded as a target only. Ticket: site says initial investment up to EUR 2M (separate block: 'Up to EUR 2.5M per start-up'); the interview gives an ideal ticket of EUR 1-2m - used as min/max. Stage: site says late-seed to Series A; fund page asks for about EUR 1m revenue and 100% growth. Investments (round_amount = whole round): AppNava USD 2.3m (Jet USD 1.8m lead; eleventh investment, Jet press release 2026-09-17); Phantasma Labs EUR 2.6m (Jet EUR 2.1m, tenth investment; round total in the next sentence of the same press release); DecisionRules EUR 1.5m from Jet (CzechCrunch 2026-06-23, Jet press release 2026-06-24); IAG EUR 6m from Orbit Capital and Jet Venture 1 combined (equity + venture debt; Jet holds 8.9%; follow-on to a EUR 5m round in May 2025). Also seen: GigaScan (SE, EUR 2.1m) and Hermetiq (US, USD 750k) both 2026-08-26 per Jet news list; Digicust (AT, EUR 950k, December 2025). Legal entities: Jet Venture 1 SICAV, a.s. and its sub-fund (ARES); Jet Investment, a.s. is the manager; Jet Venture 1 Founders, a.s. (2025) role unknown; Jet Venture 1 fond fondů OPF sits at Conseq's address and is presumably the Conseq feeder fund mentioned by CzechCrunch 2026-01-07 (minimum CZK 1m) - role 'other'.",
+  "researched_on": "2026-10-25"
+}

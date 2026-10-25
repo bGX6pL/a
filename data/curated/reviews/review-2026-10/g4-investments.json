@@ -1,0 +1,20 @@
+{
+  "investor_key": "g4-investments",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E8 is acceptable; nothing found points to an active in-scope VC. G4 is Karol Gogolák's investment club, founded 2011 after the Azet.sk sale. 2013 interviews (podnikajte.sk 2013-07-01, startitup.sk): eight individual investors, 'not a fund', equity plus mezzanine, loans and project finance, EUR 0.1-2m tickets, ~27 projects, none named. LinkedIn/directory snippets (not opened directly) now describe G4 FRIENDS as a private family office (~USD 50m) focused since 2021 on global technology/blockchain funds. If anything that points to S1/E5, but no named company or dated deal was found. www.g4.sk still does not respond."
+}

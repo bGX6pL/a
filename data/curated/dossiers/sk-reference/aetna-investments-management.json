@@ -1,0 +1,76 @@
+{
+  "investor_key": "aetna-investments-management",
+  "pilot": "sk-reference",
+  "name": "AETNA INVESTMENTS",
+  "aliases": [
+    "AETNA INVESTMENTS MANAGEMENT s. r. o., správca podlimitných rizikových fondov",
+    "AETNA INVESTMENTS a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://aetnainvestments.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Manager of a global-macro fund trading world capital markets; no private-company investing.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "AETNA INVESTMENTS MANAGEMENT s. r. o., správca podlimitných rizikových fondov",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "55212336",
+      "role": "manager"
+    },
+    {
+      "name": "AETNA INVESTMENTS a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52248593",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://aetnainvestments.sk/",
+      "publisher": "AETNA INVESTMENTS",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Špecializujeme sa na globálnu makro stratégiu na svetových kapitálových trhoch.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://aetnainvestments.sk/",
+      "publisher": "AETNA INVESTMENTS",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "AETNA INVESTMENTS MANAGEMENT s. r. o. spravuje výlučne fondy investičnej skupiny AETNA INVESTMENTS.",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.orsr.sk/vypis.asp?ID=678223&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Spravovanie alternatívnych investičných fondov podľa § 31a a § 31b zákona č. 203/2011 Z. z. o kolektívnom investovaní v znení neskorších predpisov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Sole shareholder of the manager is AETNA INVESTMENTS MANAGEMENT LIMITED (UK). Fund AETNA INVESTMENTS a.s. (IČO 52248593): global macro, NAV monthly, min. EUR 50k (website).",
+  "researched_on": "2026-10-25"
+}

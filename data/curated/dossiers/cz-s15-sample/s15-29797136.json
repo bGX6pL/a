@@ -1,0 +1,58 @@
+{
+  "investor_key": "s15-29797136",
+  "pilot": "cz-s15-sample",
+  "name": "RONDA Private Equity",
+  "aliases": [
+    "RONDA PRIVATE EQUITY osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://rondaprivateequity.cz/",
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "All content sits behind a qualified-investor gate; no portfolio, strategy or news is public, so I2 cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "RONDA PRIVATE EQUITY osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "29797136",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29797136",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "RONDA PRIVATE EQUITY osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://rondaprivateequity.cz/",
+      "publisher": "RONDA Private Equity",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Společnost je osobou zapsanou v seznamu osob podle § 15 ZISIF.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "rondaprivateequity.cz shows only a §15 ZISIF qualified-investor disclaimer. ARES: datumVzniku 2026-07-17, czNace generic list incl. 66300. The 'private equity' name is not evidence of company investing.",
+  "researched_on": "2026-10-25"
+}

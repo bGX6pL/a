@@ -1,0 +1,46 @@
+{
+  "investor_key": "jt-ventures",
+  "pilot": "cz-vc",
+  "name": "J&T Ventures",
+  "aliases": ["J&T Ventures III SICAV a.s.", "J&T Ventures CG SICAV a.s.", "J&T VENTURES I otevřený podílový fond"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.jtventures.cz",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "J&T Banka-backed early-stage VC with its office in Prague (EUR 120m AUM, pre-seed to Series A, CEE/SEE/Baltics); joined Supernova's Series A (Sep 2025) and ValkaAI's pre-seed (Feb 2026) and led Definic's seed (Jun 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "J&T Ventures III SICAV a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "22175903", "role": "fund"},
+    {"name": "J&T Ventures CG SICAV a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "08220867", "role": "fund"},
+    {"name": "J&T Ventures CG, podfond J&T Ventures II", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75161435", "role": "fund"},
+    {"name": "J&T VENTURES I otevřený podílový fond", "country": "CZ", "registry": "CZ-ICO", "registry_id": "71508121", "role": "fund"},
+    {"name": "AMISTA investiční společnost, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "27437558", "role": "other"}
+  ],
+  "sector_focus": {"value": ["generalist"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["pre_seed", "seed", "series_a"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE", "SEE", "Baltics"], "method": "stated", "evidence": ["e3"]},
+  "ticket_size": {"value": {"min": 300000, "max": 3000000, "currency": "EUR"}, "method": "stated", "evidence": ["e4"]},
+  "capital": {"value": {"amount": 120000000, "currency": "EUR", "basis": "aum", "as_of": null}, "method": "stated", "evidence": ["e5"]},
+  "funds": [],
+  "investments": [
+    {"company": "Definic (formerly Nordics)", "company_country": "SK", "date": "2026-06-12", "round": "seed", "round_amount": 2500000, "currency": "EUR", "evidence": "e6"},
+    {"company": "ValkaAI", "company_country": "CZ", "date": "2026-02-24", "round": "pre_seed", "round_amount": 12000000, "currency": "EUR", "evidence": "e7"},
+    {"company": "Supernova", "company_country": "CZ", "date": "2025-09-30", "round": "series_a", "round_amount": 9200000, "currency": "USD", "evidence": "e8"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.jtventures.cz/", "publisher": "J&T Ventures", "published_on": null, "source_class": "B", "quote": "Sector Agnostic", "language": "en"},
+    {"id": "e2", "url": "https://www.jtventures.cz/", "publisher": "J&T Ventures", "published_on": null, "source_class": "B", "quote": "Pre-seed až Series A", "language": "cs"},
+    {"id": "e3", "url": "https://www.jtventures.cz/", "publisher": "J&T Ventures", "published_on": null, "source_class": "B", "quote": "CEE & SEE", "language": "en"},
+    {"id": "e4", "url": "https://www.jtventures.cz/", "publisher": "J&T Ventures", "published_on": null, "source_class": "B", "quote": "€300K – €3M", "language": "cs"},
+    {"id": "e5", "url": "https://www.jtventures.cz/", "publisher": "J&T Ventures", "published_on": null, "source_class": "B", "quote": "€120M", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/", "publisher": "CzechCrunch", "published_on": "2026-06-12", "source_class": "C", "quote": "Investiční kolo vedl český fond J&T Ventures, ke kterému se připojil Seed Starter patřící pod Českou spořitelnu a Slovak Investment Holding.", "language": "cs"},
+    {"id": "e7", "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/", "publisher": "CzechCrunch", "published_on": "2026-02-24", "source_class": "C", "quote": "Startup v pre-seedovém kole získal rekordní investici 12 milionů eur, tedy necelých 300 milionů korun, a to od tuzemských fondů J&T Ventures, Tensor Ventures, BD Partners", "language": "cs"},
+    {"id": "e8", "url": "https://cc.cz/potkali-se-v-cajovne-pak-rozbehli-startup-kde-automatizuji-praci-vyvojaru-ted-ziskali-200-milionu/", "publisher": "CzechCrunch", "published_on": "2025-09-30", "source_class": "C", "quote": "do kola se připojily i fondy J&T Ventures, Reflex Capital, Kaya, Credo Ventures, EQT Ventures, Wing VC a Y Combinator", "language": "cs"}
+  ],
+  "co_investors_seen": ["Seed Starter České spořitelny", "Slovak Investment Holding", "Rockaway Ventures", "Tensor Ventures", "BD Partners", "Fond Naše Česko (J&T Investiční společnost)", "Taiwania Capital", "Reflex Capital", "Kaya VC", "Credo Ventures", "EQT Ventures", "Wing VC", "Y Combinator", "RockawayX"],
+  "analyst_notes": "Office: the investor's site gives the address J&T Ventures, budova J&T Banka, Sokolovská 700/113a, Praha 8 (all fund vehicles are Czech, registered at the same address); CzechCrunch calls it a Czech fund. The brand originated in the J&T group (Czech-Slovak) - check for overlap with the Slovak reference set. Corporate flag set because the funds are sponsored by the J&T Banka group (site sits in the J&T Banka building); this is an analyst judgement. Focus/stage/ticket/region/AUM are labels from the homepage blocks: 'Sector Agnostic', 'Pre-seed až Series A', '€300K – €3M' (Velikost investice), region 'CEE & SEE & Baltics', '€120M' (Výše aktiv = assets) - the page is undated (footer © 2024), so capital.as_of is left empty. Fund vehicles: J&T VENTURES I OPF (2014), J&T Ventures CG SICAV with sub-fund J&T Ventures II (2019), J&T Ventures III SICAV a.s. (registered 2024-10-21; no dated size announcement found); the SICAVs' statutory body is the white-label manager AMISTA investiční společnost. The investment-team company was not identified in ARES. Round amounts are whole rounds; ValkaAI's EUR 12m pre-seed was led by Rockaway Ventures; Definic seed led by J&T Ventures. Web search budget was exhausted during this research, so no further sources (e.g. fund III size) were checked.",
+  "researched_on": "2026-10-25"
+}

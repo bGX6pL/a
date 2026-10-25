@@ -1,0 +1,20 @@
+{
+  "investor_key": "abris-capital",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right. Own site: control/mid-market PE, EUR 30-75m equity tickets, EU-11 with focus on Poland and Romania; contact page (checked 2026-10-25) lists offices only in Warsaw, Bucharest and Nicosia - no Czech office, so S1 (pe) and S2 both hold. Active via portfolio add-ons (Dental Holding, Jan 2026). Fields not assessed for this exclusion."
+}

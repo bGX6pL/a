@@ -1,0 +1,40 @@
+{
+  "investor_key": "impulse-ventures",
+  "pilot": "cz-vc",
+  "name": "Impulse Ventures",
+  "aliases": ["Impulse Ventures, a.s.", "Impulse Ventures DD, s.r.o."],
+  "investor_type": "private_investor",
+  "secondary_types": ["vc"],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague investment vehicle of billionaire Ondřej Tomek's group that invests exclusively its owners' own money in Central European seed/Series A startups (Dataddo, Safetica, Itera/Taikun) - a private investor, not a pooled VC fund; latest dated new investment found is Dataddo in December 2023.",
+  "discovered_via": ["co-investor:spinoffy", "second-pass"],
+  "legal_entities": [
+    {"name": "Impulse Ventures, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "08841471", "role": "holding"},
+    {"name": "Impulse Ventures DD, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "08866716", "role": "other"},
+    {"name": "Impulse Capital, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "05236941", "role": "holding"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["seed", "series_a"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Dataddo", "company_country": "CZ", "date": "2023-12-20", "round": null, "round_amount": null, "currency": null, "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/", "publisher": "CzechCrunch", "published_on": "2020-09-08", "source_class": "C", "quote": "Tím, že investujeme výhradně vlastní peníze a nejsme svázaní regulemi standardních venture fondů, máme obrovskou svobodu v rozhodování a flexibilitě, která je vlastní i startupům, s nimiž spolupracujeme.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/", "publisher": "CzechCrunch", "published_on": "2020-09-08", "source_class": "C", "quote": "Za vedení a investiční strategii fondu zodpovídá jeho spolumajitel Samuel Huba, který si chce budovat pozici v rámci seedových a Series A investic v regionu střední Evropy.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/mame-pro-startupy-ve-stredni-evrope-ctyri-miliardy-korun-hlasi-novy-cesky-fond-stoji-za-nim-ondrej-tomek-a-spol/", "publisher": "CzechCrunch", "published_on": "2020-09-08", "source_class": "C", "quote": "Na investice do projektů ze střední Evropy nicméně mají spolu s kolegy připraveny až čtyři miliardy korun, přičemž největším dílem přispěl právě Tomek.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/ceske-dataddo-ma-ctvrtou-investici-od-miliardare-ondreje-tomka-z-datoveho-startupu-se-stava-globalni-hrac/", "publisher": "CzechCrunch", "published_on": "2023-12-20", "source_class": "C", "quote": "Pražský startup Dataddo teď uzavřel své čtvrté investiční kolo, a to opět od fondu Impulse Ventures.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/prvni-startup-rozjel-z-pisku-a-prodal-jej-za-miliardu-uspech-zopakoval-i-druhou-firmu-kupuji-americane/", "publisher": "CzechCrunch", "published_on": "2025-08-05", "source_class": "C", "quote": "v roce 2022 totiž do něj (ještě pod názvem Itera Technologies) poslaly desítky milionů korun Nation 1, Impulse Ventures miliardáře Ondřeje Tomka a Gi21 Damira Špoljariče.", "language": "cs"},
+    {"id": "e6", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08841471", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "Impulse Ventures, a.s.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Nation 1", "Gi21 Capital"],
+  "analyst_notes": "Second-pass screen (name seen as Ondřej Tomek's vehicle among Spinoffy's LPs). Type: the managing partner states that Impulse Ventures invests exclusively its own money and is not bound by standard VC-fund rules (e1); capital comes mainly from Ondřej Tomek - so private_investor (own capital), consistent with how Gi21 Capital and Miton were typed; secondary vc for its startup minority stakes. ARES: Impulse Ventures, a.s. (IČO 08841471) is owned by Impulse Capital, a.s. (IČO 05236941); Impulse Ventures DD, s.r.o. (IČO 08866716) has Impulse Capital and team members as partners (likely a co-investment vehicle). Capital: 'up to CZK 4bn' prepared for investment at launch (e3, 2020) is an allocation, not a fund size or balance sheet - not recorded. Activity: CzechCrunch tag page shows the last new investment as Dataddo's fourth round (2023-12-20, 'over CZK 30m'); the 2025-08-05 item is the Taikun (ex-Itera) exit, not an investment. No in-window investment found, so the record would also be inactive (E7) if typed vc. No website (impulseventures.cz serves a mismatched TLS certificate).",
+  "researched_on": "2026-10-25"
+}

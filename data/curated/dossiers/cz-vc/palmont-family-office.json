@@ -1,0 +1,36 @@
+{
+  "investor_key": "palmont-family-office",
+  "pilot": "cz-vc",
+  "name": "Palmont Family Office",
+  "aliases": ["Palmont", "Palmont a.s.", "Palmont Holding s.r.o.", "Palmont Investment s.r.o."],
+  "investor_type": "family_office",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Single-family office of Petr Kellner Jr. (Prague, est. 2025) investing proceeds from his PPF stake, e.g. the Tonak acquisition and an October 2026 commitment to the Spinoffy fund - a family office, outside the VC pilot.",
+  "discovered_via": ["co-investor:spinoffy", "second-pass"],
+  "legal_entities": [
+    {"name": "Palmont a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23937360", "role": "holding"},
+    {"name": "Palmont Holding s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23935928", "role": "holding"},
+    {"name": "Palmont Investment s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "23937343", "role": "other"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e1", "e3"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/", "publisher": "CzechCrunch", "published_on": "2026-10-14", "source_class": "C", "quote": "Rodinná kancelář Palmont Petra Kellnera mladšího nově podpořila fond Spinoffy.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/", "publisher": "CzechCrunch", "published_on": "2026-10-14", "source_class": "C", "quote": "Nově se pak do tohoto výčtu zapojila i Palmont Family Office Petra Kellnera mladšího, jenž loni prodal svůj podíl v PPF a inkasovaných více než čtyřicet miliard korun začal investovat.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/v-cesku-zakotvil-startup-s-top-mozky-ma-novou-investici-na-ktere-se-podili-i-petr-kellner-mladsi/", "publisher": "CzechCrunch", "published_on": "2026-10-14", "source_class": "C", "quote": "A podobné projekty nově podporuje také Palmont Family Office, za kterou stojí Petr Kellner mladší.", "language": "cs"},
+    {"id": "e4", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/23937360", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "Palmont a.s.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Spinoffy"],
+  "analyst_notes": "Second-pass screen (named as an LP of Spinoffy). Type is plain: CzechCrunch calls it the family office (rodinná kancelář) of Petr Kellner Jr., funded by his PPF exit (over CZK 40bn); investments named in the article are an LP commitment to Spinoffy (2026-10-14) and the acquisition of the hat maker Tonak - so S1. The Spinoffy commitment is an LP commitment to a third-party fund, not recorded in 'funds' (that field is for the investor's own vehicles). Legal entities: Palmont a.s., Palmont Holding s.r.o., Palmont Investment s.r.o. (all Řetězová 6, Praha 1, registered Nov 2025; further Palmont Real Estate/Heritage/Facility companies exist) - which one holds which stake was not established. Investment director per the article: Adam Páleníček. No website found; no web search left to look for one.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,66 @@
+{
+  "investor_key": "pc19-management",
+  "pilot": "sk-reference",
+  "name": "PC19",
+  "aliases": [
+    "PC19 Management s. r. o.",
+    "PC19 Capital, investičný fond s premenlivým základným imaním a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Manager of PC19 Capital, a small fund holding trading securities, one undisclosed subsidiary and land; no public strategy or named investment.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "PC19 Management s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54138817",
+      "role": "manager"
+    },
+    {
+      "name": "PC19 Capital, investičný fond s premenlivým základným imaním a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54235146",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=606018&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Kolektívne investovanie podľa zákona č. 203/2011 Z. z. o kolektívnom investovaní v platnom znení",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=603185&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Pegasos o.z.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "PC19 Capital RÚZ 2025: trading securities EUR 0.22m (0.62m in 2024), stakes in related companies EUR 0.53m, land EUR 34k; Bank of Spain list classes it 'Mixed'. Manager owned by the civic association Pegasos o.z. No website found; web search budget exhausted.",
+  "researched_on": "2026-10-25"
+}

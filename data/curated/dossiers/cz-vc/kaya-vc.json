@@ -1,0 +1,335 @@
+{
+  "investor_key": "kaya-vc",
+  "pilot": "cz-vc",
+  "name": "KAYA",
+  "aliases": [
+    "KAYA VC",
+    "Kaya VC",
+    "Enern",
+    "KAYA (fka Enern) s.r.o.",
+    "ENERN Investments, investiční fond s proměnným základním kapitálem, a.s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.kaya.vc",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague early-stage VC (formerly Enern) that held a €70m first close of Fund V in June 2025 and invested in Supernova (Sep 2025), Viktor (May 2026) and Sensible Biotechnologies (Oct 2026) rounds.",
+  "discovered_via": [
+    "cvca",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "KAYA (fka Enern) s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "10838821",
+      "role": "manager"
+    },
+    {
+      "name": "Kaya F3 GP s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19844166",
+      "role": "gp"
+    },
+    {
+      "name": "KAYA Advisory s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "22585737",
+      "role": "other"
+    },
+    {
+      "name": "ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "01790765",
+      "role": "fund"
+    },
+    {
+      "name": "ENERN TECH III podfond",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "75159830",
+      "role": "fund"
+    },
+    {
+      "name": "ENERN TECH IV podfond",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "75161923",
+      "role": "fund"
+    },
+    {
+      "name": "KAYA LUXEMBOURG (S.à r.l.)",
+      "country": "LU",
+      "registry": "LEI",
+      "registry_id": "894500CLR3OAF8D47D27",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2",
+      "e13"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3",
+      "e6"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 1000000,
+      "max": 3000000,
+      "currency": "USD"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 500000000,
+      "currency": "USD",
+      "basis": "aum",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e11"
+    ]
+  },
+  "funds": [
+    {
+      "name": "KAYA Fund V",
+      "size_amount": 70000000,
+      "currency": "EUR",
+      "event": "first_close",
+      "event_date": "2025-06-25",
+      "evidence": "e10"
+    },
+    {
+      "name": "KAYA current fund (per website)",
+      "size_amount": 85000000,
+      "currency": "USD",
+      "event": "other",
+      "event_date": null,
+      "evidence": "e5"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Sensible Biotechnologies",
+      "company_country": "SK",
+      "date": "2026-10-06",
+      "round": "series_a",
+      "round_amount": 47000000,
+      "currency": "USD",
+      "evidence": "e7"
+    },
+    {
+      "company": "Viktor",
+      "company_country": "PL",
+      "date": "2026-05-19",
+      "round": "series_a",
+      "round_amount": 75000000,
+      "currency": "USD",
+      "evidence": "e8"
+    },
+    {
+      "company": "Supernova",
+      "company_country": "CZ",
+      "date": "2025-09-30",
+      "round": "series_a",
+      "round_amount": 9200000,
+      "currency": "USD",
+      "evidence": "e9"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We invest in ambitious & gritty founders from CEE; pre-seed through to meaningful scale.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We support 60+ teams building at the frontier of digital, physical, and consumer economies.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Pre+Seed",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "$1–3M",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "$85M",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://tech.eu/2025/06/25/kaya-raises-eur70m-to-support-cee-region-startups/",
+      "publisher": "Tech.eu",
+      "published_on": "2025-06-25",
+      "source_class": "C",
+      "quote": "The latest fund is expected to help up to twenty-five early-stage startups achieve global leadership, supporting them from the so-called pre-seed stage to the Series A investment round.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-10-07",
+      "source_class": "C",
+      "quote": "K současnému kolu se přidaly také české fondy Kaya VC a Tech Horizons ze skupiny CSG nejbohatšího Čecha Michala Strnada, jak informuje deník e15.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://fortune.com/2026/05/19/viktor-ai-startup-raises-75-million-for-virtual-coworker-exclusive/",
+      "publisher": "Fortune",
+      "published_on": "2026-05-19",
+      "source_class": "C",
+      "quote": "The company has just raised a $75 million Series A, led by London-based venture capital firm Accel with participation from Bek Ventures, Kaya VC, Inovo VC, and Tenacity Capital.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://cc.cz/potkali-se-v-cajovne-pak-rozbehli-startup-kde-automatizuji-praci-vyvojaru-ted-ziskali-200-milionu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Další růst Supernovy teď podpořila investice tzv. Series A ve výši 9,2 milionu dolarů (190 milionů korun) vedená fondem Taiwania Capital, do kola se připojily i fondy J&T Ventures, Reflex Capital, Kaya, Credo Ventures, EQT Ventures, Wing VC a Y Combinator.",
+      "language": "cs"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.vestbee.com/insights/articles/kaya-secures-70-m",
+      "publisher": "Vestbee",
+      "published_on": "2025-06-25",
+      "source_class": "C",
+      "quote": "Prague-based early-stage venture capital firm KAYA has completed the first close of its fifth fund, which is worth €70 million.",
+      "language": "en"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.kaya.vc/",
+      "publisher": "KAYA",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "$500M",
+      "language": "en"
+    },
+    {
+      "id": "e12",
+      "url": "https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-10-07",
+      "source_class": "C",
+      "quote": "V dalším rozvoji teď startupu pomůže i nový kapitál, který kombinuje soukromé i veřejné peníze, dohromady ve výši 47 milionů dolarů, tedy 1,02 miliardy korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.vestbee.com/insights/articles/kaya-secures-70-m",
+      "publisher": "Vestbee",
+      "published_on": "2025-06-25",
+      "source_class": "C",
+      "quote": "Established in 2010, KAYA is a generalist venture capital fund that invests globally.",
+      "language": "en"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.sensible.bio/",
+      "publisher": "Sensible Biotechnologies",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "Sensible Completes Series A to Advance and Scale Its mRNA Technology October 6, 2026",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "Oxford Science Enterprises",
+    "OTB Ventures",
+    "In-Q-Tel",
+    "Tech Horizons (CSG)",
+    "Accel",
+    "Bek Ventures",
+    "Inovo VC",
+    "Tenacity Capital",
+    "Taiwania Capital",
+    "J&T Ventures",
+    "Reflex Capital",
+    "Credo Ventures",
+    "EQT Ventures",
+    "Wing VC",
+    "Y Combinator",
+    "Earlybird",
+    "Irregular Expressions"
+  ],
+  "analyst_notes": "KAYA is the 2021 rebrand of Enern's venture business (founded 2011 per kaya.vc; 2010 per Vestbee). Offices: Prague (Thámova 183/11), Warsaw, San Francisco, London (kaya.vc). Own site (undated, (c) 2026) states '$500M AUM Total', '$1–3M Ticket', 'Pre+Seed Round', '$85M Current Fund' as standalone figures - each label sits in a separate HTML element, so quotes are the bare figures. Capital = USD 500m total AUM (as_of = retrieval date, page undated). Fund V: first close EUR 70m on 2025-06-25 (Vestbee e10; Tech.eu says 'nearly €70 million'); target EUR 80m when launched June 2024; the site's 'USD 85M current fund' is presumably the later Fund V size (about EUR 73-78m) - final close not found in press. Fund IV (ET4): EUR 72m final close (Global Private Capital, older). Tech.eu 2025 gives tickets EUR 1-3m initially, up to EUR 20m per company with syndication; site gives USD 1-3m (used). Stage: initial tickets pre-seed/seed (site), fund supports up to Series A (Tech.eu). Investments: Sensible Biotechnologies Series A USD 47m incl. up to USD 20m public money, led by Oxford Science Enterprises (CzechCrunch 2026-10-07, amount e12); Viktor USD 75m Series A led by Accel (Fortune 2026-05-19); Supernova USD 9.2m Series A led by Taiwania Capital (CzechCrunch 2025-09-30). Also seen: TopK seed with Earlybird (CzechCrunch 2025-07-01), Jutro Medical EUR 12m (CzechCrunch 2025-03-20). Legal entities: KAYA (fka Enern) s.r.o. (10838821) taken as the management/brand entity (statutory body: Pavel Mucha); Kaya F3 GP s.r.o. (19844166, 2023) presumed GP of a newer vehicle; ENERN TECH III/IV sub-funds (ET3/ET4, InnovFin-backed per site footer) under ENERN Investments SICAV (01790765); KAYA LUXEMBOURG S.à r.l. (RCS B303112, created 2025-12-22) role unknown. Fund V's legal vehicle not identified. Several 'Kaya <gemstone> s.r.o.' companies at the same addresses look like holding/SPV entities and are not listed. Sector: generalist tech (site: digital, physical and consumer economies; Vestbee: 'generalist venture capital fund'). [revision 2026-10-25 re-audit: activity date: the Sensible Biotechnologies Series A is dated by the company's own announcement, 6 October 2026 (sensible.bio news list, e14; Business Wire release of the same day; an Endpoints exclusive ran on 5 October), instead of the later CzechCrunch article date 2026-10-07; KAYA's participation is still cited from CzechCrunch (e7; The Recursive 2026-10-07 also lists 'Kaya VC'). Capital re-checked: Fund V had only a first close (EUR 70m, June 2025, target EUR 80m); no final close found, so the fund entries and the USD 500m AUM capital (aum, own site) are unchanged. Type, scope (Prague office, Czech deal Supernova) and ticket (USD 1-3m, stated per company) unchanged.]",
+  "researched_on": "2026-10-25"
+}

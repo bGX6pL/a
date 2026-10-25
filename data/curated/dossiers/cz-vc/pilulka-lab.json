@@ -1,0 +1,40 @@
+{
+  "investor_key": "pilulka-lab",
+  "pilot": "cz-vc",
+  "name": "Pilulka Lab",
+  "aliases": ["Pilulka Lab s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": true},
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "exclude",
+  "rule_codes": ["E7"],
+  "decision_note": "eHealth corporate accelerator of the Pilulka pharmacy group run with StartupYard (up to EUR 1m per startup, launched 2021); its latest dated investment is the Carebot round of March 2024 and its domain now redirects to StartupYard, so no activity is shown on/after 2024-10-25.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Pilulka Lab s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "28733347", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["healthtech"], "method": "stated", "evidence": ["e2"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "derived", "evidence": ["e3", "e5"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": {"min": null, "max": 1000000, "currency": "EUR"}, "method": "stated", "evidence": ["e1"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Carebot", "company_country": "CZ", "date": "2024-03-22", "round": null, "round_amount": 1200000, "currency": "EUR", "evidence": "e5"},
+    {"company": "Vitadio", "company_country": "CZ", "date": "2022-09-09", "round": null, "round_amount": null, "currency": null, "evidence": "e4"},
+    {"company": "Carebot", "company_country": "CZ", "date": "2021-12-06", "round": null, "round_amount": null, "currency": null, "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://forbes.cz/kdyz-burza-nestaci-bratri-kasove-z-pilulky-rozjizdi-vlastni-startupovy-akcelerator/", "publisher": "Forbes Česko", "published_on": "2021-06-09", "source_class": "C", "quote": "Akcelerátor Pilulka Lab je podle bratří Kasových připraven do každého ze startupů investovat až jeden milion eur a podle situace prý může i přitlačit.", "language": "cs"},
+    {"id": "e2", "url": "https://forbes.cz/kdyz-burza-nestaci-bratri-kasove-z-pilulky-rozjizdi-vlastni-startupovy-akcelerator/", "publisher": "Forbes Česko", "published_on": "2021-06-09", "source_class": "C", "quote": "Podmínkou pro zařazení do programu je založení startupu v jedné ze zemí střední a východní Evropy a působnost v segmentu, který se označuje jako eHealth.", "language": "cs"},
+    {"id": "e3", "url": "https://cc.cz/pilulka-lab-vybrala-prvni-startup-ktery-ma-zmenit-zdravotnictvi-investici-posila-carebotu-a-jeho-umele-inteligenci-pro-lekare/", "publisher": "CzechCrunch", "published_on": "2021-12-06", "source_class": "C", "quote": "Akcelerátor za to ve společnosti dostane minoritní podíl, podle obchodního rejstříku sedm procent.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/pilulka-posila-penize-do-aplikace-ktera-pomaha-lecit-cukrovku-v-nemecku-ji-plne-hradi-pojistovny/", "publisher": "CzechCrunch", "published_on": "2022-09-09", "source_class": "C", "quote": "Česká aplikace Vitadio už získala pacienty, zdravotní pojišťovny v Německu a teď i novou investici – peníze jí posílá Pilulka Lab s tím, že se tak může mimo jiné připravit na expanzi.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/", "publisher": "CzechCrunch", "published_on": "2024-03-22", "source_class": "C", "quote": "Kdo investuje: Karel Bastl, Roman Trachta, inovační laboratoř Pilulka Lab, Lukáš Kopčaj, Eva Janečková, venture kapitálová společnost Startguide VC, skupina BHM group Tomáše Krska a Gain Ventures.", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/", "publisher": "CzechCrunch", "published_on": "2024-03-22", "source_class": "C", "quote": "Kolik: 1,2 milionu eur (30 milionů korun)", "language": "cs"}
+  ],
+  "co_investors_seen": ["Karel Bastl", "Roman Trachta", "Lukáš Kopčaj", "Eva Janečková", "Startguide VC", "BHM group", "Gain Ventures"],
+  "analyst_notes": "Exclusion for inactivity (E7); type vc with corporate and accelerator flags (corporate accelerator taking equity: 7% of Carebot for 'units of millions of CZK', e3). Launched June 2021 by the Kasa brothers' Pilulka with StartupYard (Forbes 2021-06-09); ARES shows Pilulka Lab s.r.o. (IČO 28733347) owned by Pilulka Lékárny a.s. and STARTUP YARD LIMITED. Known deals: Carebot (December 2021, accelerator entry), Vitadio (September 2022), Carebot follow-on round of EUR 1.2m (March 2024). Stage derived from these accelerator/early rounds. Nothing dated on/after 2024-10-25 was found; pilulkalab.cz and pilulkalab.com now redirect to startupyard.com, and Carebot's October 2026 round lists Gain Ventures and Eva Janečková, not Pilulka Lab, among existing backers. Ticket = programme maximum (EUR 1m) from 2021 launch coverage. Re-screen as vc include if a new dated Pilulka Lab investment appears.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,112 @@
+{
+  "investor_key": "emun-investicni-spolecnost",
+  "pilot": "cz-vc",
+  "name": "EMUN investiční společnost",
+  "aliases": [
+    "EMUN investiční společnost, a.s.",
+    "EMUN"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.emun.cz",
+  "decision": "exclude",
+  "rule_codes": [
+    "E5"
+  ],
+  "decision_note": "Licensed investment company / multi-family office whose private-markets products (e.g. EMUN Global Unicorns, launched Oct 2025) are funds of funds that buy company exposure through other funds and SPVs - an indirect (LP-only) investor, E5.",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [
+    {
+      "name": "EMUN investiční společnost, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "28495349",
+      "role": "other"
+    }
+  ],
+  "sector_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "stage_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://cvca.cz/clenstvi/pridruzeni-clenove/",
+      "publisher": "CVCA (association member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "EMUN investiční společnost, a.s. je česká multi-family office platforma pro významné rodinné a institucionální investory.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://cvca.cz/clenstvi/pridruzeni-clenove/",
+      "publisher": "CVCA (association member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Nabízí služby v oblasti plánování nástupnictví, správy majetku, diskrečního portfolio managementu a investičních fondů.",
+      "language": "cs"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.emun.cz/documents/EGU-EMUN-Global-Unicorns-Teaser-08-2026.pdf",
+      "publisher": "EMUN investiční společnost (EMUN Global Unicorns teaser, 08/2026)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond bude nakupovat podíly ve společnostech skrze účasti ve fondech a investičních SPV",
+      "language": "cs"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.emun.cz/documents/Statut-EGU.pdf",
+      "publisher": "EMUN investiční společnost (EMUN Global Unicorns statute)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Z pohledu struktury aktiv patří Fond mezi fondy fondů.",
+      "language": "cs"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.emun.cz/cz/privatni-trhy",
+      "publisher": "EMUN investiční společnost",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond EMUN Global Private Credit (GPC) investuje do fondů zaměřených na zajištěné akviziční úvěry a další private credit nástroje mimo veřejné trhy.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Self-described family office (emun.cz) managing private portfolios of individuals, families and foundations, diversified across capital markets and alternatives; first ČNB-licensed institutional trustee; manages over CZK 16bn (site) / over CZK 10bn at 2024-12-31 (CVCA profile). It manages clients' wealth for fees rather than investing its own capital directly in private companies, so it is excluded as a service provider (E1). If evidence of direct private-company investments is found, it could instead be typed family_office (S1). [revision 2026-10-25 after review: rule_codes E1 -> E5. EMUN's private-markets vehicles invest indirectly: EMUN Global Unicorns (late-stage 'unicorn' exposure, launched Oct 2025, >CZK 200m per the reviewer; NAV USD 32.6m at 2026-09-30 on the fund page) buys stakes 'through participations in funds and investment SPVs' (e3) and is legally a fund of funds (e4); the private-credit fund likewise invests in other funds (e5). No direct startup investment by EMUN was found, so E5 (LP-only) fits better than E1; the wealth-management / family-office business (e1, e2) is unchanged.]",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,246 @@
+{
+  "investor_key": "vision-ventures",
+  "pilot": "sk-reference",
+  "name": "Vision Ventures",
+  "aliases": [
+    "Vision Ventures, s.r.o.",
+    "Vision Ventures Growth I, s. r. o.",
+    "Vision Ventures (Slovakia)"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.visionventures.vc/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Bratislava pre-seed/seed VC backed by SIH; its only fund ended its investment period in December 2023 and is divesting; the latest dated deal found is a follow-on in Sloneek's EUR 3.6m late-seed round (10 Sep 2024), just before the window.",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "nbs-register",
+    "sih-programmes",
+    "news",
+    "co-investor:venture-to-future-fund"
+  ],
+  "legal_entities": [
+    {
+      "name": "Vision Ventures, s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52568288",
+      "role": "manager"
+    },
+    {
+      "name": "Vision Ventures Growth I, s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52656438",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 100000,
+      "max": 1600000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 11000000,
+      "currency": "EUR",
+      "basis": "aum",
+      "as_of": "2020-10-08"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e11"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Vision Ventures Growth I",
+      "size_amount": null,
+      "currency": null,
+      "event": "other",
+      "event_date": "2023-12-01",
+      "evidence": "e8"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Sloneek",
+      "company_country": "CZ",
+      "date": "2024-09-10",
+      "round": "seed",
+      "round_amount": 3600000,
+      "currency": "EUR",
+      "evidence": "e12"
+    },
+    {
+      "company": "Sloneek",
+      "company_country": "CZ",
+      "date": "2020-11-04",
+      "round": "seed",
+      "round_amount": 350000,
+      "currency": "EUR",
+      "evidence": "e10"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1862262",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Vision Ventures, s.r.o. - IČO: 52568288",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1872551",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Vision Ventures Growth I, s. r. o. - IČO: 52656438",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.visionventures.vc/",
+      "publisher": "Vision Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "VC fund focused on pre-seed and seed investments in Slovakia.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.visionventures.vc/",
+      "publisher": "Vision Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We have a generalist approach and we are open to various sectors.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.visionventures.vc/",
+      "publisher": "Vision Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We invest in companies that are based and operate in Slovakia.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.visionventures.vc/",
+      "publisher": "Vision Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We usually make investments between €100 thousand and €800 thousand, maximum up to €1,6 million.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.visionventures.vc/",
+      "publisher": "Vision Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We can actively invest our funds by the end of 2023, the final closure of the fund is by the end of 2029.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/vision-ventures-kapitalova-investicia",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "The fund was designed as a fixed-term investment vehicle with an anticipated duration of 10 years; it launched operations in 2020 and finalised its investment period in December 2023.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.sih.sk/en/investicie/investicie-cez-financnych-sprostredkovatelov/vision-ventures-kapitalova-investicia",
+      "publisher": "Slovak Investment Holding",
+      "published_on": null,
+      "source_class": "C",
+      "quote": "The fund is currently its divestment phase, with the manager progressively winding down holdings and returning capital to its investors.",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://cc.cz/cesko-slovensky-startup-sloneek-nabira-miliony-od-vision-ventures-se-svym-personalnim-systemem-miri-do-evropy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2020-11-04",
+      "source_class": "C",
+      "quote": "S novým názvem a teď už jako online systém pro řízení personální agendy zejména v malých a středních podnicích Sloneek získal investici 350 tisíc eur (9,5 milionu korun) od slovenského venture kapitálového fondu Vision Ventures výměnou za dvacetiprocentní podíl ve firmě.",
+      "language": "cs"
+    },
+    {
+      "id": "e11",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "The Bratislava-located Vision Ventures with €11M under management is focused on seed investments up to €800k.",
+      "language": "en"
+    },
+    {
+      "id": "e12",
+      "url": "https://vestbee.com/insights/articles/sloneek-secures-3-6-m",
+      "publisher": "Vestbee",
+      "published_on": "2024-09-10",
+      "source_class": "C",
+      "quote": "The funding round was led by Purple Ventures II, with contributions from existing investors Venture to Future Fund and Vision Ventures, as Presto Ventures informed Vestbee.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "Purple Ventures",
+    "Venture to Future Fund",
+    "Presto Ventures"
+  ],
+  "analyst_notes": "Exclusion E7: the manager's own site says it could actively invest until end-2023 (e7) and SIH, its LP, says the investment period ended in December 2023 and the fund is divesting (e8, e9); the fund's event date is given as 2023-12-01 because only the month is known. PitchBook's profile lists a 2026 early-stage deal in Personeo.ai (1 Mar 2026) and 2025 exits, but no quotable plain-HTML source confirms a new investment, so it is not used; it may be a follow-on from reserves and should be re-checked if a press release appears. Caplight/aggregator deals for 'Vision Ventures' in 2025-2026 (Rewaa, Deep.SA, Vennre, Madeed) belong to the Saudi firm of the same name, not this one. Capital: only the self-reported EUR 11m AUM in a 2020 Vestbee list (e11, class D); no newer figure; RÚZ shows fund filings for 2024 (Vision Ventures Growth I, ownership type 'Štátne') but the balance sheet was not extracted. Ticket: site says usually EUR 100-800k, up to 1.6m. Both entities are on the NBS register (manager registered 2019-11-11, fund 'registrovaný alternatívny investičný fond' 2019-11-11). SLOVCA full member; SIH-selected intermediary in 2019 alongside Crowdberry and Zero Gravity. Added by reviewer: Vestbee (2024-09-10, e12) reports Sloneek's EUR 3.6m late-seed round led by Purple Ventures II with existing investors Venture to Future Fund and Vision Ventures - a follow-on from reserves, 45 days before the 2024-10-25 window start, so E7 stands; latest activity date 2024-09-10.",
+  "researched_on": "2026-10-25"
+}

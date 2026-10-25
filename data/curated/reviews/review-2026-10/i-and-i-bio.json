@@ -1,0 +1,20 @@
+{
+  "investor_key": "i-and-i-bio",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "Homepage re-opened: 'start at €150k... sweet spot between €0.5M and €2M'; drug discovery/medtech/diagnostics/AI; CEE focus. EUR 53m total after Česká spořitelna commitment (own release 2023-09-20); no later final-close figure found. KyDo seed led by i&i (kydo-tx.com, 2025-09-16), T-CURX Series A first closing (2025-12-17), Captain T Cell (2025-11-17) - in window. Note: website footer names the HQ as i&i Biotech Fund I SCSp, Luxembourg; Prague is the investment adviser's office and the team's base, so the pilot office condition holds, but hq_country CZ is a simplification."
+}

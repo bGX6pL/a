@@ -1,0 +1,13 @@
+{
+  "investor_key": "tachles-vc",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "incorrect",
+    "ticket_size": "not_applicable", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "stage_focus: series_a is unsupported. The site only says 'Early-stage specialist'. The Boost.space round (the only cited deal) is reported as a seed round (Techleap/StartupIntros, Oct 2025), and the 2024 Israeli deals listed by CzechCrunch 2025-02-12 (e.g. Chronom USD 0.6m, Illustria USD 1m, Brinker USD 1.6m) are pre-seed/seed sized. 'Seed/Series A sized' is a guess, and pre-seed is missing. Ticket: CzechCrunch says Tachles does not disclose its own amounts, so not_applicable. Capital: CZK 500m first phase closed, fund still open (CzechCrunch 2024-06-13), so interim_close is right; no later close on the cc.cz tag page. Scope: the site lists Prague / Central Europe 'strong local presence' and Boost.Space (Czechia, 2025) in its portfolio; Boost.space deal 2025-10-09 verified."
+}

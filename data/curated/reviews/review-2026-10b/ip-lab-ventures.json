@@ -1,0 +1,20 @@
+{
+  "investor_key": "ip-lab-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES: IP Lab Advisor 24876763 (2026-03-25) and IP Lab Services 19110715 active. Activity = EIF ~EUR 27m commitment to IP Lab Ventures Fund I (EIF release 2026-09-24), an LP commitment, so I3 is met; I2 rests on registered co-founder stakes (MendelFOLD 20%, Preagon 10%) with nominal contributions - weak but formally met (Lupa: 'za financni vklad si berou podil'). Ticket up to EUR 1m (Lupa 2026-09-23) correct. capital: marked not_disclosed, but the amount raised so far is public: CzechCrunch 2026-09-23 'ziskal 656 milionu korun od EIF' (~EUR 27m); under the revised rule this should be interim_close CZK 656m / EUR 27m, not not_disclosed (the EUR 50m is only a target)."
+}

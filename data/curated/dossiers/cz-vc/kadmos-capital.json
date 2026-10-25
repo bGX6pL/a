@@ -1,0 +1,32 @@
+{
+  "investor_key": "kadmos-capital",
+  "pilot": "cz-vc",
+  "name": "Kadmos Capital",
+  "aliases": [],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "GB",
+  "website": "https://www.kadmoscapital.com/",
+  "decision": "exclude",
+  "rule_codes": ["S2"],
+  "decision_note": "London-based early-stage deep-tech VC (EuVECA, UK FCA) with no office or portfolio company in Czechia; it appeared only as an existing investor in Antiverse's round led by the Czech Soulmates Ventures (Mar 2026).",
+  "discovered_via": ["co-investor:soulmates-ventures", "second-pass"],
+  "legal_entities": [],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Antiverse", "company_country": "GB", "date": "2026-03-03", "round": "series_a", "round_amount": 9300000, "currency": "USD", "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://f4.fund/firms/kadmos-capital", "publisher": "F4 (directory profile)", "published_on": null, "source_class": "D", "quote": "Kadmos Capital is a London-based venture capital firm founded in 2021 by Remy Kesrouani and John Gebeily, investing at the intersection of science, technology and ambition.", "language": "en"},
+    {"id": "e2", "url": "https://pulse2.com/antiverse-9-3-million-raised-for-ai-driven-antibody-development-targeting-undruggable-disease-targets/", "publisher": "Pulse 2.0", "published_on": "2026-03-03", "source_class": "C", "quote": "The round was led by Soulmates Ventures with participation from Innovation Investment Capital, DOMiNO Ventures, and existing investors DBW, Kadmos Capital, and i&i Biotech Fund", "language": "en"}
+  ],
+  "co_investors_seen": ["Soulmates Ventures", "Innovation Investment Capital", "DOMiNO Ventures", "DBW", "i&i Biotech Fund"],
+  "analyst_notes": "Screened as a Soulmates Ventures co-investor. The own site kadmoscapital.com is JavaScript-rendered (no text retrievable), so identity and location come from the F4 directory profile (class D): London HQ (Pembridge Road, W11), founded 2021 by Remy Kesrouani and John Gebeily, UK FCA-registered EuVECA manager (FRN 954103 per F4, not checked in the FCA register), themes AI & data, TechBio and sustainability (not recorded as sector_focus because the source is a third-party directory, not the investor), pre-seed/seed and selectively Series A, reported AUM about USD 52.6m (Dealroom via F4 - not used as capital). No Czech office, team member or Czech portfolio company was found; Antiverse is a UK company. Hence S2. No UK registry ID was looked up, so legal_entities is empty.",
+  "researched_on": "2026-10-25"
+}

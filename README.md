@@ -16,8 +16,10 @@ and exports.
 | `pgdata/` | the database cluster |
 | `scripts/` | PowerShell helpers: start/stop the server, psql, first-time role/database setup |
 | `sql/migrations/` | schema, applied in order by `investordb.migrate` |
-| `src/investordb/` | Python tooling (migrations, seed loader, exporter, link checker; fetchers to come) |
+| `src/investordb/` | Python tooling: migrations, seed loader, exporter, link checker, fetchers (`fetch/`), dossier loader, checks (`build`), review, metrics |
 | `data/seed/` | hand-curated rows (research catalog) loaded by `investordb.load_seed` |
+| `data/curated/` | analyst dossiers (one JSON per screened investor) and review verdicts |
+| `docs/` | Task A plan, dossier format, pilot metrics and results |
 | `data/raw/` | untouched downloads written by fetch scripts (rebuildable, not exported) |
 | `exports/` | output of `investordb.export` |
 | `reports/`, `research_notes/` | research on data sources and competitors |
@@ -52,6 +54,33 @@ uv run python -m investordb.migrate      # apply new migrations
 uv run python -m investordb.load_seed    # (re)load data/seed/*.json
 uv run python -m investordb.check_links  # re-fetch every evidence URL, log to meta.link_check
 ```
+
+### Investor pipeline (Task A)
+
+| Document | |
+|---|---|
+| [docs/task-a-plan.md](docs/task-a-plan.md) | plan: who is in and out (I1–I5, E1–E11), evidence standard, verification, coverage and reliability estimate, revisions after the pilot |
+| [docs/task-a-pilot-results.md](docs/task-a-pilot-results.md) | pilot on Czech VC with Slovakia as reference: results, measured accuracy, limits |
+| [docs/pilot-metrics.md](docs/pilot-metrics.md) | generated metrics and every published record with its dated proof of investing |
+| [docs/global-expansion-cost.md](docs/global-expansion-cost.md) | cost of expanding worldwide |
+| [docs/dossier-format.md](docs/dossier-format.md), [docs/review-protocol.md](docs/review-protocol.md) | analyst dossier format, review protocol |
+
+```powershell
+uv run python -m investordb.fetch.jerrs --date 2026-10-25 --from-file s15_managers=<saved.html>  # ČNB lists (CAPTCHA: see --help)
+uv run python -m investordb.fetch.nbs          # NBS register export (SK)
+uv run python -m investordb.fetch.cvca         # CVCA member profiles
+uv run python -m investordb.load_dossiers      # validate + load data/curated/dossiers/**.json into core.*
+uv run python -m investordb.fetch.ares         # ARES for every Czech IČO (JERRS + dossiers)
+uv run python -m investordb.fetch.ruz          # RÚZ entities + balance sheets for Slovak IČOs
+uv run python -m investordb.fetch.evidence     # re-fetch every cited URL, check quotes (V2/V3)
+uv run python -m investordb.build              # checks V1-V7, confidence, core.investor_card
+uv run python -m investordb.review sample      # draw review samples; review load loads verdicts
+uv run python -m investordb.metrics            # writes docs/pilot-metrics.md
+uv run python tests/test_quote_match.py
+```
+
+`core.investor_card` is the flat, one-row-per-investor result (published = true for the records
+that passed); every field has its method and source URL alongside.
 
 ### Re-fetchable data
 

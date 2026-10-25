@@ -1,0 +1,20 @@
+{
+  "investor_key": "jsk-investments-venture-capital",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 75166372 (sub-fund, 2026-02-24) and 23823445 active; own site/team, Prague office; VETSTOR CZ listed in the VC fund portfolio. MintNeuro (JSK release 2026-10-09, VC sub-fund director quoted) and Andromeda Surgical Series A confirmed. Ticket 'From €300K' and stage block correct. capital: the fund site states 'TARGET FUND SIZE €20M' and '€10M internal capital' - the EUR 10m sponsor capital is a public figure of capital committed so far, so recording capital as not_disclosed is wrong (should be interim EUR 10m with EUR 20m target)."
+}

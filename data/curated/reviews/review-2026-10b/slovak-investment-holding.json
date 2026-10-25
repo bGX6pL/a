@@ -1,0 +1,13 @@
+{
+  "investor_key": "slovak-investment-holding",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "VisionFlow release dated 22 Sep 2026: SIH invests EUR 1.4m (convertible loan, RRP Component 9) in a EUR 2m round, a dated direct investment. The 2024-06-27 release confirms the EUR 15m seed equity/quasi-equity allocation (no ticket limits stated, so the ticket derived from SIH's own per-company amounts EUR 280k-1.4m is right). Type caveat: SIH's dominant activity overall is guarantees/loans and fund-of-funds commitments. I accept vc/public because the record covers its direct seed equity/CLA investing (8 dated deals 2025-2026), which neither E4 (debt-only) nor E5 (LP-only) describes, but a stricter reading of 'type by dominant activity' would exclude the institution. Capital: EUR 15m is an RRP sub-allocation, not SIH's own balance sheet; the basis label is loose but the figure matches what the direct deals are made from."
+}

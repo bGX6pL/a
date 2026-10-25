@@ -1,0 +1,31 @@
+{
+  "investor_key": "integral-capital-group",
+  "pilot": "cz-vc",
+  "name": "Integral Capital Group",
+  "aliases": ["Integral"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "HU",
+  "website": "https://integralcapgroup.com",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Budapest/Belgrade/London-based mid-market private equity and growth capital firm (80% of MindentMent, Jan 2026); real and active but not VC and without a Czech office, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [],
+  "stage_focus": {"value": ["growth", "buyout"], "method": "stated", "evidence": ["e1", "e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1", "e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "MindentMent", "company_country": "HU", "date": "2026-01-07", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://integralcapgroup.com/about", "publisher": "Integral Capital Group", "published_on": null, "source_class": "B", "quote": "Integral Capital Group is an independently owned private equity and growth capital investment firm focused on the evolving Europe region operating out of hubs in London, Budapest, and Belgrade.", "language": "en"},
+    {"id": "e2", "url": "https://integralcapgroup.com/news/integral-invests-in-mindentment", "publisher": "Integral Capital Group", "published_on": "2026-01-07", "source_class": "B", "quote": "is pleased to announce that it has completed the acquisition of an 80% stake in MindentMent (“MDM”), Hungary’s largest private dental services provider.", "language": "en"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick S1 dossier. Own site: mid-market private equity platform for Central and South-Eastern Europe and the Adria region; LPs include EIF, EBRD and IFC. Other dated activity on the site: majority stake in Embryos (2025-02-03), agreed sale of Graphwise (2026-08-19). Ticket and fund size not found on the pages read; the CVCA profile (class D, 2020) says EUR 200m under management and EUR 5-15m tickets, with one Czech portfolio company (Borcad). Hungarian/UK entities not looked up.",
+  "researched_on": "2026-10-25"
+}

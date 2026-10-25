@@ -1,0 +1,182 @@
+{
+  "investor_key": "s15-17848911",
+  "pilot": "cz-s15-sample",
+  "name": "Tilia Impact Ventures",
+  "aliases": [
+    "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://tilia.vc/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague early-stage impact VC (EUR 0.3–1.2m tickets, CEE); led the USD 3m round of Flox Intelligence in February 2026.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "17848911",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17848911",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "0.3 - 1.2m EUR initial ticket",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Sector-agnostic, Impact-driven",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://en.ain.ua/2023/09/21/czech-tilia-impact-ventures-launches-32m-second-fund",
+      "publisher": "AIN",
+      "published_on": "2023-09-21",
+      "source_class": "C",
+      "quote": "Prague-based investment firm Tilia Impact Ventures has announced the launch of its €32 million second fund financed by the European Investment Fund and Ceska Sporitelna Bank.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://en.ain.ua/2023/09/21/czech-tilia-impact-ventures-launches-32m-second-fund",
+      "publisher": "AIN",
+      "published_on": "2023-09-21",
+      "source_class": "C",
+      "quote": "The fund will invest in seed-stage companies with mission-driven entrepreneurs from CEE dealing with climate, education, and healthcare solutions, having a sustainability-focused impact.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.lupa.cz/aktuality/cesky-fond-tilia-impact-ventures-investuje-do-ai-ktera-komunikuje-se-zviraty/",
+      "publisher": "Lupa.cz",
+      "published_on": "2026-02-27",
+      "source_class": "C",
+      "quote": "Celková investice dosáhla tří milionů dolarů (61,5 milionu Kč) a kromě českého fondu se jí účastnily také mimo jiné Satgana či Genius NY.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "Satgana",
+    "Genius NY"
+  ],
+  "analyst_notes": "Legal entity of the Tilia Impact Ventures brand (seat Drtinova 557/10, Praha 5, matches tilia.vc contact); the brand is researched in full by another analyst, so this s15 dossier is deliberately short. Capital = Tilia's second fund (EUR 32m) announced 2023-09-21; this §15 entity (founded 2022-12-19) is presumably its manager, not confirmed. Stage: 'Early stage' on tilia.vc and seed per the 2023 fund article. Lupa.cz does not name the round type, so round is left null. Ticket: the 2023 AIN article said up to EUR 1.5m; the current homepage range (0.3–1.2m) is used.",
+  "researched_on": "2026-10-25",
+  "sector_focus": {
+    "value": [
+      "impact_social",
+      "generalist"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CZ",
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 32000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2023-09-21"
+    },
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Tilia Impact Ventures second fund",
+      "size_amount": 32000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2023-09-21",
+      "evidence": "e5"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Flox Intelligence",
+      "company_country": "SE",
+      "date": "2026-02-27",
+      "round": null,
+      "round_amount": 3000000,
+      "currency": "USD",
+      "evidence": "e7"
+    }
+  ]
+}

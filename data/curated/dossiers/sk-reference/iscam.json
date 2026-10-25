@@ -1,0 +1,58 @@
+{
+  "investor_key": "iscam",
+  "pilot": "sk-reference",
+  "name": "ISCAM",
+  "aliases": [
+    "ISCAM, a. s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Registered manager since 2024 with zero assets in its 2025 statement and only lending/factoring trade licences; no fund or investment is public.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "ISCAM, a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "56102411",
+      "role": "manager"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=686959&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Faktoring a forfaiting",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=686959&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Poskytovanie úverov alebo pôžičiek z peňažných zdrojov získaných výlučne bez verejnej výzvy a bez verejnej ponuky majetkových hodnôt",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025 micro statement: total assets 0. Seat Mostová 2, Bratislava (same address as IPM Avanea Eco Management and STONEBRIDGE ALPHA MANAGEMENT, likely a registered-office provider). No website found; web search budget exhausted.",
+  "researched_on": "2026-10-25"
+}

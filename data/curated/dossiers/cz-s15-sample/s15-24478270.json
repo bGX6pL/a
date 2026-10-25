@@ -1,0 +1,58 @@
+{
+  "investor_key": "s15-24478270",
+  "pilot": "cz-s15-sample",
+  "name": "Duo via Praevia",
+  "aliases": [
+    "Duo via Praevia a.s., osoba rizikového kapitálu"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.duoviapraevia.cz/",
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "Site presents a multi-asset 'Strategic Wealth Portfolio' (real estate, global equity, liquidity, alternatives, private opportunities) with no named holdings, so investing in private companies cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "Duo via Praevia a.s., osoba rizikového kapitálu",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "24478270",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24478270",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Duo via Praevia a.s., osoba rizikového kapitálu",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.duoviapraevia.cz/",
+      "publisher": "Duo via Praevia",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Global Equity & Income",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "duoviapraevia.cz lists portfolio pillars only as labels (Private & Exclusive Opportunities, Real Estate, Global Equity & Income, Liquidity Reserve, Alternative Assets); minimum investment EUR 125,000. Profile looks like private wealth management (likely E3), but no holdings are named, so it stays unverified. ARES: datumVzniku 2026-02-07.",
+  "researched_on": "2026-10-25"
+}

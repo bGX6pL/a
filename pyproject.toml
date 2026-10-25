@@ -9,6 +9,9 @@ dependencies = [
     "pyarrow>=17",
     "duckdb>=1.1",
     "pytz",  # duckdb needs it to return TIMESTAMPTZ values to Python
+    "truststore>=0.10.5",
+    "pypdf>=6.21.2",
+    "rapidfuzz>=3.14.6",
 ]
 
 [build-system]

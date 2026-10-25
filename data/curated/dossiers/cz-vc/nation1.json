@@ -1,0 +1,299 @@
+{
+  "investor_key": "nation1",
+  "pilot": "cz-vc",
+  "name": "N1 (formerly Nation 1)",
+  "aliases": [
+    "Nation1",
+    "Nation 1",
+    "N1 Ventures",
+    "Nation 1 GP S.à r.l.",
+    "Nation 1 GP II S.à r.l.",
+    "N1 Ventures U-Tech"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://n1.rocks",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague/San Francisco early-stage VC (Nation 1 and Nation 1 VC fund II, Luxembourg AIFs) that launched its U-Tech fund in May 2025 and co-invested in Liki24's $9m Series A in July 2025.",
+  "discovered_via": [
+    "cvca",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "Nation 1 GP S.à r.l.",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "gp"
+    },
+    {
+      "name": "Nation 1 GP II S.à r.l.",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "manager"
+    },
+    {
+      "name": "Nation 1 (fund I)",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "fund"
+    },
+    {
+      "name": "Nation 1 VC fund II",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "ai_data",
+      "healthtech",
+      "deeptech_hardware"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2",
+      "e9"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "Europe",
+      "US"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 100000,
+      "max": 1000000,
+      "currency": "USD"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 60000000,
+      "currency": "USD",
+      "basis": "aum",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "funds": [
+    {
+      "name": "N1 Ventures U-Tech",
+      "size_amount": null,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2025-05-28",
+      "evidence": "e7"
+    },
+    {
+      "name": "Nation 1 VC fund II",
+      "size_amount": null,
+      "currency": null,
+      "event": "other",
+      "event_date": null,
+      "evidence": "e6"
+    },
+    {
+      "name": "Nation 1",
+      "size_amount": 20000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2019-08-02",
+      "evidence": "e10"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Liki24",
+      "company_country": "UA",
+      "date": "2025-07-03",
+      "round": "series_a",
+      "round_amount": 9000000,
+      "currency": "USD",
+      "evidence": "e8"
+    },
+    {
+      "company": "Respeecher",
+      "company_country": "UA",
+      "date": "2025-05-28",
+      "round": "seed",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e11"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "AI · Healthtech · Frontier Tech",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We invest early and stay for the journey.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Our portfolio spans Europe and the US, united by one thing: global intent.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "$100K–$1M",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Today, we manage $60M across two funds focused on AI and healthcare.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://n1.rocks/disclosure",
+      "publisher": "N1 Ventures (SFDR disclosure)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Nation 1 GP S.à r.l and Nation 1 GP II S.à r.l. (the “GPs”), as general partner and registered alternative investment fund manager respectively of Nation 1 and Nation 1 VC fund II which are Luxembourg based alternative investment funds (“AIFs”)",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-05-28",
+      "source_class": "C",
+      "quote": "Nový fond chce v nejbližší době investovat do celkem 20 ukrajinských startupů přibližně 10 milionů eur, tedy necelých 250 milionů korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.vestbee.com/insights/articles/liki24-secures-9",
+      "publisher": "Vestbee",
+      "published_on": "2025-07-03",
+      "source_class": "C",
+      "quote": "Liki24’s $9 million Series A round was backed by a diverse group of investors, including u.ventures, TA Ventures, iClub, SID Venture Partners, MA7 Ventures, N1 Ventures, Dnipro VC, and angel investor Anton Borzov.",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://cvca.cz/nation1/",
+      "publisher": "CVCA (self-reported member profile)",
+      "published_on": "2020-01-13",
+      "source_class": "D",
+      "quote": "pre-seed, seed, startup financing",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.lupa.cz/aktuality/novy-cesky-fond-nation-1-ma-pro-tuzemske-startupy-pripravenou-pul-miliardu/",
+      "publisher": "Lupa.cz",
+      "published_on": "2019-08-02",
+      "source_class": "C",
+      "quote": "V České republice startuje nový investiční fond, který má pro tuzemské startupy připraveno 20 milionů eur, tedy zhruba půl miliardy korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e11",
+      "url": "https://cc.cz/barta-prusa-winkler-a-investori-z-n1-ventures-rozjeli-novy-fond-v-hledacku-maji-ukrajinske-startupy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-05-28",
+      "source_class": "C",
+      "quote": "Fond N1 Ventures U-Tech má za sebou svou první investici, další tři teď dokončuje.",
+      "language": "cs"
+    },
+    {
+      "id": "e12",
+      "url": "https://www.newstream.cz/zpravy-z-firem/nation-1-meni-jmeno-a-chysta-novy-fond-do-vedeni-jmenoval-dva-nove-partnery",
+      "publisher": "Newstream",
+      "published_on": "2023-09-19",
+      "source_class": "C",
+      "quote": "Český venture kapitálový fond Nation 1 se přejmenoval na N1 a připravuje se na spuštění navazujícího fondu.",
+      "language": "cs"
+    },
+    {
+      "id": "e13",
+      "url": "https://n1.rocks/",
+      "publisher": "N1 Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "From Prague to Silicon Valley: Taikun’s exit to Cloudera.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "u.ventures",
+    "TA Ventures",
+    "iClub",
+    "SID Venture Partners",
+    "MA7 Ventures",
+    "Dnipro VC",
+    "Anton Borzov",
+    "Pale Fire Capital",
+    "Josef Průša",
+    "Libor Winkler"
+  ],
+  "analyst_notes": "Nation 1 renamed itself N1 in September 2023 (Newstream 2023-09-19, e12) and now brands as N1 Ventures (n1.rocks; the CVCA-listed nation1.vc no longer responds). Offices: Prague (Národní 135/14), San Francisco, Luxembourg (n1.rocks). Fund vehicles are Luxembourg AIFs: Nation 1 (GP: Nation 1 GP S.à r.l.) and Nation 1 VC fund II (registered AIFM: Nation 1 GP II S.à r.l.) per the SFDR disclosure (e6); no LEI found in GLEIF and no Luxembourg RCS numbers found, so registry_id is null. No Czech legal entity found: ARES 'Nation1 Investment s.r.o.' (IČO 09172807) is owned by unrelated persons (Jaroslav Ton, Petr Jiříček) and is NOT this investor. Fund I: launched 2019-08-02 with EUR 20m (EIF EUR 15m), target EUR 35m (Lupa.cz e10; CVCA 2020 profile: EUR 35m); final size not re-verified. Fund II size and close date not disclosed (CzechCrunch 2023 reported plans for close to CZK 1bn). Capital = 'USD 60M across two funds' stated on n1.rocks (page undated; as_of = retrieval date). U-Tech: 'independent fund built by N1' for Ukrainian startups, launched 2025-05-28 with co-investors Pale Fire Capital, Josef Průša, Libor Winkler; plans to invest ~EUR 10m into ~20 startups (target deployment, not a confirmed fund size); first investment Respeecher seed (amount undisclosed; date = article date, investment closed on or before it). Liki24 Series A USD 9m, Vestbee 2025-07-03 (Tech.eu Funding Explorer: EUR 7.6m). Other reported but not cited: Novoflow USD 3.1m seed (Nov 2025) and Myriad AI USD 7.8m seed (Sep 2025) - sources are aggregators and conflict on N1's participation. Ticket: own site 'Typical 1st investment $100K–$1M'; earlier sources: EUR 50k-1.5m (Lupa 2019, CVCA 2020). Focus has shifted from Czech startups (Fund I) to AI/healthtech in Europe and the US; still has a Prague office and Czech partners. Not a platform (E2 not applicable): it invests its funds' managed capital directly. [revision 2026-10-25 re-audit: scope rule: both cited in-window deals are Ukrainian (Liki24, Respeecher via U-Tech), so a Czech portfolio company is now evidenced - Taikun, Prague cloud start-up whose exit to Cloudera N1 lists as a success story (own site, e13; Hedepy, the Czech online-therapy platform, is also listed as partially exited); office Národní 135/14, Prague 1. Capital re-checked: 'USD 60M across two funds' (aum, own site) kept; the U-Tech and fund I entries remain 'launch' events and are not used as activity or capital. Activity (Liki24 Series A, Vestbee 2025-07-03), type vc and ticket (USD 100k-1m typical first investment, stated) unchanged.]",
+  "researched_on": "2026-10-25"
+}

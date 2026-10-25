@@ -1,0 +1,35 @@
+{
+  "investor_key": "arx-equity-partners",
+  "pilot": "cz-vc",
+  "name": "ARX Equity Partners",
+  "aliases": ["Arx Equity Partners s.r.o.", "ARX"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.arxequity.com",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague-headquartered mid-market buyout/succession private equity firm (MBO/MBI, majority stakes); real and active (Medicofit, Aug 2026) but not VC, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "Arx Equity Partners s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "64943356", "role": "manager"},
+    {"name": "ARX Equity Co-Invest a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19161239", "role": "fund"}
+  ],
+  "stage_focus": {"value": ["buyout"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": {"amount": 300000000, "currency": "EUR", "basis": "cumulative_fund_sizes", "as_of": "2026-10-25"}, "method": "stated", "evidence": ["e1"]},
+  "funds": [],
+  "investments": [
+    {"company": "Medicofit, fizioterapija d.o.o.", "company_country": "SI", "date": "2026-08-26", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e3"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.arxequity.com/about-arx/", "publisher": "ARX Equity Partners", "published_on": null, "source_class": "B", "quote": "With more than € 300 million raised in four funds, ARX has become a leading private equity firm in its segment operating in the Central European (“CE”) region.", "language": "en"},
+    {"id": "e2", "url": "https://www.arxequity.com/working-with-arx/", "publisher": "ARX Equity Partners", "published_on": null, "source_class": "B", "quote": "Headquartered or primarily operating in the CE region.", "language": "en"},
+    {"id": "e3", "url": "https://www.arxequity.com/arx-equity-partners-acquires-majority-stake-in-medicofit-slovenias-leading-private-physiotherapy-provider/", "publisher": "ARX Equity Partners", "published_on": "2026-08-26", "source_class": "B", "quote": "a leading Central European private equity firm, today announced the acquisition of a majority stake in Medicofit, fizioterapija d.o.o.", "language": "en"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick S1 dossier. Capital = 'more than EUR 300 million raised in four funds' (cumulative, a lower bound) from an undated About page; as_of set to the retrieval date. Target companies are valued EUR 10-50m with EBITDA >= EUR 1m (working-with-arx page); no per-deal equity ticket stated, the CVCA profile (class D, 2020) says EUR 5-50m total transaction size. Other 2026 deals on the site: Direct4me (2026-03-17), HLB PROXY majority stake (2026-01-30). Site footer names the ARX IV Fund (EU COSME Equity Facility for Growth support); its fund vehicle was not identified in ARES.",
+  "researched_on": "2026-10-25"
+}

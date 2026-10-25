@@ -1,0 +1,184 @@
+{
+  "investor_key": "365-fintech",
+  "pilot": "sk-reference",
+  "name": "365.fintech",
+  "aliases": [
+    "365.fintech, a.s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": true,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.365fintech.sk/",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Corporate fintech VC of 365.bank (Bratislava) investing at seed across Europe; its latest dated new investment found is Ondato in September 2022, so no activity is shown on/after 2024-10-25.",
+  "discovered_via": [
+    "research-seed",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "365.fintech, a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "51301547",
+      "role": "manager"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "fintech",
+      "ai_data"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "Europe"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 50000,
+      "max": 500000,
+      "currency": "EUR"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 4709654,
+      "currency": "EUR",
+      "basis": "balance_sheet",
+      "as_of": "2025-12-31"
+    },
+    "method": "registry",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Ondato",
+      "company_country": "LT",
+      "date": "2022-09-15",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e6"
+    },
+    {
+      "company": "Tymit",
+      "company_country": "GB",
+      "date": "2021-03-05",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/1742004",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "365.fintech, a.s. - IČO: 51301547",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.365fintech.sk/",
+      "publisher": "365.fintech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We are a fintech venture investor focusing on innovative b2b or b2b2c FinTech, InsurTech and Big Data startups.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.365fintech.sk/",
+      "publisher": "365.fintech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We invest in European startups with global ambitions around seed stage.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.365fintech.sk/",
+      "publisher": "365.fintech",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We are based in CEE but we are investing anywhere in Europe where we see outstanding nascent fintech startups - from London to Riga.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.registeruz.sk/cruz-public/api/uctovny-vykaz?id=10218533",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": "2026-06-11",
+      "source_class": "A",
+      "quote": "{\"nazov\":{\"sk\":\"Strana aktív\"},\"data\":[\"4709654\",\"5141726\"",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.365fintech.sk/news/ondato-final-piece-kyc-compliance-puzzle",
+      "publisher": "365.fintech",
+      "published_on": "2022-09-15",
+      "source_class": "B",
+      "quote": "We are delighted to announce that Ondato — a tech company that streamlines KYC and AML-related processes — is joining the 365.fintech portfolio.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.365fintech.sk/news/investing-tymit-next-generation-credit-card",
+      "publisher": "365.fintech",
+      "published_on": "2021-03-05",
+      "source_class": "B",
+      "quote": "We are excited to announce that the UK-based startup Tymit is joining the 365.fintech portfolio.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://vestbee.com/insights/articles/top-vc-funds-in-slovakia-to-finance-your-startup",
+      "publisher": "Vestbee",
+      "published_on": "2020-10-08",
+      "source_class": "D",
+      "quote": "365.fintech Geography: Slovakia, Europe Preferred industries: FinTech Investment ticket: €50k - €500k Company stage: Seed",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Exclusion E7 (kept as an inactive corporate VC): the newest dated item on 365.fintech's own news feed is Ondato (15 Sep 2022; date from the homepage news list) and the site footer reads '© 2022'; the portfolio also lists Erbeo, Monite, Montonio and Tapline without dates; no dated deal on/after 2024-10-25 was found (web search budget was exhausted before an exhaustive news check, so a 2024-2026 deal reported only in the press cannot be ruled out). Wholly owned by 365.bank, a. s. (IČO 31340890; ORSR extract shows 365.bank as sole shareholder since 28 Jun 2022); not on the NBS fund-manager register (invests from its own balance sheet; SK NACE 70220). Capital = total assets EUR 4,709,654 at 31 Dec 2025 from the 2025 micro-entity balance sheet in RÚZ (filed 11 Jun 2026; prior year EUR 5,141,726); by the MÚJ template the long-term financial assets line is EUR 4,063,678 (2024: 4,025,013), i.e. the book value of its startup and fund stakes - roughly flat, consistent with no material new investing. The 'Big Data' focus is mapped to ai_data. Ticket only from a 2020 Vestbee list (self-reported, class D). Partners/LP positions in Speedinvest, Finch Capital and Startup Wise Guys are fund commitments, not direct investments.",
+  "researched_on": "2026-10-25"
+}

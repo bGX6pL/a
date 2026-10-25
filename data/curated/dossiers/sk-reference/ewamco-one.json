@@ -1,0 +1,50 @@
+{
+  "investor_key": "ewamco-one",
+  "pilot": "sk-reference",
+  "name": "EWAMCo. ONE, družstvo",
+  "aliases": [
+    "EWAMCo. ONE, družstvo"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3",
+    "E7"
+  ],
+  "decision_note": "Cooperative registered for trading on own account on regulated markets; last financial statement filed is for 2013/14.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "EWAMCo. ONE, družstvo",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "46961593",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.orsr.sk/vypis.asp?ID=256828&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "obchodovanie na vlastný účet na regulovanom trhu, v rozsahu výnimky podľa § 54 ods. 3 písm. d) zákona č. 566/2001 Z.z., o cenných papieroch",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ holds only scanned 2013/04-2014/03 statements. Bank of Spain list classes it 'Equities, closed'.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,262 @@
+{
+  "investor_key": "cb-espri",
+  "pilot": "sk-reference",
+  "name": "CB ESPRI",
+  "aliases": [
+    "CB ESPRI s. r. o.",
+    "CB ESPRI Impact One s. r. o."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.cbespri.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E7"
+  ],
+  "decision_note": "Bratislava impact fund manager (ESPRI + Crowdberry JV) whose SIH-financed fund CB ESPRI Impact One invested convertible loans in impact start-ups and subordinated loans in social enterprises only in 2022-2023 and has been in its post-investment period since 2024.",
+  "discovered_via": [
+    "research-seed",
+    "nbs-register",
+    "sih-programmes"
+  ],
+  "legal_entities": [
+    {
+      "name": "CB ESPRI s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54486343",
+      "role": "manager"
+    },
+    {
+      "name": "CB ESPRI Impact One s. r. o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "54546702",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "impact_social"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5",
+      "e6"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e6",
+      "e11"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5",
+      "e11"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 25000,
+      "max": 500000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e9"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 17708255,
+      "currency": "EUR",
+      "basis": "balance_sheet",
+      "as_of": "2025-12-31"
+    },
+    "method": "registry",
+    "evidence": [
+      "e10"
+    ]
+  },
+  "funds": [
+    {
+      "name": "CB ESPRI Impact One s. r. o.",
+      "size_amount": 10500000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2022-04-22",
+      "evidence": "e11"
+    }
+  ],
+  "investments": [
+    {
+      "company": "ELV.AI",
+      "company_country": "SK",
+      "date": null,
+      "round": null,
+      "round_amount": 500000,
+      "currency": "EUR",
+      "evidence": "e8"
+    },
+    {
+      "company": "Powerful Medical",
+      "company_country": "SK",
+      "date": null,
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e14"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2065512",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "CB ESPRI s. r. o. - IČO: 54486343",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/2068404",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "CB ESPRI Impact One s. r. o. - IČO: 54546702",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.cbespri.sk/",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Prvý fond, CB ESPRI Impact One, financovaný Slovenským investičným holdingom a Európskym sociálnym fondom, mal investičné obdobie počas rokov 2022 a 2023 s post-investičným obdobím od roku 2024 do roku 2032.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.cbespri.sk/about_us.html",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Svoju činnosť začal v apríli 2022 a investičné obdobie ukončil v decembri 2023.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.cbespri.sk/about_us.html",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond CB ESPRI Impact One sa zameral na investície do podnikov spĺňajúcich podmienky zákona o sociálnej ekonomike mimo Bratislavského samosprávneho kraja.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.cbespri.sk/about_us.html",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Rozvoj impaktových startupov cez ekvitné investície do sľubných začínajúcich podnikov s pozitívnym dopadom na spoločnosť a potenciálom silného rastu.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.cbespri.sk/portfolio.html",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Počet: 20 Objem investície: 12 398 000 € Forma investície: Konvertibilný úver",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.cbespri.sk/portfolio.html",
+      "publisher": "CB ESPRI",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Objem investície: 500 000 € www.elv.ai",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.startitup.sk/miroslava-beblaveho-uz-politika-nelaka-zacal-vsak-podnikat-s-verejnymi-peniazmi/",
+      "publisher": "Startitup",
+      "published_on": "2022-05-14",
+      "source_class": "C",
+      "quote": "Ako pokračuje, ich investičná stratégia hovorí, že rozpätie investície pre jeden podnik je od 25 000 do 500 000 eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12609612",
+      "publisher": "CB ESPRI Impact One s. r. o. financial statements 2025 (RÚZ)",
+      "published_on": "2026-06-03",
+      "source_class": "A",
+      "quote": "II. Vlastné imanie (súčet položiek 16 až 21) 17 708 255 16 628 894",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12609612",
+      "publisher": "CB ESPRI Impact One s. r. o. financial statements 2025 (RÚZ)",
+      "published_on": "2026-06-03",
+      "source_class": "A",
+      "quote": "Alternatívny investičný fond vznikol 22.04.2022 a je zapísaný v registri alternatívnych fondov, ktorý vedie Národná banka Slovenska.",
+      "language": "sk"
+    },
+    {
+      "id": "e12",
+      "url": "https://cc.cz/lokalni-investovani-je-na-vzestupu-hlasi-crowdberry-pres-platformu-a-fondy-loni-proteklo-730-milionu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2023-03-30",
+      "source_class": "C",
+      "quote": "Poslední jmenovaný vznikl loni v květnu a podpořil jedenáct projektů částkou 73 milionů korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e14",
+      "url": "https://cc.cz/lokalni-investovani-je-na-vzestupu-hlasi-crowdberry-pres-platformu-a-fondy-loni-proteklo-730-milionu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2023-03-30",
+      "source_class": "C",
+      "quote": "Mezi nimi byl i Powerful Medical , který vyvíjí nástroj pro diagnostiku kardiovaskulárních nemocí, nebo Scase , jenž řeší zdravotní péči na dálku.",
+      "language": "cs"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.podnikajte.sk/financie-na-podnikanie/cb-espri-impact-one-novy-fond",
+      "publisher": "Podnikajte.sk",
+      "published_on": "2022-08-29",
+      "source_class": "C",
+      "quote": "V roku 2022 a 2023 plánuje fond investovať kapitál 10,5 miliónov eur, pričom firmám ponúka výšku investície od 10 000 eur do 500 000 eur , podľa individuálnych potrieb podniku.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Slovak Investment Holding",
+    "Crowdberry"
+  ],
+  "analyst_notes": "Manager CB ESPRI s. r. o. (JV of ESPRI s.r.o., majority, and Crowdberry a.s.); single fund CB ESPRI Impact One s. r. o. financed by SIH / National Development Fund II from the European Social Fund (SIH tender of Dec 2020, two social-economy funds; the other is Sociálni Inovátori Impact Capital). NBS register export of 2026-10-24: CB ESPRI s. r. o. registered AIF manager since 2022-05-05; CB ESPRI Impact One registered AIF since 2022-05-05. Typed vc because the impact start-up sub-portfolio (20 companies, EUR 12.4m) was financed with convertible loans / equity (quasi-equity), while the social-enterprise sub-portfolio (22 entities, EUR 3.9m) used subordinated loans (e7, portfolio page). Inactive: investment period April 2022 - December 2023, post-investment period 2024-2032 (e3, e4). Latest individual deals seen in aggregators (not citable, not used as evidence): ELV.AI EUR 500k dated 2024-01 by tech.eu and Hypherdata seed 2024-08-27 by CB Insights, both before 2024-10-25; Powerful Medical and ELV.AI dates are therefore left null (Powerful Medical belongs to the 2022 cohort per e12, which mentions it among the 11 projects funded in 2022). The 2025 accounts show equity rising by about EUR 1.08m (NDF II capital contributions 17,383,853 EUR in total) and a share transfer of TrollWall AI Technologies to HERNWOOD, a.s.; no new investment is disclosed. Ticket: EUR 25k-500k per the manager in e9 (May 2022); podnikajte.sk (e13, Aug 2022) says EUR 10k-500k; actual cumulative positions reach EUR 1.25-1.34m (Terratico, Powerful Medical) incl. follow-ons. Fund size: EUR 10.5m planned for 2022-2023 (e13); balance-sheet equity EUR 17.7m at 2025-12-31 (e10) used as capital. Stage derived from 'začínajúce podniky' and the fund-statement limit of companies up to 5 years old. The manager states it plans two new public-private funds (about page), none announced as of 2026-10-25.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,185 @@
+{
+  "investor_key": "stratum-partners",
+  "pilot": "cz-vc",
+  "name": "Stratum Partners",
+  "aliases": [
+    "Stratum Partners s.r.o.",
+    "Genesis Growth Equity Fund I (GGEF I) team"
+  ],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://stratum.eu/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Prague private equity manager (GGEF I, EUR 40m; Stratum II launched 2026 with EUR 65m target) doing SME buyouts and growth capital with EUR 2-10m equity tickets in CZ/SK; real investor but not VC.",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [
+    {
+      "name": "Stratum Partners s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "07607539",
+      "role": "manager"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e6"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "buyout",
+      "growth"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CZ",
+      "SK",
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 2000000,
+      "max": 10000000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 40000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Stratum II",
+      "size_amount": 65000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2026-07-16",
+      "evidence": "e2"
+    },
+    {
+      "name": "Genesis Growth Equity Fund I (GGEF I)",
+      "size_amount": 40000000,
+      "currency": "EUR",
+      "event": "other",
+      "event_date": null,
+      "evidence": "e3"
+    }
+  ],
+  "investments": [
+    {
+      "company": "ELIS DESIGN",
+      "company_country": "CZ",
+      "date": "2026-04-29",
+      "round": "growth",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e4"
+    },
+    {
+      "company": "iFORO Group, s.r.o. (Poptávej.cz)",
+      "company_country": "CZ",
+      "date": "2025-12-16",
+      "round": "buyout",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e5"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://stratum.eu/",
+      "publisher": "Stratum Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We provide equity investments of € 2–10 million and work closely with quality management teams and founders to support businesses with strong fundamentals and clear growth potential.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://stratum.eu/stratum-ii-launch/",
+      "publisher": "Stratum Partners",
+      "published_on": "2026-07-16",
+      "source_class": "B",
+      "quote": "Stratum II will focus primarily on buy-out investments, complemented by selective growth capital, with equity tickets ranging from EUR 2–10 million.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://stratum.eu/funds/",
+      "publisher": "Stratum Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fund size: € 40 million",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://stratum.eu/ggef-i-makes-an-investment-in-elis-design-a-czech-designer-and-online-retailer-of-sustainable-and-meaningful-childrens-toys-and-furniture/",
+      "publisher": "Stratum Partners",
+      "published_on": "2026-04-29",
+      "source_class": "B",
+      "quote": "GGEF I, a growth capital fund specialising in investments into small and medium-sized companies with growth potential, primarily in the Czech Republic and Slovakia, is making an equity investment in ELIS DESIGN with the aim of supporting the company’s further",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://stratum.eu/",
+      "publisher": "Stratum Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "GGEF I has completed the acquisition of a majority stake in iFORO Group, s.r.o. (Poptávej.cz).",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://stratum.eu/stratum-ii-launch/",
+      "publisher": "Stratum Partners",
+      "published_on": "2026-07-16",
+      "source_class": "B",
+      "quote": "The portfolio covers technology and digitalisation (R2B2, Cross Masters, Carussel, LLP Group, ELIS DESIGN), specialised manufacturing companies (SEA Enterprises, HC electronics, JP-PROLAK, TechPlasty), and services (Knihobot, Poptavej.cz, Predvyber.cz, UPS Technology).",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "The team previously managed Genesis Growth Equity Fund I (GGEF I, vintage 2020, EUR 40m, fully invested, 14 platform investments) and rebranded as independent Stratum Partners in 2026; GGEF I legal vehicle not found in ARES under that name (possibly foreign). Overlap with the Genesis Capital record (handled separately): GGEF I carries the Genesis name. Stratum II: launch 2026-07-16, target EUR 65m, hard cap EUR 90m, still fundraising - no close yet, so capital uses the GGEF I size as latest closed fund (undated funds page, as_of = retrieval date). Poptávej.cz deal dated 2025-12-16 on the homepage news list (e5, homepage undated). Sector: generalist derived from portfolio (tech/digital, manufacturing, services) listed in e2.",
+  "researched_on": "2026-10-25"
+}

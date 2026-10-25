@@ -1,0 +1,39 @@
+{
+  "investor_key": "skylimit-investments",
+  "pilot": "cz-vc",
+  "name": "SkyLimit Investments",
+  "aliases": ["SkyLimit Industry", "SkyLimit Industry SICAV a.s.", "SkyLimit Investments s.r.o."],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.skylimit.cz/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague private equity fund (SkyLimit Industry SICAV) buying majority stakes in Czech engineering/automation SMEs to build an industrial group; real investor but not VC.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "SkyLimit Investments s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "04711629", "role": "manager"},
+    {"name": "SkyLimit Industry SICAV a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "05265754", "role": "fund"},
+    {"name": "SkyLimit Industry, podfond Strojírenský", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75160943", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["industrial_manufacturing"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": ["buyout"], "method": "stated", "evidence": ["e3"]},
+  "geography_focus": {"value": ["CZ"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 3000000, "currency": "EUR"}, "method": "self_reported", "evidence": ["e5"]},
+  "capital": {"value": {"amount": 370000000, "currency": "CZK", "basis": "aum", "as_of": "2026-10-25"}, "method": "stated", "evidence": ["e4"]},
+  "funds": [],
+  "investments": [
+    {"company": "Prozax, s. r. o.", "company_country": "CZ", "date": "2025-09-10", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e2"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.skylimit.cz/", "publisher": "SkyLimit Industry", "published_on": null, "source_class": "B", "quote": "SkyLimit Industry SICAV a.s. (dále jen SkyLimit) je private equity fond zaměřený na investice do malých a středně velkých strojírenských společností v České republice.", "language": "cs"},
+    {"id": "e2", "url": "https://www.ceskenoviny.cz/tiskove/zpravy/fond-skylimit-posiluje-v-oblasti-prumyslove-automatizace-dokoncil-akvizici-spolecnosti-prozax/2718984", "publisher": "SkyLimit press release via ČTK PROTEXT (ceskenoviny.cz)", "published_on": "2025-09-10", "source_class": "B", "quote": "Praha 10. září 2025 (PROTEXT) - Private equity fond SkyLimit Industry SICAV, který vlastní a rozvíjí české strojírenské firmy, koupil společnost Prozax, s. r. o., zavedeného výrobce automatizovaných a robotizovaných strojů.", "language": "cs"},
+    {"id": "e3", "url": "https://www.skylimit.cz/novinky", "publisher": "SkyLimit Industry", "published_on": "2025-06-25", "source_class": "B", "quote": "Fond investuje od roku 2016 do odkupů majoritních podílů ve strojírenských společnostech, které mají pevné místo na trhu, vykazují dlouhodobou ziskovost a působí v oblasti moderní strojírenské výroby založené na vlastním know-how a vysokém podílu kvalifikované lidské práce.", "language": "cs"},
+    {"id": "e4", "url": "https://www.skylimit.cz/", "publisher": "SkyLimit Industry", "published_on": null, "source_class": "B", "quote": "+370 MIL CZK celková aktiva", "language": "cs"},
+    {"id": "e5", "url": "https://cvca.cz/skylimit-investments/", "publisher": "CVCA (self-reported member profile)", "published_on": "2020-01-08", "source_class": "D", "quote": "1-3 mil. EUR", "language": "cs"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Latest dated deal: Prozax (Otrokovice) acquisition announced 2025-09-10 via a PROTEXT press release issued by SkyLimit (commercial presentation on ceskenoviny.cz, so class B, not independent). Capital: homepage 'celková aktiva' CZK 370m+ (total fund assets; undated, as_of = retrieval date). Ticket EUR 1-3m is from the 2020 CVCA self-reported profile (class D). The e3 press release (25 June 2025) is shown on the news page.",
+  "researched_on": "2026-10-25"
+}

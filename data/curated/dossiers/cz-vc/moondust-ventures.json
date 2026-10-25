@@ -1,0 +1,41 @@
+{
+  "investor_key": "moondust-ventures",
+  "pilot": "cz-vc",
+  "name": "Moondust Ventures",
+  "aliases": ["Moondust Ventures s.r.o.", "Moondust Ventures GP S.à r.l.", "Moondust Ventures Digital Transformation Fund SCSp"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.mdventures.cz/",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague early-stage healthcare VC (Moondust founders with FONS JK Group/STAPRO, Luxembourg fund vehicle with its own AIFM GP) that invested EUR 2.6m in Somareality (Dec 2024), joined QurieGen's pre-seed (Apr 2025) and Somareality's Series A (Jun 2026); Czech portfolio company Aireen.",
+  "discovered_via": ["co-investor:tensor-ventures", "news", "second-pass"],
+  "legal_entities": [
+    {"name": "Moondust Ventures s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "26209128", "role": "manager"},
+    {"name": "Moondust Ventures GP S.à r.l.", "country": "LU", "registry": "LEI", "registry_id": "529900NY10MBCU4BB427", "role": "gp"}
+  ],
+  "sector_focus": {"value": ["healthtech", "biotech_life_sciences"], "method": "stated", "evidence": ["e1", "e2", "e3"]},
+  "stage_focus": {"value": ["pre_seed", "seed", "series_a"], "method": "derived", "evidence": ["e1", "e5", "e6"]},
+  "geography_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "SOMAREALITY", "company_country": "AT", "date": "2026-06-18", "round": "series_a", "round_amount": 3000000, "currency": "EUR", "evidence": "e6"},
+    {"company": "QurieGen", "company_country": "NL", "date": "2025-04-09", "round": "pre_seed", "round_amount": 2200000, "currency": "EUR", "evidence": "e5"},
+    {"company": "Somareality", "company_country": "AT", "date": "2024-12-13", "round": null, "round_amount": 2600000, "currency": "EUR", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.mdventures.cz/about-us", "publisher": "Moondust Ventures", "published_on": null, "source_class": "B", "quote": "Specializing in technology, innovation, and disruptive solutions with a focus on healthcare, we provide early-stage capital, strategic expertise, and hands-on support to help startups launch their mission, scale and thrive.", "language": "en"},
+    {"id": "e2", "url": "https://www.mdventures.cz/about-us", "publisher": "Moondust Ventures", "published_on": null, "source_class": "B", "quote": "We invest in companies harnessing technology to enhance healthcare delivery, optimize patient outcomes, and expand access to quality care around the world.", "language": "en"},
+    {"id": "e3", "url": "https://www.mdventures.cz/about-us", "publisher": "Moondust Ventures", "published_on": null, "source_class": "B", "quote": "We support companies pioneering innovative therapeutics and advanced diagnostic solutions.", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/live/cesky-fond-zamereny-na-zdravotnicke-startupy-investuje-do-rakouska-chce-zlepsit-kognitivni-zdravi/", "publisher": "CzechCrunch", "published_on": "2024-12-13", "source_class": "C", "quote": "Český fond zaměřený na investice do startupů v oblasti digitální medicíny Moondust Ventures (ředitel Marios Nicolettis na fotce) oznámil, že do startupu investuje 2,6 milionu eur, v přepočtu 65 milionů korun.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/funguje-jako-google-mapy-pro-bunky-a-urychluje-vyvoj-leku-v-onkologii-startup-ziskal-investici-i-od-cechu/", "publisher": "CzechCrunch", "published_on": "2025-04-09", "source_class": "C", "quote": "Konkrétně jde o české fondy Tensor Ventures, Lighthouse Ventures, Moondust Ventures, 22 Hor Invest a také zahraniční BSV Ventures.", "language": "cs"},
+    {"id": "e6", "url": "https://www.mdventures.cz/blog/somareality-raises-eu3m-to-redefine-cognitive-measurement-through-eye-tracking-technology", "publisher": "Moondust Ventures", "published_on": "2026-06-18", "source_class": "B", "quote": "The company has just raised over €3 million in an oversubscribed Series A round led by Catalyst Romania, with participation from MT-Lab, RDY Ventures, Moondust Ventures, and Gateway Ventures.", "language": "en"}
+  ],
+  "co_investors_seen": ["FONS JK Group", "Tensor Ventures", "Lighthouse Ventures", "22 Hor Invest", "BSV Ventures", "Catalyst Romania", "MT-Lab", "RDY Ventures", "Gateway Ventures"],
+  "analyst_notes": "Structure: Moondust Ventures s.r.o. (IČO 26209128, Pod Krejcárkem, Praha 3 - the address on the website) is owned by founders Marios Nicolettis and Zdeněk Mojžíšek together with FONS JK Group, a.s. (owner of STAPRO), per ARES; FONS JK and Moondust signed a co-investment agreement in June 2024 with a plan to set up and manage a dedicated healthcare fund (CzechCrunch 2024-06-20). The site's SFDR page names Moondust Ventures GP S.à r.l. as AIFM of Moondust Ventures Digital Transformation Fund SCSp; GLEIF lists the GP (RCS B298585, LEI registered 2026-05-12); no LEI was found for the SCSp, and no fund size, close or launch date was found in the sources reviewed (web search budget exhausted before a final check), so capital is not_disclosed and funds is empty. Typed vc (investment committee, managed fund vehicle) rather than private_investor; earlier deals were co-investments of the partners' and FONS JK's capital. Scope: Prague office; Czech portfolio company Aireen (portfolio page: location Czech Republic, invested 2025 - year only, so not used as an activity date). Sector: healthcare (digital health, biotechnology, medical devices) per About page; the site also mentions AI, cybersecurity and deep tech with healthcare applications (C12 quantum is an older exit-labelled holding). Stage derived: site says early-stage capital; observed rounds pre-seed (QurieGen) and Series A (Somareality 2026); seed included as part of 'early-stage'. Ticket not stated; the EUR 2.6m Somareality investment (Dec 2024) is the only disclosed own amount. Somareality: portfolio page says first invested 2019, so the Dec 2024 EUR 2.6m is a follow-on; Series A 'over EUR 3m' (recorded 3000000) led by Catalyst Romania per Moondust's own news post dated June 18, 2026 (class B; no independent source checked). QurieGen: EUR 2.2m pre-seed led by Tensor Ventures (amount in the preceding sentence of the article); the portfolio page says invested 2024, the round was announced 2025-04-09.",
+  "researched_on": "2026-10-25"
+}

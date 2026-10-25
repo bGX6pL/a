@@ -1,0 +1,20 @@
+{
+  "investor_key": "spinoffy",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-A",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "correct"
+  },
+  "notes": "All sources re-opened. Fund launched 2026-03-02 (Lupa); DiagnostiQS direct investment confirmed by CzechCrunch 2026-10-14 (deal date not given, but fund only formed in 2026 so the event is necessarily in window; second portfolio company - geospatial AI - also on spinoffy.com/for-investors). Website states target fund size EUR 16m only (no close amount; 10-year term runs from an unspecified Initial Closing Date); CzechCrunch says only 'hundreds of millions of CZK' - so not_disclosed capital is acceptable. No ticket published (the CZK 12.5m / EUR 500k figure on the site is the LP minimum subscription, not a ticket). Sector mapping matches the Lupa list (materials/chemistry has no closed-list slot)."
+}

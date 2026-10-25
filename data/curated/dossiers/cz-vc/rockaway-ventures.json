@@ -1,0 +1,254 @@
+{
+  "investor_key": "rockaway-ventures",
+  "pilot": "cz-vc",
+  "name": "Rockaway Ventures",
+  "aliases": [
+    "Rockaway Ventures Fund SICAV a.s.",
+    "Rockaway Ventures Advisors a.s.",
+    "Rockaway Ventures II"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://rockawayventures.com",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague-based VC of the Rockaway Capital group; closed its second fund (Rockaway Ventures II, ~EUR 55m) in May 2025 and invested in Filuta AI (2025), Remix (2025), Apptronik (2026) and led ValkaAI's EUR 12m pre-seed (Feb 2026).",
+  "discovered_via": [
+    "research-seed"
+  ],
+  "legal_entities": [
+    {
+      "name": "Rockaway Ventures Advisors a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "14125129",
+      "role": "manager"
+    },
+    {
+      "name": "Rockaway Ventures Fund SICAV a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "14235781",
+      "role": "fund"
+    },
+    {
+      "name": "Rockaway Ventures Fund SICAV a.s., podfond I",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "75163225",
+      "role": "fund"
+    },
+    {
+      "name": "Rockaway Ventures Fund Holding a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "14053942",
+      "role": "holding"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "ecommerce_marketplaces",
+      "mobility_logistics",
+      "media_gaming",
+      "cybersecurity",
+      "defence_dualuse",
+      "energy_climate",
+      "proptech_construction"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1",
+      "e3"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE",
+      "DACH"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": {
+      "amount": 55000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2025-05-16"
+    },
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Rockaway Ventures II (Rockaway Ventures Fund SICAV a.s.)",
+      "size_amount": 55000000,
+      "currency": "EUR",
+      "event": "final_close",
+      "event_date": "2025-05-16",
+      "evidence": "e4"
+    }
+  ],
+  "investments": [
+    {
+      "company": "Apptronik",
+      "company_country": "US",
+      "date": "2026-02-13",
+      "round": "series_a",
+      "round_amount": 520000000,
+      "currency": "USD",
+      "evidence": "e6"
+    },
+    {
+      "company": "ValkaAI",
+      "company_country": "CZ",
+      "date": "2026-02-24",
+      "round": "pre_seed",
+      "round_amount": 12000000,
+      "currency": "EUR",
+      "evidence": "e8"
+    },
+    {
+      "company": "Remix",
+      "company_country": "BG",
+      "date": "2025-12-19",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    },
+    {
+      "company": "Filuta AI",
+      "company_country": "CZ",
+      "date": "2025-06-24",
+      "round": "seed",
+      "round_amount": 4200000,
+      "currency": "USD",
+      "evidence": "e5"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://rockawayventures.com/",
+      "publisher": "Rockaway Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Since 2014, Rockaway Ventures has been investing in areas where the Rockaway Capital group has deep expertise, primarily in retail and e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity, defence, CleanTech, and PropTech.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://rockawayventures.com/for-investors/",
+      "publisher": "Rockaway Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Our investment strategy is centered around early-stage startups with a focus on Seed to Series A stage companies in the CEE and DACH regions",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://tech.eu/2025/05/16/rockaway-ventures-closes-55m-fund-to-back-transformative-tech-in-cee-and-beyond/",
+      "publisher": "Tech.eu",
+      "published_on": "2025-05-16",
+      "source_class": "C",
+      "quote": "Known for its early investments in e-commerce and travel tech, the fund is now focusing on sectors such as energy, defense, and dual-use technologies.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://tech.eu/2025/05/16/rockaway-ventures-closes-55m-fund-to-back-transformative-tech-in-cee-and-beyond/",
+      "publisher": "Tech.eu",
+      "published_on": "2025-05-16",
+      "source_class": "C",
+      "quote": "has closed its second fund, Rockaway Ventures II, at nearly €55 million.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://rockawayventures.com/rockaway-ventures-leads-4-2m-seed-round-in-czech-ai-startup-filuta-ai/",
+      "publisher": "Rockaway Ventures",
+      "published_on": "2025-06-24",
+      "source_class": "B",
+      "quote": "Rockaway Ventures has led a $4.2 million (approximately €3.9 million) seed round in Filuta AI, a Czech startup based in Prague that is developing advanced AI solutions for automated game testing.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.lupa.cz/aktuality/cesti-investori-z-rockaway-investovali-do-americkych-humanoidu-a-to-po-boku-googlu-nebo-mercedes-benz/",
+      "publisher": "Lupa.cz",
+      "published_on": "2026-02-13",
+      "source_class": "C",
+      "quote": "Čeští investoři z Rockaway Ventures finančně vstoupili do americké společnosti",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.lupa.cz/aktuality/rockaway-investuje-do-evropskeho-digitalniho-second-hand-giganta-tahne-ho-umela-inteligence/",
+      "publisher": "Lupa.cz",
+      "published_on": "2025-12-19",
+      "source_class": "C",
+      "quote": "Rockaway Ventures získává 20% podíl v Remixu",
+      "language": "cs"
+    },
+    {
+      "id": "e8",
+      "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-02-24",
+      "source_class": "C",
+      "quote": "Fondu Naše Česko J&T Investiční společnosti a právě Rockaway Ventures, který kolo vedl.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "LionBeat Capital",
+    "TARPAN Partners",
+    "B Capital",
+    "Google",
+    "Mercedes-Benz",
+    "PEAK6",
+    "AT&T Ventures",
+    "John Deere",
+    "Qatar Investment Authority",
+    "Czech Founders VC",
+    "J&T Ventures",
+    "Tensor Ventures",
+    "BD Partners",
+    "Fond Naše Česko (J&T Investiční společnost)"
+  ],
+  "analyst_notes": "Fund size: tech.eu says 'nearly €55 million' (recorded as 55000000, approximate); about 25% from Rockaway Capital, rest from private (mainly Czech) investors. Event date = article date 2025-05-16. The fund was launched in 2022 per tech.eu. Ticket size not published by the investor. Geography: own site says CEE and DACH; tech.eu adds a planned 60% CEE / 40% Western Europe and US-based diaspora startups split. Sector list mapped from the site's list (travel & hospitality has no exact sector code and is not mapped). Apptronik: Rockaway joined the USD 520m Series A extension (round amount is the whole extension; Rockaway's share undisclosed); the company name in the Lupa sentence is a link, so the quote stops before it; the same article gives the USD 520m extension. Remix: 20% stake acquired, amount undisclosed. Legal: the SICAV's statutory body is the white-label manager AMISTA investiční společnost, a.s. (IČO 27437558); Rockaway Ventures Advisors a.s. board = the investment team (D. Zábrodský, A. Lauren, J. Havrlant), so it is recorded as manager. ValkaAI: Rockaway Ventures led the EUR 12m pre-seed (CzechCrunch 2026-02-24), alongside J&T Ventures, Tensor Ventures, BD Partners and Fond Naše Česko.",
+  "researched_on": "2026-10-25"
+}

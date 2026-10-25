@@ -1,0 +1,49 @@
+{
+  "investor_key": "s15-21737169",
+  "pilot": "cz-s15-sample",
+  "name": "CONSTANS PARTNERS",
+  "aliases": [
+    "CONSTANS PARTNERS, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "No website, portfolio or news found; ARES lists only the legal entity, so I1 holds but I2 cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "CONSTANS PARTNERS, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "21737169",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21737169",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "CONSTANS PARTNERS, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "ARES: datumVzniku 2024-06-19, Korunní 2569/108, Praha 10; czNace 66300, 00. constans.cz belongs to Constans Investment Group / Clearberry Capital s.r.o. (IČO 05098581) with no visible link to this entity, so it is not cited.",
+  "researched_on": "2026-10-25"
+}

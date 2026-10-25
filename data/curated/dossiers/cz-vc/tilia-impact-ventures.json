@@ -1,0 +1,304 @@
+{
+  "investor_key": "tilia-impact-ventures",
+  "pilot": "cz-vc",
+  "name": "Tilia Impact Ventures",
+  "aliases": [
+    "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+    "Tilia Impact Partners s.r.o.",
+    "Tilia Impact Ventures Fund II",
+    "Tilia"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://tilia.vc",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague impact VC (Fund II: EUR 26m first close in Sept 2023 towards a EUR 32m target, EIF/Česká spořitelna-backed) that joined FaceUp's Series A (May 2026), led Minimist's EUR 1m pre-seed (Mar 2026) and Flox Intelligence's USD 3m round (Feb 2026), and backed Delta Green (Oct 2025).",
+  "discovered_via": [
+    "cvca",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "Tilia Impact Partners s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "17621615",
+      "role": "manager"
+    },
+    {
+      "name": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "17848911",
+      "role": "fund"
+    },
+    {
+      "name": "Tilia Impact Ventures II GP S.à r.l.",
+      "country": "LU",
+      "registry": "OTHER",
+      "registry_id": null,
+      "role": "gp"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "impact_social",
+      "energy_climate",
+      "healthtech",
+      "edtech"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1",
+      "e5"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e1",
+      "e5"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CZ",
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 26000000,
+      "currency": "EUR",
+      "basis": "interim_close",
+      "as_of": "2023-09-15"
+    },
+    "method": "stated",
+    "evidence": [
+      "e11"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Tilia Impact Ventures Fund II",
+      "size_amount": 26000000,
+      "currency": "EUR",
+      "event": "first_close",
+      "event_date": "2023-09-15",
+      "evidence": "e11"
+    },
+    {
+      "name": "Tilia Impact Ventures Fund II",
+      "size_amount": 32000000,
+      "currency": "EUR",
+      "event": "target",
+      "event_date": "2023-09-21",
+      "evidence": "e4"
+    }
+  ],
+  "investments": [
+    {
+      "company": "FaceUp",
+      "company_country": "CZ",
+      "date": "2026-05-19",
+      "round": "series_a",
+      "round_amount": 5000000,
+      "currency": "USD",
+      "evidence": "e12"
+    },
+    {
+      "company": "Minimist",
+      "company_country": "AT",
+      "date": "2026-03-25",
+      "round": "pre_seed",
+      "round_amount": 1000000,
+      "currency": "EUR",
+      "evidence": "e7"
+    },
+    {
+      "company": "Flox Intelligence",
+      "company_country": "SE",
+      "date": "2026-02-27",
+      "round": "seed",
+      "round_amount": 3000000,
+      "currency": "USD",
+      "evidence": "e9"
+    },
+    {
+      "company": "Delta Green",
+      "company_country": "CZ",
+      "date": "2025-10-15",
+      "round": null,
+      "round_amount": 2000000,
+      "currency": "EUR",
+      "evidence": "e13"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Sector-agnostic, Impact-driven",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Tilia Impact Ventures backs Czech and CEE region founders to make systemic environmental and social change, on a global scale.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://tilia.vc/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "0.3 - 1.2m EUR initial ticket",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://en.ain.ua/2023/09/21/czech-tilia-impact-ventures-launches-32m-second-fund",
+      "publisher": "AIN.UA",
+      "published_on": "2023-09-21",
+      "source_class": "C",
+      "quote": "Prague-based investment firm Tilia Impact Ventures has announced the launch of its €32 million second fund financed by the European Investment Fund and Ceska Sporitelna Bank.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://en.ain.ua/2023/09/21/czech-tilia-impact-ventures-launches-32m-second-fund",
+      "publisher": "AIN.UA",
+      "published_on": "2023-09-21",
+      "source_class": "C",
+      "quote": "The fund will invest in seed-stage companies with mission-driven entrepreneurs from CEE dealing with climate, education, and healthcare solutions, having a sustainability-focused impact.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.lupa.cz/aktuality/cesky-fond-tilia-impact-ventures-investuje-do-ai-ktera-komunikuje-se-zviraty/",
+      "publisher": "Lupa.cz",
+      "published_on": "2026-02-27",
+      "source_class": "C",
+      "quote": "Celková investice dosáhla tří milionů dolarů (61,5 milionu Kč) a kromě českého fondu se jí účastnily také mimo jiné Satgana či Genius NY.",
+      "language": "cs"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.trendingtopics.eu/minimist-anna-greil-ueber-das-neue-millioneninvestment/",
+      "publisher": "Trending Topics",
+      "published_on": "2026-03-25",
+      "source_class": "C",
+      "quote": "Die Runde wurde von Tilia Impact Ventures (mit Unterstützung von InvestEU) angeführt, unter Beteiligung von Business Angels und Family Offices sowie gefördert durch den Call „Wien Lebensqualität“ der Wirtschaftsagentur Wien.",
+      "language": "de"
+    },
+    {
+      "id": "e8",
+      "url": "https://tilia.vc/sfdr/",
+      "publisher": "Tilia Impact Ventures",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Tilia Impact Ventures Fund II (“the Fund”), managed by Tilia Impact Ventures II GP S.à r.l. (“Tilia”) is an impact fund",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.lupa.cz/aktuality/cesky-fond-tilia-impact-ventures-investuje-do-ai-ktera-komunikuje-se-zviraty/",
+      "publisher": "Lupa.cz",
+      "published_on": "2026-02-27",
+      "source_class": "C",
+      "quote": "Český impactový fond Tilia Impact Ventures vede investici do švédského startupu Flox Intelligence, který vyvíjí systémy umělé inteligence směřující na zvířata.",
+      "language": "cs"
+    },
+    {
+      "id": "e10",
+      "url": "https://cvca.cz/tilia-impact-ventures/",
+      "publisher": "CVCA (self-reported member profile)",
+      "published_on": "2020-01-06",
+      "source_class": "D",
+      "quote": "investice se společenským (sociálním nebo environmentálním) dopadem",
+      "language": "cs"
+    },
+    {
+      "id": "e11",
+      "url": "https://causeartist.com/blog/tilia-impact-ventures-32m-impact-seed-fund",
+      "publisher": "Causeartist",
+      "published_on": "2023-09-15",
+      "source_class": "C",
+      "quote": "Tilia Impact Ventures is a seed-stage impact venture capital firm based in the Czech Republic, and recently announced the successful first closing of its second fund, totaling €26m.",
+      "language": "en"
+    },
+    {
+      "id": "e12",
+      "url": "https://cc.cz/byl-to-studentsky-projekt-ted-uz-ma-hodnotu-pres-pul-miliardy-nabidky-na-odkup-odmitame-hlasi-cesi/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-05-19",
+      "source_class": "C",
+      "quote": "Do investice se pak zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital spolu se skupinou andělských investorů",
+      "language": "cs"
+    },
+    {
+      "id": "e13",
+      "url": "https://cc.cz/z-prahy-propojuji-evropske-domacnosti-a-tvori-z-nich-obri-elektrarnu-jejich-cena-je-ve-stamilionech/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-10-15",
+      "source_class": "C",
+      "quote": "Pražský energetický startup Delta Green získal dva miliony eur, tedy 50 milionů korun, od investorů z Credo Ventures, Tilia Impact Ventures a Purple Ventures.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "Satgana",
+    "GENIUS NY",
+    "Unconventional Ventures",
+    "Almi Invest",
+    "J.O.S.S.",
+    "Wirtschaftsagentur Wien",
+    "Verge HealthTech Fund",
+    "PurposeTech",
+    "Credo Ventures",
+    "Reflex Capital",
+    "Jiří Hlavenka",
+    "Purple Ventures"
+  ],
+  "analyst_notes": "Ticket EUR 0.3-1.2m initial is stated on tilia.vc (2026); AIN 2023 said initial tickets up to EUR 1.5m; CVCA 2020 profile (Fund I era) said CZK 1-5m - the newest own statement is used. Capital = Fund II size announced at launch (EUR 32m, AIN.UA 2023-09-21); other reports (Causeartist/SeeNews) say first closing at EUR 26m; final close size not found. Fund I (2018, CZK 43m per CC.cz / CZK 62.7m per CVCA 2020) not listed separately. Tilia's homepage also shows '37m+ EUR unlocked for impact from investors' (not used as capital, basis unclear). Fund II is managed by Tilia Impact Ventures II GP S.à r.l. (Luxembourg, per SFDR page e8); no LEI or RCS number found, registry_id left null. The Czech ORK s.r.o. (IČO 17848911) and Tilia Impact Partners s.r.o. (IČO 17621615) share Tilia's Drtinova 557/10 address; the exact role split between them is not public - Partners s.r.o. assumed to be the Czech management/adviser entity. Flox Intelligence round: Lupa.cz (2026-02-27) says Tilia leads (e9), total USD 3m (e6); other sources call it Seed+ (EUR 2.5m). Minimist pre-seed EUR 1m led by Tilia (Trending Topics 2026-03-25; amount stated in the same article's preceding sentence). Also in window but not cited (page blocked to scripts): Lifeyear EUR 2.8m round, July 2025 (Digital Health, Invest in Estonia). Sector list: 'sector-agnostic, impact-driven' with climate/education/health named in the 2023 fund launch. [revision 2026-10-25 re-audit: capital changed from EUR 32m 'latest_fund_size' (a launch/target figure) to EUR 26m interim_close: Causeartist (2023-09-15, e11) reports the first closing of Fund II at EUR 26m with fundraising continuing to the EUR 32m target over 12 months; the first-close date is not given, so the article date is used. No final close found (tilia.vc shows only '37m+ EUR unlocked for impact from investors', basis unclear; Vestbee 2024-03-14 repeats the EUR 32m launch). Funds now list the first close (26m) and the target (32m, AIN e4). Scope rule: added two Czech in-window deals - FaceUp USD 5m Series A with Tilia as existing investor (CzechCrunch 2026-05-19; round amount from the same article, as cited in reflex-capital) and Delta Green EUR 2m from Credo, Tilia and Purple (CzechCrunch 2025-10-15); latest dated activity is now 2026-05-19. Type and ticket (0.3-1.2m initial, stated per company) unchanged.]",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,20 @@
+{
+  "investor_key": "jet-venture-1",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 22030417 active (Brno). AppNava USD 1.8m lead by Jet Venture 1 confirmed (CzechCrunch 2026-09-17); DecisionRules and IAG are Czech deals. Capital EUR 30m interim_close (CzechCrunch 2025-12-18) and EUR 50m target correct; no final close found (site shows '€50M+ Capital to invest', undated, read as target). Ticket EUR 1-2m (interview) consistent with site 'initial up to €2M, average €1.5M'."
+}

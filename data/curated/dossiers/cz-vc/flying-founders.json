@@ -1,0 +1,41 @@
+{
+  "investor_key": "flying-founders",
+  "pilot": "cz-vc",
+  "name": "Flying Founders",
+  "aliases": ["Flying Founders s.r.o."],
+  "investor_type": "private_investor",
+  "secondary_types": ["vc"],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://flyingfounders.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague vehicle of founders Zdenko Zvada and Michal Truban that invests its own capital (EUR 100-500k, growth capital and buyouts, held for dividends) in profitable Czech/Slovak SaaS companies (Tolgee 2024, Tiny Empires acquisition Sept 2025) - a private investor between VC and PE, not a VC fund.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "Flying Founders s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "21828377", "role": "holding"}
+  ],
+  "sector_focus": {"value": ["software_saas"], "method": "stated", "evidence": ["e7"]},
+  "stage_focus": {"value": ["seed", "growth"], "method": "derived", "evidence": ["e3", "e4"]},
+  "geography_focus": {"value": ["CZ", "SK"], "method": "stated", "evidence": ["e7"]},
+  "ticket_size": {"value": {"min": 100000, "max": 500000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Tiny Empires", "company_country": null, "date": "2025-09-17", "round": "buyout", "round_amount": null, "currency": null, "evidence": "e6"},
+    {"company": "Tolgee", "company_country": "CZ", "date": null, "round": null, "round_amount": null, "currency": null, "evidence": "e5"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://flyingfounders.com/", "publisher": "Flying Founders", "published_on": null, "source_class": "B", "quote": "We invest our own capital, roll up our sleeves, and stay as long as it takes - without an exit agenda.", "language": "en"},
+    {"id": "e2", "url": "https://flyingfounders.com/", "publisher": "Flying Founders", "published_on": null, "source_class": "B", "quote": "We invest €100k–€500k once.", "language": "en"},
+    {"id": "e3", "url": "https://flyingfounders.com/", "publisher": "Flying Founders", "published_on": null, "source_class": "B", "quote": "Up to €500k for bootstrapped founders between €100k–€2m ARR.", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/", "publisher": "CzechCrunch", "published_on": "2024-09-03", "source_class": "C", "quote": "Nový fond tak funguje na pomezí venture kapitálu nebo private equity, kdy investuje přímo výměnou za podíl ve firmě.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/", "publisher": "CzechCrunch", "published_on": "2024-09-03", "source_class": "C", "quote": "Flying Founders již za sebou mají i první investici – brněnský nástroj Tolgee, který se zaměřuje na jazykovou lokalizaci softwaru.", "language": "cs"},
+    {"id": "e6", "url": "https://tinyempires.substack.com/p/a-new-chapter-for-tiny-empires", "publisher": "Tiny Empires (Substack)", "published_on": "2025-09-17", "source_class": "C", "quote": "I am excited to share that Tiny Empires has been acquired by Flying Founders and will join their growing portfolio of SaaS businesses!", "language": "en"},
+    {"id": "e7", "url": "https://cc.cz/vybudovali-a-prodali-firmy-za-miliardy-ted-investuji-na-jednorozce-ale-neveri-sazi-radsi-na-zisk/", "publisher": "CzechCrunch", "published_on": "2024-09-03", "source_class": "C", "quote": "Cílem fondu Flying Founders je pomoci zakladatelům stavět rostoucí a hlavně profitabilní slovenské i české firmy postavené na modelu SaaS, tedy software jako služba.", "language": "cs"},
+    {"id": "e8", "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21828377", "publisher": "ARES (Ministerstvo financí ČR)", "published_on": null, "source_class": "A", "quote": "Flying Founders s.r.o.", "language": "cs"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Second-pass screen. Type: the site says 'We invest our own capital' with 'no LP forcing an exit' and long-term holding for dividends (e1); CzechCrunch places the model between VC and PE, including partial buyouts of founders and earlier investors (e4) - private_investor (own capital), consistent with Miton/Gi21 Capital; secondary vc. Flying Founders s.r.o. (IČO 21828377, Praha 8, est. 2024-07-17; executive Zdenko Zvada; partners Trantor, s.r.o. (SK) and Onsight Partners s.r.o.). Ticket: site EUR 100-500k once (CzechCrunch 2024 said EUR 100-600k). Stage derived from target ARR EUR 100k-2m (revenue-stage SaaS, seed to growth). Activity: Tiny Empires (founder newsletter business) acquired 2025-09-17 - an acquisition, recorded as round 'buyout'; Tolgee (Brno) was the first investment, closed before the 2024-09-03 article (exact date unknown, left null). Michal Truban states he handed management fully to Zvada.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,165 @@
+{
+  "investor_key": "gi21-capital",
+  "pilot": "cz-vc",
+  "name": "Gi21 Capital",
+  "aliases": [
+    "Gi21 Capital a.s.",
+    "Gi21"
+  ],
+  "investor_type": "private_investor",
+  "secondary_types": [
+    "vc"
+  ],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.gi21capital.com/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1"
+  ],
+  "decision_note": "Prague multi-stage investment group of Damir Špoljarič deploying principal capital across AI data centres, hospitality and tech startups; an active startup investor (Boost.space 2025, FaceUp and Hermetiq 2026) but a private investment holding rather than a VC fund.",
+  "discovered_via": [
+    "news",
+    "co-investor:tachles-vc"
+  ],
+  "legal_entities": [
+    {
+      "name": "Gi21 Capital a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "19584229",
+      "role": "holding"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "deeptech_hardware",
+      "software_saas",
+      "ai_data"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed"
+    ],
+    "method": "derived",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "ticket_size": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Hermetiq",
+      "company_country": null,
+      "date": "2026-08-27",
+      "round": "seed",
+      "round_amount": 2200000,
+      "currency": "USD",
+      "evidence": "e3"
+    },
+    {
+      "company": "FaceUp",
+      "company_country": null,
+      "date": "2026-05-21",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e4"
+    },
+    {
+      "company": "Boost.space",
+      "company_country": "CZ",
+      "date": "2025-10-09",
+      "round": null,
+      "round_amount": 3000000,
+      "currency": "EUR",
+      "evidence": "e5"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.gi21capital.com/",
+      "publisher": "Gi21 Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Gi21 Capital is a multi-stage investment group bridging the gap between entrepreneurial agility and institutional-grade scale.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.gi21capital.com/",
+      "publisher": "Gi21 Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Backing technical founders solving complex problems through Deep Tech, B2B SaaS, AI.",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.gi21capital.com/blog-posts/why-we-invested-in-hermetiq",
+      "publisher": "Gi21 Capital",
+      "published_on": "2026-08-27",
+      "source_class": "B",
+      "quote": "Gi21 Capital has invested in Hermetiq's $2.2M seed round.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.gi21capital.com/blog-posts/why-we-invested-in-faceup-bringing-safety-and-integrity-to-global-workplaces",
+      "publisher": "Gi21 Capital",
+      "published_on": "2026-05-21",
+      "source_class": "B",
+      "quote": "Why We Invested in FaceUp: Bringing Safety and Integrity to Global Workplaces",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-10-09",
+      "source_class": "C",
+      "quote": "Hlavním investorem je skupina Jet Investment miliardáře Igora Faita s přispěním českého fond Tachles VC, Gi21 Capital Damira Špoljariče a stávajících akcionářů.",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.gi21capital.com/",
+      "publisher": "Gi21 Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "We deploy principal capital to accelerate global AI-first startups and leverage institutional fund structures to build the continent's most ambitious digital assets—including the largest pan-European AI data center platform.",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [
+    "Jet Investment",
+    "Tachles VC"
+  ],
+  "analyst_notes": "Quick exclusion dossier. Discovered as co-investor in the Boost.space round (CzechCrunch 2025-10-09). Classified private_investor (S1): the group invests the principals' own capital ('principal capital') alongside AI data-centre funds, hospitality and art patronage; startup investing is one business line, not a pooled VC fund. Startup activity is current (Hermetiq seed 2026-08-27, FaceUp 2026-05-21 per own blog; Boost.space 2025-10-09), so it may deserve a vc record if the pilot later counts dedicated balance-sheet venture arms. FaceUp country not stated on the cited page. Geography, ticket and capital not disclosed.",
+  "researched_on": "2026-10-25"
+}

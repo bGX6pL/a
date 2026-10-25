@@ -1,0 +1,169 @@
+{
+  "investor_key": "abris-capital",
+  "pilot": "cz-vc",
+  "name": "Abris Capital Partners",
+  "aliases": [
+    "Abris Capital"
+  ],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "PL",
+  "website": "https://abris-capital.com",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1",
+    "S2"
+  ],
+  "decision_note": "Warsaw-based mid-market private equity (control investments, EUR 30-75m equity tickets, focus Poland and Romania) with offices in Warsaw, Bucharest and Nicosia but none in Czechia - PE (S1) and outside the pilot country (S2).",
+  "discovered_via": [
+    "cvca"
+  ],
+  "legal_entities": [],
+  "sector_focus": {
+    "value": [
+      "healthtech",
+      "software_saas",
+      "ecommerce_marketplaces",
+      "mobility_logistics",
+      "industrial_manufacturing",
+      "energy_climate"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "buyout"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "CEE"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 30000000,
+      "max": 75000000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 502000000,
+      "currency": "EUR",
+      "basis": "latest_fund_size",
+      "as_of": "2020-01-26"
+    },
+    "method": "self_reported",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Abris Fund III",
+      "size_amount": 502000000,
+      "currency": "EUR",
+      "event": "other",
+      "event_date": null,
+      "evidence": "e5"
+    },
+    {
+      "name": "Abris Fund II",
+      "size_amount": 450000000,
+      "currency": "EUR",
+      "event": "other",
+      "event_date": null,
+      "evidence": "e5"
+    }
+  ],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://abris-capital.com/",
+      "publisher": "Abris Capital Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Abris Capital Partners is the leading ESG transformation specialist private equity investor focused on Central Europe.",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://abris-capital.com/investment-strategy/",
+      "publisher": "Abris Capital Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "€30m-€75m equity tickets – or larger with co-investment",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://abris-capital.com/news/abris-capital-partners-exits-aures-holdings-a-leading-multi-brand-pre-owned-vehicle-retailer-in-central-europe-owner-and-operator-of-the-aaa-auto-network/",
+      "publisher": "Abris Capital Partners",
+      "published_on": "2025-12-12",
+      "source_class": "B",
+      "quote": "a private equity firm focused on ESG-led transformation, has signed an agreement to sell its portfolio company AURES Holdings.",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://abris-capital.com/news/dental-holding-reinforces-its-footprint-in-greece-by-incorporating-the-market-leader-into-its-group/",
+      "publisher": "Abris Capital Partners",
+      "published_on": "2026-01-20",
+      "source_class": "B",
+      "quote": "Dental Holding has signed an agreement to bring Greece-based Memodent Group (Memodent S.A. and Oral Vision IKE), the country’s leading dental supplies distributor, under its corporate umbrella.",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://cvca.cz/abris-capital/",
+      "publisher": "CVCA (self-reported member profile)",
+      "published_on": "2020-01-26",
+      "source_class": "D",
+      "quote": "Objem prostředků ve správě EUR 502 mil (Abris Fund III), EUR 450 mil (Abris Fund II)",
+      "language": "cs"
+    },
+    {
+      "id": "e6",
+      "url": "https://abris-capital.com/investment-strategy/",
+      "publisher": "Abris Capital Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "EU-11 with a focus on Poland and Romania",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://abris-capital.com/contact/",
+      "publisher": "Abris Capital Partners",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "WARSAW, POLAND Abris Capital Partners",
+      "language": "en"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick S1 dossier. Strategy page states EU-11 focus on Poland and Romania, control investments in mature businesses, sectors healthcare, circular economy, digital and technology, e-commerce and modern logistics, specialist manufacturing (mapped to the closed sector list). Latest dated activity found: add-on acquisition by portfolio company Dental Holding (2026-01-20) and the sale of Czech-linked AURES Holdings / AAA Auto (signed 2025-12-12). Capital not researched for this quick dossier; the CVCA profile (class D, self-reported, 2020) lists EUR 502m Abris Fund III and EUR 450m Fund II. Polish management entity not looked up. [revision 2026-10-25 after review: S2 added alongside S1: focus 'EU-11 with a focus on Poland and Romania' (e6); the contact page lists offices in Warsaw (e7), Bucharest and Nicosia only - no Czech office, so the revised scope rule is not met even though AURES / AAA Auto was a Czech-linked portfolio company. Capital filled from the public fund sizes instead of not_disclosed: the CVCA member profile (self-reported, published 2020-01-26) lists Abris Fund III EUR 502m and Fund II EUR 450m (e5); the newest listed fund, Fund III (EUR 502m), is recorded as latest_fund_size, as_of the profile date. Caveat: the profile does not state the close status (both funds listed with event other, so V5 will flag it) and no newer fund size was found on the abris-capital.com pages checked (home, strategy, contact).]",
+  "researched_on": "2026-10-25"
+}

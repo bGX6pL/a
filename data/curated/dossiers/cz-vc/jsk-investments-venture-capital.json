@@ -1,0 +1,312 @@
+{
+  "investor_key": "jsk-investments-venture-capital",
+  "pilot": "cz-vc",
+  "name": "JSK Investments Venture Capital Fund I",
+  "aliases": [
+    "JSK Venture Capital",
+    "JSK VC Fund",
+    "JSK Investments Venture Capital Fund I, podfond"
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.jskinvestments.ventures/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Prague early-stage health and applied-frontier-tech VC fund of the JSK group (ČNB-supervised SICAV sub-fund with its own site, team and independently managed capital; tickets from EUR 300k, EUR 20m target) that backed Vetstor (Dec 2025), Andromeda Surgical (Series A, Aug 2026) and MintNeuro (Oct 2026).",
+  "discovered_via": [
+    "cvca",
+    "review-correction"
+  ],
+  "legal_entities": [
+    {
+      "name": "JSK Investments Venture Capital Fund I, podfond",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "75166372",
+      "role": "fund"
+    },
+    {
+      "name": "JSK Investments SICAV a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "23823445",
+      "role": "manager"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "healthtech",
+      "ai_data",
+      "deeptech_hardware",
+      "energy_climate"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5",
+      "e6"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "seed",
+      "series_a"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "Europe",
+      "US"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 300000,
+      "max": null,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 10000000,
+      "currency": "EUR",
+      "basis": "interim_close",
+      "as_of": "2026-10-25"
+    },
+    "method": "stated",
+    "evidence": [
+      "e1"
+    ]
+  },
+  "funds": [
+    {
+      "name": "JSK Investments Venture Capital Fund I, podfond",
+      "size_amount": 20000000,
+      "currency": "EUR",
+      "event": "target",
+      "event_date": null,
+      "evidence": "e1"
+    }
+  ],
+  "investments": [
+    {
+      "company": "MintNeuro",
+      "company_country": "GB",
+      "date": "2026-10-09",
+      "round": null,
+      "round_amount": 5000000,
+      "currency": "USD",
+      "evidence": "e10"
+    },
+    {
+      "company": "Andromeda Surgical",
+      "company_country": "US",
+      "date": "2026-08-05",
+      "round": "series_a",
+      "round_amount": 15000000,
+      "currency": "USD",
+      "evidence": "e12"
+    },
+    {
+      "company": "Vetstor",
+      "company_country": "CZ",
+      "date": "2025-12-09",
+      "round": null,
+      "round_amount": 1000000,
+      "currency": "EUR",
+      "evidence": "e15"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "TARGET FUND SIZE €20M €10M internal capital",
+      "language": "en"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "STAGE Early stage to Series B (Series B only for follow on)",
+      "language": "en"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "INITIAL INVESTMENT IN PORTFOLIO COMPANIES From €300K",
+      "language": "en"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "GEOGRAPHY Europe & US (selectively other geographies, case by case)",
+      "language": "en"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Healthtech, medtech, femtech, mental health, agetech and animal health.",
+      "language": "en"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Applied AI, deep tech, robotics, quantum applications, climate technologies solving high-value real-world problems.",
+      "language": "en"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Capital is managed independently and is not shared across investment strategies.",
+      "language": "en"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Simona Kijonková Founder, Managing Partner & Chief Investment Officer Petra Cihlářová Investment Director Kristián Krejsa Investment Analyst",
+      "language": "en"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.jskinvestments.ventures/",
+      "publisher": "JSK Investments (JSK Venture Capital Fund site)",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Klimentská 1216/46 110 00 Praha 1 - Nové Město",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro",
+      "publisher": "JSK Investments",
+      "published_on": "2026-10-09",
+      "source_class": "B",
+      "quote": "Investiční fond JSK Investments SICAV a.s. se zapojil do investičního kola britské společnosti MintNeuro, v němž firma získala 5 milionů USD.",
+      "language": "cs"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.jskinvestments.cz/cs/media/jsk-investments-sicav-a-s-investuje-do-britskeho-vyvojare-cipu-pro-neurotechnologie-mint-neuro",
+      "publisher": "JSK Investments",
+      "published_on": "2026-10-09",
+      "source_class": "B",
+      "quote": "říká Petra Cihlářová, investiční ředitelka Venture Capital podfondu v JSK Investments SICAV a.s.",
+      "language": "cs"
+    },
+    {
+      "id": "e12",
+      "url": "https://vestbee.com/insights/articles/jsk-investments-backs-andromeda-surgical",
+      "publisher": "Vestbee",
+      "published_on": "2026-09-17",
+      "source_class": "C",
+      "quote": "San Francisco-based medtech startup Andromeda Surgical has raised $15 million in a Series A round led by Standard Capital, with participation from JSK Investments, Y Combinator, VOX Capital, Lingotto Innovation, Alumni Ventures, WestWave Capital, and other investors, as Vestbee was informed.",
+      "language": "en"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.trysignalbase.com/news/funding/andromeda-surgical-raises-150m-series-a",
+      "publisher": "Signalbase (funding news aggregator)",
+      "published_on": "2026-08-05",
+      "source_class": "D",
+      "quote": "Andromeda Surgical has raised $15 million in Series A funding led by Standard Capital, with Y Combinator and VOX Capital participating.",
+      "language": "en"
+    },
+    {
+      "id": "e14",
+      "url": "https://cc.cz/simona-kijonkova-investuje-desitky-milionu-do-roboticke-chirurgie-cilem-je-zkratit-fronty-na-operace/",
+      "publisher": "CzechCrunch",
+      "published_on": "2026-09-15",
+      "source_class": "C",
+      "quote": "Do posledního investičního kola amerického startupu ve výši 15 milionů dolarů se měla zapojit podle informací CzechCrunche řádově nižšími desítkami milionů korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e15",
+      "url": "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-12-09",
+      "source_class": "C",
+      "quote": "Výčet investorů doplňuje investiční skupina JSK Simony Kijonkové a jejího manžela Jaromíra Kijonky.",
+      "language": "cs"
+    },
+    {
+      "id": "e16",
+      "url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Pod hlavičkou JSK Investments vznikl samosprávný investiční fond kvalifikovaných investorů typu SICAV, do kterého je možné vstoupit s minimální investicí 125 tisíc eur, což jsou v přepočtu zhruba tři miliony korun.",
+      "language": "cs"
+    },
+    {
+      "id": "e17",
+      "url": "https://cc.cz/investujte-jako-simona-kijonkova-zakladatelka-zasilkovny-otevira-fond-do-ktereho-chce-miliardy/",
+      "publisher": "CzechCrunch",
+      "published_on": "2025-09-30",
+      "source_class": "C",
+      "quote": "Druhý podfond Venture Capital se zaměřuje na menšinové vstupy do perspektivních startupů v raných fázích.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "Odyssey Ventures",
+    "33East",
+    "Alumni Ventures",
+    "Standard Capital",
+    "Y Combinator",
+    "VOX Capital",
+    "Lingotto Innovation",
+    "WestWave Capital",
+    "Zaka VC",
+    "Purple Ventures"
+  ],
+  "analyst_notes": "Created 2026-10-25 under the brand rule (plan 10a) after the review of jsk-investments: a separately branded VC fund with its own team is its own investor record; the JSK group (PE-dominated SICAV) stays a separate record (cz-vc/jsk-investments, pe, S1). Identity (I1): sub-fund 'JSK Investments Venture Capital Fund I, podfond' (IČO 75166372, registered 2026-02-24 per the group dossier) of the self-managed, ČNB-authorised JSK Investments SICAV a.s. (IČO 23823445), which manages the sub-fund and is also listed on the group record; own site jskinvestments.ventures with team (Simona Kijonková as Managing Partner & CIO, Investment Director Petra Cihlářová, analyst Kristián Krejsa; e8, e11) at Klimentská 46, Praha 1 (e9). Capital is managed independently from the other strategies (e7). I4: the SICAV takes qualified-investor money (min EUR 125k, e16) in addition to JSK's own capital (EUR 10m of the EUR 20m target is internal, e1). Activity (I3): MintNeuro (UK, Imperial spin-out) USD 5m round led by Odyssey Ventures, JSK release 2026-10-09 (e10; the investment director of the VC sub-fund is quoted, e11; round_amount is the total round); Andromeda Surgical (US) USD 15m Series A led by Standard Capital - the round was published 2026-08-05 (Signalbase, e13) and JSK's participation reported by Vestbee 2026-09-17 (e12) and CzechCrunch 2026-09-15 (e14: JSK's ticket in the low tens of millions of CZK), so the deal is dated by the round announcement 2026-08-05; Vetstor (CZ) EUR 1m round 2025-12-09 (e15), made by the JSK group before the sub-fund was registered and listed in the VC fund's portfolio now (round label not stated, left null). Other portfolio companies on the fund site, undated: inTouch, Elin.ai, iSono Health, Lightly Technologies. Sector: own site focus Health (healthtech, medtech, femtech, mental health, agetech, animal health) and Applied Frontier Technology (applied AI, deep tech, robotics, quantum, climate) mapped to healthtech, ai_data, deeptech_hardware, energy_climate. Stage: 'Early stage to Series B (Series B only for follow on)' recorded as seed and series_a for first tickets. Ticket: initial investment from EUR 300k, no maximum stated. Capital: only a target (EUR 20m, of which EUR 10m internal capital) is published - recorded as a fund target, capital not disclosed (no close announced). The fund is for qualified investors only (site). [revision 2026-10-25 after review round 2: capital changed from not_disclosed to EUR 10m interim_close - the fund site shows '€10M internal capital' next to 'TARGET FUND SIZE €20M' (e1), i.e. the sponsor's (JSK's own) capital committed so far to a fund that is still raising towards its target. This is a single sponsor commitment and the only public committed amount; no first or final close has been announced, and the EUR 20m stays a target fund event. The site is undated, so as_of is the date the page was read (2026-10-25), not a known commitment date; no dated fund event was added for it. The earlier sentence 'recorded as a fund target, capital not disclosed' is superseded.]",
+  "researched_on": "2026-10-25"
+}

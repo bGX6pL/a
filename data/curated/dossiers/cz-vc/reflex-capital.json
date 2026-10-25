@@ -1,0 +1,42 @@
+{
+  "investor_key": "reflex-capital",
+  "pilot": "cz-vc",
+  "name": "Reflex Capital",
+  "aliases": ["Reflex Capital SE"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.reflexcapital.com",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague VC of Mall.cz founder Ondřej Fryc and partners; third fund closed at EUR 22m (Dec 2023); joined Supernova's Series A (Sep 2025) and FaceUp's Series A (May 2026) and led Merchantee's seed extension (Jun 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "Reflex Capital SE", "country": "CZ", "registry": "CZ-ICO", "registry_id": "24269158", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["software_saas"], "method": "derived", "evidence": ["e4", "e5", "e6"]},
+  "stage_focus": {"value": ["seed", "series_a"], "method": "derived", "evidence": ["e2", "e4", "e5", "e6"]},
+  "geography_focus": {"value": ["CZ"], "method": "derived", "evidence": ["e4", "e5", "e6"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 2000000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": {"amount": 22000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2023-12-22"}, "method": "stated", "evidence": ["e1"]},
+  "funds": [
+    {"name": "Reflex Capital Fund III", "size_amount": 22000000, "currency": "EUR", "event": "final_close", "event_date": "2023-12-22", "evidence": "e1"}
+  ],
+  "investments": [
+    {"company": "Merchantee", "company_country": "CZ", "date": "2026-06-09", "round": "seed", "round_amount": 30000000, "currency": "CZK", "evidence": "e4"},
+    {"company": "FaceUp", "company_country": "CZ", "date": "2026-05-19", "round": "series_a", "round_amount": 5000000, "currency": "USD", "evidence": "e5"},
+    {"company": "Supernova", "company_country": "CZ", "date": "2025-09-30", "round": "series_a", "round_amount": 9200000, "currency": "USD", "evidence": "e6"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2023-12-22", "source_class": "C", "quote": "Uzavřel svůj třetí fond o velikosti dvaadvacet milionů eur, tedy bezmála 540 milionů korun.", "language": "cs"},
+    {"id": "e2", "url": "https://cc.cz/nova-sila-pro-reflex-capital-ondreje-fryce-ve-tretim-fondu-ma-na-startupy-pres-pul-miliardy/", "publisher": "CzechCrunch", "published_on": "2023-12-22", "source_class": "C", "quote": "Fond obecně investuje částky kolem jednoho milionu eur, někdy ke hranici dvou milionů, tedy přibližně pětadvacet až padesát milionů korun.", "language": "cs"},
+    {"id": "e3", "url": "https://www.reflexcapital.com/", "publisher": "Reflex Capital", "published_on": null, "source_class": "B", "quote": "€150M invested", "language": "en"},
+    {"id": "e4", "url": "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/", "publisher": "CzechCrunch", "published_on": "2026-06-09", "source_class": "C", "quote": "Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.", "language": "cs"},
+    {"id": "e5", "url": "https://cc.cz/byl-to-studentsky-projekt-ted-uz-ma-hodnotu-pres-pul-miliardy-nabidky-na-odkup-odmitame-hlasi-cesi/", "publisher": "CzechCrunch", "published_on": "2026-05-19", "source_class": "C", "quote": "Do investice se pak zapojili i stávající investoři Jiří Hlavenka, Tilia Impact Ventures a Reflex Capital spolu se skupinou andělských investorů", "language": "cs"},
+    {"id": "e6", "url": "https://cc.cz/potkali-se-v-cajovne-pak-rozbehli-startup-kde-automatizuji-praci-vyvojaru-ted-ziskali-200-milionu/", "publisher": "CzechCrunch", "published_on": "2025-09-30", "source_class": "C", "quote": "do kola se připojily i fondy J&T Ventures, Reflex Capital, Kaya, Credo Ventures, EQT Ventures, Wing VC a Y Combinator", "language": "cs"}
+  ],
+  "co_investors_seen": ["Czech Founders VC", "Lighthouse Ventures", "Fil Rouge Capital", "JIC Ventures", "Venture to Future Fund", "Gi21 Capital", "Tilia Impact Ventures", "Jiří Hlavenka", "Taiwania Capital", "J&T Ventures", "Kaya VC", "Credo Ventures", "EQT Ventures", "Wing VC", "Y Combinator"],
+  "analyst_notes": "The investor's site gives no focus, stage or ticket statement (only '€150M invested', e3, undated, cumulative - not used as capital). Capital and ticket come from CzechCrunch 2023-12-22: third fund closed at EUR 22m (similar to Fund II); typical investment about EUR 1m, sometimes up to EUR 2m. The fund close is before the activity window; activity comes from 2025-2026 deals. Sector, stage and geography are derived from the cited deals (Merchantee - marketplace SaaS, FaceUp - compliance SaaS, Supernova - design-to-code developer tool; all Czech; seed extension and two Series A rounds); the wider portfolio also includes consumer apps (Fitify, VOS.health). Round amounts are whole rounds (Merchantee CZK 30m extension; FaceUp USD 5m Series A; Supernova USD 9.2m Series A), Reflex shares undisclosed. Fund vehicles not identified by name in ARES; only Reflex Capital SE is listed.",
+  "researched_on": "2026-10-25"
+}

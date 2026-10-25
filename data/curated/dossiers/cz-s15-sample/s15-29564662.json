@@ -1,0 +1,49 @@
+{
+  "investor_key": "s15-29564662",
+  "pilot": "cz-s15-sample",
+  "name": "SMV Holding For Partners",
+  "aliases": [
+    "SMV Holding For Partners, osoba rizikového kapitálu, a.s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "No website, portfolio or news found; ARES lists only the legal entity, so I1 holds but I2 cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "SMV Holding For Partners, osoba rizikového kapitálu, a.s.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "29564662",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29564662",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "SMV Holding For Partners, osoba rizikového kapitálu, a.s.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "ARES: datumVzniku 2026-05-17; czNace 663. Same seat (Pobřežní 249/46, Praha 8) as the eight SMV Capital ONE–EIGHT entities, but it is not listed on smvcapital.cz. No website, portfolio or news found.",
+  "researched_on": "2026-10-25"
+}

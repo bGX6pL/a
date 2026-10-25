@@ -1,0 +1,20 @@
+{
+  "investor_key": "united-founders",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-B",
+  "reviewed_on": "2026-10-25",
+  "verdict": "incorrect",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": false,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "incorrect",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "decision_correct: pilot scope requires an office AND investment activity in Czechia. Fund is a Luxembourg entity (E15 2026-06-07), managing partner Paris-based; all named deals are foreign (AMI Labs FR, Oligoplus FR, Peak Quantum DE, Wonderful IL); Horky (E15 2026-06-07): no Czech investment yet, one 'very likely' this year. Only Czech links: Prague advisory s.r.o., a Prague partner, mostly CZ/SK LPs. ticket_size: EUR 300k-1m contradicted by own site (initial EUR 100k-1m, follow-on up to 2m) and E15 four days later (EUR 150k-1m). capital: EUR 30m is the first close (Sifted, Nov 2025) and still the interim amount in June 2026 with fundraising open ~1 more year toward the EUR 80m target - not a fund size."
+}

@@ -1,0 +1,86 @@
+{
+  "investor_key": "adventum",
+  "pilot": "sk-reference",
+  "name": "ADVENTUM",
+  "aliases": [
+    "ADVENTUM s.r.o.",
+    "ADVENTUM asset management",
+    "AVEBRENTA"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://adventum.sk",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Registered manager of the AVEBRENTA fund, whose subfund buys stakes in SPVs and provides equity loans in the Czech/Slovak residential housing market - a real-estate strategy, not VC.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "ADVENTUM s.r.o.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "50794973",
+      "role": "manager"
+    },
+    {
+      "name": "AVEBRENTA investičný fond s premenlivým základným imaním a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "53097131",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12253397",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Cieľ podfondu: dosiahnutie atraktívneho kapitálového zhodnotenia formou kúpy podielov v SPV a poskytovania ekvitných úverov na trhu rezidenčného bývania, z ktorých plynú pravidelné úrokové príjmy",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12253397",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Správcom podfondu je ADVENTUM s.r.o., Dunajská 15A, 811 08 Bratislava – mestská časť Staré Mesto, IČO: 50794973",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://adventum.sk/",
+      "publisher": "ADVENTUM",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Alternatívny investičný fond AVEBRENTA je subjektom kolektívneho investovania s právnou formou akciovej spoločnosti s premenlivým základným imaním.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.orsr.sk/vypis.asp?ID=375373&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Vytváranie a spravovanie alternatívnych investičných fondov a zahraničných alternatívnych investičných fondov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "AVEBRENTA (IČO 53097131) notes 2025 (RÚZ, e1-e2): subfund goal = SPV stakes and equity loans in residential housing, CZ and SK, 3-year horizon. Bank of Spain list of Slovak funds classes an AVEBRENTA subfund as real estate.",
+  "researched_on": "2026-10-25"
+}

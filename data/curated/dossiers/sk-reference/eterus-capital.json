@@ -1,0 +1,207 @@
+{
+  "investor_key": "eterus-capital",
+  "pilot": "sk-reference",
+  "name": "Eterus Capital",
+  "aliases": [
+    "Eterus Capital, a. s."
+  ],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://eterus.sk/",
+  "decision": "exclude",
+  "rule_codes": [
+    "S1",
+    "E7"
+  ],
+  "decision_note": "Bratislava growth private-equity fund (minority EUR 2-2.5m tickets in established Slovak SMEs, linked to NHF/SBA) that describes itself as private equity, not VC; latest dated deal Dr. Martin on 2024-06-12.",
+  "discovered_via": [
+    "research-seed",
+    "slovca",
+    "news"
+  ],
+  "legal_entities": [
+    {
+      "name": "Eterus Capital, a. s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "44193025",
+      "role": "fund"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e8"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "growth"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "self_reported",
+    "evidence": [
+      "e9"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 2000000,
+      "max": 2500000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "capital": {
+    "value": null,
+    "method": "not_disclosed",
+    "evidence": []
+  },
+  "funds": [],
+  "investments": [
+    {
+      "company": "Dr. Martin",
+      "company_country": "SK",
+      "date": "2024-06-12",
+      "round": "growth",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e6"
+    },
+    {
+      "company": "MTBIKER",
+      "company_country": "SK",
+      "date": "2023-05-15",
+      "round": "growth",
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e7"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/686398",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Eterus Capital, a. s. - IČO: 44193025",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://eterus.sk/",
+      "publisher": "Eterus Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Do inovácií sme formou private equity investovali už viac než 40 mil. EUR.",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://eterus.sk/",
+      "publisher": "Eterus Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Zameriavame sa na investície v rozmedzí 2 - 2,5 mil. EUR, pričom preferovaná dĺžka investície predstavuje 5-7 rokov.",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://eterus.sk/",
+      "publisher": "Eterus Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond vstupuje do spoločností ako minoritný akcionár, manažérska kontrola zostáva v rukách pôvodných akcionárov.",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://eterus.sk/",
+      "publisher": "Eterus Capital",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Eterus je partner pre financovanie spoločností vo fáze rastu, so schopným managementom a overeným konceptom.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://eterus.sk/2024/06/12/dr-martin-a-eterus-capital-spaja-sily-pre-expanziu-a-rozvoj-siete-zubnych-klinik/",
+      "publisher": "Eterus Capital",
+      "published_on": "2024-06-12",
+      "source_class": "B",
+      "quote": "Bratislava, 12. jún 2024 – Dr. Martin, popredná slovenská sieť moderných stomatologických kliník, dnes oznámila významnú investíciu od Eterus Capital a Ethernum Capital.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://eterus.sk/2023/05/15/mtbiker-ziskal-silneho-partnera-eterus-capital-investuje-do-jeho-rozvoja/",
+      "publisher": "Eterus Capital",
+      "published_on": "2023-05-15",
+      "source_class": "B",
+      "quote": "Do spoločnosti vstupuje private equity fond Eterus Capital.",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/eterus-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Preferované odvetvie: Odvetvia s vyššou pridanou hodnotou, investície do príležitostí v rozvojovom štádiu životného cyklu v odvetviach so silným rastovým potenciálom.",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/eterus-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Geografické zameranie: Slovenská republika",
+      "language": "sk"
+    },
+    {
+      "id": "e10",
+      "url": "https://www.slovca.sk/sk/riadni-clenovia/eterus-capital.html",
+      "publisher": "SLOVCA (self-reported member profile)",
+      "published_on": null,
+      "source_class": "D",
+      "quote": "Typ investícií: Private equity",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://www.nhfond.sk/fondy-rizikoveho-kapitalu/eterus/podmienky-poskytnutia/",
+      "publisher": "Národný holdingový fond",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Fond preferuje investície v intervale od 0,5 – 5 milióna EUR.",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [
+    "Ethernum Capital"
+  ],
+  "analyst_notes": "Type: Eterus calls itself a private equity fund throughout its site and SLOVCA profile (growth capital, minority stakes in established SMEs with proven concept, majority stakes also reported by Oaklins, e.g. Virtual Reality Media) -> pe, out of pilot scope (S1). E7 added because the latest dated deal found is Dr. Martin (2024-06-12, co-invested with Ethernum Capital), before the window; site news after that is opinion pieces (last 2024-09-30); web-search budget ran out before a full 2025-2026 press check. Ticket: own site EUR 2-2.5m (newest B, used) vs SLOVCA self-report EUR 0.5-5m and nhfond.sk 0.5-5m. 'Viac než 40 mil. EUR' is cumulative capital deployed since 2008, not a fund size -> capital not_disclosed. Portfolio named on eterus.sk: MTBIKER, Dr. Martin, Hopin, Saneca Pharmaceuticals, Sygic, GroupSolver, Eyerim, Ecocapsule, VRM, EEI, T-Injecta/CTI group, EC Pharmacies. Structure: nhfond.sk says Národný holdingový fond (SBA) 'manages' Eterus Capital a.s.; SLOVCA contact is a Wood & Company e-mail (Boris Kostík, investment director), so the investment team appears to sit at Wood & Company - not verified. Not on the NBS register (export 2026-10-24). Also listed in the Vestbee round-up of Slovak VC funds (2020-10-08) - counted as 'news' discovery.",
+  "researched_on": "2026-10-25"
+}

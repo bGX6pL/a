@@ -3,15 +3,73 @@
   "key": "slug",
   "rows": [
     {
+      "slug": "web-evidence",
+      "name": "Evidence pages cited in investor dossiers",
+      "publisher": "various (investor websites, press releases, news, registers)",
+      "jurisdiction": "GLOBAL",
+      "category": "web_evidence",
+      "investor_types": [
+        "vc",
+        "pe",
+        "family_office",
+        "angel",
+        "private_investor"
+      ],
+      "fields_provided": [
+        "investor_type",
+        "sector_focus",
+        "stage_focus",
+        "ticket_size",
+        "fund_size",
+        "aum",
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html",
+        "pdf"
+      ],
+      "url": "https://example.invalid/see-core-evidence",
+      "licence": "varies per page; stored for verification only, quoted under short-quotation rules",
+      "cost": "free",
+      "update_cadence": "re-checked weekly by investordb.fetch.evidence",
+      "coverage_estimate": "every URL in core.evidence",
+      "reliability": "medium",
+      "priority": 1,
+      "limitations": "JavaScript-only pages and paywalls cannot be verified by script",
+      "notes": "Pseudo-source so that evidence re-fetches are logged in meta.fetch_run like every other source.",
+      "evidence_urls": [],
+      "researched_on": "2026-10-25"
+    },
+    {
       "slug": "sec-form-d",
       "name": "SEC Form D data sets (Regulation D offering notices)",
       "publisher": "U.S. Securities and Exchange Commission (DERA)",
       "jurisdiction": "US",
       "category": "regulatory_filing",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity", "investor_type", "fund_size", "deal_dates", "people"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["bulk_download"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "fund_size",
+        "deal_dates",
+        "people"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://www.sec.gov/data-research/sec-markets-data/form-d-data-sets",
       "licence": "US government public data, free to access; no explicit reuse licence found (US federal works generally public domain [unverified]); EDGAR fair-access rules apply",
       "cost": "Free",
@@ -42,10 +100,30 @@
       "publisher": "U.S. Securities and Exchange Commission",
       "jurisdiction": "US",
       "category": "regulatory_filing",
-      "investor_types": ["vc", "pe", "fund_of_funds"],
-      "fields_provided": ["identity", "investor_type", "stage_focus", "fund_size", "aum", "people", "geography"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["bulk_download", "search_ui", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "fund_of_funds"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "stage_focus",
+        "fund_size",
+        "aum",
+        "people",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "bulk_download",
+        "search_ui",
+        "pdf"
+      ],
       "url": "https://www.sec.gov/data-research/sec-markets-data/information-about-registered-investment-advisers-exempt-reporting-advisers",
       "licence": "US government public data, free to access; no explicit reuse licence found",
       "cost": "Free",
@@ -74,10 +152,16 @@
       "publisher": "U.S. Securities and Exchange Commission",
       "jurisdiction": "US",
       "category": "ecosystem_report",
-      "investor_types": ["vc", "pe"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
       "fields_provided": [],
       "roles": [],
-      "access_methods": ["html", "bulk_download"],
+      "access_methods": [
+        "html",
+        "bulk_download"
+      ],
       "url": "https://sec.gov/data-research/statistics-data-visualizations/private-fund-statistics",
       "licence": "US government public data, free to access; no explicit reuse licence found",
       "cost": "Free",
@@ -103,10 +187,22 @@
       "publisher": "U.S. Securities and Exchange Commission",
       "jurisdiction": "US",
       "category": "regulatory_filing",
-      "investor_types": ["family_office"],
-      "fields_provided": ["identity", "portfolio", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["bulk_download", "html"],
+      "investor_types": [
+        "family_office"
+      ],
+      "fields_provided": [
+        "identity",
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "bulk_download",
+        "html"
+      ],
       "url": "https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets",
       "licence": "US government public data, free to access; no explicit reuse licence found",
       "cost": "Free",
@@ -128,10 +224,18 @@
       "publisher": "U.S. Securities and Exchange Commission (DERA)",
       "jurisdiction": "US",
       "category": "regulatory_filing",
-      "investor_types": ["crowdfunding"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["bulk_download"],
+      "investor_types": [
+        "crowdfunding"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://www.sec.gov/data-research/sec-markets-data/crowdfunding-offerings-data-sets",
       "licence": "US government public data, free to access; no explicit reuse licence found",
       "cost": "Free",
@@ -154,9 +258,18 @@
       "jurisdiction": "US",
       "category": "regulatory_filing",
       "investor_types": [],
-      "fields_provided": ["identity", "deal_dates"],
-      "roles": ["verification"],
-      "access_methods": ["api", "bulk_download", "search_ui"],
+      "fields_provided": [
+        "identity",
+        "deal_dates"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "api",
+        "bulk_download",
+        "search_ui"
+      ],
       "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
       "licence": "Free to access ('anyone can access and download this information for free'); fair-access rules: max 10 requests/second, declared User-Agent, no botnets or automated crawling",
       "cost": "Free",
@@ -180,10 +293,28 @@
       "publisher": "Companies House",
       "jurisdiction": "GB",
       "category": "company_registry",
-      "investor_types": ["vc", "pe", "angel", "private_investor"],
-      "fields_provided": ["identity", "investor_type", "people", "portfolio", "geography"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["bulk_download", "api", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "angel",
+        "private_investor"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "people",
+        "portfolio",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "bulk_download",
+        "api",
+        "pdf"
+      ],
       "url": "https://download.companieshouse.gov.uk/en_output.html",
       "licence": "Free; reuse licence (often described as the Open Government Licence) not confirmed on the pages fetched; bulk product 'provided free of charge and will not be supported'",
       "cost": "Free",
@@ -207,10 +338,22 @@
       "publisher": "Financial Conduct Authority",
       "jurisdiction": "GB",
       "category": "regulatory_register",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity", "investor_type", "people"],
-      "roles": ["verification"],
-      "access_methods": ["api", "search_ui"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "people"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "api",
+        "search_ui"
+      ],
       "url": "https://register.fca.org.uk/Developer/s/",
       "licence": "API terms of use not found (registration and key required)",
       "cost": null,
@@ -236,10 +379,18 @@
       "publisher": "British Business Bank",
       "jurisdiction": "GB",
       "category": "public_programme",
-      "investor_types": ["fund_of_funds", "vc", "pe"],
+      "investor_types": [
+        "fund_of_funds",
+        "vc",
+        "pe"
+      ],
       "fields_provided": [],
-      "roles": ["verification"],
-      "access_methods": ["html"],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-patient-capital-full-year-results-period-ending-31-march-2024",
       "licence": null,
       "cost": "Free",
@@ -261,10 +412,25 @@
       "publisher": "European Securities and Markets Authority (ESMA)",
       "jurisdiction": "EU",
       "category": "regulatory_register",
-      "investor_types": ["vc", "pe", "crowdfunding"],
-      "fields_provided": ["identity", "investor_type", "geography"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["search_ui", "bulk_download", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "crowdfunding"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "search_ui",
+        "bulk_download",
+        "pdf"
+      ],
       "url": "https://www.esma.europa.eu/databases-and-registers",
       "licence": "ESMA site terms (not checked)",
       "cost": "Free",
@@ -293,10 +459,22 @@
       "publisher": "Global Legal Entity Identifier Foundation (GLEIF)",
       "jurisdiction": "GLOBAL",
       "category": "open_dataset",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity", "geography"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["bulk_download", "api"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "bulk_download",
+        "api"
+      ],
       "url": "https://www.gleif.org/en/lei-data/gleif-golden-copy",
       "licence": "CC0; LEI Data Terms of Use forbid implying GLEIF endorsement or circumventing technical restrictions (liquidated damages CHF 100,000 per breach)",
       "cost": "Free",
@@ -321,7 +499,9 @@
       "jurisdiction": "EU",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["people"],
+      "fields_provided": [
+        "people"
+      ],
       "roles": [],
       "access_methods": [],
       "url": "https://www.aoshearman.com/en/insights/operation-of-the-register-of-beneficial-owners-have-we-finally-reached-a-turning-point",
@@ -348,10 +528,21 @@
       "publisher": "California Public Employees' Retirement System (CalPERS)",
       "jurisdiction": "US",
       "category": "lp_disclosure",
-      "investor_types": ["pe", "vc"],
-      "fields_provided": ["identity", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "pe",
+        "vc"
+      ],
+      "fields_provided": [
+        "identity",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.calpers.ca.gov/investments/about-investment-office/investment-organization/pep-fund-performance",
       "licence": "Public records",
       "cost": "Free",
@@ -373,10 +564,21 @@
       "publisher": "Washington State Investment Board (WSIB)",
       "jurisdiction": "US",
       "category": "lp_disclosure",
-      "investor_types": ["pe", "vc"],
-      "fields_provided": ["identity", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["pdf"],
+      "investor_types": [
+        "pe",
+        "vc"
+      ],
+      "fields_provided": [
+        "identity",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "pdf"
+      ],
       "url": "https://www.sib.wa.gov/docs/reports/quarterly/ir063021.pdf",
       "licence": "Public records",
       "cost": "Free",
@@ -400,10 +602,25 @@
       "publisher": "European Investment Fund (EIB Group)",
       "jurisdiction": "EU",
       "category": "public_programme",
-      "investor_types": ["vc", "pe", "fund_of_funds"],
-      "fields_provided": ["identity", "portfolio", "deal_dates", "geography"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "fund_of_funds"
+      ],
+      "fields_provided": [
+        "identity",
+        "portfolio",
+        "deal_dates",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html",
+        "pdf"
+      ],
       "url": "https://eif.org/InvestEU/financial-intermediaries/index.htm",
       "licence": "EIF site terms (not checked)",
       "cost": "Free",
@@ -431,10 +648,20 @@
       "publisher": "KfW Capital (KfW Group)",
       "jurisdiction": "DE",
       "category": "public_programme",
-      "investor_types": ["fund_of_funds", "vc"],
-      "fields_provided": ["aum", "sector_focus"],
-      "roles": ["verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "fund_of_funds",
+        "vc"
+      ],
+      "fields_provided": [
+        "aum",
+        "sector_focus"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.kfw.de/About-KfW/Reporting-Portal/Berichterstattung-2025_EN/KfW-Capital/",
       "licence": null,
       "cost": "Free",
@@ -457,10 +684,19 @@
       "publisher": "Bpifrance",
       "jurisdiction": "FR",
       "category": "public_programme",
-      "investor_types": ["fund_of_funds", "vc", "pe"],
+      "investor_types": [
+        "fund_of_funds",
+        "vc",
+        "pe"
+      ],
       "fields_provided": [],
-      "roles": ["verification"],
-      "access_methods": ["html", "pdf"],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html",
+        "pdf"
+      ],
       "url": "https://www.ipp.eu/wp-content/uploads/2026/07/Rapport_IPP_69_BPI_Private_Equity.pdf",
       "licence": null,
       "cost": "Free",
@@ -483,10 +719,26 @@
       "publisher": "Wikimedia Foundation (community-edited)",
       "jurisdiction": "GLOBAL",
       "category": "open_dataset",
-      "investor_types": ["vc", "pe", "angel"],
-      "fields_provided": ["identity", "investor_type", "geography", "portfolio", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["api", "bulk_download"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "angel"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "geography",
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "api",
+        "bulk_download"
+      ],
       "url": "https://query.wikidata.org/",
       "licence": "CC0 (structured data)",
       "cost": "Free",
@@ -510,9 +762,14 @@
       "jurisdiction": "GLOBAL",
       "category": "open_dataset",
       "investor_types": [],
-      "fields_provided": ["identity"],
+      "fields_provided": [
+        "identity"
+      ],
       "roles": [],
-      "access_methods": ["api", "bulk_download"],
+      "access_methods": [
+        "api",
+        "bulk_download"
+      ],
       "url": "https://opencorporates.com/terms-of-use-2/",
       "licence": "ODbL (share-alike, attribution) or a paid non-open licence; free access only for permitted users (personal use; journalists, NGOs and academics doing public-benefit research); financial institutions and corporations are not permitted users",
       "cost": "API paid from £99/year; bulk free only if the derived database is shared under the open licence; free key reportedly 200 requests/month and 50/day [secondary, anecdotal]",
@@ -535,10 +792,20 @@
       "publisher": "Crunchbase",
       "jurisdiction": "GLOBAL",
       "category": "commercial_free_tier",
-      "investor_types": ["vc", "angel", "pe"],
-      "fields_provided": ["identity", "portfolio", "deal_dates"],
+      "investor_types": [
+        "vc",
+        "angel",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "portfolio",
+        "deal_dates"
+      ],
       "roles": [],
-      "access_methods": ["html"],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://about.crunchbase.com/terms-of-service/",
       "licence": "Terms of Service (updated 30 Sep 2026) prohibit crawling or scraping, automated access or export, storing any significant portion and model training; Crunchbase Basic and the 2013 Snapshot are CC-BY but subject to the Terms",
       "cost": "Free tier; API use or data export needs a separate arrangement",
@@ -561,10 +828,17 @@
       "publisher": "Crunchbase (mirrored on Kaggle)",
       "jurisdiction": "GLOBAL",
       "category": "open_dataset",
-      "investor_types": ["vc"],
-      "fields_provided": ["portfolio", "deal_dates"],
+      "investor_types": [
+        "vc"
+      ],
+      "fields_provided": [
+        "portfolio",
+        "deal_dates"
+      ],
       "roles": [],
-      "access_methods": ["bulk_download"],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://baselight.app/u/kaggle/dataset/justinas_startup_investments",
       "licence": "CC-BY (Crunchbase 2013 Snapshot), subject to Crunchbase terms",
       "cost": "Free",
@@ -587,10 +861,24 @@
       "publisher": "OpenVC",
       "jurisdiction": "GLOBAL",
       "category": "commercial_free_tier",
-      "investor_types": ["vc", "angel", "family_office"],
-      "fields_provided": ["identity", "sector_focus", "stage_focus", "ticket_size"],
-      "roles": ["discovery", "enrichment"],
-      "access_methods": ["search_ui"],
+      "investor_types": [
+        "vc",
+        "angel",
+        "family_office"
+      ],
+      "fields_provided": [
+        "identity",
+        "sector_focus",
+        "stage_focus",
+        "ticket_size"
+      ],
+      "roles": [
+        "discovery",
+        "enrichment"
+      ],
+      "access_methods": [
+        "search_ui"
+      ],
       "url": "https://openvc.app/investor-database",
       "licence": "Terms of service not located; export only into the user's own CRM (CSV/XLS)",
       "cost": null,
@@ -613,9 +901,16 @@
       "jurisdiction": "GLOBAL",
       "category": "press_release",
       "investor_types": [],
-      "fields_provided": ["portfolio", "deal_dates"],
-      "roles": ["verification"],
-      "access_methods": ["html"],
+      "fields_provided": [
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.businesswire.com/terms-of-use",
       "licence": "Terms limit site use to submitting news releases, retrieving RSS feeds and reading releases",
       "cost": null,
@@ -637,9 +932,16 @@
       "jurisdiction": "GLOBAL",
       "category": "press_release",
       "investor_types": [],
-      "fields_provided": ["portfolio", "deal_dates"],
-      "roles": ["verification"],
-      "access_methods": ["html"],
+      "fields_provided": [
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.notified.com/GNW-PR/media-partners",
       "licence": "Terms not reviewed; media-partner arrangements offered",
       "cost": null,
@@ -662,7 +964,9 @@
       "category": "news_media",
       "investor_types": [],
       "fields_provided": [],
-      "roles": ["discovery"],
+      "roles": [
+        "discovery"
+      ],
       "access_methods": [],
       "url": "https://jwatte.com/blog/gdelt-open-data-kalev-leetaru.md",
       "licence": "Reportedly free for unlimited and unrestricted academic, commercial and governmental use with citation and link back [secondary; GDELT terms page not fetched]",
@@ -687,7 +991,9 @@
       "investor_types": [],
       "fields_provided": [],
       "roles": [],
-      "access_methods": ["bulk_download"],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://commoncrawl.org/faq",
       "licence": "No republishing of crawled content, no resale, no illegal use; users must respect crawled sites' terms",
       "cost": null,
@@ -709,10 +1015,30 @@
       "publisher": "Individual investment firms",
       "jurisdiction": "GLOBAL",
       "category": "investor_website",
-      "investor_types": ["vc", "pe", "family_office", "cvc"],
-      "fields_provided": ["identity", "sector_focus", "stage_focus", "ticket_size", "fund_size", "aum", "portfolio"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["html", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "family_office",
+        "cvc"
+      ],
+      "fields_provided": [
+        "identity",
+        "sector_focus",
+        "stage_focus",
+        "ticket_size",
+        "fund_size",
+        "aum",
+        "portfolio"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html",
+        "pdf"
+      ],
       "url": "https://www.pentainvestments.com/en/?p=5609",
       "licence": "Site-specific; respect robots.txt and each site's terms",
       "cost": "Free",
@@ -735,9 +1061,13 @@
       "jurisdiction": "GLOBAL",
       "category": "commercial_free_tier",
       "investor_types": [],
-      "fields_provided": ["people"],
+      "fields_provided": [
+        "people"
+      ],
       "roles": [],
-      "access_methods": ["html"],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.linkedin.com/legal/user-agreement",
       "licence": "User Agreement §8.2 (effective 3 Nov 2025) bans scraping or copying profiles and data, and bots or other automated access",
       "cost": null,
@@ -758,10 +1088,21 @@
       "publisher": "EBAN",
       "jurisdiction": "EU",
       "category": "association",
-      "investor_types": ["angel"],
-      "fields_provided": ["identity", "investor_type", "geography"],
-      "roles": ["discovery"],
-      "access_methods": ["html", "pdf"],
+      "investor_types": [
+        "angel"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "geography"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html",
+        "pdf"
+      ],
       "url": "https://eban.org/membership-directory",
       "licence": null,
       "cost": "Free (public directory)",
@@ -784,10 +1125,18 @@
       "publisher": "Angel Capital Association",
       "jurisdiction": "US",
       "category": "association",
-      "investor_types": ["angel"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "angel"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://angelcapitalassociation.org/directory/",
       "licence": null,
       "cost": "Public directory free; fuller directory members-only",
@@ -810,10 +1159,22 @@
       "publisher": "Národná banka Slovenska (NBS)",
       "jurisdiction": "SK",
       "category": "regulatory_register",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity", "investor_type"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html", "search_ui"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html",
+        "search_ui"
+      ],
       "url": "https://subjekty.nbs.sk/?s=1059",
       "licence": "Not stated",
       "cost": "Free",
@@ -837,9 +1198,20 @@
       "jurisdiction": "SK",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["identity", "investor_type", "people", "portfolio", "geography"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["api"],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "people",
+        "portfolio",
+        "geography"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "api"
+      ],
       "url": "https://rpo.statistics.sk/manual.pdf",
       "licence": "CC-BY 4.0 open government data per a third party [unverified]",
       "cost": "Free, no API key [third party]",
@@ -864,10 +1236,25 @@
       "publisher": null,
       "jurisdiction": "SK",
       "category": "company_registry",
-      "investor_types": ["vc", "pe", "family_office"],
-      "fields_provided": ["identity", "investor_type", "fund_size", "aum"],
-      "roles": ["discovery", "enrichment"],
-      "access_methods": ["api", "pdf"],
+      "investor_types": [
+        "vc",
+        "pe",
+        "family_office"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "fund_size",
+        "aum"
+      ],
+      "roles": [
+        "discovery",
+        "enrichment"
+      ],
+      "access_methods": [
+        "api",
+        "pdf"
+      ],
       "url": "https://www.registeruz.sk/cruz-public/home/api",
       "licence": "CC0",
       "cost": "Free",
@@ -892,9 +1279,15 @@
       "jurisdiction": "SK",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["people"],
-      "roles": ["enrichment"],
-      "access_methods": ["bulk_download"],
+      "fields_provided": [
+        "people"
+      ],
+      "roles": [
+        "enrichment"
+      ],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://www.justice.gov.sk/sluzby/register-partnerov-verejneho-sektora/",
       "licence": "Open Ownership BODS copy under Open Data Commons Attribution; ministry terms not stated",
       "cost": "Free",
@@ -916,10 +1309,24 @@
       "publisher": "Slovak Investment Holding (SZRB group)",
       "jurisdiction": "SK",
       "category": "public_programme",
-      "investor_types": ["vc", "fund_of_funds"],
-      "fields_provided": ["identity", "ticket_size", "fund_size", "deal_dates"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "fund_of_funds"
+      ],
+      "fields_provided": [
+        "identity",
+        "ticket_size",
+        "fund_size",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.sih.sk/en/stranky/cinnosti/venture-to-future-fund",
       "licence": "Not stated",
       "cost": "Free",
@@ -951,10 +1358,19 @@
       "publisher": "Slovak Venture Capital and Private Equity Association (SLOVCA)",
       "jurisdiction": "SK",
       "category": "association",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.slovca.sk/sk/clenstvo/riadni-clenovia.html",
       "licence": "Not stated",
       "cost": "Free",
@@ -980,9 +1396,13 @@
       "publisher": null,
       "jurisdiction": "SK",
       "category": "association",
-      "investor_types": ["angel"],
+      "investor_types": [
+        "angel"
+      ],
       "fields_provided": [],
-      "roles": ["discovery"],
+      "roles": [
+        "discovery"
+      ],
       "access_methods": [],
       "url": "https://www.podnikajte.sk/temy/podnikatelski-anjeli",
       "licence": null,
@@ -1030,10 +1450,23 @@
       "publisher": "Česká národní banka (ČNB)",
       "jurisdiction": "CZ",
       "category": "regulatory_register",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity", "investor_type"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html", "search_ui", "api"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity",
+        "investor_type"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html",
+        "search_ui",
+        "api"
+      ],
       "url": "https://jerrs.cnb.cz//apljerrsdad/JERRS.WEB07.INTRO_PAGE?p_lang=cz",
       "licence": "ČNB site terms (not confirmed)",
       "cost": "Free web lists; WS JERRS needs a commercial certificate (eIdentity, I.CA, PostSignum or an EU-trusted issuer) and a signed registration request",
@@ -1059,9 +1492,15 @@
       "jurisdiction": "CZ",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["identity"],
-      "roles": ["verification"],
-      "access_methods": ["api"],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "api"
+      ],
       "url": "https://mf.gov.cz/cs/ministerstvo/informacni-systemy/ares",
       "licence": "Not confirmed",
       "cost": null,
@@ -1086,9 +1525,17 @@
       "jurisdiction": "CZ",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["identity", "investor_type", "geography"],
-      "roles": ["discovery"],
-      "access_methods": ["bulk_download"],
+      "fields_provided": [
+        "identity",
+        "investor_type",
+        "geography"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://csu.gov.cz/registr-ekonomickych-subjektu-otevrena-data-dokumentace",
       "licence": "Not confirmed",
       "cost": "Free (open data)",
@@ -1110,9 +1557,17 @@
       "jurisdiction": "CZ",
       "category": "company_registry",
       "investor_types": [],
-      "fields_provided": ["identity", "people", "portfolio"],
-      "roles": ["verification"],
-      "access_methods": ["bulk_download"],
+      "fields_provided": [
+        "identity",
+        "people",
+        "portfolio"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "bulk_download"
+      ],
       "url": "https://dataor.justice.cz/",
       "licence": "Not confirmed",
       "cost": "Free [third party]",
@@ -1135,10 +1590,21 @@
       "publisher": "Národní rozvojová banka (NRB)",
       "jurisdiction": "CZ",
       "category": "public_programme",
-      "investor_types": ["fund_of_funds", "vc"],
-      "fields_provided": ["identity", "portfolio"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "fund_of_funds",
+        "vc"
+      ],
+      "fields_provided": [
+        "identity",
+        "portfolio"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.businessinfo.cz/clanky/nri-dokoncila-vyber-venture-kapitaloveho-fondu-pro-program-fond-ukrajina/",
       "licence": "Not stated",
       "cost": "Free",
@@ -1161,10 +1627,24 @@
       "publisher": "Ministerstvo průmyslu a obchodu ČR (MPO) with the EIF",
       "jurisdiction": "CZ",
       "category": "public_programme",
-      "investor_types": ["vc", "fund_of_funds"],
-      "fields_provided": ["identity", "fund_size", "stage_focus", "sector_focus"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "fund_of_funds"
+      ],
+      "fields_provided": [
+        "identity",
+        "fund_size",
+        "stage_focus",
+        "sector_focus"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.businessinfo.cz/clanky/prvni-investicni-vc-fond-z-narodniho-planu-obnovy-cr-bude-spravovat-tensor-ventures/",
       "licence": "Not stated",
       "cost": "Free",
@@ -1188,10 +1668,19 @@
       "publisher": "CzechInvest",
       "jurisdiction": "CZ",
       "category": "public_programme",
-      "investor_types": ["vc", "cvc"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "cvc"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://czechstartups.gov.cz/en/startup-ecosystem/investors",
       "licence": "Not stated",
       "cost": "Free",
@@ -1212,10 +1701,19 @@
       "publisher": "Warsaw Equity Group with CzechInvest and Czech Founders",
       "jurisdiction": "CEE",
       "category": "ecosystem_report",
-      "investor_types": ["vc"],
-      "fields_provided": ["identity", "geography"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc"
+      ],
+      "fields_provided": [
+        "identity",
+        "geography"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.pampam.city/funds-poland-BJpHbykKoXoBaILayYBs?52.231418%2C20.931213%2C11.26=",
       "licence": null,
       "cost": null,
@@ -1237,10 +1735,19 @@
       "publisher": "Czech Private Equity and Venture Capital Association (CVCA)",
       "jurisdiction": "CZ",
       "category": "association",
-      "investor_types": ["vc", "pe"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://www.cvca.cz/",
       "licence": null,
       "cost": null,
@@ -1263,10 +1770,18 @@
       "publisher": "Czech Business Angel Association (CBAA)",
       "jurisdiction": "CZ",
       "category": "association",
-      "investor_types": ["angel"],
-      "fields_provided": ["identity"],
-      "roles": ["discovery"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "angel"
+      ],
+      "fields_provided": [
+        "identity"
+      ],
+      "roles": [
+        "discovery"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://forbes.cz/cesko-se-musi-vymanit-ze-statusu-montovny-pomoci-ma-asociace-andelskych-investoru/",
       "licence": null,
       "cost": null,
@@ -1291,10 +1806,20 @@
       "publisher": "CzechCrunch",
       "jurisdiction": "CZ",
       "category": "news_media",
-      "investor_types": ["vc"],
-      "fields_provided": ["portfolio", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc"
+      ],
+      "fields_provided": [
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://cc.cz/startupovecesko/",
       "licence": "Proprietary",
       "cost": "Free articles; CC+ paywall for investor rankings and the 100+ investor database",
@@ -1319,10 +1844,22 @@
       "publisher": null,
       "jurisdiction": "CZ",
       "category": "news_media",
-      "investor_types": ["vc", "family_office", "angel"],
-      "fields_provided": ["aum", "deal_dates"],
-      "roles": ["verification", "enrichment"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "family_office",
+        "angel"
+      ],
+      "fields_provided": [
+        "aum",
+        "deal_dates"
+      ],
+      "roles": [
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://forbes.cz/",
       "licence": null,
       "cost": null,
@@ -1346,7 +1883,9 @@
       "publisher": "Ambit",
       "jurisdiction": "CZ",
       "category": "ecosystem_report",
-      "investor_types": ["vc"],
+      "investor_types": [
+        "vc"
+      ],
       "fields_provided": [],
       "roles": [],
       "access_methods": [],
@@ -1394,10 +1933,15 @@
       "publisher": "Invest Europe",
       "jurisdiction": "CEE",
       "category": "ecosystem_report",
-      "investor_types": ["vc", "pe"],
+      "investor_types": [
+        "vc",
+        "pe"
+      ],
       "fields_provided": [],
       "roles": [],
-      "access_methods": ["pdf"],
+      "access_methods": [
+        "pdf"
+      ],
       "url": "https://www.investeurope.eu/research/activity-data/",
       "licence": "Invest Europe copyright",
       "cost": "Free PDF",
@@ -1425,10 +1969,24 @@
       "publisher": "Vestbee",
       "jurisdiction": "CEE",
       "category": "ecosystem_report",
-      "investor_types": ["vc"],
-      "fields_provided": ["identity", "fund_size", "ticket_size", "portfolio", "deal_dates"],
-      "roles": ["discovery", "verification", "enrichment"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc"
+      ],
+      "fields_provided": [
+        "identity",
+        "fund_size",
+        "ticket_size",
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification",
+        "enrichment"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://vestbee.com/insights/articles/vc-funding-in-cee-report-q2-2026",
       "licence": "Proprietary",
       "cost": "Free reports (Vestbee's commercial platform is in the competitor table)",
@@ -1457,10 +2015,20 @@
       "publisher": "The Recursive",
       "jurisdiction": "CEE",
       "category": "news_media",
-      "investor_types": ["vc"],
-      "fields_provided": ["portfolio", "deal_dates"],
-      "roles": ["discovery", "verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc"
+      ],
+      "fields_provided": [
+        "portfolio",
+        "deal_dates"
+      ],
+      "roles": [
+        "discovery",
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://therecursive.com/search/venture+capital/page/61",
       "licence": null,
       "cost": null,
@@ -1481,10 +2049,14 @@
       "publisher": "Dealroom",
       "jurisdiction": "CEE",
       "category": "commercial_free_tier",
-      "investor_types": ["vc"],
+      "investor_types": [
+        "vc"
+      ],
       "fields_provided": [],
       "roles": [],
-      "access_methods": ["html"],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://dealroom.co/countries/slovakia/",
       "licence": "Proprietary",
       "cost": "Free headlines; deal-level data and investor lists paywalled",
@@ -1506,10 +2078,19 @@
       "publisher": "PitchBook",
       "jurisdiction": "GLOBAL",
       "category": "commercial_free_tier",
-      "investor_types": ["vc", "fund_of_funds"],
-      "fields_provided": ["deal_dates"],
-      "roles": ["verification"],
-      "access_methods": ["html"],
+      "investor_types": [
+        "vc",
+        "fund_of_funds"
+      ],
+      "fields_provided": [
+        "deal_dates"
+      ],
+      "roles": [
+        "verification"
+      ],
+      "access_methods": [
+        "html"
+      ],
       "url": "https://pitchbook.com/profiles/investor/461930-23",
       "licence": "Proprietary",
       "cost": "Free teaser; full profile paywalled",

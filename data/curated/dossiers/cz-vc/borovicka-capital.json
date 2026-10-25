@@ -1,0 +1,36 @@
+{
+  "investor_key": "borovicka-capital",
+  "pilot": "cz-vc",
+  "name": "Borovicka Capital",
+  "aliases": ["Borovicka Capital s.r.o."],
+  "investor_type": "family_office",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.borovickacapital.com/",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague family investment vehicle of Jakub Borovička, his father and brother, investing the family's own money (the father lends it) in Central European startups (e.g. Edmund AI pre-seed, Feb 2025) - a family office rather than a VC fund with managed capital.",
+  "discovered_via": ["co-investor:tensor-ventures", "news", "second-pass"],
+  "legal_entities": [
+    {"name": "Borovicka Capital s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19966784", "role": "holding"}
+  ],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "Edmund AI", "company_country": "CZ", "date": "2025-02-12", "round": "pre_seed", "round_amount": 500000, "currency": "EUR", "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.borovickacapital.com/", "publisher": "Borovicka Capital", "published_on": null, "source_class": "B", "quote": "Borovicka Capital is an investment company with a strategic focus on venture capital investments in the Central European region.", "language": "en"},
+    {"id": "e2", "url": "https://www.borovickacapital.com/", "publisher": "Borovicka Capital", "published_on": null, "source_class": "B", "quote": "We seek promising startups and foster their growth and development right from the early stages of their journey.", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/vydelal-na-akciich-pak-propadl-startupum-a-rozjel-rodinny-fond-s-tatou-a-brachou-se-nehadame-rika/", "publisher": "CzechCrunch", "published_on": "2025-02-20", "source_class": "C", "quote": "Táta dává ty peníze formou půjček, ty se mu tak časem vrátí.", "language": "cs"},
+    {"id": "e4", "url": "https://cc.cz/do-deseti-let-odejde-do-duchodu-polovina-inzenyru-v-eu-startup-z-ostravy-chce-tento-vypadek-zmirnit-diky-ai/", "publisher": "CzechCrunch", "published_on": "2025-02-12", "source_class": "C", "quote": "Kdo investuje: Investiční kolo vedl český fond Lighthouse Ventures, ke kterému se přidaly také Czech Founders VC, deeptechový Tensor Ventures a Borovicka Capital.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Lighthouse Ventures", "Czech Founders VC", "Tensor Ventures", "Eleven Ventures", "Zero One Hundred"],
+  "analyst_notes": "CzechCrunch interview (2025-02-20) calls it a 'rodinný fond': Jakub Borovička with his father and brother pooled family money ('složili jsme dohromady peníze') in 2023; the father provides the capital as loans; eight portfolio startups at the time (e.g. Wewell, Outfindo, Edmund AI). No external LPs, fund vehicle or regulated status was found, so it is typed family_office (alternative reading: private_investor) and excluded S1 although its own site describes venture capital investing in Central Europe. Active: Edmund AI (Ostrava) EUR 500k pre-seed led by Lighthouse Ventures (round amount from the next line of the same article); Outfindo round with Eleven Ventures (CzechCrunch 2025-01-20). Ticket EUR 500k-1.25m appears only in aggregator profiles (not used). Stage from the site's 'early stages' wording.",
+  "researched_on": "2026-10-25"
+}

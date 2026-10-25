@@ -1,0 +1,58 @@
+{
+  "investor_key": "gti-investicny-fond",
+  "pilot": "sk-reference",
+  "name": "GTI investičný fond",
+  "aliases": [
+    "GTI investičný fond s premenlivým základným imaním a.s."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Self-managed fund founded in 2024 with only cash and a related-party receivable on its balance sheet and no defined strategy.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "GTI investičný fond s premenlivým základným imaním a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "56249331",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12797997",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Fond si zatiaľ nedefinoval stratégiu a zásady zaisťovania.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=691626&SID=2&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "vykonávanie kolektívneho investovania podľa zákona č. 203/2011 Z. z. o kolektívnom investovaní, v znení neskorších predpisov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025: current assets EUR 130k (cash 9.6k, receivable from a related party 120k), equity EUR 124k. Not in the Bank of Spain fund list.",
+  "researched_on": "2026-10-25"
+}

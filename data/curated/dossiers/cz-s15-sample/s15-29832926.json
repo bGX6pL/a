@@ -1,0 +1,49 @@
+{
+  "investor_key": "s15-29832926",
+  "pilot": "cz-s15-sample",
+  "name": "QUANTUM Safe Investors 3",
+  "aliases": [
+    "QUANTUM Safe Investors 3, osoba rizikového kapitálu s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": null,
+  "decision": "unverified",
+  "rule_codes": [
+    "I1",
+    "E8"
+  ],
+  "decision_note": "No website, portfolio or news found; ARES lists only the legal entity, so I1 holds but I2 cannot be shown.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "QUANTUM Safe Investors 3, osoba rizikového kapitálu s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "29832926",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/29832926",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "QUANTUM Safe Investors 3, osoba rizikového kapitálu s.r.o.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "ARES: datumVzniku 2026-07-28; czNace a broad generic list (47, 6820, 45200, 70220, 46190, 821, 46, 731, 620, 7120, 772, 8559) with no fund-specific code. Sister entities QUANTUM Safe Investors (IČO 17323185) and QUANTUM Safe Investors 2 (IČO 19507402) exist; no website or news found for any of them. Same building as CONSTANS PARTNERS (Korunní 2569/108, Praha 10).",
+  "researched_on": "2026-10-25"
+}

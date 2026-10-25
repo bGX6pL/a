@@ -1,0 +1,33 @@
+{
+  "investor_key": "ivbf",
+  "pilot": "cz-vc",
+  "name": "IVBF",
+  "aliases": ["IVBF, s.r.o."],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.ivbf.io/",
+  "decision": "exclude",
+  "rule_codes": ["E3"],
+  "decision_note": "Prague-managed blockchain fund for accredited investors (Core Fund in BTC, ETH, HYPE and SOL; Yield Fund in stablecoins) - a crypto asset strategy, not investment in private companies.",
+  "discovered_via": ["news", "second-pass"],
+  "legal_entities": [
+    {"name": "IVBF, s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "14366037", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["fintech"], "method": "stated", "evidence": ["e1"]},
+  "stage_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "geography_focus": {"value": ["global"], "method": "derived", "evidence": ["e1"]},
+  "ticket_size": {"value": null, "method": "not_disclosed", "evidence": []},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {"id": "e1", "url": "https://www.ivbf.io/", "publisher": "IVBF", "published_on": null, "source_class": "B", "quote": "IVBF is a professionally managed blockchain fund for accredited investors seeking long-term exposure to digital assets without gambling, guesswork, or price anxiety.", "language": "en"},
+    {"id": "e2", "url": "https://www.ivbf.io/", "publisher": "IVBF", "published_on": null, "source_class": "B", "quote": "The minimum entry requirement is €125,000, consistent across both Core and Yield Funds.", "language": "en"},
+    {"id": "e3", "url": "https://www.ivbf.io/", "publisher": "IVBF", "published_on": null, "source_class": "B", "quote": "IVBF is part of the Impulse Capital group, known for early investments in standout tech companies like Kiwi.com and Shoptet.", "language": "en"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick exclusion dossier (E3, crypto). The own site describes two liquid digital-asset strategies: a Core Fund benchmarked to BTC that holds BTC, ETH, HYPE and SOL (with staking, OTC and liquidity provision) and a Yield Fund fully in stablecoins earning from market making and arbitrage; EUR/USD 125k minimum per investor (e2, an LP minimum, not a ticket). No equity investments in private companies found. Investor type left null because the strategy is not private-company investing. Legal entity IVBF, s.r.o. (IČO 14366037, Praha 7, 2022; NACE 6499). The site says IVBF belongs to the Impulse Capital group (early investor in Kiwi.com and Shoptet, e3) - that group was not screened here.",
+  "researched_on": "2026-10-25"
+}

@@ -1,0 +1,20 @@
+{
+  "investor_key": "emun-investicni-spolecnost",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": false,
+    "active_24m": true,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion holds. E1 is roughly right; E5 fits its private-markets product better. EMUN launched Emun Global Unicorns in Oct 2025 (e15.cz and cc.cz, 2025-10-16; >CZK 200m, mostly EMUN and family-office clients), an evergreen fund buying exposure to late-stage unicorns (OpenAI, SpaceX, Revolut, Anthropic, Databricks...). Per cc.cz it invests 'through funds or platforms' that hold the stakes, i.e. indirectly / fund-of-funds, not as a VC writing primary tickets. No direct startup investing by EMUN found."
+}

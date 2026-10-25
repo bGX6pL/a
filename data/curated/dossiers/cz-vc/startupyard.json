@@ -1,0 +1,44 @@
+{
+  "investor_key": "startupyard",
+  "pilot": "cz-vc",
+  "name": "StartupYard",
+  "aliases": ["StartupYard Batch 15 s.r.o.", "StartupYard Services s.r.o."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": true},
+  "hq_country": "CZ",
+  "website": "https://startupyard.com",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague pre-seed/seed accelerator (since 2011) that invests via convertible notes (EUR 45k in-kind + optional EUR 25k cash, ~5% equity); invested CZK 500k in Ydoca (Feb 2025) and runs Batch 15 (2025-2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "StartupYard Batch 15 s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "22266852", "role": "fund"},
+    {"name": "StartupYard Batch 14 s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "19997272", "role": "fund"},
+    {"name": "StartupYard Services s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "06002820", "role": "other"}
+  ],
+  "sector_focus": {"value": ["ai_data", "cybersecurity", "deeptech_hardware"], "method": "stated", "evidence": ["e4"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e5"]},
+  "ticket_size": {"value": {"min": 45000, "max": 70000, "currency": "EUR"}, "method": "stated", "evidence": ["e9", "e2"]},
+  "capital": {"value": {"amount": 1000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2017-06-21"}, "method": "stated", "evidence": ["e10", "e11"]},
+  "funds": [],
+  "investments": [
+    {"company": "Ydoca", "company_country": "CZ", "date": "2025-02-14", "round": "pre_seed", "round_amount": 2300000, "currency": "CZK", "evidence": "e6"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://startupyard.com/faq/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "StartupYard, based in beautiful Prague, is Central Europe’s leading pre-seed and seed accelerator for technology startups.", "language": "en"},
+    {"id": "e2", "url": "https://startupyard.com/faq/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "If your startup needs funding, you can receive €25,000 in cash – bringing the total convertible note value to €70,000 = €45,000 (in-kind investment) + €25,000 (in cash).", "language": "en"},
+    {"id": "e3", "url": "https://startupyard.com/faq/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "In exchange for the program and funding, we typically target around 5% equity in your startup.", "language": "en"},
+    {"id": "e4", "url": "https://startupyard.com/for-startups/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "Your startup is operating in a deep-tech sector, such as AI, cybersecurity, IoT, or another cutting-edge field that aligns with StartupYard’s core expertise.", "language": "en"},
+    {"id": "e5", "url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/", "publisher": "StartupYard", "published_on": "2025-09-11", "source_class": "B", "quote": "Batch 15 is built for the first-time founder from CEE who is thinking globally from day one", "language": "en"},
+    {"id": "e6", "url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/", "publisher": "CzechCrunch", "published_on": "2025-02-14", "source_class": "C", "quote": "V rámci pre-seed investičního kola startup získal financování v celkové výši 2,3 milionu korun, přičemž DEPO Ventures podpořilo projekt částkou 1,8 milionu a StartupYard částkou 500 tisíc korun.", "language": "cs"},
+    {"id": "e8", "url": "https://startupyard.com/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "We are privately funded by Credo Ventures, Rockaway Capital Partners and experienced business angels.", "language": "en"},
+    {"id": "e9", "url": "https://startupyard.com/faq/", "publisher": "StartupYard", "published_on": null, "source_class": "B", "quote": "We provide the acceleration program through a convertible note worth €45,000 (in-kind investment).", "language": "en"},
+    {"id": "e10", "url": "https://startupyard.com/startupyard-closes-e1-million-funding-round-new-follow-on-fund/", "publisher": "StartupYard", "published_on": "2017-06-21", "source_class": "B", "quote": "We can now reveal that StartupYard has closed a €1 million round that will power two cohorts of up to 20 startups, as well as a new follow-on fund, to allow StartupYard to make seed investments in our best performing startups.", "language": "en"},
+    {"id": "e11", "url": "https://cc.cz/cesky-startupovy-akcelerator-startupyard-ziskal-investici-ve-vysi-26-milionu-kc/", "publisher": "CzechCrunch", "published_on": "2017-06-21", "source_class": "C", "quote": "A to konkrétně investici ve výši 26 milionů Kč, kterou akcelerátor získává formou neveřejné nabídky na crowdfundingovém portálu Fundlift", "language": "cs"}
+  ],
+  "co_investors_seen": ["DEPO Ventures", "Credo Ventures (LP)", "Rockaway Capital Partners (LP)"],
+  "analyst_notes": "Equity-taking accelerator (accelerator flag): the programme is provided through a convertible note worth EUR 45k in-kind, plus optional EUR 25k cash (total note EUR 70k, about 5% equity target); ticket recorded as EUR 25k (cash) to EUR 70k (total note). A follow-on fund of up to EUR 100k per startup is run in partnership with DEPO Ventures, which decides eligibility (not counted in the ticket). Capital not disclosed (privately funded by Credo Ventures, Rockaway Capital Partners and angels). Sector: deep tech such as AI, cybersecurity, IoT (for-startups page); the Batch 15 call says industry-agnostic but hard-to-replicate solutions. Ydoca: StartupYard invested CZK 500k of a CZK 2.3m pre-seed (CzechCrunch 2025-02-14). CaseLens: featured as a programme company in a 2026-04-30 StartupYard interview; per the FAQ, programme participation is made via a convertible note, so it is listed as an investment with undisclosed amount (company country not stated). Each batch uses its own SPV (StartupYard Batch 14/15 s.r.o. in ARES). Publication dates of StartupYard pages from the blog listing. [revision 2026-10-25 after review: (1) ticket_size changed from EUR 25k-70k to EUR 45k-70k - every programme startup receives the EUR 45k in-kind convertible note (e9), optionally plus EUR 25k cash for a total note of EUR 70k (e2); a 25k-only (cash-only) ticket does not exist; evidence e3 (5% equity target) no longer cited for the ticket but kept as evidence of the equity-taking model. (2) Activity evidence: the CaseLens item (StartupYard interview of 2026-04-30, no investment, amount or date shown; company reportedly Yerevan-based) and its evidence e7 were removed; latest dated investment is now Ydoca - StartupYard put CZK 500k into the CZK 2.3m pre-seed (CzechCrunch 2025-02-14, e6, re-verified), inside the window. The note above about CaseLens is superseded.] [revision 2026-10-25 after review round 2: capital changed from not_disclosed to EUR 1m latest_fund_size as of 2017-06-21 - StartupYard's own post of 2017-06-21 says it closed a EUR 1m round to fund two cohorts of up to 20 startups and a new follow-on fund (e10; the Fundlift campaign contributed the majority, private investors the rest); CzechCrunch the same day reports the raise as CZK 26m via a private placement on Fundlift (e11), after about CZK 6.2m raised on Fundlift in 2016. This is old (2017, for the 2017/2018 programmes) and is recorded only because it is the latest public figure: the funding of later batches (Batch 14/15 SPVs; site: 'privately funded by Credo Ventures, Rockaway Capital Partners and experienced business angels', e8) has no published amount, so the current capital is unknown. Basis latest_fund_size = the final size of that closed round; no fund event was added. The earlier sentence 'Capital not disclosed' is superseded.]",
+  "researched_on": "2026-10-25"
+}

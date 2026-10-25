@@ -1,0 +1,20 @@
+{
+  "investor_key": "s15-09627294",
+  "sample": "review-2026-10",
+  "reviewer": "independent-reviewer-C",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": null,
+    "active_24m": null,
+    "type_correct": null,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "E3 holds: the fund's product is automated crypto trading. Minor inaccuracy: the dossier says the startup projects date from 2018-2019, but tavo.cz/startupy also lists stakes from 2023/2024 (online legal advice, 30%), 2024 (accounting SaaS, 20%) and 2025 (interim management, 25%). None of these is named. The stakes are taken for services (barter) or with a top-up, plus 10k EUR prep fees and 3-10% success fees: an advisory/startup-studio model (E1-like), not pooled VC investing. No named portfolio company, so I2 is not shown."
+}

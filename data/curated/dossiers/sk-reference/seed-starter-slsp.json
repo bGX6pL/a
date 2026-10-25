@@ -1,0 +1,307 @@
+{
+  "investor_key": "seed-starter-slsp",
+  "pilot": "sk-reference",
+  "name": "Seed Starter Slovenskej sporiteľne",
+  "aliases": [
+    "Seed Starter SLSP",
+    "Seed Starter",
+    "Slovenská sporiteľňa, a.s."
+  ],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {
+    "corporate": true,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "website": "https://www.seedstarter.sk/",
+  "decision": "include",
+  "rule_codes": [
+    "I1",
+    "I2",
+    "I3",
+    "I4",
+    "I5"
+  ],
+  "decision_note": "Corporate VC programme of Slovenská sporiteľňa (Erste Group) investing EUR 200k-1m in pre-seed/seed Slovak startups; led Vestberry's EUR 2.2m round in March 2025 and reports EUR 3.14m invested in seven startups by Q1 2026; co-invested with SIH in TrollWall AI (Apr 2026), Resitech (Jun 2025) and Eatster (Feb 2025).",
+  "discovered_via": [
+    "news",
+    "startup-report-slovensko",
+    "co-investor:venture-to-future-fund",
+    "co-investor:zero-one-hundred",
+    "co-investor:slovak-investment-holding"
+  ],
+  "legal_entities": [
+    {
+      "name": "Slovenská sporiteľňa, a.s.",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "00151653",
+      "role": "holding"
+    }
+  ],
+  "sector_focus": {
+    "value": [
+      "generalist"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e5"
+    ]
+  },
+  "stage_focus": {
+    "value": [
+      "pre_seed",
+      "seed"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e3"
+    ]
+  },
+  "geography_focus": {
+    "value": [
+      "SK"
+    ],
+    "method": "stated",
+    "evidence": [
+      "e4"
+    ]
+  },
+  "ticket_size": {
+    "value": {
+      "min": 200000,
+      "max": 1000000,
+      "currency": "EUR"
+    },
+    "method": "stated",
+    "evidence": [
+      "e2"
+    ]
+  },
+  "capital": {
+    "value": {
+      "amount": 5000000,
+      "currency": "EUR",
+      "basis": "balance_sheet",
+      "as_of": "2022-09-08"
+    },
+    "method": "stated",
+    "evidence": [
+      "e15",
+      "e7"
+    ]
+  },
+  "funds": [
+    {
+      "name": "Seed Starter Slovenskej sporiteľne (programme budget set aside by the bank, first phase)",
+      "size_amount": 5000000,
+      "currency": "EUR",
+      "event": "launch",
+      "event_date": "2022-09-08",
+      "evidence": "e15"
+    }
+  ],
+  "investments": [
+    {
+      "company": "TrollWall AI",
+      "company_country": "SK",
+      "date": "2026-04-09",
+      "round": null,
+      "round_amount": 800000,
+      "currency": "EUR",
+      "evidence": "e12"
+    },
+    {
+      "company": "Resitech",
+      "company_country": "SK",
+      "date": "2025-06-16",
+      "round": null,
+      "round_amount": 500000,
+      "currency": "EUR",
+      "evidence": "e13"
+    },
+    {
+      "company": "Vestberry",
+      "company_country": "SK",
+      "date": "2025-03-14",
+      "round": null,
+      "round_amount": 2200000,
+      "currency": "EUR",
+      "evidence": "e9"
+    },
+    {
+      "company": "Eatster",
+      "company_country": "SK",
+      "date": "2025-02-05",
+      "round": null,
+      "round_amount": 700000,
+      "currency": "EUR",
+      "evidence": "e14"
+    },
+    {
+      "company": "Vestberry",
+      "company_country": "SK",
+      "date": "2024-05-23",
+      "round": "series_a",
+      "round_amount": 1000000,
+      "currency": "EUR",
+      "evidence": "e10"
+    },
+    {
+      "company": "SmartHead",
+      "company_country": "SK",
+      "date": "2023-09-05",
+      "round": null,
+      "round_amount": null,
+      "currency": null,
+      "evidence": "e11"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/accountingentity/show/3920",
+      "publisher": "Register účtovných závierok (MF SR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Slovenská sporiteľňa, a.s. - IČO: 00151653",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.seedstarter.sk/",
+      "publisher": "Seed Starter Slovenskej sporiteľne",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Veľkosť investície: 200 000 € – 1 000 000 €",
+      "language": "sk"
+    },
+    {
+      "id": "e3",
+      "url": "https://www.seedstarter.sk/",
+      "publisher": "Seed Starter Slovenskej sporiteľne",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Pre-seed a seed investičné kolá",
+      "language": "sk"
+    },
+    {
+      "id": "e4",
+      "url": "https://www.seedstarter.sk/",
+      "publisher": "Seed Starter Slovenskej sporiteľne",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Slovenskí founderi/slovenské startupy",
+      "language": "sk"
+    },
+    {
+      "id": "e5",
+      "url": "https://www.seedstarter.sk/",
+      "publisher": "Seed Starter Slovenskej sporiteľne",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Hľadáme nádejné startupy, ktoré prinášajú nové produkty a služby zákazníkom, a to nielen v oblasti finančných služieb.",
+      "language": "sk"
+    },
+    {
+      "id": "e6",
+      "url": "https://www.startitup.sk/slovensko-je-cierna-diera-startupov-zachranit-ho-ide-tato-spolocnost-investovat-u-nas-chce-5-milionov-eur/",
+      "publisher": "Startitup",
+      "published_on": "2022-09-29",
+      "source_class": "C",
+      "quote": "Na Slovensku vzniká prvý corporate venture capital program Seed Starter.",
+      "language": "sk"
+    },
+    {
+      "id": "e7",
+      "url": "https://www.startitup.sk/slovensko-je-cierna-diera-startupov-zachranit-ho-ide-tato-spolocnost-investovat-u-nas-chce-5-milionov-eur/",
+      "publisher": "Startitup",
+      "published_on": "2022-09-29",
+      "source_class": "C",
+      "quote": "Investovať u nás chce 5 miliónov eur",
+      "language": "sk"
+    },
+    {
+      "id": "e8",
+      "url": "https://cdn.erstegroup.com/content/dam/sk/slsp/www_slsp_sk/Aktuality/slsp-infografika-1q-2026.pdf",
+      "publisher": "Slovenská sporiteľňa",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "3,14 milióna eur investoval Seed Starter Slovenskej sporiteľne za 3 roky do siedmich",
+      "language": "sk"
+    },
+    {
+      "id": "e9",
+      "url": "https://en.ain.ua/2025/03/14/slovak-fintech-vestberry-secures-eur22m",
+      "publisher": "AIN.UA",
+      "published_on": "2025-03-14",
+      "source_class": "C",
+      "quote": "Bratislava-based company Vestberry has secured €2.2 million in a new funding round led by Seed Starter.",
+      "language": "en"
+    },
+    {
+      "id": "e10",
+      "url": "https://vff.sk/novinky/slovensky-startup-vestberry-mieri-vdaka-podpore-investorov-na-americky-trh-28",
+      "publisher": "Venture to Future Fund",
+      "published_on": "2024-05-23",
+      "source_class": "C",
+      "quote": "Venture to Future Fund s radosťou oznamuje, že v spolupráci so Seed Starterom Slovenskej sporiteľne uzavrel Series A investičné kolo vo výške 1 milión EUR s cieľom podpory globálneho rastu dynamického slovenského startupu Vestberry.",
+      "language": "sk"
+    },
+    {
+      "id": "e11",
+      "url": "https://sita.sk/seed-starter-slovenskej-sporitelne-hlasi-prvu-investiciu-podporil-slovensky-startup-smarthead/",
+      "publisher": "SITA",
+      "published_on": "2023-09-05",
+      "source_class": "C",
+      "quote": "Seed Starter Slovenskej sporiteľne získal 7 % podiel v slovenskom startupe SmartHead, ktorý poskytuje komplexné riešenia v oblasti udržateľnosti a ESG reportingu.",
+      "language": "sk"
+    },
+    {
+      "id": "e12",
+      "url": "https://www.sih.sk/aktuality/ai-proti-nenavisti-na-internete-startup-trollwall-ai-ziskal-investiciu-vo-vyske-800-000-eur",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2026-04-09",
+      "source_class": "C",
+      "quote": "Na investícii sa podieľajú Seed Starter Slovenskej sporiteľne, Slovak Investment Holding (SIH) a angel investor Miroslav Fedor.",
+      "language": "sk"
+    },
+    {
+      "id": "e13",
+      "url": "https://www.sih.sk/aktuality/slovensky-startup-resitech-ziskal-pol-miliona-eur-na-dalsi-rast",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2025-06-16",
+      "source_class": "C",
+      "quote": "Slovenský startup Resitech, ktorý výrazne zjednodušuje život vlastníkom bytov aj správcom, získava investíciu 500 000 eur od Seed Startera Slovenskej sporiteľne a Slovak Investment Holdingu (SIH).",
+      "language": "sk"
+    },
+    {
+      "id": "e14",
+      "url": "https://www.sih.sk/aktuality/slovensky-startup-eatster-ziskal-podporu-od-slovak-investment-holding-a-seed-startera",
+      "publisher": "Slovak Investment Holding",
+      "published_on": "2025-02-05",
+      "source_class": "C",
+      "quote": "Bratislava, 5. februára 2025 - Slovak Investment Holding (SIH) a Seed Starter Slovenskej sporiteľne oznámili prvú spoločnú investíciu do slovenského startupu Eatster v celkovej hodnote 700 000 eur.",
+      "language": "sk"
+    },
+    {
+      "id": "e15",
+      "url": "https://cc.cz/ceska-sporitelna-jde-podporovat-startupy-i-na-slovensko-pro-tamni-mlade-firmy-ma-pres-120-milionu/",
+      "publisher": "CzechCrunch",
+      "published_on": "2022-09-08",
+      "source_class": "C",
+      "quote": "Pět milionů eur, tedy v přepočtu více než 123 milionů korun, si připravila Slovenská spořitelna na první fázi podpory startupů na Slovensku.",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [
+    "Venture to Future Fund",
+    "Zero One Hundred",
+    "Slovak Investment Holding",
+    "Miroslav Fedor"
+  ],
+  "analyst_notes": "Legal form: no ORSR entity named 'Seed Starter' was found (ORSR name search, 2026-10-25) and Startitup (2026-09-25) calls it Slovenská sporiteľňa's 'investičný program'; it is therefore recorded as a corporate VC programme of Slovenská sporiteľňa, a.s. (IČO 00151653, part of Erste Group), with the bank as the legal entity. Caplight's claim that it is a 100% subsidiary set up in Sept 2022 could not be confirmed. Not on the NBS fund-manager register (bank balance-sheet investing). Capital: EUR 5m announced for investing at launch (Startitup 2022-09-29, e7, headline); by Q1 2026 SLSP reports EUR 3.14m invested over 3 years in seven Slovak startups - Blockmate, SmartHead, Vestberry, Eatster, Resitech, IntellCRE and Pointee (e8, undated quarterly infographic; Startup Report Slovensko 2025 says 'viac ako 3 milióny eur'). Vestberry March 2025 round: AIN describes the lead 'Seed Starter' as a programme of Česká a Slovenská spořitelna; CzechCrunch says almost half of EUR 2.2m came from the Seed Starter of Česká and Slovenská spořitelna (joint Erste programme); the SLSP infographic counts Vestberry in its own portfolio, so the deal is attributed here; the Czech Seed Starter ČS is covered by the cz-vc pilot. Sector: the site says it seeks startups 'not only in financial services' (e5) - recorded as generalist with a fintech/banking-synergy preference (pilots with the bank). Startup Awards Slovensko 2026 offers the winner an investment of up to EUR 250k from Seed Starter (Startitup 2026-09-25). Aggregator-only items not used: TrollWall AI (Apr 2026, Caplight). Investment-period/IntellCRE dates not published by SLSP. Added by reviewer: co-investments with Slovak Investment Holding announced by SIH (co-investor press releases, class C for Seed Starter): TrollWall AI EUR 800k (9 Apr 2026), Resitech EUR 500k (16 Jun 2025), Eatster EUR 700k total, EUR 350k each (5 Feb 2025); round amounts are totals. Latest cited activity is now 2026-04-09. [revision 2026-10-25 re-audit: capital basis changed from latest_fund_size to balance_sheet: the EUR 5m is the budget Slovenská sporiteľňa set aside from its own balance sheet for the programme's first phase (CzechCrunch 2022-09-08, e15; Startitup 2022-09-29 'investovať chce 5 miliónov eur', e7), not a closed fund; the programme-launch fund entry now carries the earlier CzechCrunch date. No newer allocation found; EUR 3.14m invested by Q1 2026 (e8) is deployment. Activity (TrollWall AI, SIH release 2026-04-09), scope (Bratislava, Slovak deals), corporate type and ticket (EUR 200k-1m, stated per company) unchanged.]",
+  "researched_on": "2026-10-25"
+}

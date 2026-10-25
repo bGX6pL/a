@@ -1,0 +1,57 @@
+{
+  "investor_key": "s15-08731357",
+  "pilot": "cz-s15-sample",
+  "name": "K&L Rock",
+  "aliases": [
+    "K&L Rock, osoba rizikového kapitálu, s.r.o."
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "CZ",
+  "website": "https://www.klrock.cz/cs",
+  "decision": "exclude",
+  "rule_codes": [
+    "E3"
+  ],
+  "decision_note": "Investment group in residential real-estate development and capital-markets wealth management.",
+  "discovered_via": [
+    "cnb-jerrs"
+  ],
+  "legal_entities": [
+    {
+      "name": "K&L Rock, osoba rizikového kapitálu, s.r.o.",
+      "country": "CZ",
+      "registry": "CZ-ICO",
+      "registry_id": "08731357",
+      "role": "manager"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08731357",
+      "publisher": "ARES (Ministerstvo financí ČR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "K&L Rock, osoba rizikového kapitálu, s.r.o.",
+      "language": "cs"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.klrock.cz/cs",
+      "publisher": "K&L Rock Group",
+      "published_on": null,
+      "source_class": "B",
+      "quote": "Investice do realit a výstavby rezidenčního bydlení v ČR",
+      "language": "cs"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "klrock.cz footer names K&L Rock, osoba rizikového kapitálu, s.r.o. (Rohanské nábřeží 693/10, Praha 8); segments 'Global Markets' (individual asset management) and 'Real Estate'.",
+  "researched_on": "2026-10-25"
+}

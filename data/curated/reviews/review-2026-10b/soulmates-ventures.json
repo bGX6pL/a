@@ -1,0 +1,13 @@
+{
+  "investor_key": "soulmates-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "Homepage re-fetched: 'Assets Under Management €62M Initial Ticket Size up to €3M Target stage Seed/SA', the sector list (air, water, energy, mobility, education, healthcare, food and agriculture, circular economy) and 'VC from Prague'. Rightcharge follow-on page datePublished 2026-09-07 ('we led ... £500K follow-on'). The EUR 50m Art. 9 fund is correctly kept as a launch, not capital. Fund investing dominates the acceleration programme, so leaving the accelerator flag unset is right. Czech portfolio company Flowpay satisfies scope."
+}

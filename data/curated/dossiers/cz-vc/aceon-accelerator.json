@@ -1,0 +1,35 @@
+{
+  "investor_key": "aceon-accelerator",
+  "pilot": "cz-vc",
+  "name": "AceON Accelerator",
+  "aliases": ["AceON"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": true},
+  "hq_country": "CZ",
+  "website": "https://www.aceon.io/",
+  "decision": "unverified",
+  "rule_codes": ["E8"],
+  "decision_note": "Prague online accelerator founded by Accace and ZAKA VC that gives EUR 40k SAFE/CLA tickets to demo-day winners (two startups, Nov 2024), but no AceON legal entity or investing vehicle can be identified and no Czech portfolio company was found.",
+  "discovered_via": ["co-investor:zaka-vc", "news", "second-pass"],
+  "legal_entities": [],
+  "sector_focus": {"value": null, "method": "not_disclosed", "evidence": []},
+  "stage_focus": {"value": ["pre_seed"], "method": "stated", "evidence": ["e2"]},
+  "geography_focus": {"value": ["Europe"], "method": "stated", "evidence": ["e2"]},
+  "ticket_size": {"value": {"min": 40000, "max": 40000, "currency": "EUR"}, "method": "stated", "evidence": ["e3"]},
+  "capital": {"value": null, "method": "not_disclosed", "evidence": []},
+  "funds": [],
+  "investments": [
+    {"company": "ARtttify", "company_country": "GE", "date": "2024-11-28", "round": "pre_seed", "round_amount": null, "currency": null, "evidence": "e4"},
+    {"company": "SentiVue", "company_country": "PT", "date": "2024-11-28", "round": "pre_seed", "round_amount": null, "currency": null, "evidence": "e4"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.aceon.io/", "publisher": "AceON Accelerator", "published_on": null, "source_class": "B", "quote": "AceON Accelerator was founded right in the center of Europe, in Prague, by two global companies, Accace and ZAKA VC.", "language": "en"},
+    {"id": "e2", "url": "https://www.aceon.io/program", "publisher": "AceON Accelerator", "published_on": null, "source_class": "B", "quote": "AceON Accelerator delivers its 6th program for European idea and pre-seed stage startups, combining hands-on know-how, a global founders’ community, and access to investment.", "language": "en"},
+    {"id": "e3", "url": "https://www.aceon.io/program", "publisher": "AceON Accelerator", "published_on": null, "source_class": "B", "quote": "At least one startup will receive a €40K investment at the end of the program in the form of a SAFE (alternatively a CLA, depending on the country the startup is based in).", "language": "en"},
+    {"id": "e4", "url": "https://en.ain.ua/2024/12/06/two-startups-secure-eur40000-investment-at-aceon-accelerators-fourth-program/", "publisher": "AIN.UA", "published_on": "2024-12-06", "source_class": "C", "quote": "During the program, 21 startups from 13 CEE countries took on intensive training, which culminated in a Demo Day, where two of them managed to secure a total of €40,000 investment.", "language": "en"}
+  ],
+  "co_investors_seen": ["ZAKA VC", "Accace"],
+  "analyst_notes": "Free, fully online accelerator (6th programme running) for European idea and pre-seed startups, founded in Prague by the advisory firm Accace (Accace entities at Hvězdova 1716/2b, Praha 4 - the site's Nusle address) and ZAKA VC (record zaka-vc); lectures by ZAKA and Accace staff; the investment committee is led by ZAKA's Head of Investment Committee. The programme page says selected startups receive EUR 40k 'from AceON' as a SAFE/CLA, and participants sign an agreement giving AceON a right to invest later. Fourth programme (15 Oct - 28 Nov 2024) ended with two winners receiving EUR 40,000 in total (Georgian ARtttify, Portuguese SentiVue; AIN.UA 2024-12-06, quoting ZAKA's Ján Kasper as 'one of the investors'); investment date set to the demo-day end date 2024-11-28 (the article gives the programme dates, not the transfer date). Unverified because the investing entity is not disclosed: ARES has no AceON company (ACEON s.r.o., Zbuzany, is unrelated) and it is not shown whether the SAFEs are signed by an Accace entity, ZAKA VC I (21514992) or a separate vehicle. If the tickets come from ZAKA VC this is a programme of zaka-vc (E10); even with an entity it would fail the Czech scope rule (no Czech portfolio company found -> S2). Sector: generalist programme, not stated. Ticket EUR 40k (AIN: EUR 40k shared by two startups in 2024; 2023 programme offered EUR 50-70k per press reports, not verified).",
+  "researched_on": "2026-10-25"
+}

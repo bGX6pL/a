@@ -1,0 +1,58 @@
+{
+  "investor_key": "investment-ii",
+  "pilot": "sk-reference",
+  "name": "Investment II investičný fond",
+  "aliases": [
+    "Investment II a.s. investičný fond s premenlivým základným imaním"
+  ],
+  "investor_type": null,
+  "secondary_types": [],
+  "flags": {
+    "corporate": false,
+    "public": false,
+    "accelerator": false
+  },
+  "hq_country": "SK",
+  "decision": "unverified",
+  "rule_codes": [
+    "E8"
+  ],
+  "decision_note": "Košice self-managed fund holding EUR 33m of undisclosed shares; no strategy, portfolio or website is public.",
+  "discovered_via": [
+    "nbs-register"
+  ],
+  "legal_entities": [
+    {
+      "name": "Investment II a.s. investičný fond s premenlivým základným imaním",
+      "country": "SK",
+      "registry": "SK-ICO",
+      "registry_id": "52474011",
+      "role": "fund"
+    }
+  ],
+  "funds": [],
+  "investments": [],
+  "evidence": [
+    {
+      "id": "e1",
+      "url": "https://www.registeruz.sk/cruz-public/domain/financialreport/attachment/12107948",
+      "publisher": "Register účtovných závierok (RÚZ)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "Fond si zatiaľ nedefinoval stratégiu a zásady zaisťovania.",
+      "language": "sk"
+    },
+    {
+      "id": "e2",
+      "url": "https://www.orsr.sk/vypis.asp?ID=466181&SID=4&P=0",
+      "publisher": "Obchodný register Slovenskej republiky (ORSR)",
+      "published_on": null,
+      "source_class": "A",
+      "quote": "vykonávanie kolektívneho investovania podľa zákona č. 203/2011 Z.z. o kolektívnom investovaní v znení neskorších predpisov",
+      "language": "sk"
+    }
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "RÚZ 2025: shares EUR 33.2m (EUR 5.0m in 2024), equity EUR 34.4m. Same seat (Urbánkova 39, Košice) and statement template as JPT Investment (single shareholder Ing. Tibor Štefančík) - probably a private family wealth vehicle (possible E6). Bank of Spain list: 'Equities'.",
+  "researched_on": "2026-10-25"
+}

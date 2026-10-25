@@ -1,0 +1,48 @@
+{
+  "investor_key": "purple-ventures",
+  "pilot": "cz-vc",
+  "name": "Purple Ventures",
+  "aliases": ["Purple Ventures s.r.o.", "Purple Ventures 2"],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.purple-ventures.com",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Brno-based pre-seed/seed VC (member of Purple Holding); second fund Purple Ventures 2 had raised over CZK 700m by March 2026 in a still-open raise towards EUR 40m and invested in Kilde (Oct 2025), Rightcharge (Oct 2025, Sep 2026) and Fether Labs (May 2026).",
+  "discovered_via": ["research-seed"],
+  "legal_entities": [
+    {"name": "Purple Ventures s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "05775574", "role": "manager"}
+  ],
+  "sector_focus": {"value": ["healthtech", "energy_climate", "media_gaming", "cybersecurity"], "method": "stated", "evidence": ["e3"]},
+  "stage_focus": {"value": ["pre_seed", "seed"], "method": "stated", "evidence": ["e1"]},
+  "geography_focus": {"value": ["CEE"], "method": "stated", "evidence": ["e1"]},
+  "ticket_size": {"value": {"min": 250000, "max": 400000, "currency": "EUR"}, "method": "stated", "evidence": ["e2"]},
+  "capital": {"value": {"amount": 700000000, "currency": "CZK", "basis": "interim_close", "as_of": "2026-03-12"}, "method": "stated", "evidence": ["e4", "e10"]},
+  "funds": [
+    {"name": "Purple Ventures 2 (fond kvalifikovaných investorů)", "size_amount": 700000000, "currency": "CZK", "event": "interim_close", "event_date": "2026-03-12", "evidence": "e4"},
+    {"name": "Purple Ventures 2 (fond kvalifikovaných investorů)", "size_amount": 40000000, "currency": "EUR", "event": "target", "event_date": "2024-04-02", "evidence": "e9"}
+  ],
+  "investments": [
+    {"company": "Rightcharge", "company_country": "GB", "date": "2026-09-07", "round": "follow_on", "round_amount": 500000, "currency": "GBP", "evidence": "e8"},
+    {"company": "Fether Labs", "company_country": "GB", "date": "2026-05-27", "round": null, "round_amount": null, "currency": null, "evidence": "e5"},
+    {"company": "Kilde", "company_country": "SG", "date": "2025-10-27", "round": "follow_on", "round_amount": null, "currency": null, "evidence": "e6"},
+    {"company": "Rightcharge", "company_country": "GB", "date": "2025-10-23", "round": "seed", "round_amount": 1600000, "currency": "GBP", "evidence": "e7"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.purple-ventures.com/", "publisher": "Purple Ventures", "published_on": null, "source_class": "B", "quote": "We are a venture capital fund investing into CEE+ tech-enabled innovations in pre-seed and seed stages.", "language": "en"},
+    {"id": "e2", "url": "https://www.purple-ventures.com/", "publisher": "Purple Ventures", "published_on": null, "source_class": "B", "quote": "€250k to €400k", "language": "en"},
+    {"id": "e3", "url": "https://cc.cz/brnensti-purple-ventures-rozbihaji-druhy-fond-trem-startupum-poslali-desitky-milionu-korun/", "publisher": "CzechCrunch", "published_on": "2024-06-27", "source_class": "C", "quote": "Z hlediska oborového zaměření se soustředí na digitální zdraví, moderní energetiku, takzvanou creator economy či bezpečnost.", "language": "cs"},
+    {"id": "e4", "url": "https://www.finance.cz/aktuality/druhy-fond-purple-ventures-jiz-ziskal-pres-700-milionu-korun-a-proinvestoval-ctvrt-miliardy-miri-k-portfoliu-50-firem/", "publisher": "Finance.cz", "published_on": "2026-03-12", "source_class": "C", "quote": "Od svého založení získal fond přes 700 milionů korun (30 milionů euro) od 52 investorů a doposud proinvestoval 250 milionů korun (10,2 milionu euro).", "language": "cs"},
+    {"id": "e5", "url": "https://www.euro.cz/clanky/cesky-fond-purple-ventures-sazi-na-technologii-ovladanou-pohybem-prstu-do-britskeho-startupu-posilaji-11-milionu-korun/", "publisher": "Euro.cz (text by Fether Labs)", "published_on": "2026-05-27", "source_class": "C", "quote": "Do společnosti nyní investuje jedenáct milionů korun také český fond Purple Ventures společně s mezinárodními investory, včetně Chapter One a programu a16z Scout Fund firmy Andreessen Horowitz.", "language": "cs"},
+    {"id": "e6", "url": "https://www.e15.cz/byznys/startupy/purple-ventures-podruhe-investuji-do-asijske-pujcovny-penez-byvaleho-kellnerova-manazera-1428358", "publisher": "E15", "published_on": "2025-10-27", "source_class": "C", "quote": "Ten nyní dostal novou investici – dvanáct milionů korun mu poslali z fondu kvalifikovaných investorů Purple Ventures 2, dalších sedmnáct pak přidalo sedm investorů fondu prostřednictvím speciální účelové společnosti.", "language": "cs"},
+    {"id": "e7", "url": "https://www.soulmatesventures.com/soulmates-ventures-leads-1-6m-seed-round-in-rightcharge-to-accelerate-europes-fleet-electrification/", "publisher": "Soulmates Ventures (co-investor)", "published_on": "2025-10-23", "source_class": "C", "quote": "The round was joined by Purple Ventures, Blackwood Ventures, and Unruly Capital.", "language": "en"},
+    {"id": "e8", "url": "https://www.soulmatesventures.com/rightcharge-follow-on-round/", "publisher": "Soulmates Ventures (co-investor)", "published_on": "2026-09-07", "source_class": "C", "quote": "And that’s where the £500K follow-on round we led alongside BlackWood Ventures and Purple Ventures comes in handy.", "language": "en"},
+    {"id": "e9", "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/", "publisher": "CzechCrunch", "published_on": "2024-04-02", "source_class": "C", "quote": "A cílí v něm na 40 milionů eur (jednu miliardu korun), z čehož asi 350 milionů korun poskytne skupina Purple zakladatelů Davida Kašpera, Jakuba Nytry a Filipa Řehoře.", "language": "cs"},
+    {"id": "e10", "url": "https://www.finance.cz/aktuality/druhy-fond-purple-ventures-jiz-ziskal-pres-700-milionu-korun-a-proinvestoval-ctvrt-miliardy-miri-k-portfoliu-50-firem/", "publisher": "Finance.cz", "published_on": "2026-03-12", "source_class": "C", "quote": "Letos pak plánujeme fundraising ukončit na avizovaných 40 milionech euro.", "language": "cs"}
+  ],
+  "co_investors_seen": ["Soulmates Ventures", "BlackWood Ventures", "Unruly Capital", "Chapter One", "a16z Scout Fund", "Purpose Tech", "Tilia Impact Ventures", "Credo Ventures"],
+  "analyst_notes": "Capital: Purple Ventures 2 had raised over CZK 700m (EUR 30m) from 52 investors by 2026-03-12 (Finance.cz), with a target of EUR 40m and fundraising planned to end in 2026; the fund was launched in 2024 (CzechCrunch 2024-06-27), so the 2026 status is recorded as fund event 'other' and capital is the amount raised to date, not a final close. Ticket: the homepage strategy block shows '€250k to €400k' labelled 'initial ticket size, later follow-ons' (label is a separate element, so only the range is quoted). Geography: site says 'CEE+' (CEE plus selected non-CEE deals, e.g. UK, Singapore). Sector focus from CzechCrunch 2024 (digital health, modern energy, creator economy, security); the site describes 'purpose-driven technology startups'. Investments: Fether Labs - Purple invested CZK 11m (its own ticket; round size not given), source text written by Fether Labs and published by Euro.cz (2026-05-27, also Svět průmyslu 2026-07-08); Kilde - CZK 12m from FKI Purple Ventures 2 plus CZK 17m from fund investors via an SPV. Rightcharge rounds evidenced by the co-investor's (Soulmates Ventures) releases. Fund vehicle 'Purple Ventures 2' (FKI) not found by name in ARES, so only the manager entity is listed. [revision 2026-10-25 after review: capital basis changed from latest_fund_size to interim_close (CZK 700m is the amount raised to date by 2026-03-12 in a raise still open; Finance.cz quotes the plan to end fundraising in 2026 at the announced EUR 40m, e10); the Purple Ventures 2 fund event changed from 'other' to interim_close (CZK 700m, 2026-03-12) and a target event EUR 40m added (CzechCrunch 2024-04-02, e9). No final close found. Latest-activity check: the Rightcharge GBP 500k follow-on (Soulmates Ventures page published 2026-09-07) names Purple Ventures as co-investor in a round Soulmates led, and Purple's own homepage lists Rightcharge among its portfolio (founder testimonial; news item on 'Purple Ventures' investment in Rightcharge'), so it is Purple's own participation (amount of Purple's share undisclosed). Note: finance.cz serves a gzip-compressed body even without Accept-Encoding; the quotes e4/e10 are present after decompression, but a fetcher that does not decompress will report them as not found.]",
+  "researched_on": "2026-10-25"
+}

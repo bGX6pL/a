@@ -1,0 +1,39 @@
+{
+  "investor_key": "genesis-capital",
+  "pilot": "cz-vc",
+  "name": "Genesis Capital",
+  "aliases": ["Genesis Capital Equity s.r.o.", "Genesis Capital Growth s.r.o.", "Genesis Private Equity Fund V (GPEF V)", "Genesis Growth Equity Fund I (GGEF I)"],
+  "investor_type": "pe",
+  "secondary_types": [],
+  "flags": {"corporate": false, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.genesis.cz",
+  "decision": "exclude",
+  "rule_codes": ["S1"],
+  "decision_note": "Prague-based private equity group (majority and significant minority stakes in established SMEs; GPEF V at EUR 275m in Feb 2026, POS Media Europe deal Apr 2026); real and active but not VC, so outside the cz-vc pilot.",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "Genesis Capital Equity s.r.o.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "25795856", "role": "manager"}
+  ],
+  "stage_focus": {"value": ["growth", "buyout"], "method": "stated", "evidence": ["e3"]},
+  "geography_focus": {"value": ["CZ", "SK", "PL", "HU", "AT", "DE"], "method": "stated", "evidence": ["e1", "e4"]},
+  "ticket_size": {"value": {"min": 1000000, "max": 35000000, "currency": "EUR"}, "method": "stated", "evidence": ["e2", "e5"]},
+  "capital": {"value": {"amount": 275000000, "currency": "EUR", "basis": "latest_fund_size", "as_of": "2026-02-04"}, "method": "stated", "evidence": ["e4"]},
+  "funds": [
+    {"name": "Genesis Private Equity Fund V (GPEF V)", "size_amount": 275000000, "currency": "EUR", "event": "other", "event_date": "2026-02-04", "evidence": "e4"}
+  ],
+  "investments": [
+    {"company": "POS Media Europe", "company_country": "CZ", "date": "2026-04-13", "round": "growth", "round_amount": null, "currency": null, "evidence": "e6"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.genesis.cz/", "publisher": "Genesis Capital", "published_on": null, "source_class": "B", "quote": "Fondy se orientují na investice do malých a středních podniků v České republice, na Slovensku, v Polsku, Maďarsku, Rakousku a Německu.", "language": "cs"},
+    {"id": "e2", "url": "https://www.genesis.cz/", "publisher": "Genesis Capital", "published_on": null, "source_class": "B", "quote": "Aktuálně je k investování otevřen fond Genesis Private Equity Fund V (GPEF V) o velikosti 225 milionů eur, s obyklou velikostí jednotlivé investice 10-35 milionů euro.", "language": "cs"},
+    {"id": "e3", "url": "https://www.genesis.cz/private-equity/aktuality-a-media/genesis-capital-rozsiruje-sve-regionalni-pusobeni-do-nemecka-a-posiluje-tym-partneru-o-dlouholeteho-kolegu-joergena-hausbergera", "publisher": "Genesis Capital", "published_on": "2026-02-04", "source_class": "B", "quote": "Genesis Capital se specializuje na majoritní a významné minoritní investice do ziskových, etablovaných společností se zkušenými manažerskými týmy", "language": "cs"},
+    {"id": "e4", "url": "https://www.genesis.cz/private-equity/aktuality-a-media/genesis-capital-rozsiruje-sve-regionalni-pusobeni-do-nemecka-a-posiluje-tym-partneru-o-dlouholeteho-kolegu-joergena-hausbergera", "publisher": "Genesis Capital", "published_on": "2026-02-04", "source_class": "B", "quote": "Skupina vstoupí na německý trh prostřednictvím svého nejnovějšího fondu Genesis Private Equity Fund V (GPEF V) spuštěného v červnu 2025, který má aktuální velikost 275 mil. eur a stanovenou maximální výši fondu (tzv. hard-cap) ve výši 295 mil. eur.", "language": "cs"},
+    {"id": "e5", "url": "https://www.genesis.cz/", "publisher": "Genesis Capital", "published_on": null, "source_class": "B", "quote": "Aktuálně je k investování otevřen fond Genesis Growth Equity Fund I (GGEF I) o velikosti 40 milionů euro, s obvyklou velikostí jednotlivé investice 1-4 miliony euro.", "language": "cs"},
+    {"id": "e6", "url": "https://www.genesis.cz/private-equity/aktuality-a-media/genesis-capital-uzavrel-dohodu-o-vstupu-do-pos-media-europe-predniho-poskytovatele-retail-media-reseni-ve-stredni-evrope", "publisher": "Genesis Capital", "published_on": "2026-04-13", "source_class": "B", "quote": "Po vypořádání transakce zůstane zakladatel a CEO Richard van het Bolscher majoritním vlastníkem a GPEF V společně s částí managementu získá významný minoritní podíl.", "language": "cs"}
+  ],
+  "co_investors_seen": [],
+  "analyst_notes": "Quick S1 dossier. Two strategies: Private Equity (GPEF V, EUR 10-35m tickets) and Growth Equity (GGEF I, EUR 40m, EUR 1-4m tickets, managed by Genesis Capital Growth s.r.o. - not found in ARES by name search, so not listed); ticket range combines both. Conflicts: the homepage still says GPEF V is EUR 225m (initial size, launched June 2025) while the 2026-02-04 release says EUR 275m current size with EUR 295m hard cap expected in Q1 2026 - newest dated value used; cumulative: homepage 'přes 550 milionů euro' (seven funds) vs. 2026-02-04 release 'přesahujícím 650 milionů eur'. POS Media Europe deal signed 2026-04-13, subject to antitrust approval; other dated activity: majority stake in Fyzioterapie s úsměvem (2026-02-11), exit of GTH Catering by GPEF III (2026-06-30). GPEF V is a Luxembourg SCSp per a third-party directory (not cited).",
+  "researched_on": "2026-10-25"
+}

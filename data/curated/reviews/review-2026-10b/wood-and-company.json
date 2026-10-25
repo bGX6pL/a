@@ -1,0 +1,20 @@
+{
+  "investor_key": "wood-and-company",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": false,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right. wood.cz Venture Investments page: opportunities are offered 'mainly to qualified investors' as single-company exposures, plus access to third-party VC fund portfolios; no venture fund named, no dated deal; Caplight/CB Insights show nothing after 2023 (Window Holding Aug 2023, Aireen Jun 2023, Snuggs Feb 2023) and searches found no 2025-2026 startup deal. E7 + E5 is right; E2 (arranging client deals, fails I4) would also fit. Investor_type null is consistent with an investment bank / broker. ARES 26503808 active."
+}

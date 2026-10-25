@@ -1,0 +1,52 @@
+{
+  "investor_key": "inven-capital",
+  "pilot": "cz-vc",
+  "name": "Inven Capital",
+  "aliases": ["Inven Capital, SICAV, a.s.", "INVEN CAPITAL", "Inven Capital, investiční fond, a.s."],
+  "investor_type": "vc",
+  "secondary_types": [],
+  "flags": {"corporate": true, "public": false, "accelerator": false},
+  "hq_country": "CZ",
+  "website": "https://www.invencapital.cz",
+  "decision": "include",
+  "rule_codes": ["I1", "I2", "I3", "I4", "I5"],
+  "decision_note": "Prague-based, ČEZ-backed corporate VC (self-managed SICAV, EUR 500m) investing in later-stage climate tech; co-led Wint's USD 36m Series D (Sept 2026) and joined Andercore's USD 40m Series B (Feb 2026).",
+  "discovered_via": ["cvca"],
+  "legal_entities": [
+    {"name": "Inven Capital, SICAV, a.s.", "country": "CZ", "registry": "CZ-ICO", "registry_id": "02059533", "role": "manager"},
+    {"name": "Inven Capital - Podfond A", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75160692", "role": "fund"},
+    {"name": "Inven Capital - Podfond B", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75160706", "role": "fund"},
+    {"name": "Inven Capital - Podfond C", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75162903", "role": "fund"},
+    {"name": "Inven Capital - Podfond D", "country": "CZ", "registry": "CZ-ICO", "registry_id": "75163861", "role": "fund"}
+  ],
+  "sector_focus": {"value": ["energy_climate"], "method": "stated", "evidence": ["e1", "e5"]},
+  "stage_focus": {"value": ["series_b", "growth"], "method": "stated", "evidence": ["e6"]},
+  "geography_focus": {"value": ["Europe", "IL"], "method": "stated", "evidence": ["e2", "e5"]},
+  "ticket_size": {"value": {"min": 2000000, "max": 30000000, "currency": "EUR"}, "method": "stated", "evidence": ["e3"]},
+  "capital": {"value": {"amount": 500000000, "currency": "EUR", "basis": "aum", "as_of": "2026-09-09"}, "method": "stated", "evidence": ["e5", "e4", "e9"]},
+  "funds": [
+    {"name": "Inven Capital, SICAV, a.s. (sub-funds A-D)", "size_amount": 500000000, "currency": "EUR", "event": "commitment", "event_date": "2023-02-08", "evidence": "e9"}
+  ],
+  "investments": [
+    {"company": "Wint", "company_country": "IL", "date": "2026-09-09", "round": "series_d", "round_amount": 36000000, "currency": "USD", "evidence": "e7"},
+    {"company": "Andercore", "company_country": "DE", "date": "2026-02-11", "round": "series_b", "round_amount": 40000000, "currency": "USD", "evidence": "e8"}
+  ],
+  "evidence": [
+    {"id": "e1", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "Climate tech", "language": "en"},
+    {"id": "e2", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "Europe and Israel", "language": "en"},
+    {"id": "e3", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "2-30m EUR", "language": "en"},
+    {"id": "e4", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates in the most innovative startups in the world.", "language": "en"},
+    {"id": "e5", "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html", "publisher": "PR Newswire (Wint press release)", "published_on": "2026-09-09", "source_class": "C", "quote": "Inven Capital is a EUR 500m European VC fund focused on later-stage climate tech investments in Europe & Israel, backed by CEZ Group and European Investment Bank (EIB).", "language": "en"},
+    {"id": "e6", "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html", "publisher": "PR Newswire (Wint press release)", "published_on": "2026-09-09", "source_class": "C", "quote": "It primarily focuses on later-stage growth investment opportunities with a sound business model proven by realized revenues and long-term growth potential.", "language": "en"},
+    {"id": "e7", "url": "https://www.prnewswire.com/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html", "publisher": "PR Newswire (Wint press release)", "published_on": "2026-09-09", "source_class": "C", "quote": "Wint, the leading provider of water management solutions for the built environment, today announced it has raised $36 million in Series D funding co-led by LIP Ventures and Inven Capital.", "language": "en"},
+    {"id": "e8", "url": "https://www.andercore.com/press/andercore-secures-40m-series-b-for-ai-driven-industrial-trade-platform", "publisher": "Andercore", "published_on": "2026-02-11", "source_class": "C", "quote": "Participating investors include long-term partners Atomico and Project A, with Inven Capital joining this round, alongside institutional financing from Commerzbank and KfW.", "language": "en"},
+    {"id": "e9", "url": "https://www.eib.org/en/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital", "publisher": "European Investment Bank", "published_on": "2023-02-08", "source_class": "C", "quote": "With a total fund size of more than €500 million, Inven has bolstered its position as a strong and stable partner for innovative startups and co-investors, including major global players.", "language": "en"},
+    {"id": "e10", "url": "https://www.invencapital.cz/file/edee/ivcp2/for-investors/inven-capital-sicav_annual-report-2024_cze.pdf", "publisher": "Inven Capital, SICAV, a.s. (annual report 2024)", "published_on": null, "source_class": "A", "quote": "Fond je samosprávným investičním fondem", "language": "cs"},
+    {"id": "e11", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "Inven co-leads $40M Series B in Andercore", "language": "en"},
+    {"id": "e12", "url": "https://cvca.cz/inven-capital/", "publisher": "CVCA (self-reported member profile)", "published_on": "2020-01-18", "source_class": "D", "quote": "2-30 milionů EUR", "language": "cs"},
+    {"id": "e13", "url": "https://www.invencapital.cz/", "publisher": "Inven Capital", "published_on": null, "source_class": "B", "quote": "Inven’s portfolio company Woltair raises €16.3m to help Europeans heat and power their homes", "language": "en"}
+  ],
+  "co_investors_seen": ["LIP Ventures", "Insight Partners", "Atomico", "Project A", "Commerzbank", "KfW", "European Investment Bank"],
+  "analyst_notes": "Corporate VC of the ČEZ Group (flag corporate); the 2024 annual report states the SICAV is a self-managed investment fund (samosprávný investiční fond) controlled by ČEZ, so the SICAV is listed as manager and its four sub-funds (Podfond A-D, IČO from ARES) as fund vehicles. Capital EUR 500m: stated on the homepage (undated), in the Wint release boilerplate (2026-09-09, used as as_of) and in Inven's own Vytal release (2 July 2026, '€500 million under management'); the EIB release of 2023-02-08 (EIB committed a further EUR 50m for the 2022-2027 investment period) gives 'total fund size of more than €500 million' - recorded as the fund commitment event. CVCA profile (2020, self-reported) split it as 250m (sub-funds A+B) + 250m (C+D). Stage: 'later-stage growth' mapped to series_b/growth (observed rounds Series B-D). Ticket EUR 2-30m stated on the homepage, same as CVCA. Geography 'Europe and Israel' (IL as ISO code). Investments: Wint USD 36m Series D co-led with LIP Ventures (Wint is the Israeli water-intelligence company; dateline New York; country IL); Andercore USD 40m Series B 'in equity and debt' (round amount includes debt), Inven's homepage says Inven co-led it while Andercore's release says Inven 'joining this round'. Inven also published a 2 July 2026 Vytal growth-capital release (PDF on its site) that quotes an Inven investment director but does not name the investors, so it is not used as investment evidence. The annual-report PDF appears to have an OCR text layer, so only a short quote is used from it. [revision 2026-10-25 re-audit: scope rule: the cited in-window deals are Israeli and German, so a Czech portfolio company is now evidenced - Woltair (Prague heat-pump/solar installer, woltair.cz) named as 'Inven's portfolio company' on Inven's homepage news list (e13, undated, links a Sifted article on 'Czech Woltair'); office Prague. Type re-checked under the dominant-activity rule: Inven writes EUR 2-30m minority tickets in Series B-D rounds of VC-backed climate-tech startups alongside VCs (Wint, Andercore) and describes itself as a venture capital fund - growth-stage VC, not late-stage/pre-IPO/secondaries, so vc (corporate, ČEZ) is kept. Capital (EUR 500m committed/under management, aum), activity (Wint 2026-09-09) and ticket unchanged.]",
+  "researched_on": "2026-10-25"
+}
