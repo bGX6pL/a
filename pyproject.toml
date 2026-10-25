@@ -1,0 +1,16 @@
+[project]
+name = "investordb"
+version = "0.1.0"
+description = "Public-data investor database: VC, PE, family offices, angels, private investors"
+requires-python = ">=3.12"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0",
+    "pyarrow>=17",
+    "duckdb>=1.1",
+    "pytz",  # duckdb needs it to return TIMESTAMPTZ values to Python
+]
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.12"]
+build-backend = "uv_build"

@@ -1,0 +1,14 @@
+# secrets and machine-local state
+.env
+.pgpass
+pgdata/
+pgsql/
+logs/
+.venv/
+.uv-cache/
+tmp/
+__pycache__/
+
+# reproducible from the fetch scripts / export command
+data/raw/
+exports/

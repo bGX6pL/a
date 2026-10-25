@@ -1,0 +1,6 @@
+# Keep LF in the working tree on every OS (migration checksums are computed over file contents)
+* text=auto eol=lf
+*.parquet binary
+*.duckdb binary
+*.sqlite binary
+*.dump binary
