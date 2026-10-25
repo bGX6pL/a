@@ -1,0 +1,20 @@
+{
+  "investor_key": "depo-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "incorrect",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 04753101 active. Activity confirmed: Tapaya EUR 1m pre-seed co-led (CzechCrunch 2026-04-28); NRI CZK 94m commitment to DEPO Ventures One SCSp (2026-08-26). Ticket EUR 250-500k and sectors match homepage. capital: marked not_disclosed although public figures exist: Andelsky fond II closed at CZK 55m at end of August 2022 (CzechCrunch 2022-10-07; Fund I CZK 35m per CzechCrunch 2022-01-25), and the NRI CZK 94m commitment is an amount raised so far for the current vehicle. Rule: not_disclosed only after checking earlier funds; the latest public figure (Fund II CZK 55m final, or interim CZK 94m+) should be recorded."
+}

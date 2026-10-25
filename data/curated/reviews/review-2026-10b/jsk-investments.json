@@ -1,0 +1,20 @@
+{
+  "investor_key": "jsk-investments",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right; no investor lost. The group's VC activity (MintNeuro Oct 2026, Andromeda Surgical Aug 2026, Vetstor Dec 2025) sits in the separately branded JSK Investments Venture Capital Fund I, which is its own included record (jsk-investments-venture-capital, decision include) per the brand rule. The SICAV page lists Private and Growth Equity Fund I (majority stakes in mid-size companies), Venture Capital Fund I and Family Evergreen Equity Fund I; it does not itself state which is dominant (the pe typing rests on the PE sub-fund description and media figures). ARES 23823445 active."
+}

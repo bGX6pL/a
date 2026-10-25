@@ -1,0 +1,20 @@
+{
+  "investor_key": "jic-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 24320358 active (2026-01-05). FaceUp Series A participation confirmed (JIC release 2026-05-19). Capital CZK 320m allocated / 400m target, no final close (CzechCrunch and JIC 2026-04-07) correct as interim_close. Ticket up to EUR 1m, pre-seed/seed, deep tech/SaaS confirmed. Public flag accepted as fund initiated and branded by the regional agency JIC with the South Moravian Region as LP, although the JIC release says most capital is private (borderline flag)."
+}

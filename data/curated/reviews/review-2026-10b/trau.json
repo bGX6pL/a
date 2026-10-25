@@ -1,0 +1,20 @@
+{
+  "investor_key": "trau",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": false,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right. Own site and Lupa 2026-05-21: a Prague design studio that backs up to four startups a year with USD 25-50k SAFEs, half as prepaid design credits; not a fund, no managed capital - a service company's angel-style programme. Only named investment (Rendero incubation) is undated; no dated investment in the window found, so it would also fail I3. Type private_investor+corporate is a stretch for a small studio (no closed-list type fits) - harmless since excluded. ARES 10694498 active."
+}

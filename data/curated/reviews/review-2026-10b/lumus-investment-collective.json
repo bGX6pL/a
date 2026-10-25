@@ -1,0 +1,20 @@
+{
+  "investor_key": "lumus-investment-collective",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right. Own /angels page: 'invests ... on a deal-by-deal basis' and forms 'a Special Purpose Vehicle (SPV)' per deal, EUR 3,000 minimum per angel; no pooled fund mentioned on the site and none found in search. Textbook angel_network (S1 in a VC pilot). Active: portfolio page lists 2025 deals (Kardi AI, HTG Medical, CloseRocket, Aleet, IRAYE) and ArtMaster 2026; Kardi AI round dated 2025-04-28 per CzechCrunch. ARES 10664335 active."
+}

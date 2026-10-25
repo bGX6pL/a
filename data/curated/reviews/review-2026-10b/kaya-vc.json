@@ -1,0 +1,20 @@
+{
+  "investor_key": "kaya-vc",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 10838821 active. Sensible Biotechnologies USD 47m Series A participation confirmed (CzechCrunch 2026-10-07; company date 2026-10-06), Viktor and Supernova also cited. Site figures $500M AUM, $1-3M ticket, Pre+Seed, $85M current fund confirmed; Fund V only a EUR 70m first close found (no final close), so AUM basis is appropriate."
+}

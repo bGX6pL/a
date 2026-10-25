@@ -1,0 +1,20 @@
+{
+  "investor_key": "inven-capital",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 02059533 active. Wint USD 36m Series D co-led by Inven confirmed (PR Newswire 2026-09-09); EUR 500m stated on homepage and in boilerplate; ticket 2-30m on homepage (CEO interview CzechCrunch 2024-01-04 said 5-30m, Series A-D; the newer boilerplate says 'later-stage growth', so series_b/growth accepted). Czech portfolio company Woltair listed on homepage. Type vc/corporate (CEZ) accepted: minority growth tickets alongside VCs, not pre-IPO/secondaries."
+}

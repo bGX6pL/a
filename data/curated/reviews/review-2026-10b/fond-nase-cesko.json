@@ -1,0 +1,20 @@
+{
+  "investor_key": "fond-nase-cesko",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right; code E3 is defensible but the fund is really multi-asset. The fund's own infolist (09/2026, nase-cesko.cz) shows asset split: listed equity 35.47%, private capital 27.38%, real estate 12.87%, venture ('rozvojovy kapital') 12.11%, other 12.18%; top holdings are third-party/related funds (CEIP II, Silverline, J&T Orbit SICAV, Vivinvest, ARX CE V) and listed Czech shares (Moneta, KB, Colt CZ, WAG, Doosan Skoda Power); equity CZK 1.25bn at 30.09.2026. Venture is a ~12% sleeve of a J&T IS qualified-investor OPF, so not a VC investor; the manager (J&T IS) is an asset manager and J&T's startup VC is the separate J&T Ventures. The dossier said no class-B source was retrieved - the nase-cesko.cz site and infolist are available and would be better evidence."
+}

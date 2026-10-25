@@ -1,0 +1,13 @@
+{
+  "investor_key": "nation1",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "n1.rocks re-fetched: 'AI · Healthtech · Frontier Tech', 'Typical 1st investment $100K–$1M', 'manage $60M across two funds' (AUM, own site), Prague office Národní 135/14; Czech portfolio Taikun (exit) and Hedepy listed, so scope holds. Activity: Vestbee 2025-07-03 names N1 Ventures in Liki24's USD 9m Series A. U-Tech launch and Fund I 2019 launch correctly not used as activity or capital. Newer search found no fund close contradicting the USD 60m AUM."
+}

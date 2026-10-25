@@ -22,6 +22,9 @@
     {"task": "corrections: field-level fixes after review (resumed; first part not included)", "phase": "corrections", "tokens": 338729, "minutes": 7.9, "records": 12},
     {"task": "second pass: CZ candidates batch 2 (resumed; first part not included)", "phase": "dossiers", "tokens": 311680, "minutes": 12.1, "records": 12},
     {"task": "corrections: record-level fixes after review (resumed; first part not included)", "phase": "corrections", "tokens": 361693, "minutes": 12.3, "records": 15},
-    {"task": "corrections: re-audit of 18 published records under rules v2 (resumed; first part not included)", "phase": "corrections", "tokens": 367623, "minutes": 13.3, "records": 18}
+    {"task": "corrections: re-audit of 18 published records under rules v2 (resumed; first part not included)", "phase": "corrections", "tokens": 367623, "minutes": 13.3, "records": 18},
+    {"task": "review round 2: M2 exclusions (12 records)", "phase": "review", "tokens": 153546, "minutes": 9.0, "records": 12},
+    {"task": "review round 2: M1 batch E (14 published records)", "phase": "review", "tokens": 238818, "minutes": 12.8, "records": 14},
+    {"task": "review round 2: M1 batch D (14 published records)", "phase": "review", "tokens": 211729, "minutes": 13.6, "records": 14}
   ]
 }

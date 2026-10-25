@@ -1,0 +1,13 @@
+{
+  "investor_key": "venture-to-future-fund",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "incorrect", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "ticket_size: the EUR 7m maximum is not a first ticket. VFF's own homepage says the flexibility goes 'až do výšky 7mil. EUR, vrátane follow-on investícií' (including follow-ons); the per-company first-ticket evidence is min EUR 400k, optimally EUR 1.5-2.0m. Capital: EUR 40.4m initial + EUR 15.3m RRP increase (VFF 2024-05-28) = 55.7m, which matches the homepage '55 mil. EUR' for 2020-2026; the cumulative_fund_sizes label is loose for one vehicle, but the amount and its nature are right. Activity: Forbes 2026-05-19 (FaceUp) and AIN 2025-09-30 (Talentiqa) both name VFF. Public flag right (state-backed via SIH/EIB/MF SR)."
+}

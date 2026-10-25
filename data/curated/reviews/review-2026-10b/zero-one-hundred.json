@@ -1,0 +1,13 @@
+{
+  "investor_key": "zero-one-hundred",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "not_applicable", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "Vestbee 2026-02-05 names Zero One Hundred in Readmio's EUR 1m round (Prague-based); the Fund II launch (MamStartup 2025-09-24) lists five new investments, including Slovak Biteberry and Medannot. Site: offices in Czechia, Slovakia, Cyprus and the UAE, and 'continuing our journey with Fund II' (still raising), so the EUR 25m launch figure is correctly not used; an Unquote headline mentions a EUR 15m first-close target (a target, not capital). Capital EUR 23m = Fund I (CzechCrunch 2022-12-20), the latest closed fund. No ticket found in the launch coverage or on the site, so not_applicable."
+}

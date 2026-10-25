@@ -1,0 +1,13 @@
+{
+  "investor_key": "startupyard",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "incorrect", "activity_evidence": "correct"
+  },
+  "notes": "capital: marked not_disclosed although a public figure exists. StartupYard's own post 'StartupYard closes €1 million funding round + new follow-on fund' (2017-06-21; the Fundlift campaign raised ~CZK 26m per Lupa/CzechCrunch June 2017, after CZK 6.25m in 2016) funded its batches. Under the revised rule the latest public figure should be recorded with its date: it is old, but it is not undisclosed. Other fields verified: the FAQ quotes (EUR 45k in-kind convertible note + optional EUR 25k cash = EUR 70k, ~5% equity) are present; CzechCrunch 2025-02-14 confirms StartupYard put CZK 500k into Ydoca's CZK 2.3m pre-seed (in window). Accelerator flag correct (equity-taking programme)."
+}

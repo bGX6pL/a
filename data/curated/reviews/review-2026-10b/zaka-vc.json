@@ -1,0 +1,13 @@
+{
+  "investor_key": "zaka-vc",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "incorrect", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "ticket_size: a public per-company ticket exists but the record says not disclosed. Vestbee (2024-07-19): 'Ticket sizes will range from €250,000 to €300,000' (same in Sifted, Fund I launch). Capital: the site shows 'Current fund size 17M' (Fund 1, 8M invested) and Startitup 2025-10-21 reports the size was increased to EUR 17m on investor demand; no final close announced, so interim_close is acceptable. Activity: CzechCrunch 2025-12-09 says ZAKA VC and Purple take part in Vetstor's EUR 1m round. The Prague office, the Prague-registered vehicle and a Czech deal (Vetstor) satisfy scope."
+}

@@ -19,7 +19,7 @@ rates (analyst €35–60/h, engineer €500–700/day). Everything is a range; 
 | Published records with ticket / capital filled | 78% / 69% | §2 |
 | Analyst-agent time | ~1.5 agent-minutes per screened candidate (230 agent-minutes for 154 dossiers, run in parallel) | `data/curated/pilot_costs.json` |
 | Review time | ~1 agent-minute per record (51 agent-minutes for 50 reviews); a person needs ~8 minutes | `data/curated/pilot_costs.json` |
-| Raw record precision before review | 83% (25/30), capital field 64% | `pilot-metrics.md` §7 |
+| Record precision found by review | rules v1: 83% (25/30), capital 64%; rules v2: 100% (28/28), capital 80% | `pilot-metrics.md` §7 |
 
 The pilot used LLM research agents for the analyst step. At scale the same step is done as a fixed
 pipeline (scripts fetch pages, a model extracts with verbatim quotes, scripts verify), which is cheaper
@@ -45,11 +45,12 @@ and more repeatable; the unit costs below are for that pipeline.
 
 ## 4. First-year cost
 
-The pilot's raw record precision was 83% (25/30 reviewed) — below the 95% target — so review cannot
-be a light 10% sample in year 1. The central case uses what worked in the pilot: an independent LLM
-reviewer on every record (it found all the errors reported in `pilot-metrics.md` §7 in ~1 agent-minute
-per record), with humans adjudicating every flagged record and auditing a random 10% of the rest.
-The high case is full human review.
+Under the first rules the pilot's record precision was 83% (25/30) — below the 95% target; after the
+rule revisions and one correction pass it was 100% (28/28) with capital still at 80%. A new jurisdiction
+starts in the first state, so review cannot be a light 10% sample in year 1. The central case uses what
+worked in the pilot: an independent LLM reviewer on every record (~1 agent-minute per record; it found
+every error reported in `pilot-metrics.md` §7), humans adjudicating every flagged record and auditing a
+random 10% of the rest, and one correction pass. The high case is full human review.
 
 | Item | Low | **Central** | High | Notes |
 |---|---|---|---|---|

@@ -1,0 +1,13 @@
+{
+  "investor_key": "tilia-impact-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "tilia.vc re-fetched: '0.3 - 1.2m EUR initial ticket', 'Equity / Convertible debt', Czech/CEE founders, and '37m+ EUR unlocked for impact from investors' (basis unclear, rightly not used). Capital: EUR 26m first closing of Fund II (Causeartist/SeeNews Sept 2023) recorded as interim_close. Only a directory (WaveUp, class D) says EUR 32m raised, and it cannot override that. FaceUp Series A (CzechCrunch/Forbes 2026-05-19, Tilia among participating existing investors) and Delta Green (2025-10-15) are Czech in-window deals."
+}

@@ -1,0 +1,20 @@
+{
+  "investor_key": "tech-horizons",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "correct"
+  },
+  "notes": "Exclusion right under the scope rule (S2). Own site (checked 2026-10-25) lists 10 portfolio companies with countries: Vidar Systems DE/UA, Bavovna AI US/UA, BlueQubit US, DiffuseDrive US/HU, SatVu UK, Firehawk US, Sensible Biotechnologies SK/UK, Occam Industries UK, ATMOS DE, North Vector Dynamics CA - none Czech. Earlier exited/unlisted first deal Tur.ai is Dutch (e15, 2024-10-23); e15 interview 2025-05-13 names no Czech deal; searches found no Czech deal. Prague office exists (Tech Horizons a.s., Vaclavske nam., ARES 22399127) and the fund is active (news 22/04/26 ATMOS, 14/05/26 North Vector, 06/10/26 Sensible - match the dossier dates). Re-screen as soon as a Czech portfolio company appears; on activity, team and type it would otherwise qualify."
+}

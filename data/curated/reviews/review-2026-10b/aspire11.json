@@ -1,0 +1,20 @@
+{
+  "investor_key": "aspire11",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-F",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "not_applicable",
+    "stage_focus": "not_applicable",
+    "ticket_size": "not_applicable",
+    "capital": "not_applicable",
+    "activity_evidence": "not_applicable"
+  },
+  "notes": "Exclusion right. aspire11cap.com/strategies: Eternals makes EUR 10-50m direct positions in late-stage companies, 'between Series B/C and Crossover investors' (Revolut, Databricks, Vinted, ElevenLabs, VAST Data, Baseten, Docplanner); Tribes is a fund-of-funds sleeve. Late-stage/pre-IPO -> pe under 10a (S1); no Czech portfolio company named, so S2 would also apply. ARES: Aspire 11 Capital SICAV, a.s. (23620030) active, est. 2025-08-20."
+}

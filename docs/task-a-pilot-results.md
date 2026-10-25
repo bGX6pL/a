@@ -5,20 +5,31 @@ Snapshot date 2026-10-25; "active" = dated investment or fund close since 2024-1
 `uv run python -m investordb.metrics` into [pilot-metrics.md](pilot-metrics.md), which also lists every
 published record with its source and date.
 
+The pilot ran in two rounds: a first build under the original rules, an independent review, then
+corrections plus a second screening pass under the revised rules and a second independent review.
+
 ## Summary
 
-- **154 candidates screened** from public sources: 62 Czech VC candidates, 52 Slovak candidates and a
+- **191 candidates screened** from public sources: 99 Czech VC candidates, 52 Slovak candidates and a
   random sample of 40 of the 406 Czech §15 sub-threshold fund managers.
-- **30 investors published** (26 Czech, 4 Slovak). Each has type, sector and stage focus (100%), ticket
-  size (80%) and capital (67%) or an explicit *not disclosed*, and a dated, source-linked proof of
+- **33 investors published** (29 Czech, 4 Slovak). Each has type, sector and stage focus (100%), ticket
+  size (76%) and capital (70%) or an explicit *not disclosed*, and a dated, source-linked proof of
   investing since 2024-10-25. Every filled value links to a verbatim quote.
-- **Automated verification:** 790 of 791 quotes were found again on their live pages, all cited pages
-  were retrievable, and the Czech/Slovak legal entities of every included record matched ARES / RÚZ / NBS.
-- **Measured precision (independent review of 30 published records): 83%** (25/30, 95% CI 66–93%).
-  Field accuracy: sector 97%, stage 93%, ticket 91%, activity evidence 83%, **capital 64%**.
-  Wrongly excluded: 2 of 20 reviewed exclusions (10%, both policy borderlines).
-- After the review gate and the rules tightened from its findings, the published set is 24
-  reviewer-confirmed records plus 6 unreviewed: **≈97% expected precision**.
+- **Automated verification:** all 1,089 quotes on retrievable pages were found again on the live page
+  (one URL could not be fetched); the Czech/Slovak legal entities of every included record match
+  ARES / RÚZ / NBS.
+- **Measured precision (independent review):**
+
+  | | Round 1 (rules v1) | Round 2 (rules v2) |
+  |---|---|---|
+  | Published records judged correct | **83%** (25/30; CI 66–93%) | **100%** (28/28; CI 88–100%) |
+  | Activity evidence correct | 83% | 100% |
+  | Capital correct | 64% | 80% |
+  | Ticket / stage / sector correct | 91% / 93% / 97% | 88% / 93% / 100% |
+  | Excluded records that were active in-scope VCs | 10% (2/20) | 0% (0/12; CI 0–24%) |
+
+  Every one of the 33 published records has been reviewed and judged correct in its latest round
+  (28 in round 2, 5 unchanged since round 1).
 - **Registry labels are not investor filters:** only 5% of the ČNB §15 list ("osoba rizikového
   kapitálu") and of the NBS registered managers are active startup VCs.
 - **Worldwide expansion:** about **€290k** in year 1 (range €180k–575k), then about €90k a year —
@@ -28,14 +39,15 @@ published record with its source and date.
 
 | Step | How | Re-run with |
 |---|---|---|
-| Registers | ČNB JERRS (§15 list, 406; licensed investment companies, 62), ARES (583 Czech IČOs), NBS export (33,823 entities), RÚZ (71 Slovak entities with balance sheets), CVCA member profiles (84) | `investordb.fetch.jerrs / ares / nbs / ruz / cvca` |
-| Candidates | CVCA members, desk-research seed list, deal news (CzechCrunch, Lupa, Forbes, Vestbee, The Recursive), SIH / EIF / NRI programme releases, co-investors seen in deals, the ČNB and NBS registers | dossiers record `discovered_via` |
-| Dossiers | 154 JSON dossiers by analyst agents, one per candidate: legal entities, type, focus, ticket, capital, funds, investments, decision with rule codes, 791 evidence items with verbatim quotes | `investordb.load_dossiers` |
-| Automated checks | V1 registry match, V3 quote re-found on the re-fetched page (numbers must match exactly), V4 dated activity in window, V5 capital is a final close, V6 plausibility, V7 de-duplication, confidence score | `investordb.fetch.evidence`, `investordb.build` |
-| Independent review | 3 reviewer agents: 30 published records (M1), 20 exclusions (M2), protocol in [review-protocol.md](review-protocol.md) | `investordb.review sample / load` |
-| Metrics | funnel, completeness, verification, source precision, registry labels, Slovak recall, review accuracy | `investordb.metrics` |
+| Registers | ČNB JERRS (§15 list, 406; licensed investment companies, 62), ARES (every Czech IČO), NBS export (33,823 entities), RÚZ (Slovak entities with balance sheets), CVCA member profiles (84) | `investordb.fetch.jerrs / ares / nbs / ruz / cvca` |
+| Candidates | CVCA members, desk-research seed list, deal news (CzechCrunch, Lupa, Forbes, Vestbee, The Recursive), SIH / EIF / NRI programme releases, co-investors seen in deals (second pass), the ČNB and NBS registers | dossiers record `discovered_via` |
+| Dossiers | 191 JSON dossiers by analyst agents: legal entities, type, focus, ticket, capital, funds, investments, decision with rule codes, 1,090 evidence items with verbatim quotes | `investordb.load_dossiers` |
+| Automated checks | V1 registry match, V3 quote re-found on the re-fetched page (numbers must match exactly), V4 dated activity in window (no launches, no year-only dates), V5 capital basis consistent with fund events, V6 plausibility, V7 de-duplication, M1 review gate | `investordb.fetch.evidence`, `investordb.build` |
+| Independent review | 6 reviewer agents in two rounds: 58 published-record reviews (M1), 32 exclusion reviews (M2), protocol in [review-protocol.md](review-protocol.md) | `investordb.review sample / load` |
+| Corrections | round-1 findings fixed under the revised rules; 18 further published records re-audited; 36 more Czech candidates screened | dossiers carry `[revision …]` notes |
+| Metrics | funnel, completeness, verification, source precision, registry labels, Slovak recall, review accuracy per round | `investordb.metrics` |
 
-The result table is `core.investor_card` (one row per investor; published = true for the 30). It is
+The result table is `core.investor_card` (one row per investor; published = true for the 33). It is
 exported with every other table by `uv run python -m investordb.export --verify` (PostgreSQL, CSV,
 JSON Lines, Parquet, SQLite, DuckDB, MySQL and SQL Server scripts).
 
@@ -43,74 +55,80 @@ JSON Lines, Parquet, SQLite, DuckDB, MySQL and SQL Server scripts).
 
 | | Czechia | Slovakia | ČNB §15 sample |
 |---|---|---|---|
-| Candidates | 62 | 52 | 40 |
-| Included (rules I1–I5) | 31 | 5 | 2 |
-| Published after checks and review | **26** | **4** | (measurement only) |
-| Out of VC scope (PE, debt, family office, private holdings: S1/S2) | 24 | 4 | — |
-| Not company investors (real estate, trading, crypto: E3) / service firms (E1) | 1 / 4 | 16 / — | 15 / — |
-| Inactive (E7, alone or with another code) | 3 | 18 | 1 |
-| Unverifiable (E8) | 0 | 14 | 21 |
+| Candidates | 99 | 52 | 40 |
+| Published | **29** | **4** | (measurement only; 2 real VCs) |
+| Out of VC scope: PE, debt, family offices, angel networks, private holdings (S1) | 42 | 3 | — |
+| Out of the country (S2: no local office or no local deal) | 7 | 1 | — |
+| Not company investors: real estate, trading, crypto (E3) / service firms (E1) | 4 / 2 | 17 / — | 15 / — |
+| Funds-of-funds (E5) / debt (E4) | 2 / 2 | — / 1 | 1 / — |
+| Inactive (E7, alone or with another code) | 9 | 18 | 1 |
+| Unverifiable (E8) | 8 | 14 | 21 |
 
-Slovakia is small and mostly state-funded: of 16 real Slovak VC investors only 4 have a verified
+Slovakia is small and mostly state-funded: of 15 real Slovak VC investors only 4 have a verified
 investment since October 2024 (VFF, SIH's direct-investment unit, Zero One Hundred, Seed Starter of
-Slovenská sporiteľňa); most SIH-backed funds ended their investment periods in 2023, and Neulogy's
-latest dated deal turned out to be September 2024.
+Slovenská sporiteľňa). Most SIH-backed funds ended their investment periods in 2023, and Neulogy's
+latest dated deal is from September 2024 (now unverified).
 
-## 3. Accuracy (independent review)
+## 3. Accuracy and what the review changed
 
-| Measure | Result |
-|---|---|
-| Published records that hold up (real, invests, active, right type, right decision) | **83%** (25/30; 95% CI 66–93%) |
-| Excluded records that were in fact active in-scope VCs | 10% (2/20; 95% CI 3–30%) |
-| Field accuracy | sector 97%, stage 93%, ticket 91%, activity evidence 83%, capital 64% |
-| Real entity / invests in companies | 100% / 100% |
+**Round 1** found five wrong records and two classes of field error:
 
-The five wrong records and what they teach:
-
-| Record | Error | Now caught by |
+| Record | Error | Fix |
 |---|---|---|
-| Luminova Ventures | only a fund "opened to investors", no close or deal | V4 (launch no longer counts) |
-| Neulogy Ventures | "Invested: 2025" turned into 2025-01-01; the real deal was 2024-09 | V4 (year-only dates ignored) |
-| Aspire11 | late-stage / pre-IPO secondaries, not VC | dominant-activity type rule + review |
-| RockawayX | mainly a liquid-crypto hedge-fund manager with a VC sleeve | dominant-activity type rule + review |
-| United Founders | Prague office, but no Czech investments | local-investment scope rule + review |
+| Luminova Ventures | only a fund "opened to investors" | rule: launches are not activity (V4) → unverified |
+| Neulogy Ventures | "Invested: 2025" turned into 2025-01-01; real deal 2024-09 | rule: no year-only dates (V4) → unverified |
+| Aspire11 | late-stage / pre-IPO secondaries | rule: type by dominant activity → PE, out of the VC pilot |
+| RockawayX | mainly a liquid-crypto hedge-fund manager | rule: type by dominant activity → E3 |
+| United Founders | Prague office, but no Czech investments | rule: local office *and* local deal → S2 |
+| Capital (8 records) | first closes, targets, raised-to-date amounts as fund size; public sizes marked not disclosed | `interim_close` basis; V5 requires a final close for "fund size" |
+| Wrongly excluded | JSK Investments' VC fund (inside a PE group); Orbit (venture debt) | brand rule → own record; E4 covers venture debt |
 
-The weakest field is **capital**: first closes, targets and amounts raised so far were published as fund
-sizes (5 cases), and public fund sizes were marked *not disclosed* (3). V5 now accepts a "fund size" only
-when it is a final close and otherwise publishes the figure with its real basis (first close, launch,
-target); it catches 5 of the 8 capital errors without a person. All rule changes are in the plan,
-section [10a](task-a-plan.md#10a-revisions-after-the-pilot).
+The re-audit under the new rules also found that **Presto Ventures' recent deals and EUR 150m fund
+belong to Tech Horizons**, a separate firm spun out of Presto in April 2025; Presto itself is now
+inactive (E7), Tech Horizons is excluded as S2 (no Czech portfolio company yet).
+
+**Round 2** reviewed every published record that was new, changed or not yet reviewed (28) and 12 new or
+changed exclusions: no record-level error and no wrong exclusion. The remaining field errors (10 of 133
+judged field values) are mostly **public figures left as *not disclosed***: capital 5 (older fund sizes
+of DEPO and StartupYard, IP Lab's EIF commitment, JSK VC's internal capital, Budeto's backer money),
+ticket 3 (ZAKA and Budeto ranges reported in the news; VFF's maximum includes follow-ons), stage 2
+(i&i Bio, Tachles). Consistency checks cannot catch an omission; it needs a "search for older or
+interim figures" step in extraction.
 
 ## 4. Which sources find real investors
 
 | Source | Precision as a VC filter | Notes |
 |---|---|---|
-| Deal news (CZ) | 63% (12/19) | best source of dated proof; Czech outlets are mostly free |
-| Desk-research seed list (CZ) | 75% (12/16) | built from ecosystem reports |
-| CVCA association | 10% of 84 members (24% of those screened) | full members are mostly PE; associates are law firms, auditors, banks |
-| ČNB §15 list ("osoba rizikového kapitálu") | 5% (2/40; CI 1–17%) | 15 trading / crypto / real estate, 21 without any public footprint; ≈20 active VCs among the 406 (CI 6–67) |
+| Desk-research seed list (CZ) | 69% (11/16) | built from ecosystem reports |
+| Deal news (CZ) | 33% (14/43) | best source of dated proof; every co-investor in a deal becomes a candidate, so precision falls as the net widens |
+| Co-investor snowball / second pass (CZ) | 8–15% | mostly angels, family offices, private holdings and foreign funds |
+| CVCA association | 11% of 84 members | full members are mostly PE; associates are law firms, auditors, banks |
+| ČNB §15 list ("osoba rizikového kapitálu") | 5% (2/40; CI 1–17%) | 15 trading / crypto / real estate, 21 without public footprint; ≈20 active VCs among the 406 (CI 6–67) |
 | NBS registered managers (SK) | 5% (2/41; CI 1–16%) | Slovak VC managers are registered under consulting codes (NACE 70.22), so an industry-code filter would miss them |
 
-Recall against the hand-built Slovak reference set (16 real VCs, 4 active): deal news and co-investor
+Recall against the hand-built Slovak reference set (15 real VCs, 4 active): deal news and co-investor
 snowballing each find all 4 active ones; the SIH programme pages and the seed list find 3; the NBS
-register finds 2 (10 of the 16 when inactive VCs are counted). No single source is enough; news plus
-programme lists plus snowballing covers the set.
+register finds 2 (10 of the 15 when inactive VCs are counted).
 
-Estimated coverage in Czechia: 26 published plus about 10 further likely-active VCs named by the
-analysts but not yet screened (the shared web-search budget ran out during the run), plus JSK
-Investments' VC fund from M2. That puts this single pass at **about 65–75%** of the Czech active VC
-universe, consistent with the 30–50 estimated before the pilot.
+**Coverage in Czechia.** The second pass screened all 36 remaining names seen in deals and found only 3
+more active VCs (Jet Venture 1, Moondust Ventures, Budeto) plus JSK's VC fund from the review; the rest
+were angels, family offices, private holdings, foreign funds or inactive vehicles. 25 of today's 29
+published Czech VCs (86%) were already found in the first pass, so the sources are close to exhausted
+for institutional VCs with a public deal record. Remaining
+gaps: investors that appear only in paywalled databases or not in any public deal, and the ~20 VCs the
+§15 sample suggests exist among sub-threshold managers (most of which are among the 29 already).
 
 ## 5. Proof of investing per record
 
-[pilot-metrics.md §8](pilot-metrics.md#8-published-records-and-their-proof-of-investing) lists all 30
+[pilot-metrics.md §8](pilot-metrics.md#8-published-records-and-their-proof-of-investing) lists all 33
 published investors with the latest dated activity and its source, e.g.:
 
 | Investor | Latest dated activity | Source |
 |---|---|---|
 | Credo Ventures | 2026-06-02 investment in Picogrid | lupa.cz |
-| KAYA | 2026-10-07 Series A of Sensible Biotechnologies | cc.cz |
+| KAYA | 2026-10-06 Series A of Sensible Biotechnologies | own release |
 | Inven Capital (ČEZ, corporate) | 2026-09-09 Wint Series D | prnewswire.com |
+| JSK Investments VC Fund I | 2026-10-09 investment in MintNeuro | cc.cz |
 | Slovak Investment Holding (public) | 2026-09-22 investment in VisionFlow | sih.sk |
 
 Each record's full evidence (URL, publisher, publication date, quote, source class, retrieval and check
@@ -118,26 +136,27 @@ result) is in `core.evidence` and `core.evidence_check`.
 
 ## 6. Limits of this pilot
 
-- **Analysts and reviewers were AI agents, not people.** The reviewers worked independently from the
-  dossiers and found real, specific errors, but their own accuracy has not been calibrated against a
-  human. The review files are plain JSON (`data/curated/reviews/`); a person can confirm or overturn
-  any verdict and re-run `review load` and `metrics`.
-- **Six published records were outside the review sample** (J&T Ventures, KAYA, N1, Presto Ventures,
-  Seed Starter ČS, Tilia Impact Ventures); the 97% figure assumes they err at the sample rate.
-- **Search budget:** the agents' shared web-search quota ran out midway, so later dossiers relied on
-  direct fetches of known sites; discovery is incomplete (section 4).
-- **Access:** ČNB JERRS showed a CAPTCHA after a few requests; two list pages fetched before it are
-  imported, the other lists need a browser download or the certificate-based WS JERRS. Paywalls
-  (CzechCrunch Insider) and bot blocks limit some sources.
-- **Two policy calls remain open:** whether venture debt counts as VC activity (Orbit Capital) and how
-  to treat a VC fund inside a PE group (JSK Investments). The plan now decides both; the dossiers have
-  not yet been redone.
+- **Analysts and reviewers were AI agents, not people.** Reviewers worked independently from the
+  dossiers (round-2 reviewers did not see round-1 verdicts) and found real, specific errors, but their
+  own accuracy has not been calibrated against a human. The review files are plain JSON
+  (`data/curated/reviews/`); a person can confirm or overturn any verdict and re-run `review load`,
+  `build` and `metrics`.
+- **Round-2 field errors are not yet fixed** (10 values, listed in pilot-metrics §7); none affects a
+  publication decision.
+- **Borderline calls flagged by reviewers:** SIH typed as public VC although most of its activity is
+  guarantees and fund-of-funds; IP Lab Ventures' only portfolio stakes are nominal co-founder shares;
+  Moondust so far invests its owners' money; Czech Founders VC now does follow-ons only.
+- **Access:** web-search quotas ran out in several agent runs (later research relied on direct page
+  fetches); ČNB JERRS shows a CAPTCHA after a few requests (two lists imported from earlier fetches,
+  the rest need a browser download or the certificate-based WS JERRS); paywalls (CzechCrunch Insider,
+  PitchBook) hide some deal dates.
+- **Watch list:** Tech Horizons and United Founders become includes with their first Czech deal;
+  StartGuide (SG Two), Neulogy, Luminova and PurposeTech with a dated close or deal.
 
 ## 7. Next steps
 
-1. Redo the five incorrect and three borderline records under the revised rules, and screen the ~25
-   named but unscreened Czech candidates (fresh search budget needed).
-2. Human spot-check of 10–15 reviewer verdicts to calibrate the AI reviewer.
+1. Fix the ten round-2 field values and add a "look for older or interim figures" step to extraction.
+2. Human spot-check of 10–15 reviewer verdicts to calibrate the AI reviewers.
 3. Request WS JERRS access (certificate) for the remaining ČNB lists.
-4. Then the first expansion step: Poland, Austria and Hungary (CEE first, where incumbents are weakest),
-   at the unit costs in [global-expansion-cost.md](global-expansion-cost.md).
+4. First expansion step: Poland, Austria and Hungary (CEE first, where incumbents are weakest), at the
+   unit costs in [global-expansion-cost.md](global-expansion-cost.md).

@@ -1,0 +1,20 @@
+{
+  "investor_key": "czech-founders-vc",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "correct",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 17051835 active. Ticket EUR 50-350k and pre-seed confirmed on homepage; Merchantee seed extension (CzechCrunch 2026-06-09) and Maxfusion (2026-01-14) confirmed. Capital EUR 10m fully raised (CzechCrunch 2022-09-07) correct. Newer context not in record: CzechCrunch 2025-11-04 says Czech Founders VC (~EUR 10m into ~30 projects) 'dalsi startupy se podporovat nechysta' - no new startups, reserves for follow-ons; United Founders is a formally independent follow-on project. Follow-ons still count as activity, so the decision holds."
+}

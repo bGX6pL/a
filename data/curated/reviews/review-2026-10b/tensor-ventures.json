@@ -1,0 +1,13 @@
+{
+  "investor_key": "tensor-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "Site re-fetched: 'We participate in Seed and Series A rounds', Prague contact (Karlín) plus the Luxembourg GP/Fund I. Pointee seed led by Tensor (CzechCrunch 2026-04-15, CZ) verified. Capital: EUR 20m interim_close is the EIF/NPO commitment to the second fund (Quantum Insider / Silicon Canals Oct 2024); search found no later close. Caveat: this is one LP's commitment (Czech sources say 'až 20 mil.' from NPO via EIF), so it is a lower bound of the amount raised, not a reported interim close; acceptable under 'amounts raised so far' but borderline. Ticket EUR 250k-1m comes only from the 2020 CVCA self-reported profile (labelled self_reported) and is not contradicted by the cited deals."
+}

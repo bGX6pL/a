@@ -1,0 +1,20 @@
+{
+  "investor_key": "i-and-i-bio",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-D",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true,
+    "invests_in_companies": true,
+    "active_24m": true,
+    "type_correct": true,
+    "decision_correct": true,
+    "sector_focus": "correct",
+    "stage_focus": "incorrect",
+    "ticket_size": "correct",
+    "capital": "correct",
+    "activity_evidence": "correct"
+  },
+  "notes": "ARES 10885978 (adviser) active; Prague adviser office, Czech holdings (Sophomer, CasInvent). Activity confirmed: KyDo EUR 4.45m seed led by i&i (KyDo news 2025-09-16), T-CURX Series A (release 2025-12-17). Capital EUR 53m interim_close acceptable (no final close found). stage_focus: recorded as 'stated' pre_seed+seed, but the cited quotes (e3 '€150k to support business creation', e4 'sweet spot €0.5M-2M') state no stage, and observed rounds include Series A (T-CURX 2025, Delta Life Science) - series_a is missing and the 'stated' method is unsupported by its quotes."
+}

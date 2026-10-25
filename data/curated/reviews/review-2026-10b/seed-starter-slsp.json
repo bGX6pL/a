@@ -1,0 +1,13 @@
+{
+  "investor_key": "seed-starter-slsp",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "seedstarter.sk re-fetched: 'Pre-seed a seed investičné kolá', 'Veľkosť investície: 200 000 € – 1 000 000 €', 'Slovenskí founderi/slovenské startupy'. Activity: SIH release dated 9 Apr 2026 names Seed Starter Slovenskej sporiteľne as co-investor in TrollWall AI (EUR 800k total). Capital EUR 5m is the programme budget the bank set aside for the first phase (CzechCrunch 2022-09-08), basis balance_sheet acceptable; no newer allocation found. Corporate VC of Slovenská sporiteľňa, Bratislava, Slovak deals, so scope holds."
+}

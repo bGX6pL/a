@@ -1,0 +1,13 @@
+{
+  "investor_key": "purple-ventures",
+  "sample": "review-2026-10b",
+  "reviewer": "independent-reviewer-E",
+  "reviewed_on": "2026-10-25",
+  "verdict": "correct",
+  "checks": {
+    "real_entity": true, "invests_in_companies": true, "active_24m": true, "type_correct": true,
+    "decision_correct": true, "sector_focus": "correct", "stage_focus": "correct",
+    "ticket_size": "correct", "capital": "correct", "activity_evidence": "correct"
+  },
+  "notes": "Homepage re-fetched: 'Pre-seed & Seed investment rounds €250k to €400k initial ticket size, later follow-ons' (per-company first ticket). Capital: Finance.cz 2026-03-12 confirms 'přes 700 milionů korun' raised, fund ~75% filled, plan to end fundraising in 2026 at EUR 40m, so interim_close is the right basis; search found no final close. Sector quote present in CzechCrunch 2024-06-27. Activity: Soulmates page datePublished 2026-09-07 (Rightcharge GBP 500k follow-on with Purple) and Euro.cz 2026-05-27 (Fether Labs, CZK 11m) both in window. Brno office and Czech-founder deals satisfy scope."
+}
